@@ -172,6 +172,61 @@ function randomResult(){
         `;
     }
 }
+function tagsPage() {
+    let tagSet = new Set();
+
+    DB.conversations.forEach(i => {
+        (i.conversation.tags || []).forEach(tag => {
+            if (String(tag).trim()) {
+                tagSet.add(String(tag).trim());
+            }
+        });
+    });
+
+    let tags = [...tagSet].sort((a, b) =>
+        a.localeCompare(b, undefined, { numeric: true })
+    );
+
+    $("tag-browser").innerHTML = tags.length
+        ? tags.map(tag => `
+            <button
+                class="tag tag-button"
+                data-tag="${esc(tag)}"
+                onclick="showTag('${esc(tag).replace(/'/g, "\\'")}')"
+            >
+                ${esc(tag)}
+            </button>
+        `).join("")
+        : '<div class="empty">No tags found.</div>';
+
+    $("tag-results").innerHTML =
+        '<div class="empty">Select a tag to see its conversations.</div>';
+}
+
+
+function showTag(tag) {
+    let results = DB.conversations.filter(i =>
+        (i.conversation.tags || []).some(t =>
+            String(t).trim().toLowerCase() === tag.trim().toLowerCase()
+        )
+    );
+
+    $("tag-results").innerHTML = `
+        <div class="heading">
+            <h3>${esc(tag)}</h3>
+            <p>${results.length} conversation${results.length === 1 ? "" : "s"}</p>
+        </div>
+
+        ${
+            results.length
+                ? results.map(i => card(i)).join("")
+                : '<div class="empty">No conversations found for this tag.</div>'
+        }
+    `;
+}
+
+
+
 function statistics(){let imp={1:0,2:0,3:0,4:0,5:0};DB.conversations.forEach(i=>imp[i.conversation.importance]=(imp[i.conversation.importance]||0)+1);let v=DB.conversations.filter(i=>i.conversation.verified).length;$("statistics-content").innerHTML=[["Episodes",DB.episodes.length],["Conversations",DB.conversations.length],["Verified",v],["★★★★★",imp[5]||0],["★★★★☆",imp[4]||0],["★★★☆☆",imp[3]||0]].map(x=>`<div class="stat"><div class="number">${x[1]}</div><div class="label">${x[0]}</div></div>`).join("")}
 function conversation(id){let i=DB.conversations.find(x=>x.conversation.id===id);if(!i){$("conversation-content").innerHTML='<div class="empty">Conversation not found.</div>';return}let e=i.episode,c=i.conversation;$("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a><div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(c.title||"Untitled")}</h2><p>${esc(e.episode_title||"")}</p><div class="stars">${stars(c.importance)}</div><p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div></div><div class="conversation-body">${allTurns(i,"full").map(t=>`<div class="turn"><div class="speaker">${esc(t.speaker?.character||"")}</div><div class="quote">${esc(turnContent(t))}</div></div>`).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div></div>`}
 function episodePage(id) {
@@ -233,13 +288,14 @@ function route() {
         let p = h || "home";
 
         showPage(
-            ["home", "episodes", "importance", "search", "random", "statistics"]
+            ["home", "episodes", "importance", "tags", "search", "random", "statistics"]
                 .includes(p) ? p : "home"
         );
 
         if (p === "home") home();
         if (p === "episodes") episodes();
         if (p === "importance") importance();
+        if (p === "tags") tagsPage();
         if (p === "search") search();
         if (p === "random") randomResult();
         if (p === "statistics") statistics();
