@@ -227,7 +227,55 @@ function showTag(tag) {
 
 
 
-function statistics(){let imp={1:0,2:0,3:0,4:0,5:0};DB.conversations.forEach(i=>imp[i.conversation.importance]=(imp[i.conversation.importance]||0)+1);let v=DB.conversations.filter(i=>i.conversation.verified).length;$("statistics-content").innerHTML=[["Episodes",DB.episodes.length],["Conversations",DB.conversations.length],["Verified",v],["★★★★★",imp[5]||0],["★★★★☆",imp[4]||0],["★★★☆☆",imp[3]||0]].map(x=>`<div class="stat"><div class="number">${x[1]}</div><div class="label">${x[0]}</div></div>`).join("")}
+function statistics() {
+    let hopeTurns = 0;
+    let landonTurns = 0;
+    let hopeWords = 0;
+    let landonWords = 0;
+
+    DB.conversations.forEach(i => {
+        allTurns(i, "full").forEach(t => {
+            let character = String(t.speaker?.character || "").toLowerCase();
+
+            // Ignore Handon/shared lines for the individual totals
+            if (character === "hope") {
+                hopeTurns++;
+
+                hopeWords += String(t.text || "")
+                    .trim()
+                    .split(/\s+/)
+                    .filter(Boolean)
+                    .length;
+            }
+
+            if (character === "landon") {
+                landonTurns++;
+
+                landonWords += String(t.text || "")
+                    .trim()
+                    .split(/\s+/)
+                    .filter(Boolean)
+                    .length;
+            }
+        });
+    });
+
+    $("statistics-content").innerHTML = [
+        ["Episodes", DB.episodes.length],
+        ["Conversations", DB.conversations.length],
+        ["Hope turns", hopeTurns],
+        ["Hope words", hopeWords.toLocaleString()],
+        ["Landon turns", landonTurns],
+        ["Landon words", landonWords.toLocaleString()]
+    ]
+    .map(x =>
+        `<div class="stat">
+            <div class="number">${x[1]}</div>
+            <div class="label">${x[0]}</div>
+        </div>`
+    )
+    .join("");
+}
 function conversation(id){let i=DB.conversations.find(x=>x.conversation.id===id);if(!i){$("conversation-content").innerHTML='<div class="empty">Conversation not found.</div>';return}let e=i.episode,c=i.conversation;$("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a><div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(c.title||"Untitled")}</h2><p>${esc(e.episode_title||"")}</p><div class="stars">${stars(c.importance)}</div><p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div></div><div class="conversation-body">${allTurns(i,"full").map(t=>`<div class="turn"><div class="speaker">${esc(t.speaker?.character||"")}</div><div class="quote">${esc(turnContent(t))}</div></div>`).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div></div>`}
 function episodePage(id) {
     let e = DB.episodes.find(x => x.episode_id === id);
