@@ -19,3 +19,20 @@ h1{font-size:clamp(48px,8vw,96px);line-height:1;margin:0 0 20px}h2{font-size:cla
 .empty{text-align:center;padding:30px;color:var(--muted);background:white;border:1px dashed var(--border);border-radius:10px}
 footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-serif;border-top:1px solid var(--border)}
 @media(max-width:720px){.header-inner{align-items:flex-start;flex-direction:column}nav{gap:10px}main{padding:0 16px 50px}.hero{padding-top:45px}}
+.tags-browser {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 2rem 0;
+}
+
+.tag-button {
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    transition: transform 0.15s ease;
+}
+
+.tag-button:hover {
+    transform: translateY(-2px);
+}
