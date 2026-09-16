@@ -210,4 +210,38 @@ function episodePage(id) {
         </div>
     `;
 }
-function route(){let h=location.hash.slice(1);if(h.startsWith("conversation/episode/")){showPage("conversation");episodePage(decodeURIComponent(h.slice(20)))}else if(h.startsWith("conversation/")){showPage("conversation");conversation(decodeURIComponent(h.slice(13)))}else{let p=h||"home";showPage(["home","episodes","importance","search","random","statistics"].includes(p)?p:"home");if(p==="home")home();if(p==="episodes")episodes();if(p==="importance")importance();if(p==="search")search();if(p==="statistics")statistics()}}
+function route() {
+    let h = location.hash.slice(1);
+
+    if (h.startsWith("conversation/episode/")) {
+        showPage("conversation");
+
+        const prefix = "conversation/episode/";
+        const id = decodeURIComponent(h.slice(prefix.length));
+
+        episodePage(id);
+
+    } else if (h.startsWith("conversation/")) {
+        showPage("conversation");
+
+        const prefix = "conversation/";
+        const id = decodeURIComponent(h.slice(prefix.length));
+
+        conversation(id);
+
+    } else {
+        let p = h || "home";
+
+        showPage(
+            ["home", "episodes", "importance", "search", "random", "statistics"]
+                .includes(p) ? p : "home"
+        );
+
+        if (p === "home") home();
+        if (p === "episodes") episodes();
+        if (p === "importance") importance();
+        if (p === "search") search();
+        if (p === "random") randomResult();
+        if (p === "statistics") statistics();
+    }
+}
