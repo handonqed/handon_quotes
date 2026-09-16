@@ -270,6 +270,14 @@
           "version": "Hope"
         },
         "text": "No, it's... you know, I should probably do more of that myself. Okay."
+      },
+      {
+        "id": "TO-S5EP12-C02-T09",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "dance"
       }
     ]
   },
@@ -299,6 +307,14 @@
           "version": "Hope"
         },
         "text": "No, it's... you know, I should probably do more of that myself. Okay."
+      },
+      {
+        "id": "TO-S5EP12-C02-T09",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "dance"
       }
     ]
   }
