@@ -18,9 +18,7 @@ function randomResult(){
     let a = filters("random");
     let type = $("random-type").value;
 
-    let character =
-        document.querySelector('input[name="random-character"]:checked')?.value
-        || "either";
+    let character = $("random-character").value || "either";
 
     let mode = type === "short" ? "short" : "full";
 
