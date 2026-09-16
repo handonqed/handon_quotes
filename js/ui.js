@@ -14,7 +14,164 @@ function home(){let e=DB.episodes.length,c=DB.conversations.length,t=DB.conversa
 function episodes(){let b={};DB.episodes.forEach(e=>(b[e.show]??=[]).push(e));let h="";Object.keys(b).sort().forEach(show=>{h+=`<div class="show"><h3>${esc(show)}</h3>`;let ss={};b[show].forEach(e=>(ss[e.season]??=[]).push(e));Object.keys(ss).sort((a,b)=>a-b).forEach(s=>{h+=`<div class="season"><h3>Season ${s}</h3><div class="episode-grid">`;ss[s].sort((a,b)=>(a.episode||0)-(b.episode||0)).forEach(e=>h+=`<a class="episode-card" href="#conversation/episode/${encodeURIComponent(e.episode_id)}"><div class="code">${esc(episodeLabel(e))}</div><strong>${esc(e.episode_title||"")}</strong><div class="meta">${(e.conversations||[]).length} conversations</div></a>`);h+="</div></div>"});h+="</div>"});$("episode-browser").innerHTML=h||'<div class="empty">No episodes loaded.</div>'}
 function importance(){let m=Number($("importance-filter").value);let a=DB.conversations.filter(i=>Number(i.conversation.importance||0)>=m).sort((x,y)=>(y.conversation.importance||0)-(x.conversation.importance||0));$("importance-results").innerHTML=a.length?a.map(i=>card(i)).join(""):'<div class="empty">No conversations match.</div>'}
 function search(){let q=$("search-input").value.trim(),show=$("search-show").value,se=$("search-season").value,ch=$("search-character").value,m=Number($("search-importance").value);if(!q){$("search-count").textContent="";$("search-results").innerHTML='<div class="empty">Type a word or phrase to search.</div>';return}let a=[];DB.conversations.forEach(i=>{let e=i.episode,c=i.conversation;if(show&&e.show!==show||se&&String(e.season)!==se||Number(c.importance||0)<m)return;allTurns(i,"full").forEach(t=>{if(ch&&String(t.speaker?.character||"").toLowerCase()!==ch.toLowerCase())return;if(String(t.text).toLowerCase().includes(q.toLowerCase()))a.push({i,t})})});$("search-count").textContent=`${a.length} matching line${a.length===1?"":"s"}`;$("search-results").innerHTML=a.length?a.map(x=>`<article class="card"><div class="meta">${esc(episodeLabel(x.i.episode))} · ${esc(x.i.episode.episode_title||"")}</div><h3>${esc(x.i.conversation.title||"")}</h3><div class="speaker">${esc(x.t.speaker?.character||"")}</div><div class="quote">${hi(x.t.text,q)}</div><p><a class="button secondary" href="#conversation/${encodeURIComponent(x.i.conversation.id)}">View conversation</a></p></article>`).join(""):'<div class="empty">No matching lines.</div>'}
-function randomResult(){let a=filters("random"),type=$("random-type").value;a=a.filter(i=>allTurns(i,type==="short"?"short":"full").length);if(!a.length){$("random-result").innerHTML='<div class="empty">No results match these filters.</div>';return}let i=a[Math.floor(Math.random()*a.length)],e=i.episode,c=i.conversation,t=allTurns(i,type==="short"?"short":"full");if(type==="short"){$("random-result").innerHTML=`<div class="quote-card"><div class="meta">${esc(episodeLabel(e))}</div><h3>${esc(c.title||"")}</h3><div class="stars">${stars(c.importance)}</div>${t.map(x=>`<div class="turn"><div class="speaker">${esc(x.speaker?.character||"")}</div><div class="quote">${esc(x.text)}</div></div>`).join("")}<a class="button secondary" href="#conversation/${encodeURIComponent(c.id)}">Open conversation</a></div>`}else{let x=t[Math.floor(Math.random()*t.length)];$("random-result").innerHTML=`<div class="quote-card"><div class="meta">${esc(episodeLabel(e))} · ${esc(c.title||"")}</div><div class="speaker">${esc(x.speaker?.character||"")}</div><div class="quote">“${esc(x.text)}”</div><div class="stars">${stars(c.importance)}</div><a class="button secondary" href="#conversation/${encodeURIComponent(c.id)}">Open conversation</a></div>`}}
+function randomResult(){
+    let a = filters("random");
+    let type = $("random-type").value;
+
+    let character =
+        document.querySelector('input[name="random-character"]:checked')?.value
+        || "either";
+
+    let mode = type === "short" ? "short" : "full";
+
+    // Keep only conversations that contain at least one
+    // line from the selected character(s).
+    a = a.filter(i =>
+        allTurns(i, mode).some(t => {
+            let speaker = String(t.speaker?.character || "").toLowerCase();
+
+            if (character === "hope") {
+                return speaker === "hope";
+            }
+
+            if (character === "landon") {
+                return speaker === "landon";
+            }
+
+            // Default: Hope or Landon
+            return speaker === "hope" || speaker === "landon";
+        })
+    );
+
+    if (!a.length) {
+        $("random-result").innerHTML =
+            '<div class="empty">No results match these filters.</div>';
+        return;
+    }
+
+    let i = a[Math.floor(Math.random() * a.length)];
+    let e = i.episode;
+    let c = i.conversation;
+
+    let t = allTurns(i, mode);
+
+    // ========================================================
+    // RANDOM SHORT CONVERSATION
+    // ========================================================
+
+    if (type === "short") {
+
+        // Apply the character filter to the displayed lines.
+        if (character === "hope") {
+            t = t.filter(x =>
+                String(x.speaker?.character || "").toLowerCase() === "hope"
+            );
+        }
+        else if (character === "landon") {
+            t = t.filter(x =>
+                String(x.speaker?.character || "").toLowerCase() === "landon"
+            );
+        }
+        else {
+            t = t.filter(x => {
+                let speaker =
+                    String(x.speaker?.character || "").toLowerCase();
+
+                return speaker === "hope" || speaker === "landon";
+            });
+        }
+
+        $("random-result").innerHTML = `
+            <div class="quote-card">
+
+                <div class="meta">
+                    ${esc(episodeLabel(e))}
+                </div>
+
+                <h3>${esc(c.title || "")}</h3>
+
+                <div class="stars">
+                    ${stars(c.importance)}
+                </div>
+
+                ${t.map(x => `
+                    <div class="turn">
+                        <div class="speaker">
+                            ${esc(x.speaker?.character || "")}
+                        </div>
+
+                        <div class="quote">
+                            ${esc(x.text)}
+                        </div>
+                    </div>
+                `).join("")}
+
+                <a class="button secondary"
+                   href="#conversation/${encodeURIComponent(c.id)}">
+                    Open conversation
+                </a>
+
+            </div>
+        `;
+    }
+
+    // ========================================================
+    // SINGLE RANDOM QUOTE
+    // ========================================================
+
+    else {
+
+        let quotes = t.filter(x => {
+            let speaker =
+                String(x.speaker?.character || "").toLowerCase();
+
+            if (character === "hope") {
+                return speaker === "hope";
+            }
+
+            if (character === "landon") {
+                return speaker === "landon";
+            }
+
+            return speaker === "hope" || speaker === "landon";
+        });
+
+        if (!quotes.length) {
+            $("random-result").innerHTML =
+                '<div class="empty">No quotes match these filters.</div>';
+            return;
+        }
+
+        let x = quotes[Math.floor(Math.random() * quotes.length)];
+
+        $("random-result").innerHTML = `
+            <div class="quote-card">
+
+                <div class="meta">
+                    ${esc(episodeLabel(e))} · ${esc(c.title || "")}
+                </div>
+
+                <div class="speaker">
+                    ${esc(x.speaker?.character || "")}
+                </div>
+
+                <div class="quote">
+                    “${esc(x.text)}”
+                </div>
+
+                <div class="stars">
+                    ${stars(c.importance)}
+                </div>
+
+                <a class="button secondary"
+                   href="#conversation/${encodeURIComponent(c.id)}">
+                    Open conversation
+                </a>
+
+            </div>
+        `;
+    }
+}
 function statistics(){let imp={1:0,2:0,3:0,4:0,5:0};DB.conversations.forEach(i=>imp[i.conversation.importance]=(imp[i.conversation.importance]||0)+1);let v=DB.conversations.filter(i=>i.conversation.verified).length;$("statistics-content").innerHTML=[["Episodes",DB.episodes.length],["Conversations",DB.conversations.length],["Verified",v],["★★★★★",imp[5]||0],["★★★★☆",imp[4]||0],["★★★☆☆",imp[3]||0]].map(x=>`<div class="stat"><div class="number">${x[1]}</div><div class="label">${x[0]}</div></div>`).join("")}
 function conversation(id){let i=DB.conversations.find(x=>x.conversation.id===id);if(!i){$("conversation-content").innerHTML='<div class="empty">Conversation not found.</div>';return}let e=i.episode,c=i.conversation;$("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a><div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(c.title||"Untitled")}</h2><p>${esc(e.episode_title||"")}</p><div class="stars">${stars(c.importance)}</div><p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div></div><div class="conversation-body">${allTurns(i,"full").map(t=>`<div class="turn"><div class="speaker">${esc(t.speaker?.character||"")}</div><div class="quote">${esc(t.text)}</div></div>`).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div><h3 style="margin-top:25px">Short version</h3><div class="conversation-body">${allTurns(i,"short").map(t=>`<div class="turn"><div class="speaker">${esc(t.speaker?.character||"")}</div><div class="quote">${esc(t.text)}</div></div>`).join("")||'<div class="empty">No short version is stored.</div>'}</div></div>`}
 function episodePage(id){let e=DB.episodes.find(x=>x.episode_id===id);if(!e)return;$("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a><div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(e.episode_title||"")}</h2></div><div class="list">${(e.conversations||[]).map(c=>card({episode:e,conversation:c})).join("")}</div></div>`}
