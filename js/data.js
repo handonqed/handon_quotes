@@ -12,5 +12,18 @@ async function loadDatabase(){
 function episodeLabel(e){return `${e.show||""} ${e.season?"S"+e.season:""}E${e.episode??""}`}
 function stars(n){n=Math.max(0,Math.min(5,Number(n)||0));return "★".repeat(n)+"☆".repeat(5-n)}
 function turns(c,mode){return c[mode]&&Array.isArray(c[mode].turns)?c[mode].turns:[]}
-function allTurns(i,mode){return turns(i.conversation,mode||"full").filter(t=>String(t.text||"").trim())}
+function turnContent(turn) {
+    if (turn.action) {
+        return `*${turn.action}*`;
+    }
+
+    return String(turn.text || "").trim();
+}
+function allTurns(i, mode) {
+    return turns(i.conversation, mode || "full")
+        .filter(t =>
+            String(t.text || "").trim() ||
+            String(t.action || "").trim()
+        );
+}
 function unique(a){return [...new Set(a)].sort((x,y)=>String(x).localeCompare(String(y),undefined,{numeric:true}))}
