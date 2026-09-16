@@ -131,6 +131,7 @@
         "talent_show",
         "romantic",
         "relationship",
+        "kiss",
         "team other"
       ],
       "importance": 4,
@@ -1119,8 +1120,8 @@
       {
         "id": "L-S1E11-C9-T10",
         "speaker": {
-          "character": "Hope",
-          "version": "Hope"
+          "character": "Landon",
+          "version": "Landon"
         },
         "text": "Which would be a real shame... because then you would never hear how bad I am at singing. Oh, boy. Uh..."
       }

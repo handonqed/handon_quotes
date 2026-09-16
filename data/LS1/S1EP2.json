@@ -1,0 +1,757 @@
+{
+   "show": "Legacies",
+  "season": 1,
+  "episode": 2,
+  "episode_id": "L-S1E02",
+  "episode_title": "Some people just want to watch the world burn",
+
+  "conversations": [
+    {
+      "id": "L-S1E02-C01",
+      "title": "Hope and Raf find Landon in the root cellar",
+      "description": "Hope and Raf find Landon in the root cellar",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "angst",
+        "knife"
+      ],
+      "importance": 1,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E02-C01-T01",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "Raf? Holy hell. How did you find me?"
+          },
+          {
+         "id": "L-S1E02-C01-T02",
+         "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+         },
+         "text": "There's, um, a-a lot of crazy witchy people looking for you. There's a bus full of burned-up people."
+        },
+       {
+        "id": "L-S1E02-C01-T03",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "That wasn't me."
+      },
+      {
+        "id": "L-S1E02-C01-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Then who was it?"
+      },
+      {
+         "id": "L-S1E02-C01-T05",
+         "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+         },
+         "text": "You said three minutes."
+        },
+        {
+        "id": "L-S1E02-C01-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Like I said, people lie. Corporis impetu. Where's the knife?"
+      },
+      {
+        "id": "L-S1E02-C01-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I don't have it. I must've lost it when I ran."
+      },
+      {
+        "id": "L-S1E02-C01-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "After you burned the bus?"
+      },
+      {
+        "id": "L-S1E02-C01-T09",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "That wasn't me, I swear. I barely got out alive."
+      },
+      {
+         "id": "L-S1E02-C01-T10",
+         "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+         },
+         "text": "Hope, come on."
+        },
+        {
+        "id": "L-S1E02-C01-T11",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Who the hell was it?"
+      },
+      {
+        "id": "L-S1E02-C01-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "There was this girl..."
+      }
+        
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E02-C01-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Like I said, people lie. Corporis impetu. Where's the knife?"
+      },
+      {
+        "id": "L-S1E02-C01-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I don't have it. I must've lost it when I ran."
+      },
+      {
+        "id": "L-S1E02-C01-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "After you burned the bus?"
+      },
+      {
+        "id": "L-S1E02-C01-T09",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "That wasn't me, I swear. I barely got out alive."
+      }
+    ]
+  }
+    },
+
+    {
+      "id": "L-S1E02-C02",
+      "title": "Hope and Landon argue about him leaving the school",
+      "description": "Hope and Landon argue about him leaving the school",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "angst",
+        "knife",
+        "argument"
+      ],
+      "importance": 3,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E02-C02-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "I don't believe a word you're saying."
+          },
+          {
+         "id": "L-S1E02-C02-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "You have every right to be mad at me, but I am telling you the truth. Come on man, help me."
+        },
+       {
+        "id": "L-S1E02-C02-T03",
+        "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        "text": "I believe him."
+      },
+      {
+        "id": "L-S1E02-C02-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "You believe that a fire-breathing woman burned the bus alive?"
+      },
+      {
+         "id": "L-S1E02-C02-T05",
+         "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+         },
+         "text": "Yeah."
+        },
+        {
+        "id": "L-S1E02-C02-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "And Landon happened to be spared?"
+      },
+      {
+        "id": "L-S1E02-C02-T07",
+        "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        "text": "He told you that he ran."
+      },
+      {
+        "id": "L-S1E02-C02-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "And conveniently lost the knife on the way."
+      },
+      {
+        "id": "L-S1E02-C02-T09",
+        "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        "text": "Yes"
+      },
+      {
+         "id": "L-S1E02-C02-T10",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "She kept coming at me like she was gonna take it from me. She was burning everything in her path."
+        },
+        {
+        "id": "L-S1E02-C02-T11",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "You want to explain to me what you were doing stealing the knife in the first place?"
+      },
+      {
+        "id": "L-S1E02-C02-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I don't remember stealing it."
+      },
+      {
+        "id": "L-S1E02-C02-T13",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Of course not. How about pretending to be compelled?"
+      },
+      {
+        "id": "L-S1E02-C02-T14",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "That was to avoid being thrown back in the werewolf dungeon."
+      },
+      {
+        "id": "L-S1E02-C02-T15",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Transitional cellar."
+      },
+      {
+        "id": "L-S1E02-C02-T16",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Small spaces. Hope, you have to understand, Dr. Saltzman had already told me the school wasn't gonna let me stay. If he thought I'd talk, he'd lock me back up. There wasn't a good ending for me. I didn't want to steal from you and I don't want a fire-breather chasing me. I'm sorry for all of it."
+      },
+      {
+        "id": "L-S1E02-C02-T17",
+        "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        "text": "He's not lying. I know him. Now, if he says that there's a fire-breathing woman running through the woods, then there is a..."
+      },
+      {
+        "id": "L-S1E02-C02-T18",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "There's a fire-breathing woman running through the woods. Did I or did I not say don't engage?"
+      },
+      {
+        "id": "L-S1E02-C02-T19",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "He's only dangerous if crappy apologies can kill."
+      },
+      {
+        "id": "L-S1E02-C02-T20",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Looks can be deceiving. Now our bus refugee, turns out she's a pyromancer."
+      },
+      {
+        "id": "L-S1E02-C02-21",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Wait, wh-what's a pyromancer?"
+      },
+      {
+        "id": "L-S1E02-C02-21",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "A fire-breathing witch. Ric, she wants the knife."
+      },
+      {
+        "id": "L-S1E02-C02-T22",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Okay, well, where is it?"
+      },
+      {
+        "id": "L-S1E02-C02-23",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I-I lost it in the woods. I was running around in circles all night trying to find a place to hide."
+      }
+        
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E02-C02-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I don't remember stealing it."
+      },
+      {
+        "id": "L-S1E02-C02-T13",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Of course not. How about pretending to be compelled?"
+      },
+      {
+        "id": "L-S1E02-C02-T14",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "That was to avoid being thrown back in the werewolf dungeon."
+      },
+      {
+        "id": "L-S1E02-C02-T15",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Transitional cellar."
+      },
+      {
+        "id": "L-S1E02-C02-T16",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Small spaces. Hope, you have to understand, Dr. Saltzman had already told me the school wasn't gonna let me stay. If he thought I'd talk, he'd lock me back up. There wasn't a good ending for me. I didn't want to steal from you and I don't want a fire-breather chasing me. I'm sorry for all of it."
+      }
+    ]
+  }
+    },
+
+    {
+      "id": "L-S1E02-C03",
+      "title": "Landon gives them the knife",
+      "description": "Landon gives them the knife",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "angst",
+        "knife"
+      ],
+      "importance": 1,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E02-C03-T01",
+          "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+          },
+          "text": "What does she want?"
+          },
+          {
+         "id": "L-S1E02-C03-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": " I don't know."
+        },
+       {
+        "id": "L-S1E02-C03-T03",
+        "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        "text": "Lan?"
+      },
+      {
+        "id": "L-S1E02-C03-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Maybe she wants the knife you said you don't have."
+      },
+      {
+         "id": "L-S1E02-C03-T05",
+         "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+         },
+         "text": "Back in the cellar. Go, go, go, go, go."
+        },
+        {
+        "id": "L-S1E02-C03-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Where the hell is it?"
+      },
+      {
+        "id": "L-S1E02-C03-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I'm sorry. I panicked."
+      },
+      {
+        "id": "L-S1E02-C03-T08",
+        "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        "text": "What the hell, Lan?"
+      },
+      {
+        "id": "L-S1E02-C03-T09",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Hope, the doors."
+      },
+      {
+         "id": "L-S1E02-C03-T10",
+         "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+         },
+         "text": "Got it. Adiuuatur. Okay, it's a quick fix. It won't last long."
+        },
+        {
+        "id": "L-S1E02-C03-T11",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "All right, great, I need a cell phone."
+      },
+      {
+        "id": "L-S1E02-C03-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Take your pick."
+      },
+      {
+        "id": "L-S1E02-C03-T13",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "What is all this?"
+      },
+      {
+        "id": "L-S1E02-C02-T14",
+        "speaker": {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        "text": "It's from the people on the bus."
+      },
+      {
+        "id": "L-S1E02-C03-T15",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I didn't bring it here. I..."
+      },
+      {
+        "id": "L-S1E02-C03-T16",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "If he says I swear one more time, I'm gonna melt him."
+      }
+     
+        
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E02-C03-T15",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I didn't bring it here. I..."
+      },
+      {
+        "id": "L-S1E02-C03-T16",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "If he says I swear one more time, I'm gonna melt him."
+      }
+    ]
+  }
+    },
+
+{
+      "id": "L-S1E02-C04",
+      "title": "Landon's letter to Hope",
+      "description": "Landon letter to Hope",
+      "participants": [
+  
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "letter",
+      "tags": [
+        "angst",
+        "sorry",
+        "memories",
+        "goodbye"
+      ],
+      "importance": 4,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E02-C04-T01",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "Dear Hope, you strike me as the kind of person who's not so big on second chances, much less third, but I'm gonna give it a shot."
+          },
+          {
+         "id": "L-S1E02-C04-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": " I can't explain why I took that knife. Believe me, I wish I could. But maybe I can explain why I ran."
+        },
+       {
+          "id": "L-S1E02-C04-T03",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "I have never been welcomed anywhere in my life. I'm always the extra. The mouth they didn't want to feed."
+          },
+          {
+         "id": "L-S1E02-C04-T04",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "If I caused trouble, I was out. When you grow up like that, you learn how to protect yourself. You do what you have to do to survive."
+        },
+        {
+          "id": "L-S1E02-C04-T05",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "I never had a real family. And that's not meant to make you feel sorry for me. I'm trying to make you understand."
+          },
+          {
+         "id": "L-S1E02-C04-T06",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "I lied to protect myself, but in doing so, I hurt you. And for that, I will be forever sorry."
+        },
+        {
+         "id": "L-S1E02-C04-T07",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "The time I spent with you the other night was one of the happiest moments in my life. I hate that I ruined it. Your school's secret is safe with me. With regret, Landon."
+        }
+     
+        
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+         "id": "L-S1E02-C04-T06",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "I lied to protect myself, but in doing so, I hurt you. And for that, I will be forever sorry."
+        },
+        {
+         "id": "L-S1E02-C04-T07",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "The time I spent with you the other night was one of the happiest moments in my life. I hate that I ruined it. Your school's secret is safe with me. With regret, Landon."
+        }
+    ]
+  }
+    }
+
+   
+
+    
+    
+
+  ]
+}
