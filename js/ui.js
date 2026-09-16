@@ -29,15 +29,15 @@ function randomResult(){
             let speaker = String(t.speaker?.character || "").toLowerCase();
 
             if (character === "hope") {
-                return speaker === "hope";
+                return speaker === "hope" || speaker === "handon";
             }
 
             if (character === "landon") {
-                return speaker === "landon";
+                return speaker === "landon" || speaker === "handon";
             }
 
             // Default: Hope or Landon
-            return speaker === "hope" || speaker === "landon";
+            return speaker === "hope" || speaker === "landon" || speaker === "handon";
         })
     );
 
@@ -61,21 +61,23 @@ function randomResult(){
 
         // Apply the character filter to the displayed lines.
         if (character === "hope") {
-            t = t.filter(x =>
-                String(x.speaker?.character || "").toLowerCase() === "hope"
-            );
+            t = t.filter(x => {
+                let speaker = String(x.speaker?.character || "").toLowerCase();
+                return speaker === "hope" || speaker === "handon";
+            });
         }
         else if (character === "landon") {
-            t = t.filter(x =>
-                String(x.speaker?.character || "").toLowerCase() === "landon"
-            );
+            t = t.filter(x => {
+                let speaker = String(x.speaker?.character || "").toLowerCase();
+                return speaker === "landon" || speaker === "handon";
+            });
         }
         else {
             t = t.filter(x => {
                 let speaker =
                     String(x.speaker?.character || "").toLowerCase();
 
-                return speaker === "hope" || speaker === "landon";
+                return speaker === "hope" || speaker === "landon" || speaker === "handon";
             });
         }
 
@@ -124,14 +126,14 @@ function randomResult(){
                 String(x.speaker?.character || "").toLowerCase();
 
             if (character === "hope") {
-                return speaker === "hope";
+                return speaker === "hope" || speaker === "handon";
             }
 
             if (character === "landon") {
-                return speaker === "landon";
+                return speaker === "landon" || speaker === "handon";
             }
 
-            return speaker === "hope" || speaker === "landon";
+            return speaker === "hope" || speaker === "landon" || speaker === "handon";
         });
 
         if (!quotes.length) {
@@ -171,6 +173,6 @@ function randomResult(){
     }
 }
 function statistics(){let imp={1:0,2:0,3:0,4:0,5:0};DB.conversations.forEach(i=>imp[i.conversation.importance]=(imp[i.conversation.importance]||0)+1);let v=DB.conversations.filter(i=>i.conversation.verified).length;$("statistics-content").innerHTML=[["Episodes",DB.episodes.length],["Conversations",DB.conversations.length],["Verified",v],["★★★★★",imp[5]||0],["★★★★☆",imp[4]||0],["★★★☆☆",imp[3]||0]].map(x=>`<div class="stat"><div class="number">${x[1]}</div><div class="label">${x[0]}</div></div>`).join("")}
-function conversation(id){let i=DB.conversations.find(x=>x.conversation.id===id);if(!i){$("conversation-content").innerHTML='<div class="empty">Conversation not found.</div>';return}let e=i.episode,c=i.conversation;$("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a><div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(c.title||"Untitled")}</h2><p>${esc(e.episode_title||"")}</p><div class="stars">${stars(c.importance)}</div><p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div></div><div class="conversation-body">${allTurns(i,"full").map(t=>`<div class="turn"><div class="speaker">${esc(t.speaker?.character||"")}</div><div class="quote">${esc(t.text)}</div></div>`).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div><h3 style="margin-top:25px">Short version</h3><div class="conversation-body">${allTurns(i,"short").map(t=>`<div class="turn"><div class="speaker">${esc(t.speaker?.character||"")}</div><div class="quote">${esc(t.text)}</div></div>`).join("")||'<div class="empty">No short version is stored.</div>'}</div></div>`}
+function conversation(id){let i=DB.conversations.find(x=>x.conversation.id===id);if(!i){$("conversation-content").innerHTML='<div class="empty">Conversation not found.</div>';return}let e=i.episode,c=i.conversation;$("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a><div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(c.title||"Untitled")}</h2><p>${esc(e.episode_title||"")}</p><div class="stars">${stars(c.importance)}</div><p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div></div><div class="conversation-body">${allTurns(i,"full").map(t=>`<div class="turn"><div class="speaker">${esc(t.speaker?.character||"")}</div><div class="quote">${esc(t.text)}</div></div>`).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div></div>`}
 function episodePage(id){let e=DB.episodes.find(x=>x.episode_id===id);if(!e)return;$("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a><div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(e.episode_title||"")}</h2></div><div class="list">${(e.conversations||[]).map(c=>card({episode:e,conversation:c})).join("")}</div></div>`}
 function route(){let h=location.hash.slice(1);if(h.startsWith("conversation/episode/")){showPage("conversation");episodePage(decodeURIComponent(h.slice(20)))}else if(h.startsWith("conversation/")){showPage("conversation");conversation(decodeURIComponent(h.slice(13)))}else{let p=h||"home";showPage(["home","episodes","importance","search","random","statistics"].includes(p)?p:"home");if(p==="home")home();if(p==="episodes")episodes();if(p==="importance")importance();if(p==="search")search();if(p==="statistics")statistics()}}
