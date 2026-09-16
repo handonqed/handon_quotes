@@ -22,8 +22,8 @@ function turnContent(turn) {
 function allTurns(i, mode) {
     return turns(i.conversation, mode || "full")
         .filter(t =>
-            String(turn.text || "").trim() ||
-            String(turn.action || "").trim()
+            String(t.text || "").trim() ||
+            String(t.action || "").trim()
         );
 }
 function unique(a){return [...new Set(a)].sort((x,y)=>String(x).localeCompare(String(y),undefined,{numeric:true}))}
