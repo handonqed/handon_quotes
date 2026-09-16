@@ -31,9 +31,4 @@ Put new JSON files under `data/`, then run:
 python generate_index.py
 ```
 
-Commit and push the repository to GitHub. Enable GitHub Pages from
-**Settings -> Pages -> Deploy from branch -> main -> root**.
 
-The browser loads the JSON files with `fetch()`, so GitHub Pages (or another
-web server) is required; opening `index.html` directly with `file://` may be
-blocked by browser security.
