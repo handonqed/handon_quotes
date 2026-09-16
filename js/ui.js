@@ -6,7 +6,7 @@ function card(i,mode="short"){let e=i.episode,c=i.conversation,t=allTurns(i,mode
 <div class="meta">${esc(episodeLabel(e))} · ${esc(e.episode_title||"")}</div><h3>${esc(c.title||"Untitled")}</h3>
 <div class="stars">${stars(c.importance)}</div><p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div>
 <a class="button secondary" href="#conversation/${encodeURIComponent(c.id)}">View conversation</a>
-${t.length?`<div>${t.map(x=>`<div class="turn"><div class="speaker">${esc(x.speaker?.character||"")}</div><div class="quote">${esc(x.text)}</div></div>`).join("")}</div>`:""}</article>`}
+${t.length?`<div>${t.map(x=>`<div class="turn"><div class="speaker">${esc(x.speaker?.character||"")}</div><div class="quote">${esc(turnContent(x))}</div></div>`).join("")}</div>`:""}</article>`}
 function showPage(id){document.querySelectorAll(".page").forEach(x=>x.classList.remove("active"));$(id)?.classList.add("active")}
 function fill(id,vals){let e=$(id),first=e.options[0]?.outerHTML||"";e.innerHTML=first+vals.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("")}
 function filters(prefix){let s=$(`${prefix}-show`).value,se=$(`${prefix}-season`).value,m=Number($(`${prefix}-importance`).value||0);return DB.conversations.filter(i=>(!s||i.episode.show===s)&&(!se||String(i.episode.season)===se)&&Number(i.conversation.importance||0)>=m)}
@@ -101,7 +101,7 @@ function randomResult(){
                         </div>
 
                         <div class="quote">
-                            ${esc(x.text)}
+                            ${esc(turnContent(x))}
                         </div>
                     </div>
                 `).join("")}
@@ -156,7 +156,7 @@ function randomResult(){
                 </div>
 
                 <div class="quote">
-                    “${esc(x.text)}”
+                    “${esc(turnContent(x))}”
                 </div>
 
                 <div class="stars">
