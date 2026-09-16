@@ -1,0 +1,307 @@
+{
+   "show": "The Originals",
+  "season": 5,
+  "episode": 12,
+  "episode_id": "TO-S5E12",
+  "episode_title": "The Tale of Two Wolves",
+
+  "conversations": [
+    {
+      "id": "TO-S5E12-C01",
+      "title": "Landon brings Hope her milkshake",
+      "description": "Landon brings Hope her usual milkshake at the Mystic Grill. They talk about Hope not being around much, New Orleans, music, and the possibility of attending the festival.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Elijah",
+          "version": "Elijah"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "first-appearance",
+        "mystic-grill",
+        "milkshake",
+        "flirting",
+        "new-orleans"
+      ],
+      "importance": 5,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "TO-S5EP12-C01-T01",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "Peanut butter blast, whipped cream on the bottom. Just how you like it."
+          },
+          {
+         "id": "TO-S5EP12-C01-T02",
+         "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+         },
+         "text": "Thanks, Landon."
+        },
+       {
+        "id": "TO-S5EP12-C01-T03",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah."
+      },
+      {
+        "id": "TO-S5EP12-C01-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Uh, this is my uncle."
+      },
+      {
+        "id": "TO-S5EP12-C01-T05",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Nice to meet you, Mr. Marshall. So, Hope.You haven't been around much lately."
+      },
+      {
+        "id": "TO-S5EP12-C01-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Oh, yeah, there's been stuff back at home."
+      },
+      {
+        "id": "TO-S5EP12-C01-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Oh. Well, I was, I was hoping you'd be back. I mean, you're from New Orleans, right? I've always wanted to go. It's home to some of the greatest musicians of all time."
+      },
+      {
+        "id": "TO-S5EP12-C01-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "You should go. No matter where you are, there's always someone playing a Louis Armstrong song somewhere."
+      },
+      {
+        "id": "TO-S5EP12-C01-T09",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Uh, actually, there's, um, there's music in the square tonight. I mean, they do it all the time, but tonight there's this kind of bluesy vibe and I thought maybe if you wanted..."
+      },
+      {
+        "id": "TO-S5EP12-C01-T10",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Oh, Landon, I-I can't tonight.I have a thing."
+      },
+        {
+        "id": "TO-S5EP12-C01-T11",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Right, yeah. I should probably pick up an extra shift anyway."
+      },
+      {
+        "id": "TO-S5EP12-C01-T12",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "No, thanks though, for asking and for the milkshake."
+      },
+      {
+        "id": "TO-S5EP12-C01-T13",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah. It was nice to meet you."
+      },
+      {
+        "id": "TO-S5EP12-C01-T14",
+        "speaker": {
+          "character": "Elijah",
+          "version": "Elijah"
+        },
+        "text": "And you."
+      }
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+          "id": "TO-S5EP12-C01-T01",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "Peanut butter blast, whipped cream on the bottom. Just how you like it."
+          },
+          {
+         "id": "TO-S5EP12-C01-T02",
+         "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+         },
+         "text": "Thanks, Landon."
+        }
+    ]
+  }
+    },
+
+
+
+   
+
+    {
+      "id": "TO-S05E12-C02",
+      "title": "Hope and Landon dance",
+      "description": "Hope spends part of her final hours dancing with Landon at the festival.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "dance",
+        "festival",
+        "romantic",
+        "hope-dying",
+        "foreshadowing"
+      ],
+      "importance": 5,
+      "verified": true,
+       "full": {
+        "turns": [
+         {
+          "id": "TO-S5EP12-C02-T01",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "I thought you had to be somewhere."
+          },
+          {
+         "id": "TO-S5EP12-C02-T02",
+         "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+         },
+         "text": "Uh, yeah, actually, it turns out I'm gonna be here for a little bit. Though I do have a curfew pretty soon."
+        },
+       {
+        "id": "TO-S5EP12-C02-T03",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Ah. The private school behind the iron gates doesn't want their fancy students hanging out with townie riffraff too late? Shocking."
+      },
+      {
+        "id": "TO-S5EP12-C02-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "No. There's plenty of riffraff behind those gates. Trust me."
+      },
+      {
+        "id": "TO-S5EP12-C02-T05",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "So, you know that, uh, that jerk from the Grill earlier? Apparently, he totally wrecked his car today. And now you're here, and the music's good, so before my luck runs out, which it will... do you maybe want to dance or something?"
+      },
+      {
+        "id": "TO-S5EP12-C02-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "You want me to dance with you?"
+      },
+      {
+        "id": "TO-S5EP12-C02-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Fair warning, I might suck at it. I haven't really thought this whole thing through. Kind of living in the moment here."
+      },
+      {
+        "id": "TO-S5EP12-C02-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "No, it's... you know, I should probably do more of that myself. Okay."
+      }
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "TO-S5EP12-C02-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "You want me to dance with you?"
+      },
+      {
+        "id": "TO-S5EP12-C02-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Fair warning, I might suck at it. I haven't really thought this whole thing through. Kind of living in the moment here."
+      },
+      {
+        "id": "TO-S5EP12-C02-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "No, it's... you know, I should probably do more of that myself. Okay."
+      }
+    ]
+  }
+}
+  ]
+}

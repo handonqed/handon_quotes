@@ -1,0 +1,1700 @@
+{
+   "show": "Legacies",
+  "season": 1,
+  "episode": 1,
+  "episode_id": "L-S1E01",
+  "episode_title": "This is the part where you run",
+
+  "conversations": [
+    {
+      "id": "L-S1E01-C01",
+      "title": "Hope and Landon reunite after 2 years",
+      "description": "Hope and Landon meet each other after two years",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alatic"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "reunion",
+        "beginning",
+        "stare"
+      ],
+      "importance": 4,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C01-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "Landon"
+          },
+          {
+         "id": "L-S1E01-C01-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "Hope?"
+        },
+       {
+        "id": "L-S1E01-C01-T03",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "You two know each other?"
+      },
+      {
+        "id": "L-S1E01-C01-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Long story. You're gonna want to stay out here, Landon, trust me."
+      }
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+          "id": "L-S1E01-C01-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "Landon"
+          },
+          {
+         "id": "L-S1E01-C01-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "Hope?"
+        },
+       {
+        "id": "L-S1E01-C01-T03",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "You two know each other?"
+      },
+      {
+        "id": "L-S1E01-C01-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Long story."
+      }
+    ]
+  }
+    },
+
+
+
+   
+
+    {
+      "id": "L-S1E01-C02",
+      "title": "Hope and Landon talk in the car",
+      "description": "Hope and Landon discuss their past in the car, and where they are going",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "memories",
+        "flashbacks",
+        "stare"
+      ],
+      "importance": 4,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C02-T01",
+          "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+          },
+          "text": "How do you two know each other?"
+          },
+          {
+         "id": "L-S1E01-C02-T02",
+         "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+         },
+         "text": "He used to serve me milkshakes at the Mystic Grill."
+        },
+       {
+        "id": "L-S1E01-C02-T03",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Peanut Butter Blast whipped cream on the bottom. We danced once."
+      },
+      {
+        "id": "L-S1E01-C02-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "We tried. And then you moved away."
+      },
+      {
+        "id": "L-S1E01-C02-T05",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Then you made a door blow off its hinges with your brain. Do you feel like explaining that?"
+      }
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+          "id": "L-S1E01-C02-T02",
+         "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+         },
+         "text": "He used to serve me milkshakes at the Mystic Grill."
+        },
+       {
+        "id": "L-S1E01-C02-T03",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Peanut Butter Blast whipped cream on the bottom. We danced once."
+      },
+      {
+        "id": "L-S1E01-C02-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "We tried."
+      }
+    ]
+  }
+    },
+
+   {
+      "id": "L-S1E01-C03",
+      "title": "Hope and Landon talk about the school at the office",
+      "description": "Hope and Landon talk about the school with Alaric",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "explanation",
+        "comfort"
+      ],
+      "importance": 2,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C03-T01",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "So, what are you?"
+          },
+          {
+         "id": "L-S1E01-C03-T02",
+         "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+         },
+         "text": "I should get to class."
+        },
+       {
+        "id": "L-S1E01-C03-T03",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "No. No. Sorry. I don't mean to be a dick but, I don't know you, and though the image of you whammying a priest is still fresh, I need you here. Just tell me what all that was in the church last night?"
+      },
+      {
+        "id": "L-S1E01-C03-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "What do you think it was?"
+      },
+      {
+        "id": "L-S1E01-C03-T05",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Well, as best as I can reason, either I've lost my mind or werewolves are real.Th-This is beyond insane. How is that even possible?"
+      },
+      {
+        "id": "L-S1E01-C03-T06",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "It's a long story, involving an ancient, vengeful witch and a bloodline curse. We cover all that in Origins of the Species, grade six."
+      },
+      {
+        "id": "L-S1E01-C03-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "In sixth grade at my school, we learned the state capitals."
+      },
+      {
+        "id": "L-S1E01-C03-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "We teach that too."
+      }
+      
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+         "id": "L-S1E01-C03-T02",
+         "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+         },
+         "text": "I should get to class."
+        },
+       {
+        "id": "L-S1E01-C03-T03",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "No. No. Sorry. I don't mean to be a dick but, I don't know you, and though the image of you whammying a priest is still fresh, I need you here."
+      }
+    ]
+  }
+    },
+{
+      "id": "L-S1E01-C04",
+      "title": "Hope and Landon talk about Rafael at the office",
+      "description": "Hope and Landon talk about Rafael with Alaric",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "explanation",
+        "comfort"
+      ],
+      "importance": 2,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C04-T01",
+          "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+          },
+          "text": "Why would you ask me that?"
+          },
+          {
+         "id": "L-S1E01-C04-T02",
+         "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+         },
+         "text": "The werewolf gene lies dormant until the carrier takes a human life. If Rafael triggered his curse, it's... because he killed someone. And we don't accept coldblooded killers into our program."
+        },
+       {
+        "id": "L-S1E01-C04-T03",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": " He's not a killer."
+      },
+      {
+        "id": "L-S1E01-C04-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "We're not trying..."
+      },
+      {
+        "id": "L-S1E01-C04-T05",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "He's not... a killer"
+      },
+      {
+        "id": "L-S1E01-C04-T06",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Well, I know a little bit about his background. Neglectful birth parents. Orphaned in adolescence. Six foster homes in seven years. Prone to fits of anger."
+      },
+      {
+        "id": "L-S1E01-C04-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah, you could just as easily be reading my file. That's what it's like out there for people like him and me."
+      },
+      {
+        "id": "L-S1E01-C04-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Landon, I know this is a lot to take in right now, but we're only trying to help. I've been going here since I was seven. This is a safe place for people like Rafael. It's a home."
+      },
+      {
+        "id": "L-S1E01-C04-T09",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "But if we take him in, we need to make sure that he is not a threat."
+      },
+       {
+        "id": "L-S1E01-C04-T10",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "His girlfriend... Cassie. Last month he was driving, there was a storm, he took a turn too fast. And then he started acting out. At first I thought it was just grief. And then maybe... maybe drugs or something. And then he threw a 200 pound lawnmower 50 feet across the yard. That was when our foster parents called in the priest. I guess they thought he was possessed by the devil."
+      },
+      {
+        "id": "L-S1E01-C04-T11",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "It's normal. Thank you for that, Landon. Hope"
+      },
+      {
+        "id": "L-S1E01-C04-T12",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Everything's gonna be okay. I promise. We're ready."
+      }
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E01-C04-T12",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Everything's gonna be okay. I promise. We're ready."
+      }
+    ]
+  }
+    },
+
+{
+      "id": "L-S1E01-C05",
+      "title": "Hope and Landon talk in the cell",
+      "description": "Hope and Landon talk in the cell for the first time",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "explanation",
+        "comfort",
+        "angst"
+      ],
+      "importance": 3,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C05-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "Landon."
+          },
+          {
+         "id": "L-S1E01-C05-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "Hope. Can you get me out of here?"
+        },
+       {
+        "id": "L-S1E01-C05-T03",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Not yet. But you're not a prisoner here I swear."
+      },
+      {
+        "id": "L-S1E01-C05-T04",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I'm in a witch dungeon."
+      },
+      {
+        "id": "L-S1E01-C05-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "It's a werewolf transition space."
+      },
+      {
+        "id": "L-S1E01-C05-T06",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Super. I'm not so good with, you know... small spaces."
+      },
+      {
+        "id": "L-S1E01-C05-T07",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "We won't keep you here long. No one expected you couldn't be compelled."
+      },
+      {
+        "id": "L-S1E01-C05-T08",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I don't know what that means."
+      },
+      {
+        "id": "L-S1E01-C05-T09",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "MG tried to erase your memories of this place, but it didn't work."
+      },
+       {
+        "id": "L-S1E01-C05-T10",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "So now what, I'm a hostage? Where's Raf?"
+      },
+      {
+        "id": "L-S1E01-C05-T11",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "He's fine. You're fine, too. Look, compulsion doesn't work on people who take this herb called vervain. The town sheriff sometimes slips it into the coffee at the gas station we were at this morning. It takes about a day to pass through your system, but you just have to wait it out."
+      },
+      {
+        "id": "L-S1E01-C05-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Sure. Yeah, no big deal. Yeah, I'll just sit here alone in the witch dungeon with my thoughts. Would you... I mean... could you wait it out with me?"
+      },
+    {
+        "id": "L-S1E01-C05-T13",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I'm really sorry about all of this. But it was nice to see you again."
+      }
+    
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E01-C05-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Would you... I mean... could you wait it out with me?"
+      },
+    {
+        "id": "L-S1E01-C05-T13",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I'm really sorry about all of this. But it was nice to see you again."
+      }
+    ]
+  }
+    },
+
+    {
+      "id": "L-S1E01-C06",
+      "title": "Hope and Alaric talk about Landon",
+      "description": "Hope and Alaric talk about Landon",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "crush",
+        "like"
+      ],
+      "importance": 2,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C06-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "You didn't have to lock him in the cellar."
+          },
+          {
+         "id": "L-S1E01-C06-T02",
+         "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+         },
+         "text": "Where else was I gonna put him? Block with your hand."
+        },
+       {
+        "id": "L-S1E01-C06-T03",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "You and Landon have a thing or something?"
+      },
+      {
+        "id": "L-S1E01-C06-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I don't have things."
+      },
+      {
+        "id": "L-S1E01-C06-T05",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Yes, I'm well aware of your quest to avoid all emotional intimacy. There was obviously something."
+      },
+      {
+        "id": "L-S1E01-C06-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I liked him. He's normal."
+      },
+      {
+        "id": "L-S1E01-C06-T07",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Well, let's keep him that way. We survive here because we follow the rules. We can't get sloppy about it."
+      },
+      {
+        "id": "L-S1E01-C06-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "You're the one that's always telling me I need to get out more."
+      },
+      {
+        "id": "L-S1E01-C06-T09",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "I tell you that you need to stop locking yourself in your dorm room binge watching Cutthroat Kitchen. I don't tell you to go out and fraternize with the human locals."
+      }
+       
+    
+    ]
+  },
+
+  "short": {
+    "turns": [
+       {
+        "id": "L-S1E01-C06-T03",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "You and Landon have a thing or something?"
+      },
+      {
+        "id": "L-S1E01-C06-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I don't have things."
+      },
+      {
+        "id": "L-S1E01-C06-T05",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Yes, I'm well aware of your quest to avoid all emotional intimacy. There was obviously something."
+      },
+      {
+        "id": "L-S1E01-C06-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I liked him. He's normal."
+      }
+    ]
+  }
+    },
+
+    {
+      "id": "L-S1E01-C07",
+      "title": "Hope and Landon talk in the cell",
+      "description": "Hope and Landon talk in the cell for the second time",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "crush",
+        "angst"
+      ],
+      "importance": 3,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C07-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "Hey"
+          },
+          {
+         "id": "L-S1E01-C07-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "Hope"
+        },
+       {
+        "id": "L-S1E01-C07-T03",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Can't sleep either?"
+      },
+      {
+        "id": "L-S1E01-C07-T04",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah, small spaces. You?"
+      },
+      {
+        "id": "L-S1E01-C07-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Sometimes I get restless."
+      },
+      {
+        "id": "L-S1E01-C07-T06",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Busy brain?"
+      },
+      {
+        "id": "L-S1E01-C07-T07",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Busy everything. My body has a lot going on inside of it."
+      },
+      {
+        "id": "L-S1E01-C07-T08",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Which is an awesome segue into you telling me how you can move things with your mind."
+      },
+      {
+        "id": "L-S1E01-C07-T09",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "You ask a lot of questions."
+      },
+       {
+        "id": "L-S1E01-C07-T10",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Wouldn't you?"
+      },
+      {
+        "id": "L-S1E01-C07-T11",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Hmm. Why are you smiling?"
+      },
+      {
+        "id": "L-S1E01-C07-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I'm remembering the day we danced, in the town square. This guy who used to mess with me in school finally got what was coming to him. I'd had a good day. Just like me to crush on the girl with the most baggage."
+      },
+    {
+        "id": "L-S1E01-C07-T13",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I'm gonna try that sleep thing again."
+      },
+       {
+        "id": "L-S1E01-C07-T14",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "You know, you do that a lot."
+      },
+    {
+        "id": "L-S1E01-C07-T15",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Do what?"
+      },
+      {
+        "id": "L-S1E01-C07-T16",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Leave."
+      },
+    {
+        "id": "L-S1E01-C07-T17",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I can be dangerous to people. It's better if I keep my distance."
+      },
+      {
+        "id": "L-S1E01-C07-T18",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Better for who?"
+      },
+    {
+        "id": "L-S1E01-C07-T19",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Again with the questions."
+      }
+    
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E01-C07-T11",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Hmm. Why are you smiling?"
+      },
+      {
+        "id": "L-S1E01-C07-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I'm remembering the day we danced, in the town square. This guy who used to mess with me in school finally got what was coming to him. I'd had a good day. Just like me to crush on the girl with the most baggage."
+      }
+    ]
+  }
+    },
+{
+      "id": "L-S1E01-C08",
+      "title": "Hope and Landon talk in the library",
+      "description": "Hope and Landon talk  in the library, first part",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "memories",
+        "explanation",
+        "comfort"
+      ],
+      "importance": 3,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C08-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "Are you crazy?! I almost killed you!"
+          },
+          {
+          "id": "L-S1E01-C08-T02",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "Don't touch that."
+          },
+          {
+         "id": "L-S1E01-C08-T03",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "Sorry. I didn't. I-I mean, I wasn't. Where are we?"
+        },
+       {
+        "id": "L-S1E01-C08-T04",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Uh, the Stefan Salvatore Memorial Library. All the artifacts in here have a supernatural history."
+      },
+      {
+        "id": "L-S1E01-C08-T05",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "What's the story on this one?"
+      },
+      {
+        "id": "L-S1E01-C08-T06",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "No idea, but in my experience your safest bet is to not touch it."
+      },
+      {
+        "id": "L-S1E01-C08-T07",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Noted."
+      },
+      {
+        "id": "L-S1E01-C08-T08",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I'm sorry about earlier. You shouldn't have been out there."
+      },
+      {
+        "id": "L-S1E01-C08-T09",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah. I'll file that under the things that seem really obvious after the fact. So... I guess this means you're a werewolf. He said, casually."
+      },
+      {
+        "id": "L-S1E01-C08-T10",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I'm a lot of things."
+      },
+       {
+        "id": "L-S1E01-C08-T11",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Care to elaborate?"
+      },
+      {
+        "id": "L-S1E01-C08-T12",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "They're just gonna make you forget tomorrow."
+      },
+      {
+        "id": "L-S1E01-C08-T13",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Come on. Humor me."
+      }
+    
+    
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E01-C08-T09",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah. I'll file that under the things that seem really obvious after the fact. So... I guess this means you're a werewolf. He said, casually."
+      },
+      {
+        "id": "L-S1E01-C08-T10",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "I'm a lot of things."
+      },
+       {
+        "id": "L-S1E01-C08-T11",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Care to elaborate?"
+      },
+      {
+        "id": "L-S1E01-C08-T12",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "They're just gonna make you forget tomorrow."
+      },
+      {
+        "id": "L-S1E01-C08-T13",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Come on. Humor me."
+      }
+    ]
+  }
+    },
+
+    {
+      "id": "L-S1E01-C09",
+      "title": "Hope and Landon talk in the library, unicorn",
+      "description": "Hope and Landon talk  in the library, second part",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "memories",
+        "explanation",
+        "comfort"
+      ],
+      "importance": 5,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C09-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "The blood that runs through my veins isn't human. My dad was one of the earth's Original Vampires."
+          },
+          {
+         "id": "L-S1E01-C09-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "Was?"
+        },
+       {
+        "id": "L-S1E01-C09-T03",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Was. Turns out even immortal beings can find a way to die eventually."
+      },
+      {
+        "id": "L-S1E01-C09-T04",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": " Klaus Mikaelson:The Great Evil."
+      },
+      {
+        "id": "L-S1E01-C09-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "He wasn't very popular around here."
+      },
+      {
+        "id": "L-S1E01-C09-T06",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "One of my foster dads used to burn us with his cigarettes. I guess evil is relative."
+      },
+      {
+        "id": "L-S1E01-C09-T07",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "My mother was a werewolf alpha."
+      },
+      {
+        "id": "L-S1E01-C09-T08",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "There's that was again."
+      },
+      {
+        "id": "L-S1E01-C09-T09",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "The people I care about have a tendency to die on me. I try not to get close to people anymore."
+      },
+       {
+        "id": "L-S1E01-C09-T10",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah, I can see that."
+      },
+      {
+        "id": "L-S1E01-C09-T11",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Um, my grandmother was a witch. So, all of those things passed down, making me..."
+      },
+      {
+        "id": "L-S1E01-C09-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "A unicorn?"
+      },
+      {
+        "id": "L-S1E01-C09-T13",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "A hybrid of three different creatures, tribrid. I can control when I turn, which is what I was doing tonight. I'm the only one of my kind."
+      },
+       {
+        "id": "L-S1E01-C09-T14",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah. See? Unicorn."
+      }
+  
+    
+    
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E01-C09-T11",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "So, all of those things passed down, making me..."
+      },
+      {
+        "id": "L-S1E01-C09-T12",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "A unicorn?"
+      },
+      {
+        "id": "L-S1E01-C09-T13",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "A hybrid of three different creatures, tribrid. I can control when I turn, which is what I was doing tonight. I'm the only one of my kind."
+      },
+       {
+        "id": "L-S1E01-C09-T14",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Yeah. See? Unicorn."
+      }
+    ]
+  }
+    },
+
+    {
+      "id": "L-S1E01-C10",
+      "title": "Hope and Landon talk in the library, flashback",
+      "description": "Hope and Landon talk  in the library, third part",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "memories",
+        "explanation",
+        "comfort"
+      ],
+      "importance": 4,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C10-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "Can I show you something? Earlier, you mentioned the jock that had messed with you the day that we danced."
+          },
+          {
+         "id": "L-S1E01-C10-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "That's the guy. You can just dial up one of my memories like that?"
+        },
+       {
+        "id": "L-S1E01-C10-T03",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "It's not your memory. It's mine."
+      },
+      {
+        "id": "L-S1E01-C10-T04",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "You did that for me?"
+      },
+      {
+        "id": "L-S1E01-C10-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "He had it coming. Um, we shouldn't be in here after curfew. We should get you back before anyone knows that you're gone."
+      }
+      
+  
+    
+    
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E01-C10-T04",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "You did that for me?"
+      },
+      {
+        "id": "L-S1E01-C10-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "He had it coming."
+      }
+    ]
+  }
+    },
+
+    {
+      "id": "L-S1E01-C11",
+      "title": "Hope and Landon first kiss",
+      "description": "Hope and Landon first kill in the cell",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "kiss",
+        "comfort"
+      ],
+      "importance": 5,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C11-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "Give me your hand."
+          },
+          {
+         "id": "L-S1E01-C11-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "I thought we'd established I'm a terrible dancer."
+        },
+       {
+        "id": "L-S1E01-C11-T03",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Preitori Speculo. I thought that might help you sleep."
+      },
+      {
+        "id": "L-S1E01-C11-T04",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "You are a really nice person, Hope Mikaelson. This is the part where you run."
+      },
+      {
+        "id": "L-S1E01-C11-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Yeah, I know."
+      },
+      {
+        "id": "L-S1E01-C11-T06",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I'm not gonna remember any of this. Am I?"
+      },
+      {
+        "id": "L-S1E01-C11-T07",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Probably not. No."
+      },
+      {
+        "id": "L-S1E01-C11-T08",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Well, in that case..."
+      },
+      {
+        "id": "L-S1E01-C11-T09",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+
+      
+  
+    
+    
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E01-C11-T06",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I'm not gonna remember any of this. Am I?"
+      },
+      {
+        "id": "L-S1E01-C11-T07",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Probably not. No."
+      },
+      {
+        "id": "L-S1E01-C11-T08",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Well, in that case..."
+      },
+      {
+        "id": "L-S1E01-C11-T09",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+    ]
+  }
+    },
+
+    {
+      "id": "L-S1E01-C12",
+      "title": "Hope and Alaric talk about Landon stealing the knife",
+      "description": "Hope and Alaric talk about Landon stealing the knife",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "angst"
+      ],
+      "importance": 1,
+      "verified": true,
+
+
+       "full": {
+        "turns": [
+         {
+          "id": "L-S1E01-C12-T01",
+          "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+          },
+          "text": "How do you know it was him?"
+          },
+          {
+         "id": "L-S1E01-C12-T02",
+         "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+         },
+         "text": "Ancient artifact goes missing along with too good to be true hapless human? You do the math, Hope."
+        },
+ 
+      {
+        "id": "L-S1E01-C12-T03",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "That would make him a liar, okay? I've known my fair share of those, and there was nothing about him..."
+      },
+      {
+        "id": "L-S1E01-C12-T04",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Hope..."
+      },
+      {
+        "id": "L-S1E01-C12-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "No, you don't understand. There's no way that the one time that I choose to get close to someone, they turn out to be a liar. It's not possible, okay? I'm not that stupid."
+      }
+      
+       
+    
+    ]
+  },
+
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E01-C12-T03",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "That would make him a liar, okay? I've known my fair share of those, and there was nothing about him..."
+      },
+      {
+        "id": "L-S1E01-C12-T04",
+        "speaker": {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        "text": "Hope..."
+      },
+      {
+        "id": "L-S1E01-C12-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "No, you don't understand. There's no way that the one time that I choose to get close to someone, they turn out to be a liar. It's not possible, okay? I'm not that stupid."
+      }
+    ]
+  }
+    }
+
+  ]
+}
