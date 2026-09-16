@@ -381,7 +381,7 @@
           "character": "Alaric",
           "version": "Alaric"
          },
-         "text": "The werewolf gene lies dormant until the carrier takes a human life. If Rafael triggered his curse, it's... because he killed someone. And we don't accept coldblooded killers into our program."
+         "text": "The werewolf gene lies dormant until the carrier takes a human life. If Rafael triggered his curse, it's... because he ed someone. And we don't accept coldblooded ers into our program."
         },
        {
         "id": "L-S1E01-C04-T03",
@@ -389,7 +389,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": " He's not a killer."
+        "text": " He's not a er."
       },
       {
         "id": "L-S1E01-C04-T04",
@@ -405,7 +405,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": "He's not... a killer"
+        "text": "He's not... a er"
       },
       {
         "id": "L-S1E01-C04-T06",
@@ -1018,7 +1018,7 @@
           "character": "Hope",
           "version": "Hope"
           },
-          "text": "Are you crazy?! I almost killed you!"
+          "text": "Are you crazy?! I almost ed you!"
           },
           {
           "id": "L-S1E01-C08-T02",
@@ -1451,7 +1451,7 @@
     {
       "id": "L-S1E01-C11",
       "title": "Hope and Landon first kiss",
-      "description": "Hope and Landon first kill in the cell",
+      "description": "Hope and Landon first kiss in the cell",
       "participants": [
         {
           "character": "Hope",
