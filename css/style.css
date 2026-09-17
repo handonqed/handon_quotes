@@ -82,8 +82,4 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     }
 }
 
-@media (max-width: 700px) {
-    .heading-gifs img:nth-child(n+3) {
-        display: none;
-    }
-}
+
