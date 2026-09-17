@@ -1,0 +1,1394 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 5,
+  "episode_id": "L-S1E05",
+  "episode_title": "Malivore",
+  "conversations": [
+    
+    {
+      "id": "L-S1E05-C01",
+      "title": "Hope and Landon begin the tests",
+      "description": "Hope administers the tests that will help determine whether Landon can stay at the school, while Landon challenges her perceived bias.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "testing",
+        "bias",
+        "trust",
+        "belonging"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E05-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What are you doing here?"
+          },
+          {
+            "id": "L-S1E05-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Dr. Saltzman wanted me to administer your tests, starting with some weird mystical blood analysis."
+          },
+          {
+            "id": "L-S1E05-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No."
+          },
+           {
+            "id": "L-S1E05-C01-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Excuse me?"
+          },
+          {
+            "id": "L-S1E05-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No. These tests determine whether or not I get to stay at the school, right? There is no way I'm putting my future in your hands; you're biased."
+          },
+          {
+            "id": "L-S1E05-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not biased. Besides, neither of us has a choice. Believe me, this is not how I would choose to spend my day, either."
+          },
+          {
+            "id": "L-S1E05-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "See? Biased."
+          },
+          {
+            "id": "L-S1E05-C01-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon. Last thing that you told me was that you wanted to find answers about who or what you are. I want those answers, too. So let's just get through this."
+          }
+     
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E05-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No. These tests determine whether or not I get to stay at the school, right? There is no way I'm putting my future in your hands; you're biased."
+          },
+          {
+            "id": "L-S1E05-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not biased. Besides, neither of us has a choice. Believe me, this is not how I would choose to spend my day, either."
+          },
+          {
+            "id": "L-S1E05-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "See? Biased."
+          },
+          {
+            "id": "L-S1E05-C01-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon. Last thing that you told me was that you wanted to find answers about who or what you are. I want those answers, too. So let's just get through this."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E05-C02",
+      "title": "Hope and Landon continue the supernatural tests",
+      "description": "Hope and Landon continue testing Landon's abilities.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Emma",
+          "version": "Emma"
+        }
+      ],
+      "subjects": [
+
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "tests",
+        "identity",
+        "school"
+      ],
+      "importance": 1,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E05-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey, I'm doing it. Now what?"
+          },
+          {
+            "id": "L-S1E05-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hold it for ten minutes."
+          },
+
+          {
+            "id": "L-S1E05-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What?"
+          },
+          {
+            "id": "L-S1E05-C02-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You can stop. You failed. You have no supernatural strength."
+          },
+
+          {
+            "id": "L-S1E05-C02-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What's next?"
+          },
+          {
+            "id": "L-S1E05-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Next?"
+          },
+          {
+            "id": "L-S1E05-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You failed the vertical climb, the long jump, and you straight-up refused to swim across the lake."
+          },
+          {
+            "id": "L-S1E05-C02-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, well, excuse the foster kid for never having swim lessons. Look, I might suck at-at... everything, apparently, but I only have to pass one test to stay, so I'm not giving up yet."
+          },
+
+          {
+            "id": "L-S1E05-C02-T06",
+            "speaker": {
+              "character": "Emma",
+              "version": "Emma"
+            },
+            "text": "How's it going?"
+          },
+           {
+            "id": "L-S1E05-C02-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon was about to run sprints to the lake and back."
+          },
+          {
+            "id": "L-S1E05-C02-T08",
+            "speaker": {
+              "character": "Emma",
+              "version": "Emma"
+            },
+            "text": "What are you testing for exactly?"
+          },
+           {
+            "id": "L-S1E05-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "His ability to get away from me as quickly as possible. If he's gonna stay in this school, it's a must."
+          },
+           {
+            "id": "L-S1E05-C02-T10",
+            "speaker": {
+              "character": "Emma",
+              "version": "Emma"
+            },
+            "text": "Did you run the lineage spell that I left you?"
+          },
+           {
+            "id": "L-S1E05-C02-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, first thing. Zero magic in his bloodline."
+          },
+          {
+            "id": "L-S1E05-C02-T12",
+            "speaker": {
+              "character": "Emma",
+              "version": "Emma"
+            },
+            "text": "Most humans have some trace of magical blood in their veins from a far-flung ancestor."
+          },
+           {
+            "id": "L-S1E05-C02-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So what does that mean?"
+          },
+          {
+            "id": "L-S1E05-C02-T14",
+            "speaker": {
+              "character": "Emma",
+              "version": "Emma"
+            },
+            "text": "We need to learn more about Landon's past."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E05-C02-T08",
+            "speaker": {
+              "character": "Emma",
+              "version": "Emma"
+            },
+            "text": "What are you testing for exactly?"
+          },
+           {
+            "id": "L-S1E05-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "His ability to get away from me as quickly as possible. If he's gonna stay in this school, it's a must."
+          }
+        ]
+      }
+    },
+
+
+   {
+      "id": "L-S1E05-C03",
+      "title": "Hope and Landon use the the supernatural lie detector ",
+      "description": "Hope and Landon use the supernatural lie detector about his storry and the question of why he took the knife.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [
+
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "tests",
+        "identity",
+        "adoption",
+        "knife",
+        "school"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+
+
+          {
+            "id": "L-S1E05-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What's your name?"
+          },
+          {
+            "id": "L-S1E05-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Landon Kirby."
+          },
+          {
+            "id": "L-S1E05-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "See? That's the truth. Now lie. What's your favorite food?"
+          },
+          {
+            "id": "L-S1E05-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Rabbit. So it's a... supernatural lie detector."
+          },
+          {
+            "id": "L-S1E05-C03-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Pretty much your worst nightmare."
+          },
+          {
+            "id": "L-S1E05-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Bring it on, Hope."
+          },
+          {
+            "id": "L-S1E05-C03-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Where were you born?"
+          },
+          {
+            "id": "L-S1E05-C03-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't know."
+          },
+          {
+            "id": "L-S1E05-C03-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Who are your parents?"
+          },
+          {
+            "id": "L-S1E05-C03-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "My mom's name is Seylah. That's pretty much all I know. She gave me up for adoption when I was young."
+          },
+          {
+            "id": "L-S1E05-C03-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And your dad?"
+          },
+          {
+            "id": "L-S1E05-C03-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Never met him."
+          },
+          {
+            "id": "L-S1E05-C03-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why can't you be compelled?"
+          },
+          {
+            "id": "L-S1E05-C03-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I have no idea. A couple days ago, I didn't even know what compulsion was."
+          },
+          {
+            "id": "L-S1E05-C03-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why'd you take the knife?"
+          },
+          {
+            "id": "L-S1E05-C03-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't know. I don't... I remember doing it, but I don't remember why."
+          },
+          {
+            "id": "L-S1E05-C03-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's not good enough If we can't figure out what you are, then you can't stay at this school.."
+          }
+  
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E05-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So it's a... supernatural lie detector."
+          },
+          {
+            "id": "L-S1E05-C03-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Pretty much your worst nightmare."
+          },
+          {
+            "id": "L-S1E05-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Bring it on, Hope."
+          }
+        ]
+      }
+    },
+    
+
+    {
+      "id": "L-S1E05-C04",
+      "title": "Landon apologizes using the lie detector and Hope accepts it",
+      "description": "Landon apologizes using the lie detector and Hope accepts it",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [
+
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "sorry",
+        "thank you",
+        "dissapoint",
+        "comfort"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+
+
+          {
+            "id": "L-S1E05-C04-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You said you'd help me get answers."
+          },
+          {
+            "id": "L-S1E05-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I didn't even want to do this. Don't blame me because you're not special."
+          },
+          {
+            "id": "L-S1E05-C04-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I apologized for lying to you. I explained why I took the knife. Why are you still so mad at me?"
+          },
+          {
+            "id": "L-S1E05-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not mad. I couldn't care less."
+          },
+          {
+            "id": "L-S1E05-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Fine. It's easier to be mad."
+          },
+          {
+            "id": "L-S1E05-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Why?"
+          },
+          {
+            "id": "L-S1E05-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because it is"
+          },
+          {
+            "id": "L-S1E05-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Or maybe it's because you feel like if you stop being mad you're letting your guard down, and the legendary Hope Mikaelson couldn't possibly do that."
+          },
+          {
+            "id": "L-S1E05-C04-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "When I let my guard down, people disappoint me."
+          },
+          {
+            "id": "L-S1E05-C04-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Growing up in the foster system...every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh,click your heels three times, no place like home kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before its starts to seems impossible to trust someone new. Especially when they lie to you."
+          },
+          {
+            "id": "L-S1E05-C04-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So, for the last time, I'm sorry. I broke your trust. I don't want to do it again."
+          },
+          {
+            "id": "L-S1E05-C04-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Thank you"
+          },
+          {
+            "id": "L-S1E05-C04-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "But if this goes the wrong way, can you just make sure that Raf doesn't, um, follow me this time? As much as I want to stay here, he needs to. He finally found a home he deserves. I'm not gonna take that away from him."
+          }
+          
+  
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E05-C04-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "When I let my guard down, people disappoint me."
+          },
+          {
+            "id": "L-S1E05-C04-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Growing up in the foster system...every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh,click your heels three times, no place like home kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before its starts to seems impossible to trust someone new. Especially when they lie to you."
+          },
+          {
+            "id": "L-S1E05-C04-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So, for the last time, I'm sorry. I broke your trust. I don't want to do it again."
+          },
+          {
+            "id": "L-S1E05-C04-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Thank you"
+          }
+        ]
+      }
+    },
+
+    
+    {
+      "id": "L-S1E05-C05",
+      "title": "Hope takes care of Landon",
+      "description": "Hope takes care of Landon after Jed's attack",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        }
+      ],
+      "subjects": [
+
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "sorry",
+        "heal",
+        "protect",
+        "comfort"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+
+
+          {
+            "id": "L-S1E05-C05-T01",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "I'm gonna tear Jed apart."
+          },
+          {
+            "id": "L-S1E05-C05-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No, you're really not."
+          },
+          {
+            "id": "L-S1E05-C05-T03",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "He's gonna pay for what he did. He could've killed him."
+          },
+          {
+            "id": "L-S1E05-C05-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You want to do something to help him? Take a walk to the herb garden and get me some hazelwood root."
+          },
+          {
+            "id": "L-S1E05-C05-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What does hazelwood root do?"
+          },
+          {
+            "id": "L-S1E05-C05-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Make him cool off before he realizes that I made it up."
+          },
+          {
+            "id": "L-S1E05-C05-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Raf's had a... a rough couple of weeks."
+          },
+          {
+            "id": "L-S1E05-C05-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look who's talking. Guess we can cross supernatural healing off the list."
+          },
+          {
+            "id": "L-S1E05-C05-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm sorry that this happened to you. Jed's one of those rare cases where his bite is actually worse than his bark."
+          },
+          {
+            "id": "L-S1E05-C05-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I've dealt with bullies before."
+          },
+          {
+            "id": "L-S1E05-C05-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Not like this. I know how badly you want to stay here, but this school is full of people like Jed. Some of us are nicer, some of us have more control, but all of us are capable of doing what he did. Do you honestly think that you're safe here?"
+          },
+          {
+            "id": "L-S1E05-C05-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yes, I do."
+          },
+          {
+            "id": "L-S1E05-C05-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You should rest"
+          }
+  
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E05-C05-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Raf's had a... a rough couple of weeks."
+          },
+          {
+            "id": "L-S1E05-C05-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look who's talking. Guess we can cross supernatural healing off the list."
+          },
+          {
+            "id": "L-S1E05-C05-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm sorry that this happened to you."
+          }
+        ]
+      }
+    },
+
+
+
+    {
+      "id": "L-S1E05-C06",
+      "title": "Hope and Alaric talk about Landon and the honor council",
+      "description": "Hope tells Alaric she wants a seat on the honor council, and he asks whether her interest is connected to Landon.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "Landon",
+        "council",
+        "personal"
+      ],
+      "importance": 1,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E05-C06-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "How's the interrogation going?"
+          },
+          {
+            "id": "L-S1E05-C06-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "She's not talking. But I think I figured out why no one remembers dragons, gargoyles or dryads existing. I mean, whatever happened to these creatures, it erased all memory of them. It's like they never existed in the first place."
+          },
+
+          {
+            "id": "L-S1E05-C06-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I guess that explains a lot."
+          },
+
+          {
+            "id": "L-S1E05-C06-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Well, don't sound so excited. It's only a massive piece of the puzzle that explains why these creatures only exist in legends and myths."
+          },
+          {
+            "id": "L-S1E05-C06-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sorry. I'm just having a day."
+          },
+          {
+            "id": "L-S1E05-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Listen, I want a seat on the council. I'm a tribrid... The only one of my kind. No one can represent my interests but me."
+          },
+          {
+            "id": "L-S1E05-C06-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Is this about Landon? Because you can't let this get personal."
+          },
+          {
+            "id": "L-S1E05-C06-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "The political is personal. I learned that in Advanced Civics, taught by you."
+          },
+          {
+            "id": "L-S1E05-C06-T08",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "That's cheating. But I trust that you'll make the right call."
+          }
+
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E05-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Listen, I want a seat on the council. I'm a tribrid... The only one of my kind. No one can represent my interests but me."
+          },
+          {
+            "id": "L-S1E05-C06-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Is this about Landon? Because you can't let this get personal."
+          },
+          {
+            "id": "L-S1E05-C06-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "The political is personal."
+          }
+        ]
+      }
+    },
+
+
+    {
+      "id": "L-S1E05-C07",
+      "title": "Hope walks Landon to the bus stop",
+      "description": "Hope walks Landon to the bus stop, accepts she is biased, helps him and kiss",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "goodbye",
+        "care",
+        "biased",
+        "family",
+        "bracelet",
+        "kiss",
+        "sorry",
+        "comfort",
+        "romantic",
+        "make out"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E05-C07-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Thanks for walking me."
+          },
+          {
+            "id": "L-S1E05-C07-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S1E05-C07-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I had to go before Rafael tried to follow me again."
+          },
+          {
+            "id": "L-S1E05-C07-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We didn't take the vote lightly. It was close."
+          },
+          {
+            "id": "L-S1E05-C07-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, I don't really need to hear about that. I'm in enough pain as it is."
+          },
+          {
+            "id": "L-S1E05-C07-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I voted no."
+          },
+          {
+            "id": "L-S1E05-C07-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah. Didn't need to know that. Why, exactly?"
+          },
+          {
+            "id": "L-S1E05-C07-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Remember when you asked me to make sure that Raf didn't follow you? You did it 'cause you care about him, because... you wanted to do what was right for him. Even though it was hard."
+          },
+          {
+            "id": "L-S1E05-C07-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Is that your way of admitting you care about me?"
+          },
+          {
+            "id": "L-S1E05-C07-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Maybe I'm a little biased."
+          },
+          {
+            "id": "L-S1E05-C07-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "New Orleans."
+          },
+          {
+            "id": "L-S1E05-C07-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I have a family friend there that's expecting you. I asked him to help you find your birth mom."
+          },
+          {
+            "id": "L-S1E05-C07-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What?"
+          },
+          {
+            "id": "L-S1E05-C07-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I couldn't get you the answers that you wanted, but he can. With this. I put the results of your lineage spell in there. And, um, some money. And a sandwich. I hope you like ham."
+          },
+          {
+            "id": "L-S1E05-C07-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Thank you."
+          },
+          {
+            "id": "L-S1E05-C07-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah. Oh, and, um... and this."
+          },
+   
+          {
+            "id": "L-S1E05-C07-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What is this?"
+          },
+          {
+            "id": "L-S1E05-C07-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Think of it like a... 'click your heels together three times' kind of thing. If you ever need me, just press it, and my bracelet will lead me to you."
+          },
+          {
+            "id": "L-S1E05-C07-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I should go."
+          },
+          {
+            "id": "L-S1E05-C07-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay."
+          },
+          {
+            "id": "L-S1E05-C07-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Bye. Bye, Landon."
+          },
+          {
+            "id": "L-S1E05-C07-T23",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I wanted to see if it worked."
+          },
+
+          {
+        "id": "L-S1E01-C07-T24",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      },
+        
+      {
+            "id": "L-S1E05-C07-T25",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Ow. Ooh"
+          },
+          {
+            "id": "L-S1E05-C07-T26",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sorry. Sorry."
+          },
+
+          {
+            "id": "L-S1E05-C07-T27",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's good. It's okay. It's worth it. It's worth it"
+          },
+           {
+            "id": "L-S1E05-C07-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, I'm sorry. I'm sorry. Okay."
+          },
+
+          {
+        "id": "L-S1E01-C07-T29",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+
+
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E05-C07-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What is this?"
+          },
+          {
+            "id": "L-S1E05-C07-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Think of it like a... 'click your heels together three times' kind of thing. If you ever need me, just press it, and my bracelet will lead me to you."
+          },
+          {
+            "id": "L-S1E05-C07-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I should go."
+          },
+          {
+            "id": "L-S1E05-C07-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay."
+          },
+          {
+            "id": "L-S1E05-C07-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Bye. Bye, Landon."
+          },
+          {
+            "id": "L-S1E05-C07-T23",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I wanted to see if it worked."
+          },
+
+          {
+        "id": "L-S1E01-C07-T24",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      },
+        
+      {
+            "id": "L-S1E05-C07-T25",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Ow. Ooh"
+          },
+          {
+            "id": "L-S1E05-C07-T26",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sorry. Sorry."
+          },
+
+          {
+            "id": "L-S1E05-C07-T27",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's good. It's okay. It's worth it. It's worth it"
+          },
+           {
+            "id": "L-S1E05-C07-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, I'm sorry. I'm sorry. Okay."
+          },
+
+          {
+        "id": "L-S1E01-C07-T29",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+        ]
+      }
+    }
+    
+  ]
+}
