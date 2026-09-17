@@ -61,7 +61,10 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     object-fit: cover;
     border-radius: 12px;
 }
-
+#episodes .heading-gifs img {
+    width: 240px;
+    height: 200px;
+}
 @media (max-width: 900px) {
     .page-heading {
         flex-direction: column;
