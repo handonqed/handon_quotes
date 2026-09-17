@@ -71,10 +71,24 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     height: 300px;
 }
 
-
 @media (max-width: 900px) {
+    .page-heading {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .heading-gifs {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .heading-gifs img {
+        width: 120px;
+        height: 120px;
+    }
     #episodes .heading-gifs img {
         width: 100px;
         height: 83px;
     }
 }
+
