@@ -56,7 +56,7 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
 }
 
 .heading-gifs img {
-    width: 250px;
+    width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
@@ -75,7 +75,7 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
 
     .heading-gifs img {
         width: 140px;
-        height: 100px;
+        height: 140px;
     }
 }
 
