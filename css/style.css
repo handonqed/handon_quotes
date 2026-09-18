@@ -143,12 +143,12 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
         height: 180px;
     }
   #tags .heading-gifs img {
-        width: 150px;
-        height: 100px;
+        width: 105px;
+        height: 70px;
     }
     #search .heading-gifs img {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
     }
     .home-hero {
         flex-direction: column;
