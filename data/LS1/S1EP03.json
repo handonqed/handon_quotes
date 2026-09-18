@@ -1,0 +1,216 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 3,
+  "episode_id": "L-S1E03",
+  "episode_title": "We're being punked, Pedro",
+  "conversations": [
+    
+    {
+      "id": "L-S1E03-C01",
+      "title": "Landon and Rafael discuss Hope and Landon",
+      "description": "Rafael asks Landon why he kept lying to Hope and reflects on the fact that Landon may never see her again.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "regret",
+        "knife"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+         {
+            "id": "L-S1E03-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's food, man. I'm good. Thanks for sticking with me."
+          },
+          {
+            "id": "L-S1E03-C01-T02",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Nowhere else I'd rather be, bro."
+          },
+          {
+            "id": "L-S1E03-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't know. That school was good for you."
+          },
+          {
+            "id": "L-S1E03-C01-T04",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Lan, you run, I run, period."
+          },
+           {
+            "id": "L-S1E03-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "She hates me, doesn't she?"
+          },
+          {
+            "id": "L-S1E03-C01-T06",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Hope? Probably. You want to explain why you kept lying to her? Why you lied to me."
+          },
+          {
+            "id": "L-S1E03-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That's the problem. I can't. Every time I try to put it into words, all I can say is... it's like the knife wanted me to steal it. And then it wanted me to lie."
+          },
+           {
+            "id": "L-S1E03-C01-T08",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Knives don't have conscious thoughts, brother."
+          },
+          {
+            "id": "L-S1E03-C01-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I know, but knives don't usually attract dragons either."
+          },
+           {
+            "id": "L-S1E03-C01-T10",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Um, well, what's done is done. It's not like you're ever gonna see her again anyway. Hey, hey... it's just the two of us. Living off the land. Nothing better."
+          },
+          {
+            "id": "L-S1E03-C01-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "A burger. A burger would be better."
+          },
+           {
+            "id": "L-S1E03-C01-T12",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "A burger would be better."
+          }
+
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E03-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "She hates me, doesn't she?"
+          },
+          {
+            "id": "L-S1E03-C01-T06",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Hope? Probably."
+          }
+
+        ]
+      }
+    },
+    
+    {
+      "id": "L-S1E03-C02",
+      "title": "Hope and Josie discuss Landon",
+      "description": "Hope tells Josie that Landon and Rafael left together, that Landon said he did not know why he stole the knife, and that his letter was unexpectedly sweet.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "sweet",
+        "letter"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+        {
+            "id": "L-S1E03-C02-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And Landon and Rafael took off together. Landon told me he didn't know why he stole the knife. But then he lied about having it, so I don't know what to believe."
+          },
+          {
+            "id": "L-S1E03-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Then he wrote me this letter that was... I don't know, sweet."
+          }
+
+        ]
+      },
+      "short": {
+        "turns": [
+
+       {
+            "id": "L-S1E03-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Then he wrote me this letter that was... I don't know, sweet."
+          }
+
+        ]
+      }
+    }
+    
+    
+  ]
+}

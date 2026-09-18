@@ -1,0 +1,79 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 7,
+  "episode_id": "L-S1E07",
+  "episode_title": "Death keeps knocking on my door",
+  "conversations": [
+    {
+      "id": "L-S1E07-C01",
+      "title": "Hope's bracelet, which she gave to Landon, glows",
+      "description": "Hope's bracelet she gave to Landon glows",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "care",
+        "bracelet",
+        "protect"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E07-C01-T01",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "bracelet glows"
+          },
+          {
+            "id": "L-S1E07-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon's in trouble."
+          }
+          
+          
+        ]
+      },
+      "short": {
+        "turns": [
+         {
+            "id": "L-S1E07-C01-T01",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "bracelet glows"
+          },
+          {
+            "id": "L-S1E07-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon's in trouble."
+          }
+        ]
+      }
+    }
+    
+   
+      
+
+    
+    
+    
+  ]
+}

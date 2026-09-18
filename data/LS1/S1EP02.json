@@ -370,7 +370,7 @@
         "text": "Looks can be deceiving. Now our bus refugee, turns out she's a pyromancer."
       },
       {
-        "id": "L-S1E02-C02-21",
+        "id": "L-S1E02-C02-T21",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -378,7 +378,7 @@
         "text": "Wait, wh-what's a pyromancer?"
       },
       {
-        "id": "L-S1E02-C02-21",
+        "id": "L-S1E02-C02-T22",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -386,7 +386,7 @@
         "text": "A fire-breathing witch. Ric, she wants the knife."
       },
       {
-        "id": "L-S1E02-C02-T22",
+        "id": "L-S1E02-C02-T23",
         "speaker": {
           "character": "Alaric",
           "version": "Alaric"
@@ -394,7 +394,7 @@
         "text": "Okay, well, where is it?"
       },
       {
-        "id": "L-S1E02-C02-23",
+        "id": "L-S1E02-C02-T24",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -499,7 +499,7 @@
           "character": "Landon",
           "version": "Landon"
          },
-         "text": " I don't know."
+         "text": "I don't know."
         },
        {
         "id": "L-S1E02-C03-T03",
@@ -590,7 +590,7 @@
         "text": "What is all this?"
       },
       {
-        "id": "L-S1E02-C02-T14",
+        "id": "L-S1E02-C03-T14",
         "speaker": {
           "character": "Rafael",
           "version": "Rafael"
@@ -643,7 +643,7 @@
 {
       "id": "L-S1E02-C04",
       "title": "Landon's letter to Hope",
-      "description": "Landon letter to Hope",
+      "description": "Landon's letter to Hope",
       "participants": [
   
         {
@@ -679,7 +679,7 @@
           "character": "Landon",
           "version": "Landon"
          },
-         "text": " I can't explain why I took that knife. Believe me, I wish I could. But maybe I can explain why I ran."
+         "text": "I can't explain why I took that knife. Believe me, I wish I could. But maybe I can explain why I ran."
         },
        {
           "id": "L-S1E02-C04-T03",

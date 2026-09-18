@@ -52,7 +52,7 @@
           "character": "Landon",
           "version": "Landon"
          },
-         "text": "Hey"
+         "text": "Hey."
         },
        {
         "id": "L-S1E11-C01-T03",
@@ -60,7 +60,7 @@
           "character": "Hope",
           "version": "Hope"
         },
-        "text": "Handsomes.Mmm. Sweet, sweet carbs."
+        "text": "Handsomes. Mmm. Sweet, sweet carbs."
       },
       {
         "id": "L-S1E11-C01-T04",
@@ -113,8 +113,8 @@
 
     {
       "id": "L-S1E11-C02",
-      "title": "Hope wants do a talent with Landon. Team other",
-      "description": "Hope wants do a talent with Landon. Team other",
+      "title": "Hope wants to do a talent with Landon. Team other",
+      "description": "Hope wants to do a talent with Landon. Team other",
       "participants": [
         {
           "character": "Hope",
@@ -126,12 +126,13 @@
         }
       ],
       "subjects": [],
-      "scene_type": "conversation",
+      "scene_type": "kiss",
       "tags": [
         "talent_show",
         "romantic",
         "relationship",
         "kiss",
+        "make out",
         "team other"
       ],
       "importance": 4,
@@ -247,7 +248,7 @@
           "character": "Hope",
           "version": "Hope"
           },
-          "text": "Sorry to bolt, but I gotta go figure what Landon and I are good at together. Besides making out."
+          "text": "Sorry to bolt, but I gotta go figure out what Landon and I are good at together. Besides making out."
           },
           {
          "id": "L-S1E11-C03-T02",
@@ -278,7 +279,7 @@
           "character": "Hope",
           "version": "Hope"
           },
-          "text": "Sorry to bolt, but I gotta go figure what Landon and I are good at together. Besides making out."
+          "text": "Sorry to bolt, but I gotta go figure out what Landon and I are good at together. Besides making out."
           }
     ]
   }
@@ -361,7 +362,7 @@
         "text": "I don't really sing in front of people, those songs are private."
       },
       {
-        "id": "L-S1E11-C04-T09",
+        "id": "L-S1E11-C04-T07",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -369,7 +370,7 @@
         "text": "Okay, well... cake decorating it is. And you know what? You're gonna like it."
       },
       {
-        "id": "L-S1E11-C04-T10",
+        "id": "L-S1E11-C04-T08",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -377,7 +378,7 @@
         "text": "I like whatever's gotten into you lately."
       },
       {
-        "id": "L-S1E11-C04-T11",
+        "id": "L-S1E11-C04-T09",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -385,7 +386,7 @@
         "text": "Yeah? The only thing... that would make this day better..."
       },
       {
-        "id": "L-S1E11-C04-T12",
+        "id": "L-S1E11-C04-T10",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -393,7 +394,7 @@
         "text": "Huh?"
       },
       {
-        "id": "L-S1E11-C04-T13",
+        "id": "L-S1E11-C04-T11",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -401,7 +402,7 @@
         "text": "Is if we went and got rid of that urn."
       },
       {
-        "id": "L-S1E11-C04-T14",
+        "id": "L-S1E11-C04-T12",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -409,7 +410,7 @@
         "text": "As the person that stole the knife that started this whole thing, trust me, that sounds like a bad idea."
       },
       {
-        "id": "L-S1E11-C04-T15",
+        "id": "L-S1E11-C04-T13",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -417,7 +418,7 @@
         "text": "It'll be fun. It'll be like a road trip. We'll just grab the damn thing and take it wherever it leads us."
       },
       {
-        "id": "L-S1E11-C04-T16",
+        "id": "L-S1E11-C04-T14",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -425,7 +426,7 @@
         "text": "From what that Necromancer told you, Malivore is where that leads us, and we have no idea where that is. Are you feeling okay?"
       },
       {
-        "id": "L-S1E11-C04-T17",
+        "id": "L-S1E11-C04-T15",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -433,7 +434,7 @@
         "text": "We can talk about it on the road."
       },
       {
-        "id": "L-S1E11-C04-T18",
+        "id": "L-S1E11-C04-T16",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -441,7 +442,7 @@
         "text": "I... The cake. Oh...Hope, can you get the vent."
       },
       {
-        "id": "L-S1E11-C04-T19",
+        "id": "L-S1E11-C04-T17",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -449,7 +450,7 @@
         "text": "Oh, my God! Landon. What is that?"
       },
       {
-        "id": "L-S1E11-C04-T20",
+        "id": "L-S1E11-C04-T18",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -457,6 +458,34 @@
         "text": "You ever see Wrath of Khan?"
       }
     
+    ]
+  },
+  "short": {
+    "turns": [
+      {
+        "id": "L-S1E11-C04-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "You know, it's not too late to pull out that notebook of lyrics that you have and sing something."
+      },
+      {
+        "id": "L-S1E11-C04-T06",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "I don't really sing in front of people, those songs are private."
+      },
+      {
+        "id": "L-S1E11-C04-T07",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Okay, well... cake decorating it is. And you know what? You're gonna like it."
+      }
     ]
   }
 },
@@ -537,7 +566,7 @@
   "short": {
     "turns": [
       {
-          "id": "L-S1E11-C05-T06",
+          "id": "L-S1E11-C05-T05",
           "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -699,7 +728,7 @@
           "character": "Hope",
           "version": "Hope"
           },
-          "text": "I don't want to know, do I?."
+          "text": "I don't want to know, do I?"
           },
 
           {
@@ -729,7 +758,7 @@
           "character": "Hope",
           "version": "Hope"
           },
-          "text": "I don't want to know, do I?."
+          "text": "I don't want to know, do I?"
           },
 
           {
@@ -808,8 +837,29 @@
 
   "short": {
     "turns": [
+       {
+         "id": "L-S1E11-C07-T02",
+         "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+         },
+         "text": "Great. So we just have to find a way to electrocute every student in the school without killing them."
+        },
+       {
+        "id": "L-S1E11-C07-T03",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "So they're all infected?"
+      },
       {
-        
+        "id": "L-S1E11-C07-T04",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "Okay. Yeah, I'm not gonna wait around to find out."
       }
     ]
     }
@@ -978,7 +1028,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": " No. That's genius. That's why there's no slug in her. She's been zapping herself."
+        "text": "No. That's genius. That's why there's no slug in her. She's been zapping herself."
       },
       {
         "id": "L-S1E11-C08-T17",
@@ -1018,7 +1068,7 @@
     },
 
     {
-      "id": "L-S1E11-C9",
+      "id": "L-S1E11-C09",
       "title": "Hope and Landon talk before he sings to her",
       "description": "Hope and Landon discuss the slug monster before he sings to her",
       "participants": [
@@ -1046,7 +1096,7 @@
        "full": {
         "turns": [
          {
-          "id": "L-S1E11-C9-T01",
+          "id": "L-S1E11-C09-T01",
           "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1054,7 +1104,7 @@
           "text": "Hi. So it took three showers, but I think I'm finally clean."
           },
           {
-         "id": "L-S1E11-C9-T02",
+         "id": "L-S1E11-C09-T02",
          "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1062,7 +1112,7 @@
          "text": "Three of 'em? Wow."
         },
        {
-        "id": "L-S1E11-C9-T03",
+        "id": "L-S1E11-C09-T03",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1070,7 +1120,7 @@
         "text": "Three. Mm-hmm."
       },
       {
-        "id": "L-S1E11-C9-T04",
+        "id": "L-S1E11-C09-T04",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1078,7 +1128,7 @@
         "text": "Yeah, I don't have slug envy or anything, but why do you think I wasn't infected? I mean, it got pretty much everybody, except Lizzie, and she had the bracelet. Unless something's just wrong with me."
       },
       {
-        "id": "L-S1E11-C9-T05",
+        "id": "L-S1E11-C09-T05",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1086,7 +1136,7 @@
         "text": "I don't, I don't know."
       },
       {
-        "id": "L-S1E11-C9-T06",
+        "id": "L-S1E11-C09-T06",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1094,7 +1144,7 @@
         "text": "Oh, come on. Professional monster hunter Hope Mikaelson doesn't even have a theory?"
       },
       {
-        "id": "L-S1E11-C9-T07",
+        "id": "L-S1E11-C09-T07",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1102,7 +1152,7 @@
         "text": "I guess I'll add it to the list of unexplainable things about Landon Kirby."
       },
       {
-        "id": "L-S1E11-C9-T08",
+        "id": "L-S1E11-C09-T08",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1110,7 +1160,7 @@
         "text": "I was being ridiculous all day. But I was happy. The things I said, how I acted... Maybe it could be that way all the time. Maybe the only thing that's keeping me from being happy is me."
       },
       {
-        "id": "L-S1E11-C9-T09",
+        "id": "L-S1E11-C09-T09",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1118,7 +1168,7 @@
         "text": "You know, if life was about being happy all the time, neither of us would've survived this long."
       },
       {
-        "id": "L-S1E11-C9-T10",
+        "id": "L-S1E11-C09-T10",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1133,7 +1183,7 @@
     "turns": [
       {
         
-        "id": "L-S1E11-C9-T06",
+        "id": "L-S1E11-C09-T06",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1141,7 +1191,7 @@
         "text": "Oh, come on. Professional monster hunter Hope Mikaelson doesn't even have a theory?"
       },
       {
-        "id": "L-S1E11-C9-T07",
+        "id": "L-S1E11-C09-T07",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1187,7 +1237,7 @@
           "character": "Landon",
           "version": "Landon"
           },
-          "text": "About those eyes. They way they spark when she's about to pick a fight. When we disagree and she knows that she's right."
+          "text": "About those eyes. The way they spark when she's about to pick a fight. When we disagree and she knows that she's right."
           },
           {
          "id": "L-S1E11-C10-T02",
@@ -1203,7 +1253,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": "About the time you think you've locked your heart up safely someone breaks right through. "
+        "text": "About the time you think you've locked your heart up safely someone breaks right through."
       },
       {
         "id": "L-S1E11-C10-T04",

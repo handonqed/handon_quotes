@@ -212,7 +212,7 @@
             "text": "What's next?"
           },
           {
-            "id": "L-S1E05-C02-T05",
+            "id": "L-S1E05-C02-T06",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -220,7 +220,7 @@
             "text": "Next?"
           },
           {
-            "id": "L-S1E05-C02-T05",
+            "id": "L-S1E05-C02-T07",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -228,7 +228,7 @@
             "text": "You failed the vertical climb, the long jump, and you straight-up refused to swim across the lake."
           },
           {
-            "id": "L-S1E05-C02-T05",
+            "id": "L-S1E05-C02-T08",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -237,7 +237,7 @@
           },
 
           {
-            "id": "L-S1E05-C02-T06",
+            "id": "L-S1E05-C02-T09",
             "speaker": {
               "character": "Emma",
               "version": "Emma"
@@ -245,7 +245,7 @@
             "text": "How's it going?"
           },
            {
-            "id": "L-S1E05-C02-T07",
+            "id": "L-S1E05-C02-T10",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -253,7 +253,7 @@
             "text": "Landon was about to run sprints to the lake and back."
           },
           {
-            "id": "L-S1E05-C02-T08",
+            "id": "L-S1E05-C02-T11",
             "speaker": {
               "character": "Emma",
               "version": "Emma"
@@ -261,7 +261,7 @@
             "text": "What are you testing for exactly?"
           },
            {
-            "id": "L-S1E05-C02-T09",
+            "id": "L-S1E05-C02-T12",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -269,7 +269,7 @@
             "text": "His ability to get away from me as quickly as possible. If he's gonna stay in this school, it's a must."
           },
            {
-            "id": "L-S1E05-C02-T10",
+            "id": "L-S1E05-C02-T13",
             "speaker": {
               "character": "Emma",
               "version": "Emma"
@@ -277,7 +277,7 @@
             "text": "Did you run the lineage spell that I left you?"
           },
            {
-            "id": "L-S1E05-C02-T11",
+            "id": "L-S1E05-C02-T14",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -285,7 +285,7 @@
             "text": "Yeah, first thing. Zero magic in his bloodline."
           },
           {
-            "id": "L-S1E05-C02-T12",
+            "id": "L-S1E05-C02-T15",
             "speaker": {
               "character": "Emma",
               "version": "Emma"
@@ -293,7 +293,7 @@
             "text": "Most humans have some trace of magical blood in their veins from a far-flung ancestor."
           },
            {
-            "id": "L-S1E05-C02-T13",
+            "id": "L-S1E05-C02-T16",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -301,7 +301,7 @@
             "text": "So what does that mean?"
           },
           {
-            "id": "L-S1E05-C02-T14",
+            "id": "L-S1E05-C02-T17",
             "speaker": {
               "character": "Emma",
               "version": "Emma"
@@ -313,7 +313,7 @@
       "short": {
         "turns": [
           {
-            "id": "L-S1E05-C02-T08",
+            "id": "L-S1E05-C02-T11",
             "speaker": {
               "character": "Emma",
               "version": "Emma"
@@ -321,7 +321,7 @@
             "text": "What are you testing for exactly?"
           },
            {
-            "id": "L-S1E05-C02-T09",
+            "id": "L-S1E05-C02-T12",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -335,8 +335,8 @@
 
    {
       "id": "L-S1E05-C03",
-      "title": "Hope and Landon use the the supernatural lie detector ",
-      "description": "Hope and Landon use the supernatural lie detector about his storry and the question of why he took the knife.",
+      "title": "Hope and Landon use the supernatural lie detector.",
+      "description": "Hope and Landon use the supernatural lie detector about his story and the question of why he took the knife.",
       "participants": [
         {
           "character": "Hope",
@@ -498,7 +498,7 @@
               "character": "Hope",
               "version": "Hope"
             },
-            "text": "It's not good enough If we can't figure out what you are, then you can't stay at this school.."
+            "text": "It's not good enough. If we can't figure out what you are, then you can't stay at this school."
           }
   
         ]
@@ -555,7 +555,7 @@
       "tags": [
         "sorry",
         "thank you",
-        "dissapoint",
+        "disappoint",
         "comfort"
       ],
       "importance": 4,
@@ -618,7 +618,7 @@
               "character": "Hope",
               "version": "Hope"
             },
-            "text": "Because it is"
+            "text": "Because it is."
           },
           {
             "id": "L-S1E05-C04-T08",
@@ -642,7 +642,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Growing up in the foster system...every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh,click your heels three times, no place like home kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before its starts to seems impossible to trust someone new. Especially when they lie to you."
+            "text": "Growing up in the foster system...every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh, 'click your heels three times, no place like home' kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before its starts to seem impossible to trust someone new. Especially when they lie to you."
           },
           {
             "id": "L-S1E05-C04-T11",
@@ -658,7 +658,7 @@
               "character": "Hope",
               "version": "Hope"
             },
-            "text": "Thank you"
+            "text": "Thank you."
           },
           {
             "id": "L-S1E05-C04-T13",
@@ -688,7 +688,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Growing up in the foster system...every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh,click your heels three times, no place like home kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before its starts to seems impossible to trust someone new. Especially when they lie to you."
+            "text": "Growing up in the foster system...every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh, 'click your heels three times, no place like home' kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before its starts to seems impossible to trust someone new. Especially when they lie to you."
           },
           {
             "id": "L-S1E05-C04-T11",
@@ -704,7 +704,7 @@
               "character": "Hope",
               "version": "Hope"
             },
-            "text": "Thank you"
+            "text": "Thank you."
           }
         ]
       }
@@ -810,7 +810,7 @@
             "text": "Look who's talking. Guess we can cross supernatural healing off the list."
           },
           {
-            "id": "L-S1E05-C05-T08",
+            "id": "L-S1E05-C05-T09",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -818,7 +818,7 @@
             "text": "I'm sorry that this happened to you. Jed's one of those rare cases where his bite is actually worse than his bark."
           },
           {
-            "id": "L-S1E05-C05-T09",
+            "id": "L-S1E05-C05-T10",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -826,7 +826,7 @@
             "text": "I've dealt with bullies before."
           },
           {
-            "id": "L-S1E05-C05-T10",
+            "id": "L-S1E05-C05-T11",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -834,7 +834,7 @@
             "text": "Not like this. I know how badly you want to stay here, but this school is full of people like Jed. Some of us are nicer, some of us have more control, but all of us are capable of doing what he did. Do you honestly think that you're safe here?"
           },
           {
-            "id": "L-S1E05-C05-T11",
+            "id": "L-S1E05-C05-T12",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -842,7 +842,7 @@
             "text": "Yes, I do."
           },
           {
-            "id": "L-S1E05-C05-T12",
+            "id": "L-S1E05-C05-T13",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -871,7 +871,7 @@
             "text": "Look who's talking. Guess we can cross supernatural healing off the list."
           },
           {
-            "id": "L-S1E05-C05-T08",
+            "id": "L-S1E05-C05-T09",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -937,7 +937,7 @@
           },
 
           {
-            "id": "L-S1E05-C06-T03",
+            "id": "L-S1E05-C06-T04",
             "speaker": {
               "character": "Alaric",
               "version": "Alaric"
@@ -945,7 +945,7 @@
             "text": "Well, don't sound so excited. It's only a massive piece of the puzzle that explains why these creatures only exist in legends and myths."
           },
           {
-            "id": "L-S1E05-C06-T04",
+            "id": "L-S1E05-C06-T05",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -953,7 +953,7 @@
             "text": "Sorry. I'm just having a day."
           },
           {
-            "id": "L-S1E05-C06-T05",
+            "id": "L-S1E05-C06-T06",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -961,7 +961,7 @@
             "text": "Listen, I want a seat on the council. I'm a tribrid... The only one of my kind. No one can represent my interests but me."
           },
           {
-            "id": "L-S1E05-C06-T06",
+            "id": "L-S1E05-C06-T07",
             "speaker": {
               "character": "Alaric",
               "version": "Alaric"
@@ -969,7 +969,7 @@
             "text": "Is this about Landon? Because you can't let this get personal."
           },
           {
-            "id": "L-S1E05-C06-T07",
+            "id": "L-S1E05-C06-T08",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -977,7 +977,7 @@
             "text": "The political is personal. I learned that in Advanced Civics, taught by you."
           },
           {
-            "id": "L-S1E05-C06-T08",
+            "id": "L-S1E05-C06-T09",
             "speaker": {
               "character": "Alaric",
               "version": "Alaric"
@@ -1021,7 +1021,7 @@
     {
       "id": "L-S1E05-C07",
       "title": "Hope walks Landon to the bus stop",
-      "description": "Hope walks Landon to the bus stop, accepts she is biased, helps him and kiss",
+      "description": "Hope walks Landon to the bus stop, accepts she is biased, helps him and they kiss",
       "participants": [
         {
           "character": "Hope",
@@ -1034,7 +1034,7 @@
       ],
       "subjects": [
       ],
-      "scene_type": "conversation",
+      "scene_type": "kiss",
       "tags": [
         "goodbye",
         "care",
@@ -1108,7 +1108,7 @@
             "text": "Yeah. Didn't need to know that. Why, exactly?"
           },
           {
-            "id": "L-S1E05-C07-T09",
+            "id": "L-S1E05-C07-T08",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1116,7 +1116,7 @@
             "text": "Remember when you asked me to make sure that Raf didn't follow you? You did it 'cause you care about him, because... you wanted to do what was right for him. Even though it was hard."
           },
           {
-            "id": "L-S1E05-C07-T10",
+            "id": "L-S1E05-C07-T9",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1124,7 +1124,7 @@
             "text": "Is that your way of admitting you care about me?"
           },
           {
-            "id": "L-S1E05-C07-T11",
+            "id": "L-S1E05-C07-T10",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1132,7 +1132,7 @@
             "text": "Maybe I'm a little biased."
           },
           {
-            "id": "L-S1E05-C07-T12",
+            "id": "L-S1E05-C07-T11",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1140,7 +1140,7 @@
             "text": "New Orleans."
           },
           {
-            "id": "L-S1E05-C07-T13",
+            "id": "L-S1E05-C07-T12",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1148,7 +1148,7 @@
             "text": "I have a family friend there that's expecting you. I asked him to help you find your birth mom."
           },
           {
-            "id": "L-S1E05-C07-T14",
+            "id": "L-S1E05-C07-T13",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1156,7 +1156,7 @@
             "text": "What?"
           },
           {
-            "id": "L-S1E05-C07-T15",
+            "id": "L-S1E05-C07-T14",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1164,7 +1164,7 @@
             "text": "I couldn't get you the answers that you wanted, but he can. With this. I put the results of your lineage spell in there. And, um, some money. And a sandwich. I hope you like ham."
           },
           {
-            "id": "L-S1E05-C07-T16",
+            "id": "L-S1E05-C07-T15",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1172,7 +1172,7 @@
             "text": "Thank you."
           },
           {
-            "id": "L-S1E05-C07-T17",
+            "id": "L-S1E05-C07-T16",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1181,7 +1181,7 @@
           },
    
           {
-            "id": "L-S1E05-C07-T18",
+            "id": "L-S1E05-C07-T17",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1189,7 +1189,7 @@
             "text": "What is this?"
           },
           {
-            "id": "L-S1E05-C07-T19",
+            "id": "L-S1E05-C07-T18",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1197,7 +1197,7 @@
             "text": "Think of it like a... 'click your heels together three times' kind of thing. If you ever need me, just press it, and my bracelet will lead me to you."
           },
           {
-            "id": "L-S1E05-C07-T20",
+            "id": "L-S1E05-C07-T19",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1205,7 +1205,7 @@
             "text": "I should go."
           },
           {
-            "id": "L-S1E05-C07-T21",
+            "id": "L-S1E05-C07-T20",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1213,7 +1213,7 @@
             "text": "Okay."
           },
           {
-            "id": "L-S1E05-C07-T22",
+            "id": "L-S1E05-C07-T21",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1221,7 +1221,7 @@
             "text": "Bye. Bye, Landon."
           },
           {
-            "id": "L-S1E05-C07-T23",
+            "id": "L-S1E05-C07-T22",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1230,7 +1230,7 @@
           },
 
           {
-        "id": "L-S1E01-C07-T24",
+        "id": "L-S1E05-C07-T23",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1239,15 +1239,15 @@
       },
         
       {
-            "id": "L-S1E05-C07-T25",
+            "id": "L-S1E05-C07-T24",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Ow. Ooh"
+            "text": "Ow. Ooh."
           },
           {
-            "id": "L-S1E05-C07-T26",
+            "id": "L-S1E05-C07-T25",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1256,15 +1256,15 @@
           },
 
           {
-            "id": "L-S1E05-C07-T27",
+            "id": "L-S1E05-C07-T26",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "It's good. It's okay. It's worth it. It's worth it"
+            "text": "It's good. It's okay. It's worth it. It's worth it."
           },
            {
-            "id": "L-S1E05-C07-T28",
+            "id": "L-S1E05-C07-T27",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1273,7 +1273,7 @@
           },
 
           {
-        "id": "L-S1E01-C07-T29",
+        "id": "L-S1E05-C07-T28",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1287,7 +1287,7 @@
       "short": {
         "turns": [
           {
-            "id": "L-S1E05-C07-T18",
+            "id": "L-S1E05-C07-T17",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1295,7 +1295,7 @@
             "text": "What is this?"
           },
           {
-            "id": "L-S1E05-C07-T19",
+            "id": "L-S1E05-C07-T18",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1303,7 +1303,7 @@
             "text": "Think of it like a... 'click your heels together three times' kind of thing. If you ever need me, just press it, and my bracelet will lead me to you."
           },
           {
-            "id": "L-S1E05-C07-T20",
+            "id": "L-S1E05-C07-T19",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1311,7 +1311,7 @@
             "text": "I should go."
           },
           {
-            "id": "L-S1E05-C07-T21",
+            "id": "L-S1E05-C07-T20",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1319,7 +1319,7 @@
             "text": "Okay."
           },
           {
-            "id": "L-S1E05-C07-T22",
+            "id": "L-S1E05-C07-T21",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1327,7 +1327,7 @@
             "text": "Bye. Bye, Landon."
           },
           {
-            "id": "L-S1E05-C07-T23",
+            "id": "L-S1E05-C07-T22",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1336,7 +1336,7 @@
           },
 
           {
-        "id": "L-S1E01-C07-T24",
+        "id": "L-S1E05-C07-T23",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1345,15 +1345,15 @@
       },
         
       {
-            "id": "L-S1E05-C07-T25",
+            "id": "L-S1E05-C07-T24",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Ow. Ooh"
+            "text": "Ow. Ooh."
           },
           {
-            "id": "L-S1E05-C07-T26",
+            "id": "L-S1E05-C07-T25",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1362,15 +1362,15 @@
           },
 
           {
-            "id": "L-S1E05-C07-T27",
+            "id": "L-S1E05-C07-T26",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "It's good. It's okay. It's worth it. It's worth it"
+            "text": "It's good. It's okay. It's worth it. It's worth it."
           },
            {
-            "id": "L-S1E05-C07-T28",
+            "id": "L-S1E05-C07-T27",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1379,7 +1379,7 @@
           },
 
           {
-        "id": "L-S1E01-C07-T29",
+        "id": "L-S1E05-C07-T28",
         "speaker": {
           "character": "Handon",
           "version": "Handon"

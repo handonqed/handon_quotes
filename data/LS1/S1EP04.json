@@ -1,0 +1,555 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 4,
+  "episode_id": "L-S1E04",
+  "episode_title": "Hope is not the goal",
+  "conversations": [
+    {
+      "id": "L-S1E04-C01",
+      "title": "Hope and Alaric discuss Landon",
+      "description": "Hope asks Alaric about the plan for Landon and whether he should remain at the school, including the danger connected to the knife.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "concern",
+        "knife"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E04-C01-T01",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Who are you, and what have you done with Hope Mikaelson?"
+          },
+          {
+            "id": "L-S1E04-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I never got to go to a real school. I've always wanted to know what it's like to be a normal for a day instead of being a tribrid loner."
+          },
+          {
+            "id": "L-S1E04-C01-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, well, that's a bed you made for yourself."
+          },
+          {
+            "id": "L-S1E04-C01-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Not looking for a social lecture."
+          },
+          {
+            "id": "L-S1E04-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So, what's your plan with Landon? Does he, like, go here now?"
+          },
+          {
+            "id": "L-S1E04-C01-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Why? You still thinking about murdering him?"
+          },
+          {
+            "id": "L-S1E04-C01-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Cause there's a knife that sat dormant for centuries that started attracting mythical creatures the day he took possession of it. I'd say there's a lot we need to learn about him."
+          },
+          {
+            "id": "L-S1E04-C01-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And then what? We kick him to the curb?"
+          },
+          {
+            "id": "L-S1E04-C01-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Then we decide to do what's best for the people of this school."
+          },
+          {
+            "id": "L-S1E04-C01-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Any idea what to do with him while we search for missing mean girls?"
+          },
+          {
+            "id": "L-S1E04-C01-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "As a matter of fact, yes."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+         {
+            "id": "L-S1E04-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So, what's your plan with Landon? Does he, like, go here now?"
+          },
+          {
+            "id": "L-S1E04-C01-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Why? You still thinking about murdering him?"
+          },
+          {
+            "id": "L-S1E04-C01-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Cause there's a knife that sat dormant for centuries that started attracting mythical creatures the day he took possession of it. I'd say there's a lot we need to learn about him."
+          },
+          {
+            "id": "L-S1E04-C01-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And then what? We kick him to the curb?"
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "L-S1E04-C02",
+      "title": "Hope and Landon talk at as they enter Mystic Falls High",
+      "description": "Hope accompanies Landon at Mystic Falls High as he explains his old school",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "mean",
+        "Mystic Falls High",
+        "angst"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E04-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "This is the senior hallway, where I spent much of my formative years stuffed in every locker... except this one. That one doesn't open. On your left, you'll find the bathroom. It's where I had my first kiss with a toilet."
+          },
+          {
+            "id": "L-S1E04-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm sorry. Is the fact that I'm not openly hostile to you make it seem like we're back to being friends?"
+          },
+          {
+            "id": "L-S1E04-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, sorry. Just, I was going for effortlessly natural. But this is all just making me really nervous. Like, the school and seeing Connor and being with you..."
+          },
+          {
+            "id": "L-S1E04-C02-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Shouldn't you be talking to anyone you know?"
+          },
+          {
+            "id": "L-S1E04-C02-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That's easier said than done. There is no way Dana's clique is talking to me unless you have a spell that will make me retroactively cool."
+          },
+          {
+            "id": "L-S1E04-C02-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Well, I'll talk to them, then."
+          },
+          {
+            "id": "L-S1E04-C02-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's even worse for you. Trust me. You have no idea how human high schools work. You're the new girl. Might as well be radioactive."
+          },
+          {
+            "id": "L-S1E04-C02-T08",
+            "speaker": {
+              "character": "Random girl",
+              "version": "Random girl"
+            },
+            "text": "I'm sorry. You look traumatized. Is this loser bothering you?"
+          },
+          {
+            "id": "L-S1E04-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "He keeps trying to get me to buy his mix tape."
+          },
+          {
+            "id": "L-S1E04-C02-T10",
+            "speaker": {
+              "character": "Random girl",
+              "version": "Random girl"
+            },
+            "text": "Gross. Well, we're going to lunch. You hungry?"
+          },
+          {
+            "id": "L-S1E04-C02-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Famished."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E04-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm sorry. Is the fact that I'm not openly hostile to you make it seem like we're back to being friends?"
+          },
+          {
+            "id": "L-S1E04-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, sorry. Just, I was going for effortlessly natural. But this is all just making me really nervous. Like, the school and seeing Connor and being with you..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E04-C03",
+      "title": "Hope and Landon investigate the missing girls",
+      "description": "Hope and Landon investigate the disappearances, discuss Connor and Dana, and decide how to approach their investigation.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "banter",
+        "Mystic Falls High"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          
+            {
+            "id": "L-S1E04-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey."
+          },
+           {
+            "id": "L-S1E04-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Let me guess. Pigtails spilled her guts and confessed to kidnapping Dana and Sasha. Case closed."
+          },
+          {
+            "id": "L-S1E04-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Her name's Cheryl, and not exactly. But she did invite me to try out for the cheerleading team."
+          },
+         {
+            "id": "L-S1E04-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Who are you right now? And what is that thing on your head?"
+          },
+          {
+            "id": "L-S1E04-C03-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's a gift... from Cheryl."
+          },
+          {
+            "id": "L-S1E04-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You're better than this, Hope."
+          },
+          {
+            "id": "L-S1E04-C03-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Relax, Eeyore. Dana gave it to her. It's potential locator spell material. Plus, even though Sasha and Connor are dating, Dana was sleeping with him behind her back."
+          },
+          {
+            "id": "L-S1E04-C03-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, some clue. Everyone at this school knows Connor's a dick."
+          },
+          {
+            "id": "L-S1E04-C03-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Come on, Landon. Adultery, missing girls... It's like every TV show that old people watch. A 'crime of passion', I think they call it."
+          },
+          {
+            "id": "L-S1E04-C03-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I know Connor. He's made my life a living hell, but he's not a killer. Trust me."
+          },
+          {
+            "id": "L-S1E04-C03-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Trusting you is what got us into this mess in the first place. Look. There he is."
+          },
+          {
+            "id": "L-S1E04-C03-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So do you want to play good cop or bad cop? Because I don't think 'emo cop' is a thing."
+          },
+          {
+            "id": "L-S1E04-C03-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, very funny. But while you were off making friends I did some sleuthing of my own. Scarf in Virginia heat? Sounds like a lead, I think they call it."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E04-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You're better than this, Hope."
+          },
+          {
+            "id": "L-S1E04-C03-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Relax, Eeyore."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E04-C04",
+      "title": "Hope and Landon argue in the dock after the day",
+      "description": "Hope apologizes after her behaviour with Landon all day. Landon explains that he just wanted to spend some time with Hope.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "angst",
+        "trust",
+        "feelings"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E04-C04-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So much for my plan to spend the day as a normal teenage girl."
+          },
+          {
+            "id": "L-S1E04-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Did good back there."
+          },
+          {
+            "id": "L-S1E04-C04-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah. Felt nice to be part of the team... until you all accused me of being a monster."
+          },
+          {
+            "id": "L-S1E04-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm sorry. It's just gonna take us some time before we can trust you again."
+          },
+          {
+            "id": "L-S1E04-C04-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I got that. Repeatedly. So let me lay this out for you all at once. I don't know why I was drawn to that knife any more than I can explain why a supersized spider inhabited the body of a kid who used to bully me in high school. I don't know why creatures we've only read about in books are making cameos in Mystic Falls. I don't have an explanation for any of this. And let's be honest, neither do any of you."
+          },
+          {
+            "id": "L-S1E04-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So as far as I can see, we're supposed to be in this together. And this morning, all I wanted to be was sitting here. Part of all of this. Spending time with you. But all day long you ridiculed me, and then you hung me out to dry. When it mattered."
+          },
+          {
+            "id": "L-S1E04-C04-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You wanted to know what it's like to be normal? Congrats, Hope. You're officially normal."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E04-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So as far as I can see, we're supposed to be in this together. And this morning, all I wanted to be was sitting here. Part of all of this. Spending time with you. But all day long you, ridiculed me, and then you hung me out to dry. When it mattered."
+          },
+          {
+            "id": "L-S1E04-C04-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You wanted to know what it's like to be normal? Congrats, Hope. You're officially normal."
+          }
+        ]
+      }
+    }
+    
+    
+  ]
+}
