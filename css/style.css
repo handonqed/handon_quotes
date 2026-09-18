@@ -18,12 +18,15 @@ h1{font-size:clamp(48px,8vw,96px);line-height:1;margin:0 0 20px}h2{font-size:cla
 .full{max-width:850px;margin:auto}.back{font:700 13px Arial,sans-serif;color:var(--accent);text-decoration:none}.conversation-header{margin:30px 0}.conversation-body{background:white;border:1px solid var(--border);border-radius:12px;padding:25px}
 .empty{text-align:center;padding:30px;color:var(--muted);background:white;border:1px dashed var(--border);border-radius:10px}
 footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-serif;border-top:1px solid var(--border)}
-@media(max-width:720px){.header-inner{align-items:flex-start;flex-direction:column}nav{gap:10px}main{padding:0 16px 50px}.hero{padding-top:45px}}
+@media(max-width:720px){.header-inner{align-items:flex-start;flex-direction:column}nav{gap:10px}main{padding:0 16px 50px}.hero{padding-top:45px} .home-buttons {
+        justify-content: center;
+    }}
 .tags-browser {
     display: flex;
     flex-wrap: wrap;
     gap: 0.6rem;
     margin: 2rem 0;
+    
 }
 
 .tag-button {
@@ -42,7 +45,12 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     align-items: center;
     gap: 40px;
 }
-
+.home-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
 .heading-text {
     flex: 1;
 }
@@ -70,6 +78,30 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     width: 300px;
     height: 300px;
 }
+.home-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-gif {
+    flex: 0 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-gif img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 14px;
+}
 
 @media (max-width: 900px) {
     .page-heading {
@@ -93,6 +125,21 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     #importance .heading-gifs img {
         width: 180px;
         height: 180px;
+    }
+
+    .home-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-gif {
+        flex: none;
+        width: 100%;
+    }
+
+    .hero-gif img {
+        width: 250px;
+        height: 250px;
     }
 }
 
