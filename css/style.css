@@ -82,6 +82,10 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     width: 270px;
     height: 180px;
 }
+#search .heading-gifs img {
+    width: 200px;
+    height: 200px;
+}
 .home-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -142,7 +146,10 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
         width: 150px;
         height: 100px;
     }
-
+    #search .heading-gifs img {
+        width: 150px;
+        height: 150px;
+    }
     .home-hero {
         flex-direction: column;
         text-align: center;
