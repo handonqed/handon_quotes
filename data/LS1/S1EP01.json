@@ -21,7 +21,7 @@
         },
         {
           "character": "Alaric",
-          "version": "Alatic"
+          "version": "Alaric"
         }
       ],
       "subjects": [],
@@ -175,10 +175,18 @@
           "character": "Hope",
           "version": "Hope"
         },
-        "text": "We tried. And then you moved away."
+        "text": "We tried."
       },
       {
         "id": "L-S1E01-C02-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "And then you moved away."
+      },
+      {
+        "id": "L-S1E01-C02-T06",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -286,7 +294,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": "Well, as best as I can reason, either I've lost my mind or werewolves are real.Th-This is beyond insane. How is that even possible?"
+        "text": "Well, as best as I can reason, either I've lost my mind or werewolves are real. Th-This is beyond insane. How is that even possible?"
       },
       {
         "id": "L-S1E01-C03-T06",
@@ -389,7 +397,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": " He's not a killer."
+        "text": "He's not a killer."
       },
       {
         "id": "L-S1E01-C04-T04",
@@ -986,8 +994,8 @@
     },
 {
       "id": "L-S1E01-C08",
-      "title": "Hope and Landon talk in the library",
-      "description": "Hope and Landon talk  in the library, first part",
+      "title": "Hope and Landon talk at the library",
+      "description": "Hope and Landon talk at the library, first part",
       "participants": [
         {
           "character": "Hope",
@@ -1169,8 +1177,8 @@
 
     {
       "id": "L-S1E01-C09",
-      "title": "Hope and Landon talk in the library, unicorn",
-      "description": "Hope and Landon talk  in the library, second part",
+      "title": "Hope and Landon talk at the library, unicorn",
+      "description": "Hope and Landon talk at the library, second part",
       "participants": [
         {
           "character": "Hope",
@@ -1225,7 +1233,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": " Klaus Mikaelson:The Great Evil."
+        "text": " Klaus Mikaelson: The Great Evil."
       },
       {
         "id": "L-S1E01-C09-T05",
@@ -1353,8 +1361,8 @@
 
     {
       "id": "L-S1E01-C10",
-      "title": "Hope and Landon talk in the library, flashback",
-      "description": "Hope and Landon talk  in the library, third part",
+      "title": "Hope and Landon talk at the library, flashback",
+      "description": "Hope and Landon talk at the library, third part",
       "participants": [
         {
           "character": "Hope",
@@ -1406,18 +1414,34 @@
       {
         "id": "L-S1E01-C10-T04",
         "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "flashback"
+      },
+      {
+        "id": "L-S1E01-C10-T05",
+        "speaker": {
           "character": "Landon",
           "version": "Landon"
         },
         "text": "You did that for me?"
       },
       {
-        "id": "L-S1E01-C10-T05",
+        "id": "L-S1E01-C10-T06",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
         },
-        "text": "He had it coming. Um, we shouldn't be in here after curfew. We should get you back before anyone knows that you're gone."
+        "text": "He had it coming."
+      },
+      {
+        "id": "L-S1E01-C10-T07",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Um, we shouldn't be in here after curfew. We should get you back before anyone knows that you're gone."
       }
       
   
@@ -1429,7 +1453,7 @@
   "short": {
     "turns": [
       {
-        "id": "L-S1E01-C10-T04",
+        "id": "L-S1E01-C10-T05",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1437,7 +1461,7 @@
         "text": "You did that for me?"
       },
       {
-        "id": "L-S1E01-C10-T05",
+        "id": "L-S1E01-C10-T06",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1464,7 +1488,7 @@
 
       ],
       "subjects": [],
-      "scene_type": "conversation",
+      "scene_type": "kiss",
       "tags": [
         "kiss",
         "comfort"
@@ -1507,8 +1531,16 @@
         },
         "text": "You are a really nice person, Hope Mikaelson. This is the part where you run."
       },
-      {
+       {
         "id": "L-S1E01-C11-T05",
+        "speaker": {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        "text": "This is the part where you run."
+      },
+      {
+        "id": "L-S1E01-C11-T06",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1516,7 +1548,7 @@
         "text": "Yeah, I know."
       },
       {
-        "id": "L-S1E01-C11-T06",
+        "id": "L-S1E01-C11-T07",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1524,7 +1556,7 @@
         "text": "I'm not gonna remember any of this. Am I?"
       },
       {
-        "id": "L-S1E01-C11-T07",
+        "id": "L-S1E01-C11-T08",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1532,7 +1564,7 @@
         "text": "Probably not. No."
       },
       {
-        "id": "L-S1E01-C11-T08",
+        "id": "L-S1E01-C11-T09",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1540,7 +1572,7 @@
         "text": "Well, in that case..."
       },
       {
-        "id": "L-S1E01-C11-T09",
+        "id": "L-S1E01-C11-T10",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1558,7 +1590,7 @@
   "short": {
     "turns": [
       {
-        "id": "L-S1E01-C11-T06",
+        "id": "L-S1E01-C11-T07",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1566,7 +1598,7 @@
         "text": "I'm not gonna remember any of this. Am I?"
       },
       {
-        "id": "L-S1E01-C11-T07",
+        "id": "L-S1E01-C11-T08",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1574,7 +1606,7 @@
         "text": "Probably not. No."
       },
       {
-        "id": "L-S1E01-C11-T08",
+        "id": "L-S1E01-C11-T09",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1582,7 +1614,7 @@
         "text": "Well, in that case..."
       },
       {
-        "id": "L-S1E01-C11-T09",
+        "id": "L-S1E01-C11-T10",
         "speaker": {
           "character": "Handon",
           "version": "Handon"

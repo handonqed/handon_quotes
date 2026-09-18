@@ -1,0 +1,321 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 6,
+  "episode_id": "L-S1E06",
+  "episode_title": "Mombie Dearest",
+  "conversations": [
+    {
+      "id": "L-S1E06-C01",
+      "title": "Hope talks about her crush on Landon.",
+      "description": "Hope explains her crush on Landon to Emma",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Emma",
+          "version": "Emma"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "crush",
+        "eyes",
+        "voice"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E06-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Obviously, nothing's gonna come out of it. I mean, I may never see him again. And nobody wants a phone thing."
+          },
+          {
+            "id": "L-S1E06-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Though I do like the sound of his voice. It's low and smart-sounding and kind of soothing."
+          },
+          {
+            "id": "L-S1E06-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And his eyes... his eyes are, like, this green-gray color that's not really a color, you know? Like, they're green when he wears green, and then..."
+          },
+          {
+            "id": "L-S1E06-C01-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, my God. Who am I right now?"
+          },
+          {
+            "id": "L-S1E06-C01-T05",
+            "speaker": {
+              "character": "Emma",
+              "version": "Emma"
+            },
+            "text": "A normal teenager? Though I do love hearing you talk about something as simple as having a crush on a boy. You do not need a counselor, Hope. You need a friend."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+         {
+            "id": "L-S1E06-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Though I do like the sound of his voice. It's low and smart-sounding and kind of soothing."
+          },
+          {
+            "id": "L-S1E06-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And his eyes... his eyes are, like, this green-gray color that's not really a color, you know? Like, they're green when he wears green, and then..."
+          },
+          {
+            "id": "L-S1E06-C01-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, my God. Who am I right now?"
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "L-S1E06-C02",
+      "title": "Hope apologizes for sending Landon away to Rafael",
+      "description": "Hope apologizes for sending Landon away to Rafael",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        }
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "care",
+        "safe"
+      ],
+      "importance": 1,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E06-C02-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Listen, Raf, I know you're mad at me for sending Landon away, but... I promise you, it was for his own good."
+          },
+          {
+            "id": "L-S1E06-C02-T02",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "You've known him for two minutes, and you know what's good for him?"
+          },
+          {
+            "id": "L-S1E06-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I know that I want him to be safe."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E06-C02-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Listen, Raf, I know you're mad at me for sending Landon away, but... I promise you, it was for his own good."
+          },
+          {
+            "id": "L-S1E06-C02-T02",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "You've known him for two minutes, and you know what's good for him?"
+          },
+          {
+            "id": "L-S1E06-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I know that I want him to be safe."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E06-C03",
+      "title": "Hope explains she didn't just send Landon away.",
+      "description": "Hope explains she didn't just send Landon away.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "care",
+        "family"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          
+            {
+            "id": "L-S1E06-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "One more minute."
+          },
+           {
+            "id": "L-S1E06-C03-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Raf, I didn't just send Landon away. I sent him to someone who's gonna help him find his birth mom."
+          },
+          {
+            "id": "L-S1E06-C03-T03",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "You sent him away by himself to find the woman that gave him up."
+          },
+         {
+            "id": "L-S1E06-C03-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What if she's amazing, and he finally gets a family?"
+          },
+          {
+            "id": "L-S1E06-C03-T05",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "He had a family. He had me."
+          },
+          {
+            "id": "L-S1E06-C03-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "A crew isn't the same. Family is always and forever."
+          },
+          {
+            "id": "L-S1E06-C03-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, you're right. He's not my blood, but he is my brother. If anything, maybe you should try doubling down on friends to make up for the family you don't have."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E06-C03-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Raf, I didn't just send Landon away. I sent him to someone who's gonna help him find his birth mom."
+          },
+          {
+            "id": "L-S1E06-C03-T03",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "You sent him away by himself to find the woman that gave him up."
+          },
+         {
+            "id": "L-S1E06-C03-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What if she's amazing, and he finally gets a family?"
+          },
+          {
+            "id": "L-S1E06-C03-T05",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "He had a family. He had me."
+          },
+          {
+            "id": "L-S1E06-C03-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "A crew isn't the same. Family is always and forever."
+          }
+        ]
+      }
+    }
+
+    
+    
+    
+  ]
+}
