@@ -80,17 +80,22 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
 }
 .home-hero {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+    width: 100%;
+    gap: 0;
+}
+
+.hero-text,
+.hero-gif {
+    width: 50%;
+    flex: 0 0 50%;
+    box-sizing: border-box;
 }
 
 .hero-text {
-    flex: 1;
+    padding-right: 30px;
 }
 
 .hero-gif {
-    flex: 0 0 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,8 +143,8 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     }
 
     .hero-gif img {
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
     }
 }
 
