@@ -90,6 +90,10 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     width: 205px;
     height: 205px;
 }
+#statistics .heading-gifs img {
+    width: 200px;
+    height: 200px;
+}
 .home-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -157,6 +161,10 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
 #random .heading-gifs img {
         width: 120px;
         height: 120px;
+    }
+#statistics .heading-gifs img {
+        width: 180px;
+        height: 180px;
     }
     .home-hero {
         flex-direction: column;
