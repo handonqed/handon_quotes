@@ -79,8 +79,8 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     height: 320px;
 }
 #tags .heading-gifs img {
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
 }
 .home-hero {
     display: grid;
