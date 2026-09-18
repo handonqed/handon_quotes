@@ -70,13 +70,13 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     border-radius: 12px;
 }
 #episodes .heading-gifs img {
-    width: 240px;
-    height: 200px;
+    width: 252px;
+    height: 210px;
 }
 
 #importance .heading-gifs img {
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
 }
 .home-hero {
     display: grid;
