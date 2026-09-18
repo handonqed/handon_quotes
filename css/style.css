@@ -79,31 +79,36 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     height: 300px;
 }
 .home-hero {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     width: 100%;
-    gap: 0;
-}
-
-.hero-text,
-.hero-gif {
-    width: 50%;
-    flex: 0 0 50%;
-    box-sizing: border-box;
+    gap: 30px;
 }
 
 .hero-text {
-    padding-right: 30px;
+    min-width: 0;
+}
+
+.hero-text h1 {
+    font-size: clamp(4rem, 7vw, 8rem);
+    line-height: 0.9;
+    overflow-wrap: break-word;
 }
 
 .hero-gif {
+    min-width: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero-gif img {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     border-radius: 14px;
 }
