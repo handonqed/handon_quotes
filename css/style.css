@@ -86,6 +86,10 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     width: 205px;
     height: 205px;
 }
+#random .heading-gifs img {
+    width: 205px;
+    height: 205px;
+}
 .home-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -143,12 +147,16 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
         height: 180px;
     }
   #tags .heading-gifs img {
-        width: 105px;
-        height: 70px;
+        width: 120px;
+        height: 80px;
     }
     #search .heading-gifs img {
         width: 180px;
         height: 180px;
+    }
+#random .heading-gifs img {
+        width: 120px;
+        height: 120px;
     }
     .home-hero {
         flex-direction: column;
