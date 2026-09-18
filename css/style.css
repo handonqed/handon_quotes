@@ -86,29 +86,27 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     gap: 30px;
 }
 
-.hero-text {
-    min-width: 0;
+.home-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
-.hero-text h1 {
-    font-size: clamp(4rem, 7vw, 8rem);
-    line-height: 0.9;
-    overflow-wrap: break-word;
+.hero-text {
+    flex: 1;
 }
 
 .hero-gif {
-    min-width: 0;
-    width: 100%;
+    flex: 0 0 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero-gif img {
-    width: 100%;
-    max-width: 650px;
-    height: auto;
-    aspect-ratio: 4 / 3;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 14px;
 }
