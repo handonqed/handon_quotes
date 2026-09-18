@@ -77,7 +77,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": "Nice to meet you, Mr. Marshall. So, Hope.You haven't been around much lately."
+        "text": "Nice to meet you, Mr. Marshall. So, Hope. You haven't been around much lately."
       },
       {
         "id": "TO-S5EP12-C01-T06",
@@ -117,7 +117,7 @@
           "character": "Hope",
           "version": "Hope"
         },
-        "text": "Oh, Landon, I-I can't tonight.I have a thing."
+        "text": "Oh, Landon, I-I can't tonight. I have a thing."
       },
         {
         "id": "TO-S5EP12-C01-T11",
@@ -181,7 +181,7 @@
    
 
     {
-      "id": "TO-S05E12-C02",
+      "id": "TO-S5E12-C02",
       "title": "Hope and Landon dance",
       "description": "Hope spends part of her final hours dancing with Landon at the festival.",
       "participants": [
@@ -195,12 +195,12 @@
         }
       ],
       "subjects": [],
-      "scene_type": "conversation",
+      "scene_type": "dance",
       "tags": [
         "dance",
         "festival",
         "romantic",
-        "hope-dying",
+        "hope dying",
         "foreshadowing"
       ],
       "importance": 5,
