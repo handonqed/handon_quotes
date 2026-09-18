@@ -78,6 +78,10 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     width: 320px;
     height: 320px;
 }
+#tags .heading-gifs img {
+    width: 300px;
+    height: 200px;
+}
 .home-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -133,6 +137,10 @@ footer{text-align:center;padding:30px;color:var(--muted);font:12px Arial,sans-se
     #importance .heading-gifs img {
         width: 180px;
         height: 180px;
+    }
+  #tags .heading-gifs img {
+        width: 150px;
+        height: 100px;
     }
 
     .home-hero {
