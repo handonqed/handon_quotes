@@ -1,4 +1,13 @@
 document.addEventListener("DOMContentLoaded",async()=>{try{await loadDatabase();
+let themeBtn = $("theme-toggle");
+let applyIcon = () => themeBtn.textContent = document.documentElement.getAttribute("data-theme") === "light" ? "🌙" : "☀️";
+applyIcon();
+themeBtn.addEventListener("click", () => {
+  let isLight = document.documentElement.getAttribute("data-theme") === "light";
+  if (isLight) { document.documentElement.removeAttribute("data-theme"); localStorage.setItem("theme","dark"); }
+  else { document.documentElement.setAttribute("data-theme","light"); localStorage.setItem("theme","light"); }
+  applyIcon();
+});                                                          
 let shows=unique(DB.episodes.map(e=>e.show).filter(Boolean)),seasons=unique(DB.episodes.map(e=>e.season).filter(v=>v!==undefined));
 fill("search-show",shows);
 fill("random-show",shows);
