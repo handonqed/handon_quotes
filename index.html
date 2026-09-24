@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme','light');
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Handon Quotes</title>
 <link rel="stylesheet" href="css/style.css">
@@ -18,6 +24,7 @@
       <a href="#random">Random</a>
       <a href="#statistics">Statistics</a>
     </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle bright/dark mode" title="Toggle bright mode">☀️</button>
   </div>
 </header>
 
