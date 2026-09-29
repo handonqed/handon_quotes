@@ -1,0 +1,1484 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 9,
+  "episode_id": "L-S1E09",
+  "episode_title": "What was Hope doing in your dreams?",
+  "conversations": [
+    {
+      "id": "L-S1E09-C01",
+      "title": "Landon worries about Hope being distant.",
+      "description": "Landon talks with Rafael about Hope being distant.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "relationship",
+        "worry",
+        "distance"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E09-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope's M.I.A."
+          },
+          {
+            "id": "L-S1E09-C01-T02",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Yeah, she's probably suiting up in her battle armor. Girl's basically Wonder Woman."
+          },
+          {
+            "id": "L-S1E09-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Either that or she's realized she's made a mistake bringing me back here 'cause where I go, danger follows."
+          },
+          {
+            "id": "L-S1E09-C01-T04",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "My God. Come on, bro. Now, this one's not on you."
+          },
+          {
+            "id": "L-S1E09-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I mean, her being distant today has got to have something to do with us waking up in a field with amnesia yesterday, right?"
+          },
+          {
+            "id": "L-S1E09-C01-T06",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Look, until one of you can remember how you guys got there, I just... I-I just wouldn't think about it. Look, you're here. Think about the good things in your life instead of getting caught up in the bad for once, bro."
+          },
+          {
+            "id": "L-S1E09-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S1E09-C01-T08",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Uh, I'm gonna grab my bags and hit the library."
+          },
+          {
+            "id": "L-S1E09-C01-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay."
+          },
+          {
+            "id": "L-S1E09-C01-T10",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "I'll see you at breakfast in the morning?"
+          },
+          {
+            "id": "L-S1E09-C01-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, see you at breakfast."
+          },
+          {
+            "id": "L-S1E09-C01-T12",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Hey, Lan, I'm glad you're back."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E09-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope's M.I.A."
+          },
+          {
+            "id": "L-S1E09-C01-T02",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Yeah, she's probably suiting up in her battle armor. Girl's basically Wonder Woman."
+          },
+          {
+            "id": "L-S1E09-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Either that or she's realized she's made a mistake bringing me back here 'cause where I go, danger follows."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E09-C02",
+      "title": "Hope and Landon discuss the amnesia and evacuation.",
+      "description": "Hope and Landon talk about their nightmares, their unexplained amnesia trip, and whether Landon should evacuate.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "amnesia",
+        "nightmares",
+        "protection",
+        "evacuation"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E09-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What about you? You had any bad dreams last night?"
+          },
+          {
+            "id": "L-S1E09-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. I-I barely slept. Just a lot on my mind."
+          },
+          {
+            "id": "L-S1E09-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, same. Just got the first-day jitters."
+          },
+          {
+            "id": "L-S1E09-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So, has anything, um, come back to you yet about our little amnesia trip? I mean, this can't all be a coincidence, right?"
+          },
+          {
+            "id": "L-S1E09-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, you know, let's focus on one problem at a time, okay?"
+          },
+          {
+            "id": "L-S1E09-C02-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay, but, I mean, can I at least help you solve this problem? I can be a research assistant, I'm CPR certified, and I know a little tai chi."
+          },
+          {
+            "id": "L-S1E09-C02-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, I know this isn't what you want to hear, but the best way that you can help is by evacuating."
+          },
+          {
+            "id": "L-S1E09-C02-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, are you leaving?"
+          },
+          {
+            "id": "L-S1E09-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. I need to stay here."
+          },
+          {
+            "id": "L-S1E09-C02-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay, then thanks, but I should probably get to class."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+         {
+            "id": "L-S1E09-C02-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, I know this isn't what you want to hear, but the best way that you can help is by evacuating."
+          },
+          {
+            "id": "L-S1E09-C02-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, are you leaving?"
+          },
+          {
+            "id": "L-S1E09-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. I need to stay here."
+          },
+          {
+            "id": "L-S1E09-C02-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay, then thanks, but I should probably get to class."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E09-C03",
+      "title": "Hope and Landon investigate the Night Hag",
+      "description": "Hope treats Landon's injury while they discuss what the Night Hag wants and how they can stop it.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "care",
+        "healing",
+        "protection"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E09-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey, uh, hold still. I'm almost done, okay?"
+          },
+          {
+            "id": "L-S1E09-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay. What do you think she meant when she said 'bring it home'?"
+          },
+          {
+            "id": "L-S1E09-C03-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I'm guessing she means Malivore. It seems her plan is to torment us until we produce the urn."
+          },
+          {
+            "id": "L-S1E09-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Right. But if the Night Hag is a monster that's trapped on the astral plane, then how can she even physically take the urn anywhere?"
+          },
+          {
+            "id": "L-S1E09-C03-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, the book also says the Night Hag can't affect our reality, but... Rafael's welt and your hand seemed to prove that wrong. When your research consists of fairy tales and urban legends, sometimes the stories get twisted."
+          },
+          {
+            "id": "L-S1E09-C03-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Human dragon, anyone?"
+          },
+          {
+            "id": "L-S1E09-C03-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Dorian might be busy with the evacuation, but we'll figure this out. When the Night Hag finds a way to get the urn, we'll be there to stop it."
+          },
+          {
+            "id": "L-S1E09-C03-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, at least it was a pretty memorable first day."
+          },
+          {
+            "id": "L-S1E09-C03-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, and the Night Hag is likely just getting started. You know, Landon, I really wish you'd just evacuate with the others."
+          },
+          {
+            "id": "L-S1E09-C03-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I worked so hard to get here. If I run at the first sign of trouble, what's the point?"
+          },
+          {
+            "id": "L-S1E09-C03-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "The point, Landon, is that we're trying to look after you."
+          },
+          {
+            "id": "L-S1E09-C03-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Honestly, you two are taking better care of me than anyone in my life ever has. Course, I had to stab myself to get your attention."
+          },
+          {
+            "id": "L-S1E09-C03-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You know, we're all good here."
+          },
+          {
+            "id": "L-S1E09-C03-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm blowing this, aren't I?"
+          },
+          {
+            "id": "L-S1E09-C03-T15",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "You know, Landon, sometimes the best thing for Hope is to just let her be Hope. Stay busy. She'll talk when she's ready."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E09-C03-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Honestly, you two are taking better care of me than anyone in my life ever has. Course, I had to stab myself to get your attention."
+          },
+          {
+            "id": "L-S1E09-C03-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You know, we're all good here."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E09-C04",
+      "title": "Rafael asks Hope to be honest with Landon",
+      "description": "Rafael asks Hope not to let Landon feel unwanted and challenges her about hiding things from him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "honesty",
+        "relationship",
+        "protection"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E09-C04-T01",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Listen... I don't mean to get in your business, but... be cool with Landon, okay? I know him, and he's not gonna believe that he's welcome here until he's about to graduate. He's gonna be waiting on the other shoe to drop. And look, if-if you're gonna drop that shoe, all I ask is that you... you be gentle, okay?"
+          },
+          {
+            "id": "L-S1E09-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What makes you think that there's another shoe?"
+          },
+          {
+            "id": "L-S1E09-C04-T03",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Where we're from, there's always another shoe. Sometimes it's-it's an actual shoe or... a belt. But you get the point. Look, if you're cooling off on him, fine. But just don't lie to him."
+          },
+          {
+            "id": "L-S1E09-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not cooling off on him."
+          },
+          {
+            "id": "L-S1E09-C04-T05",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Why have you been avoiding him?"
+          },
+          {
+            "id": "L-S1E09-C04-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because there's a lot going on."
+          },
+          {
+            "id": "L-S1E09-C04-T07",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "It couldn't hurt to be a little more honest about it."
+          },
+          {
+            "id": "L-S1E09-C04-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm being as honest as I can be."
+          },
+          {
+            "id": "L-S1E09-C04-T09",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Yeah. And somewhere still in that is a lie."
+          },
+          {
+            "id": "L-S1E09-C04-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You've never lied to protect someone?"
+          },
+          {
+            "id": "L-S1E09-C04-T11",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "No, Hope. I haven't."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E09-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not cooling off on him."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E09-C05",
+      "title": "Landon discovers the Oneiroi",
+      "description": "Landon researches the monster and helps the group realize that the creature may be an Oneiroi rather than a Night Hag.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "research",
+        "oneiroi",
+        "monster"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E09-C05-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Dr. Saltzman."
+          },
+          {
+            "id": "L-S1E09-C05-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "'Dr. Saltzman, I have changed my mind. I've decided to take you up on your offer and get the hell out with every other sane person here.'"
+          },
+          {
+            "id": "L-S1E09-C05-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No, actually, I took your advice and I stayed busy, and I think I found something."
+          },
+          {
+            "id": "L-S1E09-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Let's pretend for a second that the research isn't wrong. Maybe the Night Hag can't hurt us in real life. Maybe the Night Hag can't leave the astral plane and get ahold of the urn, so maybe we are not dealing with a Night Hag."
+          },
+          {
+            "id": "L-S1E09-C05-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Well, if it walks like a Night Hag, and talks like a Night Hag, what else could it be?"
+          },
+          {
+            "id": "L-S1E09-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That's exactly what I was wondering, so then I started going through all these books, and boom."
+          },
+          {
+            "id": "L-S1E09-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What's an Oneiroi?"
+          },
+          {
+            "id": "L-S1E09-C05-T08",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "It's a black-winged shapeshifting dream demon from Greek mythology."
+          },
+          {
+            "id": "L-S1E09-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why would one monster disguise itself as another monster? The Oneiroi sounds freaky enough."
+          },
+          {
+            "id": "L-S1E09-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Because if we knew what it actually was..."
+          },
+          {
+            "id": "L-S1E09-C05-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "We'd know how to stop it. Hope, kiss him for me."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E09-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Because if we knew what it actually was... "
+          },
+          {
+            "id": "L-S1E09-C05-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "We'd know how to stop it. Hope, kiss him for me."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E09-C06",
+      "title": "Hope and Landon choose to stay and fight",
+      "description": "Hope and Landon refuse to leave each other behind as the group prepares to confront the dream demon.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        {
+          "character": "MG",
+          "version": "MG"
+        },
+        {
+          "character": "Kaleb",
+          "version": "Kaleb"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "choice",
+        "protection",
+        "super-squad"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E09-C06-T01",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "A black-winged what?"
+          },
+          {
+            "id": "L-S1E09-C06-T02",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "text": "Shapeshifting dream demon."
+          },
+          {
+            "id": "L-S1E09-C06-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I know it sounds bad, but now that we know what the creature is, we can fight it."
+          },
+          {
+            "id": "L-S1E09-C06-T04",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "How the hell are we supposed to kill a dream demon?"
+          },
+          {
+            "id": "L-S1E09-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Leave that part to me. But since I can't fall asleep without compromising the location of the urn, I need someone else to pull it out of the dream plane and into our waking reality."
+          },
+          {
+            "id": "L-S1E09-C06-T06",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "So, Freddy Krueger. Like I said."
+          },
+          {
+            "id": "L-S1E09-C06-T07",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Wait, how the hell are we supposed to do that?"
+          },
+          {
+            "id": "L-S1E09-C06-T08",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "If it's anything like the movies, we just grab and pull."
+          },
+          {
+            "id": "L-S1E09-C06-T09",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Yeah, okay. Is it too late to get on the, uh, evacuation bus?"
+          },
+          {
+            "id": "L-S1E09-C06-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. I mean, I'm not gonna ask all of you to stay for this, it has to be your choice."
+          },
+          {
+            "id": "L-S1E09-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm not leaving unless Hope does."
+          },
+          {
+            "id": "L-S1E09-C06-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We already know the answer to that, so..."
+          },
+          {
+            "id": "L-S1E09-C06-T13",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "I'm not leaving Landon behind."
+          },
+          {
+            "id": "L-S1E09-C06-T14",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "I'm a founding member of the Super Squad, so I can't bail."
+          },
+          {
+            "id": "L-S1E09-C06-T15",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Y'all gonna get yourselves killed. But if MG stays, I stay. No child left behind."
+          },
+          {
+            "id": "L-S1E09-C06-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "In that case, it's naptime."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E09-C06-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. I mean, I'm not gonna ask all of you to stay for this, it has to be your choice."
+          },
+          {
+            "id": "L-S1E09-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm not leaving unless Hope does."
+          },
+          {
+            "id": "L-S1E09-C06-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We already know the answer to that, so..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E09-C07",
+      "title": "Landon insists on entering the nightmare to help Hope save the day.",
+      "description": "Before entering the dream plane, Hope warns Landon about the danger, while Landon explains why he is choosing to stay and help her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "sexy",
+        "courage",
+        "relationship",
+        "protection",
+        "cheek kiss"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E09-C07-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, I don't think you should do this."
+          },
+          {
+            "id": "L-S1E09-C07-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No. Uh-uh. You don't get to ignore me all day, then make decisions for me."
+          },
+          {
+            "id": "L-S1E09-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're gonna be inside of a nightmare."
+          },
+          {
+            "id": "L-S1E09-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S1E09-C07-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "This monster can get inside of your head, use your worst fears against you."
+          },
+          {
+            "id": "L-S1E09-C07-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Are you kidding? My biggest fear was fitting in here. Now I'm a dream warrior."
+          },
+          {
+            "id": "L-S1E09-C07-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Plus, I saved the day. Well, I... No, I found the plan that saved the day. You're the one that's actually gonna save the day. Which is so sexy, by the way."
+          },
+          {
+            "id": "L-S1E09-C07-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm staying, and I'm gonna help you stop this thing."
+          },
+          {
+            "id": "L-S1E09-C07-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't know what it's gonna take to stop it. But maybe there's one thing that you can do to help me. I need you to hide the urn."
+          },
+          {
+            "id": "L-S1E09-C07-T10",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "cheek kiss"
+          },
+          {
+            "id": "L-S1E09-C07-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sweet dreams."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E09-C07-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Which is so sexy, by the way."
+          },
+          {
+            "id": "L-S1E09-C07-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm staying, and I'm gonna help you stop this thing."
+          },
+          {
+            "id": "L-S1E09-C07-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't know what it's gonna take to stop it. But maybe there's one thing that you can do to help me. I need you to hide the urn."
+          },
+          {
+            "id": "L-S1E09-C07-T10",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "cheek kiss"
+          },
+          {
+            "id": "L-S1E09-C07-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sweet dreams."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E09-C08",
+      "title": "Hope and Landon reunite after the nightmare",
+      "description": "After the dream demon is defeated, Hope and the others recover, and Landon asks about Hope's actions in Rafael's dream.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        },
+        {
+          "character": "MG",
+          "version": "MG"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "aftermath",
+        "dream",
+        "hope",
+        "landon"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E09-C08-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope?"
+          },
+          {
+            "id": "L-S1E09-C08-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hope."
+          },
+          {
+            "id": "L-S1E09-C08-T03",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "Are we alive, dude?"
+          },
+          {
+            "id": "L-S1E09-C08-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Did we win?"
+          },
+          {
+            "id": "L-S1E09-C08-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey, is everybody okay?"
+          },
+          {
+            "id": "L-S1E09-C08-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You see any dead dream demons laying around?"
+          },
+          {
+            "id": "L-S1E09-C08-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Did I tell Landon the wrong hiding place for the urn?"
+          },
+          {
+            "id": "L-S1E09-C08-T08",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "She was in my dream, and then, I don't know, she was gone."
+          },
+          {
+            "id": "L-S1E09-C08-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Wait. Wh-What was Hope doing in your dream?"
+          },
+          {
+            "id": "L-S1E09-C08-T10",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "The usual, just being a badass."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E09-C08-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope?"
+          },
+          {
+            "id": "L-S1E09-C08-T03",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "Are we alive, dude?"
+          },
+          {
+            "id": "L-S1E09-C08-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Did we win?"
+          },
+          {
+            "id": "L-S1E09-C08-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey, is everybody okay?"
+          },
+          {
+            "id": "L-S1E09-C08-T08",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "She was in my dream, and then, I don't know, she was gone."
+          },
+          {
+            "id": "L-S1E09-C08-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Wait. Wh-What was Hope doing in your dream?"
+          },
+          {
+            "id": "L-S1E09-C08-T10",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "The usual, just being a badass."
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "L-S1E09-C09",
+      "title": "Landon tells Hope he always fights for her.",
+      "description": "Landon tells Hope he always fights for her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "speech",
+      "tags": [
+        "confession",
+        "relationship",
+        "trust",
+        "commitment",
+        "speech",
+        "kiss"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+
+
+        {
+            "id": "L-S1E09-C09-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope."
+          },
+          {
+            
+            "id": "L-S1E09-C09-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S1E09-C09-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hi. So I have this whole thing I need to say. Is it cool if I say it?"
+          },
+          {
+            "id": "L-S1E09-C09-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S1E09-C09-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I've spent most of my life afraid... and unsure. I mean, even when you guys brought me back here, it didn't get better, it got worse because now I actually had something to lose."
+          },
+          {
+            "id": "L-S1E09-C09-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And it didn't help that it felt like you were avoiding me, keeping things from me."
+          },
+          {
+            "id": "L-S1E09-C09-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And then I fought a dream demon. A creature who exists literally to make me live out my worst fears, and I thought, 'What have I been so afraid of?'"
+          },
+          {
+            "id": "L-S1E09-C09-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "If you want to change your mind about being with me, change your mind."
+          },
+          {
+            "id": "L-S1E09-C09-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "'Cause I'm gonna work that much harder to make you change it back."
+          },
+          {
+            "id": "L-S1E09-C09-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "If you need to lie to keep dream demons from getting their claws on the urn, lie."
+          },
+          {
+            "id": "L-S1E09-C09-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Keep secrets because you're burdened with all the responsibilities no one else can handle, all right then, keep your secrets."
+          },
+          {
+            "id": "L-S1E09-C09-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It is my job to bust my ass until you see me as someone to confide in."
+          },
+          {
+            "id": "L-S1E09-C09-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm not gonna be afraid of losing you anymore, Hope."
+          },
+          {
+            "id": "L-S1E09-C09-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "'Cause I'm gonna be the guy who always fights to find you again."
+          },
+          {
+            "id": "L-S1E09-C09-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Sorry. I'm done."
+          },
+          {
+            "id": "L-S1E09-C09-T16",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E09-C09-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm not gonna be afraid of losing you anymore, Hope."
+          },
+          {
+            "id": "L-S1E09-C09-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "'Cause I'm gonna be the guy who always fights to find you again."
+          },
+          {
+            "id": "L-S1E09-C09-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Sorry. I'm done."
+          },
+          {
+            "id": "L-S1E09-C09-T16",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
+      }
+    }
+    
+    
+  ]
+}
