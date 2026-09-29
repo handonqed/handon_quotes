@@ -1,0 +1,2123 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 8,
+  "episode_id": "L-S1E08",
+  "episode_title": "Maybe I should start from the end",
+  "conversations": [
+    {
+      "id": "L-S1E08-C01",
+      "title": "Hope goes after Landon",
+      "description": "Hope realizes Landon is in trouble and decides to go after him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "bracelet",
+        "care",
+        "protect",
+        "rescue"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I know Landon needed me, and at the time, that's all I needed to know."
+          },
+          {
+            "id": "L-S1E08-C01-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Going somewhere? Better questions, where the hell do you think you're going with my keys and without telling me?"
+          },
+          {
+            "id": "L-S1E08-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Um, you know, I just said some really harsh things to you yesterday, and so I just wanted to get you an oil change as a peace offering."
+          },
+          {
+            "id": "L-S1E08-C01-T04",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "At 3 a.m.? Hope, you don't have a driver's license. You were gonna commit grand theft auto, which is a felony. You're ditching school right before the midterm exams begin, and you've made it very clear to me that you see me as an authority figure and nothing more. So tell me, why shouldn't I suspend you this very second? And what is that?"
+          },
+          {
+            "id": "L-S1E08-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's basically a supernatural compass."
+          },
+          {
+            "id": "L-S1E08-C01-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Well, I hope it's pointing you to your room cause that's where you're going."
+          },
+          {
+            "id": "L-S1E08-C01-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm going after Landon. If this thing is glowing, that means that he's in trouble."
+          },
+          {
+            "id": "L-S1E08-C01-T08",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Then we're going, and I'm driving."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C01-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm going after Landon. If this thing is glowing, that means that he's in trouble."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E08-C02",
+      "title": "Hope and Alaric keep going after Landon.",
+      "description": "Hope and Alaric keep going after Landon.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "care",
+        "protect",
+        "rescue"
+      ],
+      "importance": 1,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C02-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Do you think they're after Landon?"
+          },
+          {
+            "id": "L-S1E08-C02-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Well, all I know is they wouldn't have asked about him if they had him, so... we gotta find him before they do."
+          },
+          {
+            "id": "L-S1E08-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It seemed like the whole world was chasing Landon, but only one person was actually with him."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C02-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Do you think they're after Landon?"
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "L-S1E08-C03",
+      "title": "Landon explains his relationship with Hope to Seylah.",
+      "description": "Landon explains his relationship with Hope to Seylah.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Seylah",
+          "version": "Seylah"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "girlfriend",
+        "care",
+        "relationship"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "If you won't tell me who they are, will you at least tell me why they are following you?"
+          },
+          {
+            "id": "L-S1E08-C03-T02",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "They weren't, until you showed up. So, maybe they're following you."
+          },
+          {
+            "id": "L-S1E08-C03-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm not stupid. I would have noticed if I was being followed."
+          },
+          {
+            "id": "L-S1E08-C03-T04",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "Close your eyes. How many windows are in this room?"
+          },
+          {
+            "id": "L-S1E08-C03-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What? We just got here."
+          },
+          {
+            "id": "L-S1E08-C03-T06",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "The parking lot, how many cars?"
+          },
+           {
+            "id": "L-S1E08-C03-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm not... like ten?"
+          },
+          {
+            "id": "L-S1E08-C03-T08",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "The man who gave us the keys, was he right or left handed?"
+          },
+          {
+            "id": "L-S1E08-C03-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Nobody notices stuff like that."
+          },
+          {
+            "id": "L-S1E08-C03-T10",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "Three, seven, ambidextrous."
+          },
+          {
+            "id": "L-S1E08-C03-T11",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "Tell me more about you."
+          },
+          {
+            "id": "L-S1E08-C03-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Why? Because you care or because you want intel?"
+          },
+          {
+            "id": "L-S1E08-C03-T13",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "Does it matter? Either way, I genuinely want to know."
+          },
+          {
+            "id": "L-S1E08-C03-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Too bad. I've already told you my entire tragic life story."
+          },
+          {
+            "id": "L-S1E08-C03-T15",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "Do you have a girlfriend?"
+          },
+          {
+            "id": "L-S1E08-C03-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Her name is Hope. And she'd probably kill us both if she heard you calling her my girlfriend."
+          },
+          {
+            "id": "L-S1E08-C03-T17",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "I doubt that very much."
+          },
+          {
+            "id": "L-S1E08-C03-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Right. Ninja. Hope and I are... complicated. I-I hurt her once, and I don't think she's ever going to forgive me for it."
+          },
+          {
+            "id": "L-S1E08-C03-T19",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "What'd you do?"
+          },
+          {
+            "id": "L-S1E08-C03-T20",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I lied to her. And other stuff. Deep down, I think it's the lying part she'll never understand."
+          },
+          {
+            "id": "L-S1E08-C03-T21",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "She sounds tough."
+          },
+          {
+            "id": "L-S1E08-C03-T22",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Look who's talking. You two would probably hate each other."
+          },
+          {
+            "id": "L-S1E08-C03-T23",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "I guess it's true, then. Boys like girls who remind them of their mothers. You're stubborn... and surrounded by danger. You're my son, all right."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+         {
+            "id": "L-S1E08-C03-T15",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "Do you have a girlfriend?"
+          },
+          {
+            "id": "L-S1E08-C03-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Her name is Hope. And she'd probably kill us both if she heard you calling her my girlfriend."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E08-C04",
+      "title": "Hope finds Landon with Seylah.",
+      "description": "Hope finds Landon with Seylah.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Seylah",
+          "version": "Seylah"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "care",
+        "protect",
+        "girlfriend",
+        "Seylah"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C04-T01",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I'm looking for Landon Kirby."
+          },
+          {
+            "id": "L-S1E08-C04-T02",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "And who the hell are you?"
+          },
+          {
+            "id": "L-S1E08-C04-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "People who care about him. So tell me where he is before I blow your head off."
+          },
+          {
+            "id": "L-S1E08-C04-T04",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "You must be Hope."
+          },
+          {
+            "id": "L-S1E08-C04-T05",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "So you're the headmaster of a private school for supernaturals. And you're the teacher's pet?"
+          },
+          {
+            "id": "L-S1E08-C04-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Actually, she's kind of a pain in my ass."
+          },
+          {
+            "id": "L-S1E08-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "A little judgy for an absentee mother."
+          },
+          {
+            "id": "L-S1E08-C04-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You were wrong. I like her."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C04-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "People who care about him. So tell me where he is before I blow your head off."
+          },
+          {
+            "id": "L-S1E08-C04-T04",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "You must be Hope."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E08-C05",
+      "title": "Hope comforts Landon after meeting his mother.",
+      "description": "Hope comforts Landon after meeting his mother.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "kiss",
+        "make out",
+        "letters",
+        "comfort",
+        "family",
+        "sorry",
+        "romance"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C05-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, I'm really sorry."
+          },
+          {
+            "id": "L-S1E08-C05-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Don't be. It'll be okay."
+          },
+          {
+            "id": "L-S1E08-C05-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You can't trust her."
+          },
+          {
+            "id": "L-S1E08-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't. But she's my mother, Hope. All I've ever wanted is a family. A home. So I'm not gonna give up on her just 'cause she's a little screwed up. That would be pretty hypocritical."
+          },
+          {
+            "id": "L-S1E08-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're not that screwed up."
+          },
+          {
+            "id": "L-S1E08-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I hate that you always see me when I'm weak."
+          },
+          {
+            "id": "L-S1E08-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're not weak. You're a survivor. Landon, that makes you one of the strongest people that I know."
+          },
+          {
+            "id": "L-S1E08-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm starting to think I'm a bit of a danger magnet."
+          },
+          {
+            "id": "L-S1E08-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm starting to think you're right."
+          },
+          {
+            "id": "L-S1E08-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I didn't... I didn't mean to bring all this into your life. I'm sorry I ever walked into it."
+          },
+          {
+            "id": "L-S1E08-C05-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not."
+          },
+          {
+            "id": "L-S1E08-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I, uh... I wrote you letters. On the... on the bus."
+          },
+          {
+            "id": "L-S1E08-C05-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, yeah? What did they say?"
+          },
+          {
+            "id": "L-S1E08-C05-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "They were embarrassing."
+          },
+          {
+            "id": "L-S1E08-C05-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Try me."
+          },
+          {
+            "id": "L-S1E08-C05-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Um... 'Dear Hope... The state of Alabama has, like, a million Waffle Houses, and I cannot stop thinking about what it felt like to kiss you.'"
+          },
+          {
+        "id": "L-S1E08-C05-T17",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I hate that you always see me when I'm weak."
+          },
+          {
+            "id": "L-S1E08-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're not weak. You're a survivor. Landon, that makes you one of the strongest people that I know."
+          },
+          {
+            "id": "L-S1E08-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm starting to think I'm a bit of a danger magnet."
+          },
+          {
+            "id": "L-S1E08-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm starting to think you're right."
+          },
+          {
+            "id": "L-S1E08-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I didn't... I didn't mean to bring all this into your life. I'm sorry I ever walked into it."
+          },
+          {
+            "id": "L-S1E08-C05-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not."
+          },
+          {
+            "id": "L-S1E08-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I, uh... I wrote you letters. On the... on the bus."
+          },
+          {
+            "id": "L-S1E08-C05-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, yeah? What did they say?"
+          },
+          {
+            "id": "L-S1E08-C05-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "They were embarrassing."
+          },
+          {
+            "id": "L-S1E08-C05-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Try me."
+          },
+          {
+            "id": "L-S1E08-C05-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Um... 'Dear Hope...''The state of Alabama has, like, a million Waffle Houses, and I cannot stop thinking about what it felt like to kiss you.'"
+          },
+          {
+        "id": "L-S1E08-C05-T17",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+        ]
+      }
+    },
+    
+    {
+      "id": "L-S1E08-C06",
+      "title": "Hope and Landon promise not to hurt each other",
+      "description": "Hope and Landon compare their painful romantic histories and Landon promises not to hurt Hope again.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "kiss",
+        "make out",
+        "romance",
+        "trust",
+        "thank you"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+        "id": "L-S1E08-C06-T01",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      },
+          {
+            "id": "L-S1E08-C06-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Thank you, for coming for me. I needed help, and you came. That's never really happened to me before."
+          },
+          {
+            "id": "L-S1E08-C06-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sounds like you've had crappy girls in your life."
+          },
+          {
+            "id": "L-S1E08-C06-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, I've had zero girls in my life. Unless you count Lisa Marie Albertson, who asked me to take her to the prom, and then, when I said no, told the entire school that it was because I couldn't afford to pay for it."
+          },
+          {
+            "id": "L-S1E08-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Well, my first kiss was with a 90-year-old vampire who helped murder my mother."
+          },
+          {
+            "id": "L-S1E08-C06-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That's terrible."
+          },
+          {
+            "id": "L-S1E08-C06-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah. And prom is super expensive, so... People suck."
+          },
+          {
+            "id": "L-S1E08-C06-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "People suck."
+          },
+          {
+            "id": "L-S1E08-C06-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "People suck."
+          },
+          {
+        "id": "L-S1E08-C06-T10",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      },
+          {
+            "id": "L-S1E08-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope?"
+          },
+          {
+            "id": "L-S1E08-C06-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah?"
+          },
+          {
+            "id": "L-S1E08-C06-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I will never hurt you again. Ever."
+          },
+          {
+        "id": "L-S1E08-C06-T14",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C06-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "People suck."
+          },
+          {
+            "id": "L-S1E08-C06-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "People suck."
+          },
+          {
+        "id": "L-S1E08-C06-T10",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      },
+          {
+            "id": "L-S1E08-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope?"
+          },
+          {
+            "id": "L-S1E08-C06-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah?"
+          },
+          {
+            "id": "L-S1E08-C06-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I will never hurt you again. Ever."
+          },
+          {
+        "id": "L-S1E08-C06-T14",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E08-C07",
+      "title": "Hope and Landon are interrupted while making out.",
+      "description": "Hope and Landon are interrupted while making out.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "kiss",
+        "make out",
+        "interrupted"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+        "id": "L-S1E08-C07-T01",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      },
+          {
+            "id": "L-S1E08-C07-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Oh! Hey, uh... Hope, uh, get-get another room. Now."
+          },
+          {
+            "id": "L-S1E08-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're the one that's always saying I need to connect more with people."
+          },
+          {
+            "id": "L-S1E08-C07-T04",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, not literally. Get out. Get out."
+          },
+          {
+            "id": "L-S1E08-C07-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, Dr. Saltzman. Uh, I'm, uh..."
+          },
+          {
+            "id": "L-S1E08-C07-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "A sexed-up teenager. It's perfectly normal. Don't let anyone else tell you otherwise."
+          },
+          {
+            "id": "L-S1E08-C07-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So you're not mad?"
+          },
+          {
+            "id": "L-S1E08-C07-T08",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "We got bigger fish to fry. We need to talk about your mother."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're the one that's always saying I need to connect more with people."
+          },
+          {
+            "id": "L-S1E08-C07-T04",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, not literally. Get out. Get out."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E08-C08",
+      "title": "Hope confronts Seylah about leaving Landon.",
+      "description": "Hope confronts Seylah about leaving Landon.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Seylah",
+          "version": "Seylah"
+        }
+      ],
+      "subjects": [
+      ],
+      "scene_type": "conversation",
+      "tags": [
+        "care",
+        "protect",
+        "like"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+        "id": "L-S1E08-C08-T01",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "text": "Let me guess. Pizza run?"
+      },
+          {
+            "id": "L-S1E08-C08-T02",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "Alaric was right. You are a pain."
+          },
+          {
+            "id": "L-S1E08-C08-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not the one stealing a car at the moment."
+          },
+          {
+            "id": "L-S1E08-C08-T04",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "It's my car, so it's not stealing."
+          },
+          {
+            "id": "L-S1E08-C08-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, then you're just afraid to go upstairs and get your keys because then you'd have to tell Landon that you're abandoning him again. Even worse."
+          },
+          {
+            "id": "L-S1E08-C08-T06",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "He likes you, Hope. Be good to him."
+          },
+          {
+            "id": "L-S1E08-C08-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You first. Now, are you coming with, or do I need to drag your ass upstairs?"
+          },
+          {
+            "id": "L-S1E08-C08-T08",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "I never thought I'd see him again. And I was okay with that. Being a mother was never on my list of things to do before I died. Every now and then, over the years, I... I wondered how he was. What kind of person he turned out to be. If he had a nice life. Turns out he's a good person with a crappy life. He deserves better."
+          },
+          {
+            "id": "L-S1E08-C08-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Then help make it better."
+          },
+          {
+            "id": "L-S1E08-C08-T10",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "That's exactly what I'm doing."
+          },
+           {
+            "id": "L-S1E08-C08-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What you think you're doing for him doesn't matter. All that he's gonna remember of you is that you abandoned him when he needed you the most."
+          },
+          {
+            "id": "L-S1E08-C08-T12",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "No. He won't remember me, period. And neither will you."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C08-T06",
+            "speaker": {
+              "character": "Seylah",
+              "version": "Seylah"
+            },
+            "text": "He likes you, Hope. Be good to him."
+          },
+          {
+            "id": "L-S1E08-C08-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You first. Now, are you coming with, or do I need to drag your ass upstairs?"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E08-C09",
+      "title": "Hope tells Landon she believes him.",
+      "description": "Hope reassures Landon when he fears that he has stolen another artifact.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type":  "conversation",
+      "tags": [
+        "believe",
+        "knife",
+        "trust"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C09-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Wait, wait, she got pregnant in Satan's mud bath?"
+          },
+          {
+            "id": "L-S1E08-C09-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, that's-that's a lot to take in."
+          },
+          {
+            "id": "L-S1E08-C09-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And now she's gone?"
+          },
+          {
+            "id": "L-S1E08-C09-T04",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Look, being a-a parent i-is complicated. Sometimes we convince ourselves that we're doing the right thing, when in reality, we're just being really dumb. Look, I-I've got to check in on Hope, okay?"
+          },
+          {
+            "id": "L-S1E08-C09-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Bigger fish. Huge fish."
+          },
+          {
+            "id": "L-S1E08-C09-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Ictus. Also: ick!"
+          },
+          {
+            "id": "L-S1E08-C09-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "See? Danger magnet."
+          },
+          {
+            "id": "L-S1E08-C09-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What the hell was that?"
+          },
+          {
+            "id": "L-S1E08-C09-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Uh, I'm guessing a Mer-Man. A very pissed Mer-Man."
+          },
+          {
+            "id": "L-S1E08-C09-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why are the monsters still coming for them? We don't even have what they want."
+          },
+          {
+            "id": "L-S1E08-C09-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I don't know, but we got to get Landon out of here."
+          },
+          {
+            "id": "L-S1E08-C09-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, no."
+          },
+          {
+            "id": "L-S1E08-C09-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What?"
+          },
+          {
+            "id": "L-S1E08-C09-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You said a necromancer told you the knife was one of three keys, right?"
+          },
+          {
+            "id": "L-S1E08-C09-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "The Necromancer. Like I said, it's a long story, but why does it matter?"
+          },
+          {
+            "id": "L-S1E08-C09-T16",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Son of a bitch."
+          },
+          {
+            "id": "L-S1E08-C09-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "This is Seylah's. I picked it up, but I didn't steal it. I-I... Not on purpose, anyway. I don't know how it got in there, just like how I don't know what happened with the knife. I swear, I wouldn't do that again."
+          },
+          {
+            "id": "L-S1E08-C09-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, Landon. It's okay. I believe you."
+          },
+          {
+            "id": "L-S1E08-C09-T19",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Oh, we got to move."
+          },
+          {
+            "id": "L-S1E08-C09-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No, no, no, wait. Leave it, leave it."
+          },
+          {
+            "id": "L-S1E08-C09-T21",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "What? Are you out of your mind?"
+          },
+          {
+            "id": "L-S1E08-C09-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm just sick of playing the same game. So let the monster have it. He'll take it to Malivore. We follow him, we know where it is."
+          },
+          {
+            "id": "L-S1E08-C09-T23",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I am not taking two teenagers to a covert military hiding place for a demon portal."
+          },
+          {
+            "id": "L-S1E08-C09-T24",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You kind of have to."
+          },
+          {
+            "id": "L-S1E08-C09-T25",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Why?"
+          },
+          {
+            "id": "L-S1E08-C09-T26",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because Seylah's going there."
+          },
+          {
+            "id": "L-S1E08-C09-T27",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What? Did she tell you that?"
+          },
+          {
+            "id": "L-S1E08-C09-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "In her own way. Hold that. I'll explain in the car. Let's go."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C09-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "This is Seylah's. I picked it up, but I didn't steal it. I-I... Not on purpose, anyway. I don't know how it got in there, just like how I don't know what happened with the knife. I swear, I wouldn't do that again."
+          },
+          {
+            "id": "L-S1E08-C09-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, Landon. It's okay. I believe you."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E08-C10",
+      "title": "Hope, Landon and Alaric follow the monster to Triad.",
+      "description": "Hope, Landon and Alaric follow the monster to Triad.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type":  "conversation",
+      "tags": [
+        "protect"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C10-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Turns out he's pretty fast."
+          },
+          {
+            "id": "L-S1E08-C10-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Listen, this was your idea. So is it within my bounds as the headmaster to tell you to shut it?"
+          },
+          {
+            "id": "L-S1E08-C10-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What if we don't get there in time?"
+          },
+          {
+            "id": "L-S1E08-C10-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Seylah doesn't have that much of a lead on us."
+          },
+          {
+            "id": "L-S1E08-C10-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I can't believe she wants to erase herself just to get out of being a parent. What the hell is that?"
+          },
+          {
+            "id": "L-S1E08-C10-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Triad."
+          },
+          {
+            "id": "L-S1E08-C10-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Explosives?"
+          },
+          {
+            "id": "L-S1E08-C10-T08",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "On the bright side, maybe this fence stopped our fishy friend."
+          },
+          {
+            "id": "L-S1E08-C10-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't think so."
+          },
+          {
+            "id": "L-S1E08-C10-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "There. Hey, stay back. He's dangerous."
+          },
+          {
+            "id": "L-S1E08-C10-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I have to get in there."
+          },
+          {
+            "id": "L-S1E08-C10-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon!"
+          }
+          
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C10-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey, stay back. He's dangerous."
+          },
+          {
+            "id": "L-S1E08-C10-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I have to get in there."
+          },
+          {
+            "id": "L-S1E08-C10-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E08-C11",
+      "title": "They decide Landon is going back to the school.",
+      "description": "They decide Landon is going back to the school.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "happy",
+        "home"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C11-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Thank you again for coming to help me."
+          },
+          {
+            "id": "L-S1E08-C11-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Sorry you didn't find your mother. What I don't understand is why I can't remember how we found you. Hope? Any theories?"
+          },
+          {
+            "id": "L-S1E08-C11-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Work in progress."
+          },
+          {
+            "id": "L-S1E08-C11-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, I think the bus stop is actually that way."
+          },
+           {
+            "id": "L-S1E08-C11-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Oh, that's okay. We'll drive you."
+          },
+          {
+            "id": "L-S1E08-C11-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Where?"
+          },
+          {
+            "id": "L-S1E08-C11-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Home."
+          },
+          {
+            "id": "L-S1E08-C11-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Why the change of heart?"
+          },
+          {
+            "id": "L-S1E08-C11-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Call it a gut feeling. Or you could just add it to the list of things I don't know."
+          },
+          {
+        "id": "L-S1E08-C11-T10",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "smile"
+      }
+
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C11-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Where?"
+          },
+          {
+            "id": "L-S1E08-C11-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Home."
+          },
+          {
+            "id": "L-S1E08-C11-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Why the change of heart?"
+          },
+          {
+            "id": "L-S1E08-C11-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Call it a gut feeling. Or you could just add it to the list of things I don't know."
+          },
+          {
+        "id": "L-S1E08-C11-T10",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "smile"
+      }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E08-C12",
+      "title": "Hope asks Landon to be her boyfriend.",
+      "description": "Hope asks Landon to be her boyfriend",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "happy",
+        "kiss",
+        "boyfriend",
+        "relationship"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E08-C12-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hi"
+          },
+          {
+            "id": "L-S1E08-C12-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey"
+          },
+          {
+            "id": "L-S1E08-C12-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Is, um... is Raf here? 'Cause I can come back."
+          },
+          {
+            "id": "L-S1E08-C12-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No, you just missed the reunion. Now he's off, uh, working out with the werewolves. I was just sitting here, looking at the fancy new clothes the school gave me, trying to make peace with the fact that I may never meet the woman in that picture. Which I seem to have lost somehow. What do you think she's like?"
+          },
+          {
+            "id": "L-S1E08-C12-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I think that she's an international assassin that specializes in k*lling monsters. And that she loves you very much, in her own way."
+          },
+           {
+            "id": "L-S1E08-C12-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, let's be honest. Nobody that cool gave birth to me. So, what did you want to talk to me about?"
+          },
+          {
+            "id": "L-S1E08-C12-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Do you want to be my boyfriend?"
+          },
+          {
+            "id": "L-S1E08-C12-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Are you serious?"
+          },
+           {
+            "id": "L-S1E08-C12-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Deadly."
+          },
+          {
+            "id": "L-S1E08-C12-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, what brought this on?"
+          },
+           {
+            "id": "L-S1E08-C12-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't know, I... I guess I'm-I'm just... I'm really happy that you're back."
+          },
+           {
+            "id": "L-S1E08-C12-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, it's a big decision."
+          },
+           {
+            "id": "L-S1E08-C12-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I know."
+          },
+          {
+            "id": "L-S1E08-C12-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We should probably sleep on it."
+          },
+           {
+            "id": "L-S1E08-C12-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. Absolutely not."
+          },
+          {
+            "id": "L-S1E08-C12-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, in that case, yeah. I'd really like that."
+          },
+          {
+        "id": "L-S1E08-C12-T17",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E08-C12-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Do you want to be my boyfriend?"
+          },
+          {
+            "id": "L-S1E08-C12-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Are you serious?"
+          },
+           {
+            "id": "L-S1E08-C12-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Deadly."
+          },
+          {
+            "id": "L-S1E08-C12-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, what brought this on?"
+          },
+           {
+            "id": "L-S1E08-C12-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't know, I... I guess I'm-I'm just... I'm really happy that you're back."
+          },
+           {
+            "id": "L-S1E08-C12-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, it's a big decision."
+          },
+           {
+            "id": "L-S1E08-C12-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I know."
+          },
+          {
+            "id": "L-S1E08-C12-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We should probably sleep on it."
+          },
+           {
+            "id": "L-S1E08-C12-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. Absolutely not."
+          },
+          {
+            "id": "L-S1E08-C12-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, in that case, yeah. I'd really like that."
+          },
+          {
+        "id": "L-S1E08-C12-T17",
+        "speaker": {
+          "character": "Handon",
+          "version": "Handon"
+        },
+        "action": "kiss"
+      }
+        ]
+      }
+    }
+  ]
+}
