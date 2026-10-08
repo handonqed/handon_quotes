@@ -1,0 +1,1590 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 14,
+  "episode_id": "L-S1E14",
+  "episode_title": "Let's just finish the dance",
+  "conversations": [
+    {
+      "id": "L-S1E14-C01",
+      "title": "Hope wakes up from a nightmare while sleeping beside Landon.",
+      "description": "Hope wakes up from a nightmare while sleeping beside Landon.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "bed scene",
+        "nightmare",
+        "magic wave"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope, wake up. Hope, wake up." 
+          },
+          {
+            "id": "L-S1E14-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "magic wave"
+          },
+          {
+            "id": "L-S1E14-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, my God. Landon, are you okay?"
+          },
+          {
+            "id": "L-S1E14-C01-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, I was recently dead, so I think I'll mend."
+          },
+          {
+            "id": "L-S1E14-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What happened?"
+          },
+          {
+            "id": "L-S1E14-C01-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You were having a nightmare."
+          },
+          {
+            "id": "L-S1E14-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And then you screamed and some magical wave thing hit me, and now I have art supplies where no man should."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope, wake up. Hope, wake up." 
+          },
+          {
+            "id": "L-S1E14-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "magic wave"
+          },
+          {
+            "id": "L-S1E14-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, my God. Landon, are you okay?"
+          },
+          {
+            "id": "L-S1E14-C01-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, I was recently dead, so I think I'll mend."
+          },
+          {
+            "id": "L-S1E14-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What happened?"
+          },
+          {
+            "id": "L-S1E14-C01-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You were having a nightmare."
+          },
+          {
+            "id": "L-S1E14-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And then you screamed and some magical wave thing hit me, and now I have art supplies where no man should."
+          }
+        ]
+      }
+    },
+   
+{
+      "id": "L-S1E14-C02",
+      "title": "Landon talks with Alaric about Hope's incident.",
+      "description": "Landon talks with Alaric about Hope's incident.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "worry"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey, Dr. Saltzman, uh, can we talk?"
+          },
+          {
+            "id": "L-S1E14-C02-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, of course. I was just doing some Phoenix research. Please sit down."
+          },
+          {
+            "id": "L-S1E14-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Um, yeah, well, I mean, obviously I'm dying to know m-more, uh, pard-pardon the pun. Uh, but actually, I wanted to talk to you about..."
+          },
+          {
+            "id": "L-S1E14-C02-T04",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "MG? Is he still acting weird? Look, once Emma's done with her therapy intensive with Raf, she'll work with MG... And she'll work with you, too, if you want to deal with the fallout of him, you know... killing you."
+          },
+          {
+            "id": "L-S1E14-C02-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Dr. Saltzman, I'm honestly just glad to know what I am. And that I belong at the school."
+          },
+          {
+            "id": "L-S1E14-C02-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Good. You, uh... got a little..."
+          },
+          {
+            "id": "L-S1E14-C02-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, that was actually what I wanted to talk to you about."
+          },
+          {
+            "id": "L-S1E14-C02-T08",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Paint?"
+          },
+          {
+            "id": "L-S1E14-C02-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C02-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, that was actually what I wanted to talk to you about."
+          },
+          {
+            "id": "L-S1E14-C02-T08",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Paint?"
+          },
+          {
+            "id": "L-S1E14-C02-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope."
+          }
+        ]
+      }
+    },
+
+
+
+    {
+      "id": "L-S1E14-C03",
+      "title": "Hope talks with Alaric about her struggle with the trauma of losing Landon.",
+      "description": "Hope talks with Alaric about her struggle with the trauma of losing Landon.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "trauma",
+        "grief",
+        "boyfriend"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C03-T01",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "So, what's wrong with you?"
+          },
+          {
+            "id": "L-S1E14-C03-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Nothing, I'm fine."
+          },
+          {
+            "id": "L-S1E14-C03-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Landon told me about your little incident."
+          },
+          {
+            "id": "L-S1E14-C03-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Isn't boyfriend confidentiality a thing? It should be."
+          },
+          {
+            "id": "L-S1E14-C03-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "He's just worried about you, that's all."
+          },
+          {
+            "id": "L-S1E14-C03-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "He doesn't need to be."
+          },
+          {
+            "id": "L-S1E14-C03-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Are you sure? It seems like you're manifesting a little stress and anxiety. My guess is, you're still dealing with the trauma of seeing Landon dead."
+          },
+          {
+            "id": "L-S1E14-C03-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I've been through worse."
+          },
+          {
+            "id": "L-S1E14-C03-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I mean, with your family history, I just want to make sure..."
+          },
+          {
+            "id": "L-S1E14-C03-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I said I'm fine!"
+          },
+          {
+            "id": "L-S1E14-C03-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "magic wave"
+          },
+          {
+            "id": "L-S1E14-C03-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay. I-I could stand to blow off some steam. I'm gonna... go check the woods to see if I can wolf out."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C03-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Landon told me about your little incident."
+          },
+          {
+            "id": "L-S1E14-C03-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Isn't boyfriend confidentiality a thing? It should be."
+          },
+          {
+            "id": "L-S1E14-C03-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "He's just worried about you, that's all."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E14-C04",
+      "title": "Landon tells Hope that they are both indestructible.",
+      "description": "Landon notices Hope acting strangely and explains to her that now they are both indestructible.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Hope",
+          "version": "Hope"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "relationship",
+        "indestructible"
+  
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C04-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey, Hope. You have any idea where these guys go?"
+          },
+          {
+            "id": "L-S1E14-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, anywhere but with the birds. The ravens and the finches are fine, but the rats drive the owls crazy."
+          },
+          {
+            "id": "L-S1E14-C04-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So I've been thinking about why you've been acting so weird."
+          },
+          {
+            "id": "L-S1E14-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Suddenly everyone's got a psychology degree around here."
+          },
+          {
+            "id": "L-S1E14-C04-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No, I just, I just think you have cold feet."
+          },
+          {
+            "id": "L-S1E14-C04-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "About what?"
+          },
+          {
+            "id": "L-S1E14-C04-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Us. You know, we're good."
+          },
+          {
+            "id": "L-S1E14-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We're finally in a solid relationship based on honesty and openness and..."
+          },
+          {
+            "id": "L-S1E14-C04-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm indestructible. You're relatively indestructible. We finally have a long, clear road ahead of us, you know, with no obstacles."
+          },
+          {
+            "id": "L-S1E14-C04-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Who is that?"
+          },
+          {
+            "id": "L-S1E14-C04-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Um... That is Roman."
+          },
+          {
+            "id": "L-S1E14-C04-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C04-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Us. You know, we're good."
+          },
+          {
+            "id": "L-S1E14-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We're finally in a solid relationship based on honesty and openness and..."
+          },
+          {
+            "id": "L-S1E14-C04-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm indestructible. You're relatively indestructible. We finally have a long, clear road ahead of us, you know, with no obstacles."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E14-C05",
+      "title": "Landon introduces himself to Roman as Hope's boyfriend.",
+      "description": "Landon lets Roman know he is Hope's boyfriend and a phoenix.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Roman",
+          "version": "Roman"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "relationship",
+        "jealous",
+        "boyfriend"
+  
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C05-T01",
+            "speaker": {
+              "character": "Roman",
+              "version": "Roman"
+            },
+            "text": "Dr. Saltzman's been a little overwhelmed, so, uh, I've been doing a little... recruiting recon for him lately. But he asked me to come in today and lend a hand."
+          },
+          {
+            "id": "L-S1E14-C05-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, uh, this is Landon."
+          },
+          {
+            "id": "L-S1E14-C05-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Her boyfriend. And a Phoenix. By the way, which is... so cool."
+          },
+          {
+            "id": "L-S1E14-C05-T04",
+            "speaker": {
+              "character": "Roman",
+              "version": "Roman"
+            },
+            "text": "I better go find Dr. Saltzman."
+          },
+          {
+            "id": "L-S1E14-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That was a little alpha male of you."
+          },
+          {
+            "id": "L-S1E14-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I mean, is that the 90 year old vampire ex you may have mentioned murdered your mom?"
+          },
+          {
+            "id": "L-S1E14-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It is. Though I don't hold him responsible for what happened anymore."
+          },
+          {
+            "id": "L-S1E14-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm gonna go hide more rats."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C05-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, uh, this is Landon."
+          },
+          {
+            "id": "L-S1E14-C05-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Her boyfriend. And a Phoenix. By the way, which is... so cool."
+          },
+          {
+            "id": "L-S1E14-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That was a little alpha male of you."
+          }
+        ]
+      }
+    },
+
+{
+      "id": "L-S1E14-C06",
+      "title": "Hope and Landon practice the dance while talking about Roman.",
+      "description": "Hope and Landon practice the dance while talking about Roman.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "knife",
+        "mother"
+  
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C06-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I can't believe you were so nice to him. After everything you told me he did to you and to your family, you can act like nothing happened?"
+          },
+          {
+            "id": "L-S1E14-C06-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's complicated. He spent half of his life desiccated in a cave. And then he was brainwashed by his mother, who was a literal nazi. And he's spent the last two years doing really good work for the school."
+          },
+          {
+            "id": "L-S1E14-C06-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Your mother is still dead. How does any of that exonerate him?"
+          },
+          {
+            "id": "L-S1E14-C06-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It doesn't. But it's in the past. Leave it."
+          },
+          {
+            "id": "L-S1E14-C06-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I suffered through how much torture because I stole a knife, and this guy has a hand in the death of your..."
+          },
+          {
+            "id": "L-S1E14-C06-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, stop."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C06-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I can't believe you were so nice to him. After everything you told me he did to you and to your family, you can act like nothing happened?"
+          },
+          {
+            "id": "L-S1E14-C06-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's complicated."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E14-C07",
+      "title": "Landon apologizes to Hope.",
+      "description": "Landon apologizes to Hope and they find MG's mom statue.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "sorry",
+        "jealous"
+  
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C07-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "In a situation like this, which one of us is supposed to apologize?"
+          },
+          {
+            "id": "L-S1E14-C07-T02",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "When it comes to jealousy? Always the guy."
+          },
+          {
+            "id": "L-S1E14-C07-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S1E14-C07-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S1E14-C07-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm so sorry, I was totally insensitive, and I just, I..."
+          },
+          {
+            "id": "L-S1E14-C07-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Where did this statue come from?"
+          },
+          {
+            "id": "L-S1E14-C07-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, I-I don't know, somebody probably moved it up here when they were cleaning? Looks like one of the statues from the basement."
+          },
+          {
+            "id": "L-S1E14-C07-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Call me crazy, but doesn't this look like MG's mom?"
+          },
+          {
+            "id": "L-S1E14-C07-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I think it is MG's mom."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C07-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S1E14-C07-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S1E14-C07-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm so sorry, I was totally insensitive, and I just, I..."
+          }
+        ]
+      }
+    },
+{
+      "id": "L-S1E14-C08",
+      "title": "Landon accuses Roman of attacking MG's mom.",
+      "description": "Landon accuses Roman of attacking MG's mom.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        {
+          "character": "MG",
+          "version": "MG"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "jealous"
+  
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C08-T01",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "Who would do this to my mom?"
+          },
+          {
+            "id": "L-S1E14-C08-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Well, not just who would... Who could?"
+          },
+          {
+            "id": "L-S1E14-C08-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "It could be a bad spell translation, a potion mishap?"
+          },
+          {
+            "id": "L-S1E14-C08-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Or a monster."
+          },
+          {
+            "id": "L-S1E14-C08-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "There's no reason a monster would be here."
+          },
+          {
+            "id": "L-S1E14-C08-T06",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Unless this sentient jar of artisanal mayonnaise activated a new artifact. What did you touch?"
+          },
+          {
+            "id": "L-S1E14-C08-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Everything. We cleaned the school from top to bottom, remember? But if we're just gonna throw out wild theories, here's one: what if the person who did this showed up today, out of nowhere, acting all buddy-buddy, manipulating romantic feelings to get someone's guard down?"
+          },
+          {
+            "id": "L-S1E14-C08-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Do you seriously suspect Roman?"
+          },
+          {
+            "id": "L-S1E14-C08-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, we all should. The timing is too convenient."
+          },
+          {
+            "id": "L-S1E14-C08-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I thought you were sorry for acting jealous."
+          },
+          {
+            "id": "L-S1E14-C08-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I was sorry, but now I'm vindicated."
+          },
+          {
+            "id": "L-S1E14-C08-T12",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "All right, Lizzie, Hope, you keep an eye on the contestants. MG, we're gonna search the campus. Landon..."
+          },
+          {
+            "id": "L-S1E14-C08-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm gonna go ask Roman some questions."
+          },
+          {
+            "id": "L-S1E14-C08-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, super helpful. Ask a vampire how he turned a woman to stone."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C08-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Do you seriously suspect Roman?"
+          },
+          {
+            "id": "L-S1E14-C08-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, we all should. The timing is too convenient."
+          },
+          {
+            "id": "L-S1E14-C08-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I thought you were sorry for acting jealous."
+          },
+          {
+            "id": "L-S1E14-C08-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I was sorry, but now I'm vindicated."
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "L-S1E14-C09",
+      "title": "Landon talks with Penelope about his jealousy.",
+      "description": "Landon talks with Penelope about his jealousy.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Penelope",
+          "version": "Penelope"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "jealous",
+        "honesty"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C09-T01",
+            "speaker": {
+              "character": "Penelope",
+              "version": "Penelope"
+            },
+            "text": "Mmm. It's not bad."
+          },
+          {
+            "id": "L-S1E14-C09-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't think you've ever spoken to me before."
+          },
+          {
+            "id": "L-S1E14-C09-T03",
+            "speaker": {
+              "character": "Penelope",
+              "version": "Penelope"
+            },
+            "text": "You've never had free booze before."
+          },
+          {
+            "id": "L-S1E14-C09-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Right. Makes sense."
+          },
+          {
+            "id": "L-S1E14-C09-T05",
+            "speaker": {
+              "character": "Penelope",
+              "version": "Penelope"
+            },
+            "text": "So, what sorrows are we drowning?"
+          },
+          {
+            "id": "L-S1E14-C09-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I came back from the dead... in a, in a burst of flames. And you'd think that would earn a guy a couple days of feeling special, but the irony about this place is that... special is just normal. "
+          },
+          {
+            "id": "L-S1E14-C09-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "All it takes is one good-looking vampire, and then I might as well be back at Mystic Falls High. Maybe I should just... tell Hope how jealous I am of Vampire Captain America."
+          },
+          {
+            "id": "L-S1E14-C09-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I should put it all out there, right? And just say it. If I've learned anything from Hope, it's that honesty is the best policy."
+          },
+          {
+            "id": "L-S1E14-C09-T09",
+            "speaker": {
+              "character": "Penelope",
+              "version": "Penelope"
+            },
+            "text": "I'm sorry. Did you just put \"Hope\" and \"honesty\" in the same sentence? You are all so blind to the hypocrisy of this place."
+          },
+          {
+            "id": "L-S1E14-C09-T10",
+            "speaker": {
+              "character": "Penelope",
+              "version": "Penelope"
+            },
+            "text": "You know what? Let me tell you how honest your girl is."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C09-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I came back from the dead...in a, in a burst of flames. And you'd think that would earn a guy a couple days of feeling special, but the irony about this place is that... special is just normal. "
+          },
+          {
+            "id": "L-S1E14-C09-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "All it takes is one good-looking vampire, and then I might as well be back at Mystic Falls High. Maybe I should just... tell Hope how jealous I am of Vampire Captain America."
+          },
+          {
+            "id": "L-S1E14-C09-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I should put it all out there, right? And just say it. If I've learned anything from Hope, it's that honesty is the best policy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E14-C10",
+      "title": "Landon confronts Hope about his mother before the dance.",
+      "description": "Landon confronts Hope about his mother before the dance.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "secret",
+        "honesty",
+        "angst",
+        "mother"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C10-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey. Where have you been?"
+          },
+          {
+            "id": "L-S1E14-C10-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Are you okay? Why do you smell like a bar?"
+          },
+          {
+            "id": "L-S1E14-C10-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Penelope Park told me that you are keeping a secret... about my mom. She says that we met her and that I don't remember it... but you do."
+          },
+          {
+            "id": "L-S1E14-C10-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "She's lying, right? Just tell me she's lying, Hope."
+          },
+          {
+            "id": "L-S1E14-C10-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You know, I wasn't always the most honest person, but... you were the one that taught me the value in being truthful. And the truth... I can't be here right now."
+          },
+          {
+            "id": "L-S1E14-C10-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, Landon."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C10-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "She's lying, right? Just tell me she's lying, Hope."
+          },
+          {
+            "id": "L-S1E14-C10-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You know, I wasn't always the most honest person, but...you were the one that taught me the value in being truthful. And the truth... I can't be here right now."
+          },
+          {
+            "id": "L-S1E14-C10-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, Landon."
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "L-S1E14-C11",
+      "title": "Hope wants to find Landon after their fight.",
+      "description": "Hope wants to find Landon after their fight, and Lizzie offers to help her reconcile with him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "reconciliation",
+        "relationship"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C11-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I need to go find Landon."
+          },
+          {
+            "id": "L-S1E14-C11-T02",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Just give him a minute to breathe. Boys need some space before they come crawling back."
+          },
+          {
+            "id": "L-S1E14-C11-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I thought I could keep it all together. I've worked so hard to move on from all the things that have happened to me in my life. But everyone was right. Everyone's been right."
+          },
+          {
+            "id": "L-S1E14-C11-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I needed to, like, let it all out. How did you know what to say? How'd you know what to do?"
+          },
+          {
+            "id": "L-S1E14-C11-T05",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "It's just what Josie's done for me a thousand times. She's really mad at me. I don't think I've ever seen her so angry."
+          },
+          {
+            "id": "L-S1E14-C11-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon's pretty mad at me, too."
+          },
+          {
+            "id": "L-S1E14-C11-T07",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Then let's make a deal. You help me get Josie back, and I'll help you get Landon."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C11-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I need to go find Landon."
+          },
+          {
+            "id": "L-S1E14-C11-T02",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Just give him a minute to breathe. Boys need some space before they come crawling back."
+          },
+          {
+            "id": "L-S1E14-C11-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I thought I could keep it all together. I've worked so hard to move on from all the things that have happened to me in my life."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E14-C12",
+      "title": "Landon confronts Alaric about Hope's secret.",
+      "description": "Landon confronts Alaric about Hope's secret",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "secret",
+        "protect"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E14-C12-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Did you know?"
+          },
+          {
+            "id": "L-S1E14-C12-T02",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "After the day I've had, I'm gonna need you to be a little more specific, Landon. I was a lawn ornament until about ten minutes ago."
+          },
+          {
+            "id": "L-S1E14-C12-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Did you know that Hope remembered meeting my mom? Did you know that she was lying to me about it?"
+          },
+          {
+            "id": "L-S1E14-C12-T04",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, I did."
+          },
+          {
+            "id": "L-S1E14-C12-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So you're a liar, too."
+          },
+          {
+            "id": "L-S1E14-C12-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "If you're looking for someone to blame, go ahead, you can blame me. I can take it. But just cut Hope a little slack, okay? She just wanted to protect you."
+          },
+          {
+            "id": "L-S1E14-C12-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Protect me? I can't deal with this right now."
+          }
+          
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E14-C12-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "She just wanted to protect you."
+          },
+          {
+            "id": "L-S1E14-C12-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Protect me? I can't deal with this right now."
+          }
+        ]
+      }
+    }
+  ]
+}
