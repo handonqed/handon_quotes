@@ -4,19 +4,27 @@
 <meta charset="UTF-8">
 <script>
 (function(){
-  var t = localStorage.getItem('theme');
-  if (t === 'light') document.documentElement.setAttribute('data-theme','light');
+  var t = null;
+  try { t = localStorage.getItem('theme'); } catch (e) {}
+  if (t === 'light' || (!t && window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches)) document.documentElement.setAttribute('data-theme','light');
 })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A searchable database of Hope and Landon conversations, quotes and moments.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Handon Quotes">
+<meta property="og:description" content="A searchable database of Hope and Landon conversations, quotes and moments.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%AC%3C/text%3E%3C/svg%3E">
 <title>Handon Quotes</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<a class="skip-link" id="skip-link" href="#app">Skip to content</a>
 <header>
   <div class="header-inner">
     <a class="brand" href="#home">HANDON <span>QUOTES</span></a>
-    <nav>
+    <nav id="site-nav">
       <a href="#episodes">Episodes</a>
       <a href="#importance">Importance</a>
       <a href="#tags">Tags</a>
@@ -25,10 +33,11 @@
       <a href="#statistics">Statistics</a>
     </nav>
     <button id="theme-toggle" class="theme-toggle" aria-label="Toggle bright/dark mode" title="Toggle bright mode">☀️</button>
+    <button id="nav-toggle" class="theme-toggle nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">☰</button>
   </div>
 </header>
 
-<main id="app">
+<main id="app" tabindex="-1">
 <section id="home" class="page">
   <div class="hero home-hero">
 
@@ -51,7 +60,7 @@
     </div>
 
     <div class="hero-gif">
-      <img src="assets/gifs/home.gif" alt="">
+      <video src="assets/media/home.mp4" autoplay loop muted playsinline disablepictureinpicture aria-hidden="true"></video>
     </div>
 
   </div>
@@ -68,9 +77,9 @@
   </div>
 
   <div class="heading-gifs">
-    <img src="assets/gifs/episodes1.gif" alt="">
-    <img src="assets/gifs/episodes2.gif" alt="">
-    <img src="assets/gifs/episodes3.gif" alt="">
+    <video src="assets/media/episodes1.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/episodes2.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/episodes3.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
   </div>
 </div>
   <div id="episode-browser"></div>
@@ -81,7 +90,7 @@
   <div class="heading-text">
     <p class="eyebrow">HIGHLIGHTS</p>
     <h2>By Importance</h2>
-    <div class="filters"><label>Importance
+    <div class="filters"><label>Minimum importance
       <select id="importance-filter">
         <option value="1">★☆☆☆☆</option><option value="2">★★☆☆☆</option>
         <option value="3" selected>★★★☆☆</option><option value="4">★★★★☆</option>
@@ -89,8 +98,8 @@
       </select></label></div>
   </div>
   <div class="heading-gifs">
-    <img src="assets/gifs/importance1.gif" alt="">
-    <img src="assets/gifs/importance2.gif" alt="">
+    <video src="assets/media/importance1.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/importance2.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
   </div>
 </div>
   <div id="importance-results" class="list"></div>
@@ -104,9 +113,9 @@
     <p>Explore conversations by their tags.</p>
   </div>
   <div class="heading-gifs">
-    <img src="assets/gifs/tags1.gif" alt="">
-    <img src="assets/gifs/tags2.gif" alt="">
-    <img src="assets/gifs/tags3.gif" alt="">
+    <video src="assets/media/tags1.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/tags2.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/tags3.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
   </div>
 </div>
   <div id="tag-browser" class="tags-browser"></div>
@@ -121,23 +130,23 @@
     <p>Search words or phrases across the dialogue.</p>
   </div>
   <div class="heading-gifs">
-    <img src="assets/gifs/search1.gif" alt="">
-    <img src="assets/gifs/search2.gif" alt="">
-    <img src="assets/gifs/search3.gif" alt="">
-    <img src="assets/gifs/search4.gif" alt="">
+    <video src="assets/media/search1.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/search2.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/search3.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/search4.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
   </div>
 </div>
-  <input id="search-input" class="search" type="search" placeholder="Search quotes..." autocomplete="off">
+  <input id="search-input" class="search" type="search" aria-label="Search quotes" aria-keyshortcuts="/" placeholder="Search quotes... (press / from any page)" autocomplete="off">
   <div class="filters grid">
-    <label>Show<select id="search-show"><option value="">All</option></select></label>
     <label>Season<select id="search-season"><option value="">All</option></select></label>
-    <label>Character<select id="search-character"><option value="">All</option><option>Hope</option><option>Landon</option></select></label>
+    <label>Episode<select id="search-episode"><option value="">All</option></select></label>
+    <label>Character<select id="search-character"><option value="">All</option><option value="hope">Hope</option><option value="landon">Landon</option></select></label>
     <label>Minimum importance<select id="search-importance">
       <option value="0">Any</option><option value="3">★★★☆☆+</option>
       <option value="4">★★★★☆+</option><option value="5">★★★★★</option>
     </select></label>
   </div>
-  <p id="search-count" class="muted"></p>
+  <p id="search-count" class="muted" aria-live="polite"></p>
   <div id="search-results" class="list"></div>
 </section>
 
@@ -149,14 +158,14 @@
     <p>Let the database choose a quote or a short version of the conversation.</p>
   </div>
   <div class="heading-gifs">
-    <img src="assets/gifs/random1.gif" alt="">
-    <img src="assets/gifs/random2.gif" alt="">
-    <img src="assets/gifs/random3.gif" alt="">
+    <video src="assets/media/random1.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/random2.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/random3.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
   </div>
 </div>
   <div class="filters grid">
-    <label>Show<select id="random-show"><option value="">All</option></select></label>
     <label>Season<select id="random-season"><option value="">All</option></select></label>
+    <label>Episode<select id="random-episode"><option value="">All</option></select></label>
     <label>Minimum importance<select id="random-importance">
       <option value="0">Any</option><option value="3">★★★☆☆+</option>
       <option value="4">★★★★☆+</option><option value="5">★★★★★</option>
@@ -165,7 +174,7 @@
     <label>Type<select id="random-type"><option value="quote">Single quote</option><option value="short">Short conversation</option></select></label>
   </div>
   <button id="random-button" class="button">Give me one</button>
-  <div id="random-result"></div>
+  <div id="random-result" aria-live="polite"></div>
 </section>
 
 <section id="statistics" class="page">
@@ -175,10 +184,10 @@
     <h2>Statistics</h2>
   </div>
   <div class="heading-gifs">
-    <img src="assets/gifs/statistics1.gif" alt="">
-    <img src="assets/gifs/statistics2.gif" alt="">
-    <img src="assets/gifs/statistics3.gif" alt="">
-    <img src="assets/gifs/statistics4.gif" alt="">
+    <video src="assets/media/statistics1.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/statistics2.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/statistics3.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video src="assets/media/statistics4.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
   </div>
 </div>
   <div id="statistics-content" class="stats"></div>

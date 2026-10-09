@@ -1,4 +1,5 @@
 {
+  "version": "20261009000000",
   "episodes": [
     "TO/S5EP12.json",
     "LS1/S1EP01.json",
@@ -12,6 +13,7 @@
     "LS1/S1EP09.json",
     "LS1/S1EP11.json",
     "LS1/S1EP13.json",
-    "LS1/S1EP14.json"
+    "LS1/S1EP14.json",
+    "LS1/S1EP15.json"
   ]
 }

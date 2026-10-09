@@ -15,8 +15,7 @@ handon-quotes/
 ├── data/
 │   ├── index.json
 │   ├── TO/
-│   ├── LS1/
-│   ├── LS2/
+│   ├── LS1/           (one folder per show/season)
 │   └── ...
 └── generate_index.py
 ```
@@ -32,3 +31,7 @@ python generate_index.py
 ```
 
 
+The script validates every episode file (valid JSON, required fields, unique
+conversation ids, `importance` 1-5), warns about missing episode numbers and empty
+`full`/`short` sections, and stops without touching `index.json` if it finds an
+error. It also writes a `version` that the site uses to avoid stale cached data.

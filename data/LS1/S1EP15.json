@@ -1,0 +1,692 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 15,
+  "episode_id": "L-S1E15",
+  "episode_title": "Hope is not the enemy",
+
+  "conversations": [
+    {
+      "id": "L-S1E15-C01",
+      "title": "Hope and Alaric discuss Landon's voicemail.",
+      "description": "After Landon's voice mail, Hope notices something is off and urges Alaric to go after him, but Alaric wants to respect his privacy.",
+      "participants": [
+        { "character": "Hope", "version": "Hope" },
+        { "character": "Landon", "version": "Landon" },
+        { "character": "Alaric", "version": "Alaric" }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": ["worry","safe","protect"],
+      "importance": 2,
+      "verified": true,
+
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E15-C01-T01",
+            "speaker": { "character": "Landon", "version": "Landon" },
+            "text": "Hey, Ric. Sorry to take off like that, but I just needed a little time. So I'm going camping for a while. Hopefully I can catch up on classwork later. Tell Raf and Jed hi for me."
+          },
+          {
+            "id": "L-S1E15-C01-T02",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Jed? Why would he say hi to Jed? You should go after him. Something doesn't make sense."
+          },
+          {
+            "id": "L-S1E15-C01-T03",
+            "speaker": { "character": "Alaric", "version": "Alaric" },
+            "text": "Hope..."
+          },
+          {
+            "id": "L-S1E15-C01-T04",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Triad already tried to come for him once. It's not safe for him out there."
+          },
+          {
+            "id": "L-S1E15-C01-T05",
+            "speaker": { "character": "Alaric", "version": "Alaric" },
+            "text": "We kept a massive secret from him, and I think he just needs some time to process that. I think we should respect his privacy and just wait."
+          }
+        ]
+      },
+
+      "short": {
+        "turns": [
+           {
+            "id": "L-S1E15-C01-T01",
+            "speaker": { "character": "Landon", "version": "Landon" },
+            "text": "Hey, Ric. Sorry to take off like that, but I just needed a little time. So I'm going camping for a while. Hopefully I can catch up on classwork later. Tell Raf and Jed hi for me."
+          },
+          {
+            "id": "L-S1E15-C01-T02",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Jed? Why would he say hi to Jed? You should go after him. Something doesn't make sense."
+          },
+          {
+            "id": "L-S1E15-C01-T03",
+            "speaker": { "character": "Alaric", "version": "Alaric" },
+            "text": "Hope..."
+          },
+          {
+            "id": "L-S1E15-C01-T04",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Triad already tried to come for him once. It's not safe for him out there."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E15-C02",
+      "title": "Hope and Lizzie talk about Landon and the prism.",
+      "description": "Hope tells Lizzie that Landon needs time to think, and Lizzie suggests she practice what to say to him with Emma's prism.",
+      "participants": [
+        { "character": "Hope", "version": "Hope" },
+        { "character": "Lizzie", "version": "Lizzie" }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": ["worry", "advice"],
+      "importance": 2,
+      "verified": false,
+
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E15-C02-T01",
+            "speaker": { "character": "Lizzie", "version": "Lizzie" },
+            "text": "Your turn for an update. Any word from our mop-headed elf?"
+          },
+          {
+            "id": "L-S1E15-C02-T02",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "He says he needs time to think."
+          },
+          {
+            "id": "L-S1E15-C02-T03",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I don't know. I feel like if I could figure out the right thing to say, then he'd come back."
+          },
+          {
+            "id": "L-S1E15-C02-T04",
+            "speaker": { "character": "Lizzie", "version": "Lizzie" },
+            "text": "So, practice. Emma has this prism that simulates a conversation. She makes me use it to talk to my mom and my dad when I'm in a state. I'll trade you one prism for a banana cream pie."
+          }
+        ]
+      },
+
+      "short": {
+        "turns": [
+         {
+            "id": "L-S1E15-C02-T02",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "He says he needs time to think."
+          },
+          {
+            "id": "L-S1E15-C02-T03",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I don't know. I feel like if I could figure out the right thing to say, then he'd come back."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E15-C03",
+      "title": "Hope tries to apologize to the Landon hologram for the first time.",
+      "description": "Hope uses the prism to rehearse an apology to Landon, but the hologram sees through her half-hearted speech.",
+      "participants": [
+        { "character": "Hope", "version": "Hope" },
+        { "character": "Landon", "version": "Hologram Landon" }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": ["hologram", "apology", "angst","sorry"],
+      "importance": 3,
+      "verified": false,
+
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E15-C03-T01",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Hey there."
+          },
+          {
+            "id": "L-S1E15-C03-T02",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S1E15-C03-T03",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Are you okay?"
+          },
+          {
+            "id": "L-S1E15-C03-T04",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Yeah. Yeah. Sorry. Um... this is my first time talking to a magical hologram."
+          },
+          {
+            "id": "L-S1E15-C03-T05",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Hologram? What do you mean, a hologram? What does that mean? That I'm not real? What are you talking about?"
+          },
+          {
+            "id": "L-S1E15-C03-T06",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Oh, my God, don't do that."
+          },
+          {
+            "id": "L-S1E15-C03-T07",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Sorry."
+          },
+          {
+            "id": "L-S1E15-C03-T08",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S1E15-C03-T09",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "You just seemed tense. I was trying to break the ice."
+          },
+          {
+            "id": "L-S1E15-C03-T10",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Well, at least I know this is a pretty accurate version of you."
+          },
+          {
+            "id": "L-S1E15-C03-T11",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "You can thank yourself for that, I guess. You had something you wanted to say to me?"
+          },
+          {
+            "id": "L-S1E15-C03-T12",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Yeah. Um... I should have told you about your mom and-and the whole thing earlier. I mean, I was just trying to protect you from being hurt. So I just wanted to say that I'm sorry if I hurt you."
+          },
+          {
+            "id": "L-S1E15-C03-T13",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "What, that's it? You're \"sorry if I hurt you\"?"
+          },
+          {
+            "id": "L-S1E15-C03-T14",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I am."
+          },
+          {
+            "id": "L-S1E15-C03-T15",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Okay, then I accept your apology if you're actually sorry."
+          },
+          {
+            "id": "L-S1E15-C03-T16",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "What's your problem?"
+          },
+          {
+            "id": "L-S1E15-C03-T17",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "I mean, do you seriously think that speech would have worked on me? I mean, come on, that's not what you actually wanted to say."
+          },
+          {
+            "id": "L-S1E15-C03-T18",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "How would you know?"
+          },
+          {
+            "id": "L-S1E15-C03-T19",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Because I am you, remember?"
+          },
+          {
+            "id": "L-S1E15-C03-T20",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Fine. Then you tell me what it is that I want to say, and I'll say it."
+          },
+          {
+            "id": "L-S1E15-C03-T21",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "That's not how this works, Hope. You have to listen."
+          },
+          {
+            "id": "L-S1E15-C03-T22",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Listen to what?"
+          },
+          {
+            "id": "L-S1E15-C03-T23",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Even fake you is infuriating. God!"
+          }
+        ]
+      },
+
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E15-C03-T10",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Well, at least I know this is a pretty accurate version of you."
+          },
+          {
+            "id": "L-S1E15-C03-T11",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "You can thank yourself for that, I guess. You had something you wanted to say to me?"
+          },
+          {
+            "id": "L-S1E15-C03-T12",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Yeah. Um... I should have told you about your mom and-and the whole thing earlier. I mean, I was just trying to protect you from being hurt. So I just wanted to say that I'm sorry if I hurt you."
+          },
+          {
+            "id": "L-S1E15-C03-T13",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "What, that's it? You're \"sorry if I hurt you\"?"
+          },
+          {
+            "id": "L-S1E15-C03-T14",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I am."
+          },
+          {
+            "id": "L-S1E15-C03-T15",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Okay, then I accept your apology if you're actually sorry."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E15-C04",
+      "title": "Hope argues with the Landon hologram about protecting him.",
+      "description": "Hope's second attempt with the prism: she defends her decision to keep the secret and the hologram tells her it comes from her fear of being abandoned.",
+      "participants": [
+        { "character": "Hope", "version": "Hope" },
+        { "character": "Landon", "version": "Hologram Landon" }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": ["hologram", "care", "protect", "angst"],
+      "importance": 4,
+      "verified": true,
+
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E15-C04-T01",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Hey, Hope. What's going on?"
+          },
+          {
+            "id": "L-S1E15-C04-T02",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Don't pretend like you don't remember our last conversation."
+          },
+          {
+            "id": "L-S1E15-C04-T03",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "I just figured you'd want a fresh start."
+          },
+          {
+            "id": "L-S1E15-C04-T04",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Oh. Guess even my subconscious can get stuff wrong."
+          },
+          {
+            "id": "L-S1E15-C04-T05",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Touché. So, did you figure out what you wanted to say yet?"
+          },
+          {
+            "id": "L-S1E15-C04-T06",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Uh, yeah, actually, I did. And what I wanted to say is this: I have been protecting you and putting your safety first ever since you got here. So what was I supposed to do with this secret? Hmm? Just stop protecting you?"
+          },
+          {
+            "id": "L-S1E15-C04-T07",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I know exactly what it feels like to be an orphan. Okay? I was saving you from that. So you can be mad at me, but I was doing it because I care about you."
+          },
+          {
+            "id": "L-S1E15-C04-T08",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "No. You were doing it because you didn't want me to leave. Because you fear being abandoned, like how your mom left and your dad left... It's why you run."
+          },
+          {
+            "id": "L-S1E15-C04-T09",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "This has nothing to do with my parents."
+          },
+          {
+            "id": "L-S1E15-C04-T10",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Then why did you start crying when you wore a dress your dad picked out?"
+          },
+          {
+            "id": "L-S1E15-C04-T11",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Whoa. We're done."
+          },
+          {
+            "id": "L-S1E15-C04-T12",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Hope, you're not listening."
+          }
+        ]
+      },
+
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E15-C04-T06",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Uh, yeah, actually, I did. And what I wanted to say is this: I have been protecting you and putting your safety first ever since you got here. So what was I supposed to do with this secret? Hmm? Just stop protecting you?"
+          },
+          {
+            "id": "L-S1E15-C04-T07",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I know exactly what it feels like to be an orphan. Okay? I was saving you from that. So you can be mad at me, but I was doing it because I care about you."
+          },
+          {
+            "id": "L-S1E15-C04-T08",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "No. You were doing it because you didn't want me to leave. Because you fear being abandoned, like how your mom left and your dad left... It's why you run."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E15-C05",
+      "title": "Hope tells the Landon hologram she loves him.",
+      "description": "Hope's third attempt with the prism: she finally admits she didn't want Landon to leave, that she hates when people leave, and that she loves him.",
+      "participants": [
+        { "character": "Hope", "version": "Hope" },
+        { "character": "Landon", "version": "Hologram Landon" }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": ["hologram", "confession", "love", "vulnerability", "kiss","sorry","fate"],
+      "importance": 5,
+      "verified": true,
+
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E15-C05-T01",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "What I said before about wanting to protect you, that was true. But... I also didn't want you to go."
+          },
+          {
+            "id": "L-S1E15-C05-T02",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "And, yeah, you know what, I hate it when people leave. I hate it. I thought I was over losing my parents, but I don't know, after the last couple of days and-and after seeing you lying there in the woods, thinking that you were dead..."
+          },
+          {
+            "id": "L-S1E15-C05-T03",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Every time I lose someone, this, uh, voice in my head, it tells me, \"It's your fault.\" That I shouldn't even technically exist. That I'm a cosmic mistake."
+          },
+          {
+            "id": "L-S1E15-C05-T04",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Oh, I don't know. I guess I just wanted someone to think that I'm worth staying for."
+          },
+          {
+            "id": "L-S1E15-C05-T05",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I'm sorry for lying to you, Landon. I wanted you to stay because I love you."
+          },
+          {
+            "id": "L-S1E15-C05-T06",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Oh. Wow."
+          },
+          {
+            "id": "L-S1E15-C05-T07",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "You didn't mean to say that last part, did you?"
+          },
+          {
+            "id": "L-S1E15-C05-T08",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "No."
+          },
+          {
+            "id": "L-S1E15-C05-T09",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Whoa! The first time you tell me you love me, and it's not even the real me?"
+          },
+          {
+            "id": "L-S1E15-C05-T10",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "You're kind of winging it here."
+          },
+          {
+            "id": "L-S1E15-C05-T11",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "What? Come on, man."
+          },
+          {
+            "id": "L-S1E15-C05-T12",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "H-How would he react to all that, really?"
+          },
+          {
+            "id": "L-S1E15-C05-T13",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "I mean, that was how he'd react. You know, he'd say something roguishly charming to deflect from how vulnerable you made him feel, and then... well, he'd kiss you."
+          },
+          {
+            "id": "L-S1E15-C05-T14",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Probably."
+          },
+          {
+            "id": "L-S1E15-C05-T15",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Probably."
+          }
+        ]
+      },
+
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E15-C05-T03",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Every time I lose someone, this, uh, voice in my head, it tells me, \"It's your fault.\" That I shouldn't even technically exist. That I'm a cosmic mistake."
+          },
+          {
+            "id": "L-S1E15-C05-T04",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Oh, I don't know. I guess I just wanted someone to think that I'm worth staying for."
+          },
+          {
+            "id": "L-S1E15-C05-T05",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I'm sorry for lying to you, Landon. I wanted you to stay because I love you."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E15-C06",
+      "title": "The Landon hologram reveals he is in trouble.",
+      "description": "After Hope's confession, the hologram tells her to listen to what she already knows: Landon is in trouble.",
+      "participants": [
+        { "character": "Hope", "version": "Hope" },
+        { "character": "Landon", "version": "Hologram Landon" }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": ["hologram", "clues", "rescue", "determination"],
+      "importance": 3,
+      "verified": true,
+
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E15-C06-T01",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "You're quiet."
+          },
+          {
+            "id": "L-S1E15-C06-T02",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "I'm waiting."
+          },
+          {
+            "id": "L-S1E15-C06-T03",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Seriously? After all that? I mean, wha-what else could I possibly have to say?"
+          },
+          {
+            "id": "L-S1E15-C06-T04",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "What you've been trying to tell yourself all day. But there was too much noise in your head, so you couldn't hear it. I'm in trouble, Hope."
+          },
+          {
+            "id": "L-S1E15-C06-T05",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "What?"
+          },
+          {
+            "id": "L-S1E15-C06-T06",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "You already know that's true. I mean, I went into the woods, but I didn't take my journal? Or any camping gear. I left clues in the voice mail that something wasn't right. I called Dr. Saltzman \"Ric.\" I would never do that."
+          },
+          {
+            "id": "L-S1E15-C06-T07",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "You said hi to... Jed."
+          },
+          {
+            "id": "L-S1E15-C06-T08",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Last time I said hey to Jed, he beat the crap out of me. I was trying to tell you that something wasn't right."
+          },
+          {
+            "id": "L-S1E15-C06-T09",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "What happened?"
+          },
+          {
+            "id": "L-S1E15-C06-T10",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "Hope... for the last time, just listen."
+          }
+        ]
+      },
+
+      "short": {
+        "turns": [
+         {
+            "id": "L-S1E15-C06-T01",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "You're quiet."
+          },
+          {
+            "id": "L-S1E15-C06-T02",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "I'm waiting."
+          },
+          {
+            "id": "L-S1E15-C06-T03",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Seriously? After all that? I mean, wha-what else could I possibly have to say?"
+          },
+          {
+            "id": "L-S1E15-C06-T04",
+            "speaker": { "character": "Landon", "version": "Hologram Landon" },
+            "text": "What you've been trying to tell yourself all day. But there was too much noise in your head, so you couldn't hear it. I'm in trouble, Hope."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "L-S1E15-C07",
+      "title": "Hope finds out that Triad has Landon.",
+      "description": "While listening to Landon's voicemail, Hope realizes that Triad has captured him.",
+      "participants": [
+        { "character": "Hope", "version": "Hope" },
+        { "character": "Landon", "version": "Landon" },
+        { "character": "Roman", "version": "Roman" }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [ "rescue", "protect"],
+      "importance": 3,
+      "verified": true,
+
+      "full": {
+        "turns": [
+          
+          {
+            "id": "L-S1E15-C07-T01",
+            "speaker": { "character": "Landon", "version": "Landon" },
+            "text": "Hey, Ric, sorry to take off like that, but I just needed a little time, so I'm going camping for a while."
+          },
+          {
+            "id": "L-S1E15-C07-T02",
+            "speaker": { "character": "Roman", "version": "Roman" },
+            "text": "I can hear... shoes on a tile floor. An air conditioner running."
+          },
+          {
+            "id": "L-S1E15-C07-T03",
+            "speaker": { "character": "Landon", "version": "Landon" },
+            "text": "Hopefully, I can catch up on classwork later. Tell Raf and Jed hi for me."
+          },
+          {
+            "id": "L-S1E15-C07-T04",
+            "speaker": { "character": "Roman", "version": "Roman" },
+            "text": "Keycards being swiped. Mm, Triad."
+          },
+          {
+            "id": "L-S1E15-C07-T05",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Mm, Triad. I mean, it has to be them. They've already tried to come for him once."
+          },
+          {
+            "id": "L-S1E15-C07-T06",
+            "speaker": { "character": "Roman", "version": "Roman" },
+            "text": "What are you gonna do?"
+          },
+          {
+            "id": "L-S1E15-C07-T07",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I'm gonna go full Wonder Woman, that's what."
+          }
+        ]
+      },
+
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E15-C07-T05",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Mm, Triad. I mean, it has to be them. They've already tried to come for him once."
+          },
+          {
+            "id": "L-S1E15-C07-T06",
+            "speaker": { "character": "Roman", "version": "Roman" },
+            "text": "What are you gonna do?"
+          },
+          {
+            "id": "L-S1E15-C07-T07",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "I'm gonna go full Wonder Woman, that's what."
+          }
+        ]
+      }
+    }
+  ]
+}

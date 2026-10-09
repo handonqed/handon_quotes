@@ -1,396 +1,299 @@
 const $=id=>document.getElementById(id);
 function esc(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function hi(text,q){let s=esc(text);if(!q)return s;let z=q.replace(/[.*+?^${}()|[\\]\\]/g,"\\$&");return s.replace(new RegExp("("+z+")","ig"),"<mark class='mark'>$1</mark>")}
-function tagHTML(a=[]){return a.map(x=>`<span class="tag">${esc(x)}</span>`).join("")}
-function card(i,mode="short"){let e=i.episode,c=i.conversation,t=allTurns(i,mode);return `<article class="card">
+
+// Highlight every occurrence of q in text (accent- and case-insensitive).
+// Matches are found by index, not by regex, so special characters in q are safe.
+function hi(text,q){
+  text=String(text??""); const nq=norm(q).trim(); if(!nq) return esc(text);
+  let n="",map=[];
+  for(let i=0;i<text.length;i++){const c=norm(text[i]);n+=c;for(let k=0;k<c.length;k++)map.push(i)}
+  let out="",pos=0,from=0,idx;
+  while((idx=n.indexOf(nq,from))>-1){
+    const s=map[idx],e=map[idx+nq.length-1]+1;
+    if(s>=pos){out+=esc(text.slice(pos,s))+"<mark class='mark'>"+esc(text.slice(s,e))+"</mark>";pos=e}
+    from=idx+nq.length;
+  }
+  return out+esc(text.slice(pos));
+}
+
+function tagHTML(a=[]){return a.map(x=>`<a class="tag" href="#tags/${encodeURIComponent(String(x).trim())}">${esc(x)}</a>`).join("")}
+function turnHTML(t,q="",cls="",id=""){return `<div class="turn ${cls}"${id?` id="${id}"`:""}><div class="speaker">${esc(speakerName(t))}</div><div class="quote${isAction(t)?" action":""}">${hi(turnContent(t),q)}</div></div>`}
+function copyBtn(text,label="Copy quote"){return `<button type="button" class="button secondary copy-btn" data-copy="${esc(text)}">${label}</button>`}
+function conversationText(ts,e,c){return ts.map(t=>`${speakerName(t)}: ${turnContent(t)}`).join("\n")+`\n— ${episodeLabel(e)}, ${c.title||""}`}
+function quoteText(t,i){return `“${turnContent(t)}” — ${speakerName(t)||"Unknown"}, ${episodeLabel(i.episode)}`}
+function starsHTML(n){return `<div class="stars" role="img" aria-label="Importance ${Math.max(0,Math.min(5,Number(n)||0))} of 5">${stars(n)}</div>`}
+function statHTML(label,val){return `<div class="stat"><div class="number">${val}</div><div class="label">${esc(label)}</div></div>`}
+// line: index of a turn in the full dialogue; the conversation page scrolls to it and highlights it.
+function convLink(c,text,cls="button secondary",line=-1){return `<a class="${cls}" href="#conversation/${encodeURIComponent(c.id)}${line>=0?"?line="+line:""}">${text}</a>`}
+
+function card(i,mode="short"){
+  const e=i.episode,c=i.conversation,t=allTurns(i,mode);
+  return `<article class="card">
 <div class="meta">${esc(episodeLabel(e))} · ${esc(e.episode_title||"")}</div><h3>${esc(c.title||"Untitled")}</h3>
-<div class="stars">${stars(c.importance)}</div><p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div>
-<a class="button secondary" href="#conversation/${encodeURIComponent(c.id)}">View conversation</a>
-${t.length?`<div>${t.map(x=>`<div class="turn"><div class="speaker">${esc(x.speaker?.character||"")}</div><div class="quote">${esc(turnContent(x))}</div></div>`).join("")}</div>`:""}</article>`}
-function showPage(id){document.querySelectorAll(".page").forEach(x=>x.classList.remove("active"));$(id)?.classList.add("active")}
-function fill(id,vals){let e=$(id),first=e.options[0]?.outerHTML||"";e.innerHTML=first+vals.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("")}
-function filters(prefix){let s=$(`${prefix}-show`).value,se=$(`${prefix}-season`).value,m=Number($(`${prefix}-importance`).value||0);return DB.conversations.filter(i=>(!s||i.episode.show===s)&&(!se||String(i.episode.season)===se)&&Number(i.conversation.importance||0)>=m)}
-function home() {
-    let e = DB.episodes.length;
-    let c = DB.conversations.length;
-
-    let hopeTurns = 0;
-    let landonTurns = 0;
-    let hopeWords = 0;
-    let landonWords = 0;
-
-    DB.conversations.forEach(i => {
-        allTurns(i, "full").forEach(t => {
-            let character = String(t.speaker?.character || "").toLowerCase();
-            let words = String(t.text || "")
-                .trim()
-                .split(/\s+/)
-                .filter(Boolean)
-                .length;
-
-            if (character === "hope") {
-                hopeTurns++;
-                hopeWords += words;
-            }
-
-            if (character === "landon") {
-                landonTurns++;
-                landonWords += words;
-            }
-        });
-    });
-
-    let totalWords = hopeWords + landonWords;
-
-    $("home-stats").innerHTML = [
-        ["Episodes", e],
-        ["Conversations", c],
-        ["Full turns", hopeTurns + landonTurns],
-        ["Words", totalWords.toLocaleString()]
-    ]
-    .map(x =>
-        `<div class="stat">
-            <div class="number">${x[1]}</div>
-            <div class="label">${x[0]}</div>
-        </div>`
-    )
-    .join("");
+${starsHTML(c.importance)}<p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div>
+${convLink(c,"View conversation")}
+${t.length?`<div>${t.map(x=>turnHTML(x)).join("")}</div>`:""}</article>`;
 }
-function episodes(){let b={};DB.episodes.forEach(e=>(b[e.show]??=[]).push(e));let h="";Object.keys(b).sort().forEach(show=>{h+=`<div class="show"><h3>${esc(show)}</h3>`;let ss={};b[show].forEach(e=>(ss[e.season]??=[]).push(e));Object.keys(ss).sort((a,b)=>a-b).forEach(s=>{h+=`<div class="season"><h3>Season ${s}</h3><div class="episode-grid">`;ss[s].sort((a,b)=>(a.episode||0)-(b.episode||0)).forEach(e=>h+=`<a class="episode-card" href="#conversation/episode/${encodeURIComponent(e.episode_id)}"><div class="code">${esc(episodeLabel(e))}</div><strong>${esc(e.episode_title||"")}</strong><div class="meta">${(e.conversations||[]).length} conversations</div></a>`);h+="</div></div>"});h+="</div>"});$("episode-browser").innerHTML=h||'<div class="empty">No episodes loaded.</div>'}
-function importance(){let m=Number($("importance-filter").value);let a=DB.conversations.filter(i=>Number(i.conversation.importance||0)===m).sort((x,y)=>(y.conversation.importance||0)-(x.conversation.importance||0));$("importance-results").innerHTML=a.length?a.map(i=>card(i)).join(""):'<div class="empty">No conversations match.</div>'}
-function search(){let q=$("search-input").value.trim(),show=$("search-show").value,se=$("search-season").value,ch=$("search-character").value,m=Number($("search-importance").value);if(!q){$("search-count").textContent="";$("search-results").innerHTML='<div class="empty">Type a word or phrase to search.</div>';return}let a=[];DB.conversations.forEach(i=>{let e=i.episode,c=i.conversation;if(show&&e.show!==show||se&&String(e.season)!==se||Number(c.importance||0)<m)return;allTurns(i,"full").forEach(t=>{if(ch&&String(t.speaker?.character||"").toLowerCase()!==ch.toLowerCase())return;let content = turnContent(t); if(content.toLowerCase().includes(q.toLowerCase())) { a.push({i,t}); }})});$("search-count").textContent=`${a.length} matching line${a.length===1?"":"s"}`;$("search-results").innerHTML=a.length?a.map(x=>`<article class="card"><div class="meta">${esc(episodeLabel(x.i.episode))} · ${esc(x.i.episode.episode_title||"")}</div><h3>${esc(x.i.conversation.title||"")}</h3><div class="speaker">${esc(x.t.speaker?.character||"")}</div><div class="quote">${hi(turnContent(x.t),q)}</div><p><a class="button secondary" href="#conversation/${encodeURIComponent(x.i.conversation.id)}">View conversation</a></p></article>`).join(""):'<div class="empty">No matching lines.</div>'}
+
+function showPage(id,navId=id){
+  document.querySelectorAll(".page").forEach(x=>x.classList.remove("active"));
+  $(id)?.classList.add("active");
+  document.querySelectorAll("header nav a").forEach(a=>{
+    const on=a.getAttribute("href")==="#"+navId;
+    a.classList.toggle("active",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current");
+  });
+}
+
+// Season and episode filters (Search and Random). A season option is "Show|season" so that
+// seasons of different shows stay apart now that there is no separate Show filter.
+const seasonKey=e=>`${e.show||""}|${e.season??""}`;
+const seasonLabel=e=>e.show==="The Originals"?e.show:`${e.show||"Unknown show"} · Season ${e.season??"?"}`;
+// Shows in chronological order (The Originals came first); unlisted shows follow alphabetically.
+const SHOW_ORDER=["The Originals","Legacies"];
+function byShow(a,b){
+  const r=x=>{const k=SHOW_ORDER.indexOf(x);return k<0?SHOW_ORDER.length:k};
+  return r(a)-r(b)||String(a).localeCompare(String(b));
+}
+function sortedEpisodes(){
+  return [...DB.episodes].sort((a,b)=>byShow(a.show,b.show)||(a.season||0)-(b.season||0)||(a.episode||0)-(b.episode||0));
+}
+function fillSeasons(prefix){
+  const seen=new Map();
+  sortedEpisodes().forEach(e=>{if(!seen.has(seasonKey(e)))seen.set(seasonKey(e),seasonLabel(e))});
+  setOptions(`${prefix}-season`,[...seen]);
+  fillEpisodes(prefix);
+}
+// The episode list follows the selected season; the current choice is kept when it is still listed.
+function fillEpisodes(prefix){
+  const se=$(`${prefix}-season`).value,sel=$(`${prefix}-episode`).value;
+  setOptions(`${prefix}-episode`,sortedEpisodes().filter(e=>!se||seasonKey(e)===se)
+    .map(e=>[e.episode_id,`${episodeLabel(e)} · ${e.episode_title||""}`]));
+  $(`${prefix}-episode`).value=sel;
+  if($(`${prefix}-episode`).value!==sel) $(`${prefix}-episode`).value="";
+}
+function setOptions(id,pairs){
+  const e=$(id),first=e.options[0]?.outerHTML||"";
+  e.innerHTML=first+pairs.map(([v,l])=>`<option value="${esc(v)}">${esc(l)}</option>`).join("");
+}
+function inScope(e,se,ep){return (!se||seasonKey(e)===se)&&(!ep||e.episode_id===ep)}
+function filters(prefix){
+  const se=$(`${prefix}-season`).value,ep=$(`${prefix}-episode`).value,m=Number($(`${prefix}-importance`).value||0);
+  return DB.conversations.filter(i=>inScope(i.episode,se,ep)&&Number(i.conversation.importance||0)>=m);
+}
+
+/* ---------- Home ---------- */
+function home(){
+  const s=charStats();
+  $("home-stats").innerHTML=[
+    ["Episodes",DB.episodes.length],["Conversations",DB.conversations.length],
+    ["Full turns",s.all.turns.toLocaleString()],["Words",s.all.words.toLocaleString()]
+  ].map(x=>statHTML(x[0],x[1])).join("");
+}
+
+/* ---------- Episodes ---------- */
+function episodes(){
+  let b={};DB.episodes.forEach(e=>(b[e.show]??=[]).push(e));let h="";
+  Object.keys(b).sort(byShow).forEach(show=>{
+    h+=`<div class="show"><h3>${esc(show)}</h3>`;
+    let ss={};b[show].forEach(e=>(ss[e.season]??=[]).push(e));
+    Object.keys(ss).sort((a,b)=>a-b).forEach(s=>{
+      h+=`<div class="season"><h3>${s==="undefined"?"Unknown season":"Season "+esc(s)}</h3><div class="episode-grid">`;
+      ss[s].sort((a,b)=>(a.episode||0)-(b.episode||0)).forEach(e=>h+=`<a class="episode-card" href="#conversation/episode/${encodeURIComponent(e.episode_id)}"><div class="code">${esc(episodeLabel(e))}</div><strong>${esc(e.episode_title||"")}</strong><div class="meta">${(e.conversations||[]).length} conversation${(e.conversations||[]).length===1?"":"s"}</div></a>`);
+      h+="</div></div>";
+    });
+    h+="</div>";
+  });
+  $("episode-browser").innerHTML=h||'<div class="empty">No episodes loaded.</div>';
+}
+
+/* ---------- Importance (minimum level, highest first) ---------- */
+function importance(){
+  const m=Number($("importance-filter").value);
+  const a=DB.conversations.filter(i=>Number(i.conversation.importance||0)>=m)
+    .sort((x,y)=>(y.conversation.importance||0)-(x.conversation.importance||0));
+  $("importance-results").innerHTML=a.length
+    ?`<p class="muted">${a.length} conversation${a.length===1?"":"s"}</p>`+a.map(i=>card(i)).join("")
+    :'<div class="empty">No conversations match.</div>';
+}
+
+/* ---------- Search (state lives in the URL: #search?q=...&season=...&ep=...) ---------- */
+const SEARCH_LIMIT=100;
+function syncSearchUrl(p){
+  const u=new URLSearchParams();Object.entries(p).forEach(([k,v])=>{if(v)u.set(k,v)});
+  history.replaceState(null,"","#search"+(u.toString()?"?"+u:""));
+}
+function applySearchParams(p){
+  $("search-input").value=p.get("q")||"";
+  [["search-season","season"],["search-episode","ep"],["search-character","char"],["search-importance","imp"]]
+    .forEach(([id,k])=>{
+      if(id==="search-episode") fillEpisodes("search"); // after the season is set, before the episode
+      const def=id==="search-importance"?"0":"",want=p.get(k)||def;
+      $(id).value=want;
+      if($(id).value!==want) $(id).value=def; // ignore values that are not an option
+    });
+}
+let searchTimer=null,searchHits=[],searchQuery="",searchShown=SEARCH_LIMIT;
+function searchSoon(){clearTimeout(searchTimer);searchTimer=setTimeout(search,150)}
+function renderSearch(){
+  const a=searchHits,shown=a.slice(0,searchShown);
+  $("search-count").textContent=`${a.length} matching line${a.length===1?"":"s"}`+(a.length>shown.length?` (showing the first ${shown.length})`:"");
+  $("search-results").innerHTML=(a.length?shown.map(x=>`<article class="card">
+<div class="meta">${esc(episodeLabel(x.i.episode))} · ${esc(x.i.episode.episode_title||"")}</div><h3>${esc(x.i.conversation.title||"")}</h3>
+${x.prev?turnHTML(x.prev,"","context"):""}${turnHTML(x.t,searchQuery)}${x.next?turnHTML(x.next,"","context"):""}
+<p>${convLink(x.i.conversation,"View in conversation","button secondary",x.k)} ${copyBtn(quoteText(x.t,x.i))}</p></article>`).join(""):'<div class="empty">No matching lines. Try fewer words or clear a filter.</div>')
+    +(a.length>shown.length?`<p><button type="button" class="button secondary" id="search-more">Show ${Math.min(SEARCH_LIMIT,a.length-shown.length)} more</button></p>`:"");
+}
+function searchMore(){searchShown+=SEARCH_LIMIT;renderSearch()}
+function search(){
+  clearTimeout(searchTimer);
+  // A debounced call can fire after the user has already left the page; it must not rewrite the URL then.
+  if(!$("search").classList.contains("active")) return;
+  const q=$("search-input").value.trim(),se=$("search-season").value,ep=$("search-episode").value,
+    ch=$("search-character").value,m=Number($("search-importance").value)||0;
+  syncSearchUrl({q,season:se,ep,char:ch,imp:m||""});
+  if(!q){searchHits=[];$("search-count").textContent="";$("search-results").innerHTML='<div class="empty">Type a word or phrase to search.</div>';return}
+  const nq=norm(q),a=[];
+  DB.conversations.forEach(i=>{
+    const e=i.episode,c=i.conversation;
+    if(!inScope(e,se,ep)||Number(c.importance||0)<m) return;
+    const ts=allTurns(i,"full");
+    ts.forEach((t,k)=>{
+      if(ch&&!matchesChar(t,ch)) return;
+      if(normTurn(t).includes(nq)) a.push({i,t,k,prev:ts[k-1],next:ts[k+1]});
+    });
+  });
+  searchHits=a;searchQuery=q;searchShown=SEARCH_LIMIT;
+  renderSearch();
+}
+
+/* ---------- Random ---------- */
 function randomResult(){
-    let a = filters("random");
-    let type = $("random-type").value;
-
-    let character = $("random-character").value || "either";
-
-    let mode = type === "short" ? "short" : "full";
-
-    // Keep only conversations that contain at least one
-    // line from the selected character(s).
-    a = a.filter(i =>
-        allTurns(i, mode).some(t => {
-            let speaker = String(t.speaker?.character || "").toLowerCase();
-
-            if (character === "hope") {
-                return speaker === "hope" || speaker === "handon";
-            }
-
-            if (character === "landon") {
-                return speaker === "landon" || speaker === "handon";
-            }
-
-            // Default: Hope or Landon
-            return speaker === "hope" || speaker === "landon" || speaker === "handon";
-        })
-    );
-
-    if (!a.length) {
-        $("random-result").innerHTML =
-            '<div class="empty">No results match these filters.</div>';
-        return;
-    }
-
-    let i = a[Math.floor(Math.random() * a.length)];
-    let e = i.episode;
-    let c = i.conversation;
-
-    let t = allTurns(i, mode);
-
-    // ========================================================
-    // RANDOM SHORT CONVERSATION
-    // ========================================================
-
-    if (type === "short") {
-
-        // Apply the character filter to the displayed lines.
-        if (character === "hope") {
-            t = t.filter(x => {
-                let speaker = String(x.speaker?.character || "").toLowerCase();
-                return speaker === "hope" || speaker === "handon";
-            });
-        }
-        else if (character === "landon") {
-            t = t.filter(x => {
-                let speaker = String(x.speaker?.character || "").toLowerCase();
-                return speaker === "landon" || speaker === "handon";
-            });
-        }
-        else {
-            t = t.filter(x => {
-                let speaker =
-                    String(x.speaker?.character || "").toLowerCase();
-
-                return speaker === "hope" || speaker === "landon" || speaker === "handon";
-            });
-        }
-
-        $("random-result").innerHTML = `
-            <div class="quote-card">
-
-                <div class="meta">
-                    ${esc(episodeLabel(e))}
-                </div>
-
-                <h3>${esc(c.title || "")}</h3>
-
-                <div class="stars">
-                    ${stars(c.importance)}
-                </div>
-
-                ${t.map(x => `
-                    <div class="turn">
-                        <div class="speaker">
-                            ${esc(x.speaker?.character || "")}
-                        </div>
-
-                        <div class="quote">
-                            ${esc(turnContent(x))}
-                        </div>
-                    </div>
-                `).join("")}
-
-                <a class="button secondary"
-                   href="#conversation/${encodeURIComponent(c.id)}">
-                    Open conversation
-                </a>
-
-            </div>
-        `;
-    }
-
-    // ========================================================
-    // SINGLE RANDOM QUOTE
-    // ========================================================
-
-    else {
-
-        let quotes = t.filter(x => {
-            let speaker =
-                String(x.speaker?.character || "").toLowerCase();
-
-            if (character === "hope") {
-                return speaker === "hope" || speaker === "handon";
-            }
-
-            if (character === "landon") {
-                return speaker === "landon" || speaker === "handon";
-            }
-
-            return speaker === "hope" || speaker === "landon" || speaker === "handon";
-        });
-
-        if (!quotes.length) {
-            $("random-result").innerHTML =
-                '<div class="empty">No quotes match these filters.</div>';
-            return;
-        }
-
-        let x = quotes[Math.floor(Math.random() * quotes.length)];
-
-        $("random-result").innerHTML = `
-            <div class="quote-card">
-
-                <div class="meta">
-                    ${esc(episodeLabel(e))} · ${esc(c.title || "")}
-                </div>
-
-                <div class="speaker">
-                    ${esc(x.speaker?.character || "")}
-                </div>
-
-                <div class="quote">
-                    “${esc(turnContent(x))}”
-                </div>
-
-                <div class="stars">
-                    ${stars(c.importance)}
-                </div>
-
-                <a class="button secondary"
-                   href="#conversation/${encodeURIComponent(c.id)}">
-                    Open conversation
-                </a>
-
-            </div>
-        `;
-    }
-}
-function tagsPage() {
-    let tagSet = new Set();
-
-    DB.conversations.forEach(i => {
-        (i.conversation.tags || []).forEach(tag => {
-            if (String(tag).trim()) {
-                tagSet.add(String(tag).trim());
-            }
-        });
-    });
-
-    let tags = [...tagSet].sort((a, b) =>
-        a.localeCompare(b, undefined, { numeric: true })
-    );
-
-    $("tag-browser").innerHTML = tags.length
-        ? tags.map(tag => `
-            <button
-                class="tag tag-button"
-                data-tag="${esc(tag)}"
-                onclick="showTag('${esc(tag).replace(/'/g, "\\'")}')"
-            >
-                ${esc(tag)}
-            </button>
-        `).join("")
-        : '<div class="empty">No tags found.</div>';
-
-    $("tag-results").innerHTML =
-        '<div class="empty">Select a tag to see its conversations.</div>';
+  const ch=$("random-character").value||"either",type=$("random-type").value,mode=type==="short"?"short":"full";
+  // A short conversation keeps all its lines (other speakers give context); it only has to include the character.
+  const pool=filters("random").map(i=>({i,t:allTurns(i,mode)}))
+    .filter(x=>x.t.some(t=>matchesChar(t,ch)));
+  if(!pool.length){$("random-result").innerHTML='<div class="empty">No results match these filters.</div>';return}
+  const pick=a=>a[Math.floor(Math.random()*a.length)];
+  const {i,t}=pick(pool),e=i.episode,c=i.conversation;
+  if(type==="short"){
+    const text=conversationText(t,e,c);
+    $("random-result").innerHTML=`<div class="quote-card"><div class="meta">${esc(episodeLabel(e))}</div><h3>${esc(c.title||"")}</h3>
+${starsHTML(c.importance)}${t.map(x=>turnHTML(x)).join("")}
+<p>${convLink(c,"Open conversation")} ${copyBtn(text,"Copy conversation")}</p></div>`;
+  }else{
+    const mine=t.filter(x=>matchesChar(x,ch)),spoken=mine.filter(x=>!isAction(x)),x=pick(spoken.length?spoken:mine);
+    $("random-result").innerHTML=`<div class="quote-card"><div class="meta">${esc(episodeLabel(e))} · ${esc(c.title||"")}</div>
+<div class="speaker">${esc(speakerName(x))}</div><div class="quote">“${esc(turnContent(x))}”</div>
+${starsHTML(c.importance)}<p>${convLink(c,"Open conversation")} ${copyBtn(quoteText(x,i))}</p></div>`;
+  }
 }
 
-
-function showTag(tag) {
-    let results = DB.conversations.filter(i =>
-        (i.conversation.tags || []).some(t =>
-            String(t).trim().toLowerCase() === tag.trim().toLowerCase()
-        )
-    );
-
-    $("tag-results").innerHTML = `
-        <div class="heading">
-            <h3>${esc(tag)}</h3>
-            <p>${results.length} conversation${results.length === 1 ? "" : "s"}</p>
-        </div>
-
-        ${
-            results.length
-                ? results.map(i => card(i)).join("")
-                : '<div class="empty">No conversations found for this tag.</div>'
-        }
-    `;
+/* ---------- Tags (URL: #tags/Name) ---------- */
+function tagsPage(active=""){
+  const set=new Set();
+  DB.conversations.forEach(i=>(i.conversation.tags||[]).forEach(t=>{if(String(t).trim())set.add(String(t).trim())}));
+  const tags=[...set].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
+  const on=t=>active&&t.toLowerCase()===active.trim().toLowerCase();
+  $("tag-browser").innerHTML=tags.length
+    ?tags.map(t=>`<button type="button" class="tag tag-button${on(t)?" active":""}" data-tag="${esc(t)}" aria-pressed="${!!on(t)}">${esc(t)}</button>`).join("")
+    :'<div class="empty">No tags found.</div>';
+  if(active) showTag(active);
+  else $("tag-results").innerHTML='<div class="empty">Select a tag to see its conversations.</div>';
+}
+function showTag(tag){
+  const r=DB.conversations.filter(i=>(i.conversation.tags||[]).some(t=>String(t).trim().toLowerCase()===tag.trim().toLowerCase()));
+  $("tag-results").innerHTML=`<div class="heading"><h3>${esc(tag)}</h3><p>${r.length} conversation${r.length===1?"":"s"}</p></div>`
+    +(r.length?r.map(i=>card(i)).join(""):'<div class="empty">No conversations found for this tag.</div>');
 }
 
-
-
-function statistics() {
-    let hopeTurns = 0;
-    let landonTurns = 0;
-    let hopeWords = 0;
-    let landonWords = 0;
-
-    DB.conversations.forEach(i => {
-        allTurns(i, "full").forEach(t => {
-            let character = String(t.speaker?.character || "").toLowerCase();
-
-            // Ignore Handon/shared lines for the individual totals
-            if (character === "hope") {
-                hopeTurns++;
-
-                hopeWords += String(t.text || "")
-                    .trim()
-                    .split(/\s+/)
-                    .filter(Boolean)
-                    .length;
-            }
-
-            if (character === "landon") {
-                landonTurns++;
-
-                landonWords += String(t.text || "")
-                    .trim()
-                    .split(/\s+/)
-                    .filter(Boolean)
-                    .length;
-            }
-        });
-    });
-
-    $("statistics-content").innerHTML = [
-        ["Episodes", DB.episodes.length],
-        ["Conversations", DB.conversations.length],
-        ["Hope turns", hopeTurns],
-        ["Hope words", hopeWords.toLocaleString()],
-        ["Landon turns", landonTurns],
-        ["Landon words", landonWords.toLocaleString()]
-    ]
-    .map(x =>
-        `<div class="stat">
-            <div class="number">${x[1]}</div>
-            <div class="label">${x[0]}</div>
-        </div>`
-    )
-    .join("");
+/* ---------- Statistics ---------- */
+function bars(title,rows){
+  const max=Math.max(1,...rows.map(r=>r[1]));
+  return `<section class="stat-panel"><h3>${esc(title)}</h3>${rows.map(([l,v])=>`<div class="bar-row"><span class="bar-label">${esc(l)}</span><span class="bar-track"><span class="bar-fill" style="width:${(v/max*100).toFixed(1)}%"></span></span><span class="bar-val">${v.toLocaleString()}</span></div>`).join("")}</section>`;
 }
-function conversation(id){let i=DB.conversations.find(x=>x.conversation.id===id);if(!i){$("conversation-content").innerHTML='<div class="empty">Conversation not found.</div>';return}let e=i.episode,c=i.conversation;$("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a><div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(c.title||"Untitled")}</h2><p>${esc(e.episode_title||"")}</p><div class="stars">${stars(c.importance)}</div><p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div></div><div class="conversation-body">${allTurns(i,"full").map(t=>`<div class="turn"><div class="speaker">${esc(t.speaker?.character||"")}</div><div class="quote">${esc(turnContent(t))}</div></div>`).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div></div>`}
-function episodePage(id) {
-    let e = DB.episodes.find(x => x.episode_id === id);
-
-    if (!e) {
-        $("conversation-content").innerHTML =
-            '<div class="empty">Episode not found.</div>';
-        return;
-    }
-
-    let conversations = e.conversations || [];
-
-    $("conversation-content").innerHTML = `
-        <div class="full">
-            <a class="back" href="#episodes">← Back to episodes</a>
-
-            <div class="conversation-header">
-                <div class="eyebrow">${esc(episodeLabel(e))}</div>
-                <h2>${esc(e.episode_title || "")}</h2>
-                <p>${conversations.length} conversation${conversations.length === 1 ? "" : "s"}</p>
-            </div>
-
-            <div class="list">
-                ${
-                    conversations.length
-                        ? conversations
-                            .map(c => card({
-                                episode: e,
-                                conversation: c
-                            }))
-                            .join("")
-                        : '<div class="empty">No conversations stored for this episode.</div>'
-                }
-            </div>
-        </div>
-    `;
+function statistics(){
+  const s=charStats(),seasons={},imp=[0,0,0,0,0,0],tagCount={};
+  DB.conversations.forEach(i=>{
+    const k=`${i.episode.show||""} S${i.episode.season??"?"}`;seasons[k]=(seasons[k]||0)+1;
+    const m=Math.max(0,Math.min(5,Number(i.conversation.importance)||0));imp[m]++;
+    (i.conversation.tags||[]).forEach(t=>{t=String(t).trim();if(t)tagCount[t]=(tagCount[t]||0)+1});
+  });
+  $("statistics-content").innerHTML=[
+    ["Episodes",DB.episodes.length],["Conversations",DB.conversations.length],
+    ["Hope turns",s.hope.turns],["Hope words",s.hope.words.toLocaleString()],
+    ["Landon turns",s.landon.turns],["Landon words",s.landon.words.toLocaleString()]
+  ].map(x=>statHTML(x[0],x[1])).join("")
+  +bars("Words by character",[["Hope",s.hope.words],["Landon",s.landon.words]])
+  +bars("Conversations per season",Object.entries(seasons).sort((a,b)=>a[0].localeCompare(b[0],undefined,{numeric:true})))
+  +bars("Conversations by importance",[1,2,3,4,5].map(n=>[stars(n),imp[n]]))
+  +bars("Most used tags",Object.entries(tagCount).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,10));
 }
-function route() {
-    let h = location.hash.slice(1);
 
-    if (h.startsWith("conversation/episode/")) {
-        showPage("conversation");
+/* ---------- Conversation and episode pages ---------- */
+function conversation(id){
+  const i=DB.conversations.find(x=>x.conversation.id===id);
+  if(!i){document.title="Conversation not found · Handon Quotes";$("conversation-content").innerHTML='<div class="empty">Conversation not found. <a href="#episodes">Browse episodes</a></div>';return}
+  const e=i.episode,c=i.conversation,list=e.conversations||[],k=list.indexOf(c),p=list[k-1],n=list[k+1],
+    ts=allTurns(i,"full"),link=location.href.split("#")[0]+"#conversation/"+encodeURIComponent(c.id);
+  document.title=`${c.title||"Conversation"} · Handon Quotes`;
+  $("conversation-content").innerHTML=`<div class="full"><a class="back" href="#conversation/episode/${encodeURIComponent(e.episode_id)}">← Back to episode</a>
+<div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(c.title||"Untitled")}</h2><p>${esc(e.episode_title||"")}</p>
+${starsHTML(c.importance)}<p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div>
+${copyBtn(link,"Copy link")} ${ts.length?copyBtn(conversationText(ts,e,c),"Copy conversation"):""}</div>
+<div class="conversation-body">${ts.map((t,k)=>turnHTML(t,"","","line-"+k)).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div>
+<div class="conv-nav">${p?convLink(p,"Previous: "+esc(p.title||"Untitled")):"<span></span>"}${n?convLink(n,"Next: "+esc(n.title||"Untitled")):"<span></span>"}</div></div>`;
+}
+function episodePage(id){
+  const e=DB.episodes.find(x=>x.episode_id===id);
+  if(!e){document.title="Episode not found · Handon Quotes";$("conversation-content").innerHTML='<div class="empty">Episode not found. <a href="#episodes">Browse episodes</a></div>';return}
+  const cs=e.conversations||[],eps=sortedEpisodes(),k=eps.indexOf(e),p=eps[k-1],n=eps[k+1],
+    epLink=(x,label)=>`<a class="button secondary" href="#conversation/episode/${encodeURIComponent(x.episode_id)}">${label}: ${esc(episodeLabel(x))}</a>`;
+  document.title=`${e.episode_title||"Episode"} · Handon Quotes`;
+  $("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a>
+<div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(e.episode_title||"")}</h2>
+<p>${cs.length} conversation${cs.length===1?"":"s"}</p></div>
+<div class="list">${cs.length?cs.map(c=>card({episode:e,conversation:c})).join(""):'<div class="empty">No conversations stored for this episode.</div>'}</div>
+<div class="conv-nav">${p?epLink(p,"Previous"):"<span></span>"}${n?epLink(n,"Next"):"<span></span>"}</div></div>`;
+}
 
-        const prefix = "conversation/episode/";
-        const id = decodeURIComponent(h.slice(prefix.length));
+/* ---------- Router ---------- */
+let lastRouteKey=null;
+function route(){
+  const raw=location.hash.slice(1),qi=raw.indexOf("?"),
+    path=qi<0?raw:raw.slice(0,qi),params=new URLSearchParams(qi<0?"":raw.slice(qi+1)),
+    dec=s=>{try{return decodeURIComponent(s)}catch{return s}},
+    pages=["home","episodes","importance","tags","search","random","statistics"],
+    isConv=path.startsWith("conversation/"),root=path.split("/")[0],
+    page=isConv?"conversation":pages.includes(root)?root:"home";
+  showPage(page,isConv?"episodes":page);
+  document.body.classList.remove("nav-open");$("nav-toggle")?.setAttribute("aria-expanded","false");
+  document.title=page==="home"?"Handon Quotes":`${page[0].toUpperCase()+page.slice(1)} · Handon Quotes`;
+  if(path.startsWith("conversation/episode/")) episodePage(dec(path.slice("conversation/episode/".length)));
+  else if(isConv) conversation(dec(path.slice("conversation/".length)));
+  else if(page==="episodes") episodes();
+  else if(page==="importance") importance();
+  else if(page==="tags") tagsPage(path.startsWith("tags/")?dec(path.slice(5)):"");
+  else if(page==="search"){applySearchParams(params);search()}
+  else if(page==="random"){if(!$("random-result").innerHTML) $("random-result").innerHTML='<div class="empty">Press “Give me one” to get a random quote.</div>'}
+  else if(page==="statistics") statistics();
+  else home();
+  // Scroll to top and move focus only when the page changes, not when a tag is picked.
+  const key=isConv?path:page;
+  if(lastRouteKey!==null&&key!==lastRouteKey){
+    window.scrollTo(0,0);
+    const h=$(page)?.querySelector("h1,h2");if(h){h.setAttribute("tabindex","-1");h.focus({preventScroll:true})}
+  }
+  lastRouteKey=key;
+  // #conversation/ID?line=N (from a search result): scroll to that line and highlight it.
+  const line=isConv&&params.has("line")?$("line-"+params.get("line")):null;
+  if(line){line.classList.add("target");line.scrollIntoView({block:"center"})}
+  if(page==="search"&&pendingSearchFocus) $("search-input").focus();
+  pendingSearchFocus=false;
+}
 
-        episodePage(id);
-
-    } else if (h.startsWith("conversation/")) {
-        showPage("conversation");
-
-        const prefix = "conversation/";
-        const id = decodeURIComponent(h.slice(prefix.length));
-
-        conversation(id);
-
-    } else {
-        let p = h || "home";
-
-        showPage(
-            ["home", "episodes", "importance", "tags", "search", "random", "statistics"]
-                .includes(p) ? p : "home"
-        );
-
-        if (p === "home") home();
-        if (p === "episodes") episodes();
-        if (p === "importance") importance();
-        if (p === "tags") tagsPage();
-        if (p === "search") search();
-        if (p === "random") randomResult();
-        if (p === "statistics") statistics();
-    }
+// "/" from anywhere: open Search with the cursor in the box.
+let pendingSearchFocus=false;
+function focusSearch(){
+  if($("search").classList.contains("active")){$("search-input").focus();return}
+  pendingSearchFocus=true;location.hash="search";
 }
