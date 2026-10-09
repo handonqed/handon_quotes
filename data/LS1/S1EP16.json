@@ -1,0 +1,1328 @@
+{
+  "show": "Legacies",
+  "season": 1,
+  "episode": 16,
+  "episode_id": "L-S1E16",
+  "episode_title": "There's always a loophole",
+  "conversations": [
+    {
+      "id": "L-S1E16-C01",
+      "title": "Hope tells Alaric she can't do nothing while Landon is in danger.",
+      "description": "With Triad inside the school and her powers gone, Hope calls Alaric, who asks her not to do anything crazy. She reminds him that Landon is in danger too.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        },
+        {
+          "character": "Dorian",
+          "version": "Dorian"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "worry",
+        "protect",
+        "determination"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E16-C01-T01",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Whoever this is gets extra credit."
+          },
+          {
+            "id": "L-S1E16-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's Hope. Triad's here."
+          },
+          {
+            "id": "L-S1E16-C01-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Is everyone okay?"
+          },
+          {
+            "id": "L-S1E16-C01-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, but our powers are gone."
+          },
+          {
+            "id": "L-S1E16-C01-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "What do they want?"
+          },
+          {
+            "id": "L-S1E16-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "They said that the third artifact is in the school somewhere."
+          },
+          {
+            "id": "L-S1E16-C01-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "You're kidding."
+          },
+          {
+            "id": "L-S1E16-C01-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "The Chalice of Arithmetic or something? I don't know. Any idea?"
+          },
+          {
+            "id": "L-S1E16-C01-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "We don't have the Chalice of Arimathea, do we?"
+          },
+          {
+            "id": "L-S1E16-C01-T10",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "I'd have to check the old Armory records, but not to my knowledge."
+          },
+          {
+            "id": "L-S1E16-C01-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Uh, listen, I, uh... I've got to find my way into the school. But just promise me you're not gonna do anything crazy."
+          },
+          {
+            "id": "L-S1E16-C01-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We're not the only ones in danger. Landon is, too. I can't just stand here and do nothing."
+          },
+          {
+            "id": "L-S1E16-C01-T13",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope, for once in your life, will you please just listen to me? If Triad wants the chalice, help them get the chalice. You don't have your powers. You are vulnerable, and if you try to resist, someone could get hurt. Do you understand me?"
+          },
+          {
+            "id": "L-S1E16-C01-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E16-C01-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Uh, listen, I, uh... I've got to find my way into the school. But just promise me you're not gonna do anything crazy."
+          },
+          {
+            "id": "L-S1E16-C01-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We're not the only ones in danger. Landon is, too. I can't just stand here and do nothing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E16-C02",
+      "title": "Lizzie, Josie and MG tell Hope to go save Landon.",
+      "description": "Hope doesn't want to leave her friends behind at the school, but they insist she go rescue Landon while they handle Triad.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        },
+        {
+          "character": "MG",
+          "version": "MG"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "rescue"
+      ],
+      "importance": 1,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E16-C02-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay. I'm gonna be back as soon as I can. Please keep these two from trying to kill or die for each other."
+          },
+          {
+            "id": "L-S1E16-C02-T02",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "You need to go help Landon. We don't need you to be here."
+          },
+          {
+            "id": "L-S1E16-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "But I can't leave you guys here."
+          },
+          {
+            "id": "L-S1E16-C02-T04",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "For the love of Frodo, go rescue your Hobbit. We'll muddle through."
+          },
+          {
+            "id": "L-S1E16-C02-T05",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "She's right again. He needs you."
+          },
+          {
+            "id": "L-S1E16-C02-T06",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "We've been watching you save the day this entire school year, Hope. We got it."
+          },
+          {
+            "id": "L-S1E16-C02-T07",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Now go save Landon."
+          },
+          {
+            "id": "L-S1E16-C02-T08",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Go."
+          },
+          {
+            "id": "L-S1E16-C02-T09",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "If you go soft on us now, I'm just gonna hurl Maligoo."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E16-C02-T02",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "You need to go help Landon. We don't need you to be here."
+          },
+          {
+            "id": "L-S1E16-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "But I can't leave you guys here."
+          },
+          {
+            "id": "L-S1E16-C02-T04",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "For the love of Frodo, go rescue your Hobbit. We'll muddle through."
+          },
+          {
+            "id": "L-S1E16-C02-T05",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "She's right again. He needs you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E16-C03",
+      "title": "Hope finds Landon.",
+      "description": "Hope arrives at Triad just in time to save Landon from the Headless Horseman.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "rescue",
+        "clues"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E16-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope."
+          },
+          {
+            "id": "L-S1E16-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I knew you'd find me."
+          },
+          {
+            "id": "L-S1E16-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I just followed the clues you left in that voice mail. You're great at riddles. We should probably add fight training to your coursework, though."
+          },
+          {
+            "id": "L-S1E16-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S1E16-C03-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Feel free to take notes."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E16-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope."
+          },
+          {
+            "id": "L-S1E16-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I knew you'd find me."
+          },
+          {
+            "id": "L-S1E16-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I just followed the clues you left in that voice mail. You're great at riddles. We should probably add fight training to your coursework, though."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E16-C04",
+      "title": "Hope and Landon fight the Headless Horseman.",
+      "description": "Hope can't kill the Headless Horseman with magic, so she asks Landon for help and they defeat it together.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "fight",
+        "teamwork",
+        "banter"
+      ],
+      "importance": 2,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E16-C04-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Incendia!"
+          },
+          {
+            "id": "L-S1E16-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "kicks monster"
+          },
+          {
+            "id": "L-S1E16-C04-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S1E16-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "He won't die. You know sci-fi stuff. Help me. How do I kill him?"
+          },
+          {
+            "id": "L-S1E16-C04-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, Headless Horseman is more fantasy."
+          },
+          {
+            "id": "L-S1E16-C04-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Get to the helpful part."
+          },
+          {
+            "id": "L-S1E16-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Ignari! Ah!"
+          },
+          {
+            "id": "L-S1E16-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "In the Tim Burton movie, they defeated him by giving him a bride. That wouldn't be my first choice."
+          },
+          {
+            "id": "L-S1E16-C04-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Me, neither."
+          },
+          {
+            "id": "L-S1E16-C04-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "In-in the O.G. cartoon, he had a pumpkin head. That... he might keep it with his horse? Correction! He's got it under his cape. Kill the head, the body dies. That's science faction."
+          },
+          {
+            "id": "L-S1E16-C04-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Great. One head coming up."
+          },
+          {
+            "id": "L-S1E16-C04-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, God, why is it moist?"
+          },
+          {
+            "id": "L-S1E16-C04-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, give me, give me."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E16-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "In the Tim Burton movie, they defeated him by giving him a bride. That wouldn't be my first choice."
+          },
+          {
+            "id": "L-S1E16-C04-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Me, neither."
+          },
+          {
+            "id": "L-S1E16-C04-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "In-in the O.G. cartoon, he had a pumpkin head. That... he might keep it with his horse? Correction! He's got it under his cape. Kill the head, the body dies. That's science faction."
+          },
+          {
+            "id": "L-S1E16-C04-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Great. One head coming up."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E16-C05",
+      "title": "Hope and Landon say \"I love you\" for the first time.",
+      "description": "After the fight, Hope drops the speech she practiced with the hologram and tells Landon the truth: she loves him. Landon says it back and forgives her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "confession",
+        "love",
+        "sorry",
+        "forgiveness",
+        "kiss"
+      ],
+      "importance": 5,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E16-C05-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hi."
+          },
+          {
+            "id": "L-S1E16-C05-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hi."
+          },
+          {
+            "id": "L-S1E16-C05-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Um, okay, um... So I had this entire speech that I practiced with your prismatic hologram."
+          },
+          {
+            "id": "L-S1E16-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "My what?"
+          },
+          {
+            "id": "L-S1E16-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "But I know that the only thing you want from me is the truth. And the truth is... I love you."
+          },
+          {
+            "id": "L-S1E16-C05-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm really sorry about all the secrets that I've kept, but I'm... I'm mostly sorry about keeping that one. 'Cause I love you, Landon Kirby."
+          },
+          {
+            "id": "L-S1E16-C05-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I mean, it wasn't a huge secret, because I love you, too, Hope Mikaelson. And I forgive you for anything that needs it."
+          },
+          {
+            "id": "L-S1E16-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And I know it looked like I was losing when you got here, but that's just how Phoenix combat looks, so..."
+          },
+          {
+            "id": "L-S1E16-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S1E16-C05-T10",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E16-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "But I know that the only thing you want from me is the truth. And the truth is... I love you."
+          },
+          {
+            "id": "L-S1E16-C05-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm really sorry about all the secrets that I've kept, but I'm... I'm mostly sorry about keeping that one. 'Cause I love you, Landon Kirby."
+          },
+          {
+            "id": "L-S1E16-C05-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I mean, it wasn't a huge secret, because I love you, too, Hope Mikaelson. And I forgive you for anything that needs it."
+          },
+          {
+            "id": "L-S1E16-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And I know it looked like I was losing when you got here, but that's just how Phoenix combat looks, so..."
+          },
+          {
+            "id": "L-S1E16-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S1E16-C05-T10",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E16-C06",
+      "title": "Clarke frees Malivore and Landon kills him",
+      "description": "Clarke interrupts them and frees Malivore. Landon kills him and explains everything to Hope.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Clarke",
+          "version": "Clarke"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "phoenix"
+      ],
+      "importance": 3,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E16-C06-T01",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Nothing like young love, is there? Shame it has to be so short-lived."
+          },
+          {
+            "id": "L-S1E16-C06-T02",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "You'll find, baby brother, one of our family's worst traits is... well, we're terribly clumsy."
+          },
+          {
+            "id": "L-S1E16-C06-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No!"
+          },
+          {
+            "id": "L-S1E16-C06-T04",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Aren't you gonna clap or something? That was a total power move."
+          },
+          {
+            "id": "L-S1E16-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Damn. Phoenix combat's no joke."
+          },
+          {
+            "id": "L-S1E16-C06-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay. We got to think. We got to figure something out to keep him from rising."
+          },
+          {
+            "id": "L-S1E16-C06-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What do you mean, \"him\"?"
+          },
+          {
+            "id": "L-S1E16-C06-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Ooh, we have a lot to catch up on."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E16-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Damn. Phoenix combat's no joke."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E16-C07",
+      "title": "Hope finds the loophole and asks Landon to kiss her.",
+      "description": "With Malivore about to rise, Hope realizes she is the loophole. She asks Landon for a kiss and then kills him so he can't stop her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "kiss",
+      "tags": [
+        "kiss",
+        "sacrifice",
+        "goodbye",
+        "fate"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E16-C07-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Wow. That's a lot to take in. So Malivore's your dad?"
+          },
+          {
+            "id": "L-S1E16-C07-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Weird, huh?"
+          },
+          {
+            "id": "L-S1E16-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And he can't be killed, which is why Triad turned him to goo?"
+          },
+          {
+            "id": "L-S1E16-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You're a quick study."
+          },
+          {
+            "id": "L-S1E16-C07-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "But nothing's ever immortal. I mean, not really. Nature won't allow it. There's always a loophole."
+          },
+          {
+            "id": "L-S1E16-C07-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Any brilliant ideas? Because I think we're running out of time."
+          },
+          {
+            "id": "L-S1E16-C07-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Just one. But you're gonna hate it."
+          },
+          {
+            "id": "L-S1E16-C07-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Kiss me."
+          },
+          {
+            "id": "L-S1E16-C07-T09",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S1E16-C07-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I didn't hate that at all."
+          },
+          {
+            "id": "L-S1E16-C07-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Not that. This."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E16-C07-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Any brilliant ideas? Because I think we're running out of time."
+          },
+          {
+            "id": "L-S1E16-C07-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Just one. But you're gonna hate it."
+          },
+          {
+            "id": "L-S1E16-C07-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Kiss me."
+          },
+          {
+            "id": "L-S1E16-C07-T09",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S1E16-C07-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I didn't hate that at all."
+          },
+          {
+            "id": "L-S1E16-C07-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Not that. This."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S1E16-C08",
+      "title": "Hope says goodbye to Alaric before jumping into Malivore.",
+      "description": "Hope calls Alaric to tell him where Landon is and that she is going to throw herself into Malivore, which will erase her from everyone's memory, including Landon's.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "sacrifice",
+        "goodbye",
+        "protect",
+        "fate"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S1E16-C08-T01",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope. Did you find Landon?"
+          },
+          {
+            "id": "L-S1E16-C08-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S1E16-C08-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Okay, well, tell me where you are."
+          },
+          {
+            "id": "L-S1E16-C08-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Fort Valley, Georgia. Landon's gonna need you when I'm done. You have to write it down."
+          },
+          {
+            "id": "L-S1E16-C08-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Wait. You're at Triad Headquarters?"
+          },
+          {
+            "id": "L-S1E16-C08-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah. Uh, don't worry, though. Everyone here is dead."
+          },
+          {
+            "id": "L-S1E16-C08-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Okay, listen, you're not making any sense. Just put Landon on the phone."
+          },
+          {
+            "id": "L-S1E16-C08-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I can't. Uh, he would have tried to stop me, so I had to kill him, too."
+          },
+          {
+            "id": "L-S1E16-C08-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "What?"
+          },
+          {
+            "id": "L-S1E16-C08-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "He'll come back. Don't worry. Even if I don't."
+          },
+          {
+            "id": "L-S1E16-C08-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope, tell me what the hell you're about to do right now before you do it."
+          },
+          {
+            "id": "L-S1E16-C08-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Clarke won. He found the final artifact, and he tossed it into the pit, which is Landon's father, by the way. And now Malivore's gonna rise unless I stop him."
+          },
+          {
+            "id": "L-S1E16-C08-T13",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Stop him how?"
+          },
+          {
+            "id": "L-S1E16-C08-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon got all the answers, but, basically, Malivore was created by the blood of a werewolf, a witch and a vampire. It used to be that only they could destroy what they created, but nature found a loophole. By making me. The Tribrid. I'm the loophole."
+          },
+          {
+            "id": "L-S1E16-C08-T15",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope, you listen to me. Now, this is a theory, okay, and you don't even know if this is gonna work, so you just sit tight, and you wait for me to get there."
+          },
+          {
+            "id": "L-S1E16-C08-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "There's no time. I've always thought that I was a cosmic mistake, someone who should never have been born. But after all this time, I mean, my purpose is finally clear."
+          },
+          {
+            "id": "L-S1E16-C08-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Think about it. I'm the answer to all of this. I can remember things about Malivore that no one else can. That Triad weapon didn't affect me. Did my blood heal Josie?"
+          },
+          {
+            "id": "L-S1E16-C08-T18",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I am not okay with this."
+          },
+          {
+            "id": "L-S1E16-C08-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I know. But you will be, because once I toss myself into that pit, no one at school will remember me. Including you."
+          },
+          {
+            "id": "L-S1E16-C08-T20",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope. You listen to me."
+          },
+          {
+            "id": "L-S1E16-C08-T21",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I've spent years torturing myself, asking myself why my father sacrificed himself for me, to get to this point where, I mean, I totally understand it. And I don't want you to have to go through that pain, Dr. Saltzman. You've been through enough."
+          },
+          {
+            "id": "L-S1E16-C08-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And I don't want anyone at school to miss me, because they're my friends. Maybe I would have seen that sooner if I hadn't been beating myself up all this time."
+          },
+          {
+            "id": "L-S1E16-C08-T23",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "This is where you tell me that even though you wish you could change my mind, you know I'm doing the right thing. This is the part where you tell me you're proud of me."
+          },
+          {
+            "id": "L-S1E16-C08-T24",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "You know I'm proud of you. You know it. What is it you need me to do?"
+          },
+          {
+            "id": "L-S1E16-C08-T25",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Call maintenance. Have 'em pack up my room. Take my files, all those notes I know that you keep about me, and burn them. Along with Landon's journal."
+          },
+          {
+            "id": "L-S1E16-C08-T26",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Listen, if you want to erase yourself, that is on you, okay, but you can't ask me to do it, too."
+          },
+          {
+            "id": "L-S1E16-C08-T27",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm sorry, Dr. Saltzman. But I trust you more than I trust anyone. I wish I would have figured that out sooner, too."
+          },
+          {
+            "id": "L-S1E16-C08-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I got to go."
+          },
+          {
+            "id": "L-S1E16-C08-T29",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope, listen to me. Wait."
+          },
+          {
+            "id": "L-S1E16-C08-T30",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Not an option. Uh-uh. Uh, promise me you're gonna do what I said. Promise me."
+          },
+          {
+            "id": "L-S1E16-C08-T31",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "All right. Fine. I promise."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E16-C08-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Fort Valley, Georgia. Landon's gonna need you when I'm done. You have to write it down."
+          },
+          {
+            "id": "L-S1E16-C08-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Okay, listen, you're not making any sense. Just put Landon on the phone."
+          },
+          {
+            "id": "L-S1E16-C08-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I can't. Uh, he would have tried to stop me, so I had to kill him, too."
+          },
+          {
+            "id": "L-S1E16-C08-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "He'll come back. Don't worry. Even if I don't."
+          }
+        ]
+      }
+    }
+  ]
+}
