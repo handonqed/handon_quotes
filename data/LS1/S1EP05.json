@@ -8,7 +8,7 @@
     
     {
       "id": "L-S1E05-C01",
-      "title": "Hope and Landon begin the tests",
+      "title": "Hope and Landon begin the tests.",
       "description": "Hope administers the tests that will help determine whether Landon can stay at the school, while Landon challenges her perceived bias.",
       "participants": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "id": "L-S1E05-C02",
-      "title": "Hope and Landon continue the supernatural tests",
+      "title": "Hope and Landon continue the supernatural tests.",
       "description": "Hope and Landon continue testing Landon's abilities.",
       "participants": [
         {
@@ -536,8 +536,8 @@
 
     {
       "id": "L-S1E05-C04",
-      "title": "Landon apologizes using the lie detector and Hope accepts it",
-      "description": "Landon apologizes using the lie detector and Hope accepts it",
+      "title": "Landon apologizes using the lie detector and Hope accepts it.",
+      "description": "Landon apologizes using the lie detector and Hope accepts it.",
       "participants": [
         {
           "character": "Hope",
@@ -642,7 +642,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Growing up in the foster system...every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh, 'click your heels three times, no place like home' kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before its starts to seem impossible to trust someone new. Especially when they lie to you."
+            "text": "Growing up in the foster system... every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh, \"click your heels three times, no place like home\" kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before it starts to seem impossible to trust someone new. Especially when they lie to you."
           },
           {
             "id": "L-S1E05-C04-T11",
@@ -688,7 +688,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Growing up in the foster system...every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh, 'click your heels three times, no place like home' kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before its starts to seems impossible to trust someone new. Especially when they lie to you."
+            "text": "Growing up in the foster system... every time I got sent someplace new, I'd hope that this would be the right place. You know, like, uh, \"click your heels three times, no place like home\" kind of stuff. Just somewhere I actually belonged. But it never was. You know, and you can only hold out hope for so long and-and be hurt by so many people before it starts to seem impossible to trust someone new. Especially when they lie to you."
           },
           {
             "id": "L-S1E05-C04-T11",
@@ -713,8 +713,8 @@
     
     {
       "id": "L-S1E05-C05",
-      "title": "Hope takes care of Landon",
-      "description": "Hope takes care of Landon after Jed's attack",
+      "title": "Hope takes care of Landon.",
+      "description": "Hope takes care of Landon after Jed's attack.",
       "participants": [
         {
           "character": "Hope",
@@ -812,13 +812,21 @@
           {
             "id": "L-S1E05-C05-T09",
             "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "smile"
+          },
+          {
+            "id": "L-S1E05-C05-T10",
+            "speaker": {
               "character": "Hope",
               "version": "Hope"
             },
             "text": "I'm sorry that this happened to you. Jed's one of those rare cases where his bite is actually worse than his bark."
           },
           {
-            "id": "L-S1E05-C05-T10",
+            "id": "L-S1E05-C05-T11",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -826,7 +834,7 @@
             "text": "I've dealt with bullies before."
           },
           {
-            "id": "L-S1E05-C05-T11",
+            "id": "L-S1E05-C05-T12",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -834,7 +842,7 @@
             "text": "Not like this. I know how badly you want to stay here, but this school is full of people like Jed. Some of us are nicer, some of us have more control, but all of us are capable of doing what he did. Do you honestly think that you're safe here?"
           },
           {
-            "id": "L-S1E05-C05-T12",
+            "id": "L-S1E05-C05-T13",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -842,7 +850,7 @@
             "text": "Yes, I do."
           },
           {
-            "id": "L-S1E05-C05-T13",
+            "id": "L-S1E05-C05-T14",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -854,7 +862,7 @@
       },
       "short": {
         "turns": [
-          {
+         {
             "id": "L-S1E05-C05-T07",
             "speaker": {
               "character": "Landon",
@@ -873,6 +881,14 @@
           {
             "id": "L-S1E05-C05-T09",
             "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "smile"
+          },
+          {
+            "id": "L-S1E05-C05-T10",
+            "speaker": {
               "character": "Hope",
               "version": "Hope"
             },
@@ -886,7 +902,7 @@
 
     {
       "id": "L-S1E05-C06",
-      "title": "Hope and Alaric talk about Landon and the honor council",
+      "title": "Hope and Alaric talk about Landon and the honor council.",
       "description": "Hope tells Alaric she wants a seat on the honor council, and he asks whether her interest is connected to Landon.",
       "participants": [
         {
@@ -990,7 +1006,7 @@
       "short": {
         "turns": [
           {
-            "id": "L-S1E05-C06-T05",
+            "id": "L-S1E05-C06-T06",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -998,7 +1014,7 @@
             "text": "Listen, I want a seat on the council. I'm a tribrid... The only one of my kind. No one can represent my interests but me."
           },
           {
-            "id": "L-S1E05-C06-T06",
+            "id": "L-S1E05-C06-T07",
             "speaker": {
               "character": "Alaric",
               "version": "Alaric"
@@ -1006,7 +1022,7 @@
             "text": "Is this about Landon? Because you can't let this get personal."
           },
           {
-            "id": "L-S1E05-C06-T07",
+            "id": "L-S1E05-C06-T08",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1020,8 +1036,8 @@
 
     {
       "id": "L-S1E05-C07",
-      "title": "Hope walks Landon to the bus stop",
-      "description": "Hope walks Landon to the bus stop, accepts she is biased, helps him and they kiss",
+      "title": "Hope walks Landon to the bus stop.",
+      "description": "Hope walks Landon to the bus stop, accepts she is biased, helps him and they kiss.",
       "participants": [
         {
           "character": "Hope",
@@ -1116,7 +1132,7 @@
             "text": "Remember when you asked me to make sure that Raf didn't follow you? You did it 'cause you care about him, because... you wanted to do what was right for him. Even though it was hard."
           },
           {
-            "id": "L-S1E05-C07-T9",
+            "id": "L-S1E05-C07-T09",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1223,14 +1239,30 @@
           {
             "id": "L-S1E05-C07-T22",
             "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "activates magical bracelet"
+          },
+          {
+            "id": "L-S1E05-C07-T23",
+            "speaker": {
               "character": "Hope",
               "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S1E05-C07-T24",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
             },
             "text": "I wanted to see if it worked."
           },
 
           {
-        "id": "L-S1E05-C07-T23",
+        "id": "L-S1E05-C07-T25",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1239,7 +1271,7 @@
       },
         
       {
-            "id": "L-S1E05-C07-T24",
+            "id": "L-S1E05-C07-T26",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1247,7 +1279,7 @@
             "text": "Ow. Ooh."
           },
           {
-            "id": "L-S1E05-C07-T25",
+            "id": "L-S1E05-C07-T27",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1256,7 +1288,7 @@
           },
 
           {
-            "id": "L-S1E05-C07-T26",
+            "id": "L-S1E05-C07-T28",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1264,7 +1296,7 @@
             "text": "It's good. It's okay. It's worth it. It's worth it."
           },
            {
-            "id": "L-S1E05-C07-T27",
+            "id": "L-S1E05-C07-T29",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1273,7 +1305,7 @@
           },
 
           {
-        "id": "L-S1E05-C07-T28",
+        "id": "L-S1E05-C07-T30",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1329,14 +1361,30 @@
           {
             "id": "L-S1E05-C07-T22",
             "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "activates magical bracelet"
+          },
+          {
+            "id": "L-S1E05-C07-T23",
+            "speaker": {
               "character": "Hope",
               "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S1E05-C07-T24",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
             },
             "text": "I wanted to see if it worked."
           },
 
           {
-        "id": "L-S1E05-C07-T23",
+        "id": "L-S1E05-C07-T25",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1345,7 +1393,7 @@
       },
         
       {
-            "id": "L-S1E05-C07-T24",
+            "id": "L-S1E05-C07-T26",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1353,7 +1401,7 @@
             "text": "Ow. Ooh."
           },
           {
-            "id": "L-S1E05-C07-T25",
+            "id": "L-S1E05-C07-T27",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1362,7 +1410,7 @@
           },
 
           {
-            "id": "L-S1E05-C07-T26",
+            "id": "L-S1E05-C07-T28",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -1370,7 +1418,7 @@
             "text": "It's good. It's okay. It's worth it. It's worth it."
           },
            {
-            "id": "L-S1E05-C07-T27",
+            "id": "L-S1E05-C07-T29",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1379,7 +1427,7 @@
           },
 
           {
-        "id": "L-S1E05-C07-T28",
+        "id": "L-S1E05-C07-T30",
         "speaker": {
           "character": "Handon",
           "version": "Handon"

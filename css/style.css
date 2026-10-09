@@ -465,8 +465,55 @@ a.tag:hover {
     margin: 25px 0;
 }
 
+/* Each season is a <details> that opens on click. */
 .season {
-    margin: 18px 0;
+    margin: 12px 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.season summary {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.season summary::-webkit-details-marker {
+    display: none;
+}
+
+.season summary::before {
+    content: "▸";
+    color: var(--accent);
+    transition: transform 0.15s ease;
+}
+
+.season[open] summary::before {
+    transform: rotate(90deg);
+}
+
+.season summary h3 {
+    margin: 0;
+}
+
+.season summary .meta {
+    margin-left: auto;
+}
+
+.season summary:hover h3 {
+    color: var(--accent);
+}
+
+.season .episode-grid {
+    padding: 4px 18px 18px;
+}
+
+.season .episode-card {
+    background: var(--bg);
 }
 
 .episode-grid {
@@ -595,6 +642,44 @@ a.tag:hover {
 
 .conv-nav .button {
     margin: 0;
+}
+
+/* Full-episode page: the small line that introduces each conversation. */
+.conv-sep {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 12px;
+    margin: 34px 0 6px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+    font: 12px Arial, sans-serif;
+    color: var(--muted);
+}
+
+.conv-sep:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+
+.conv-sep-title {
+    font-weight: 700;
+}
+
+.conv-sep .stars {
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.conv-sep-link {
+    margin-left: auto;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.conv-sep-link:hover {
+    text-decoration: underline;
 }
 
 /* ---------- 10. Statistics ---------- */

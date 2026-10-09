@@ -91,19 +91,24 @@ function home(){
 }
 
 /* ---------- Episodes ---------- */
+// Seasons are collapsed until clicked, so a long season does not push the later ones down the page.
+const openSeasons=new Set();
 function episodes(){
   let b={};DB.episodes.forEach(e=>(b[e.show]??=[]).push(e));let h="";
   Object.keys(b).sort(byShow).forEach(show=>{
     h+=`<div class="show"><h3>${esc(show)}</h3>`;
     let ss={};b[show].forEach(e=>(ss[e.season]??=[]).push(e));
     Object.keys(ss).sort((a,b)=>a-b).forEach(s=>{
-      h+=`<div class="season"><h3>${s==="undefined"?"Unknown season":"Season "+esc(s)}</h3><div class="episode-grid">`;
+      const key=show+"|"+s,n=ss[s].length;
+      h+=`<details class="season" data-key="${esc(key)}"${openSeasons.has(key)?" open":""}><summary><h3>${s==="undefined"?"Unknown season":"Season "+esc(s)}</h3><span class="meta">${n} episode${n===1?"":"s"}</span></summary><div class="episode-grid">`;
       ss[s].sort((a,b)=>(a.episode||0)-(b.episode||0)).forEach(e=>h+=`<a class="episode-card" href="#conversation/episode/${encodeURIComponent(e.episode_id)}"><div class="code">${esc(episodeLabel(e))}</div><strong>${esc(e.episode_title||"")}</strong><div class="meta">${(e.conversations||[]).length} conversation${(e.conversations||[]).length===1?"":"s"}</div></a>`);
-      h+="</div></div>";
+      h+="</div></details>";
     });
     h+="</div>";
   });
   $("episode-browser").innerHTML=h||'<div class="empty">No episodes loaded.</div>';
+  // Remember which seasons are open, so coming back to this page keeps them that way.
+  $("episode-browser").querySelectorAll("details.season").forEach(d=>d.addEventListener("toggle",()=>d.open?openSeasons.add(d.dataset.key):openSeasons.delete(d.dataset.key)));
 }
 
 /* ---------- Importance (minimum level, highest first) ---------- */
@@ -243,17 +248,41 @@ ${copyBtn(link,"Copy link")} ${ts.length?copyBtn(conversationText(ts,e,c),"Copy 
 <div class="conversation-body">${ts.map((t,k)=>turnHTML(t,"","","line-"+k)).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div>
 <div class="conv-nav">${p?convLink(p,"Previous: "+esc(p.title||"Untitled")):"<span></span>"}${n?convLink(n,"Next: "+esc(n.title||"Untitled")):"<span></span>"}</div></div>`;
 }
+// Previous / next episode buttons. On the full-episode page they stay in the full view.
+function episodeNav(e,full=false){
+  const eps=sortedEpisodes(),k=eps.indexOf(e),
+    link=(x,label)=>x?`<a class="button secondary" href="#conversation/episode/${encodeURIComponent(x.episode_id)}${full?"/full":""}">${label}: ${esc(episodeLabel(x))}</a>`:"<span></span>";
+  return `<div class="conv-nav">${link(eps[k-1],"Previous")}${link(eps[k+1],"Next")}</div>`;
+}
 function episodePage(id){
   const e=DB.episodes.find(x=>x.episode_id===id);
   if(!e){document.title="Episode not found · Handon Quotes";$("conversation-content").innerHTML='<div class="empty">Episode not found. <a href="#episodes">Browse episodes</a></div>';return}
-  const cs=e.conversations||[],eps=sortedEpisodes(),k=eps.indexOf(e),p=eps[k-1],n=eps[k+1],
-    epLink=(x,label)=>`<a class="button secondary" href="#conversation/episode/${encodeURIComponent(x.episode_id)}">${label}: ${esc(episodeLabel(x))}</a>`;
+  const cs=e.conversations||[];
   document.title=`${e.episode_title||"Episode"} · Handon Quotes`;
   $("conversation-content").innerHTML=`<div class="full"><a class="back" href="#episodes">← Back to episodes</a>
 <div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(e.episode_title||"")}</h2>
-<p>${cs.length} conversation${cs.length===1?"":"s"}</p></div>
+<p>${cs.length} conversation${cs.length===1?"":"s"}</p>
+${cs.length?`<a class="button" href="#conversation/episode/${encodeURIComponent(e.episode_id)}/full">Read the full episode</a>`:""}</div>
 <div class="list">${cs.length?cs.map(c=>card({episode:e,conversation:c})).join(""):'<div class="empty">No conversations stored for this episode.</div>'}</div>
-<div class="conv-nav">${p?epLink(p,"Previous"):"<span></span>"}${n?epLink(n,"Next"):"<span></span>"}</div></div>`;
+${episodeNav(e)}</div>`;
+}
+
+// All the full conversations of an episode on one page (#conversation/episode/ID/full).
+// Each one is introduced by a small line: title, importance and a link to its own page.
+function episodeFullPage(id){
+  const e=DB.episodes.find(x=>x.episode_id===id);
+  if(!e){document.title="Episode not found · Handon Quotes";$("conversation-content").innerHTML='<div class="empty">Episode not found. <a href="#episodes">Browse episodes</a></div>';return}
+  const cs=e.conversations||[];
+  document.title=`${e.episode_title||"Episode"} (full) · Handon Quotes`;
+  $("conversation-content").innerHTML=`<div class="full"><a class="back" href="#conversation/episode/${encodeURIComponent(e.episode_id)}">← Back to episode</a>
+<div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(e.episode_title||"")}</h2>
+<p>${cs.length} conversation${cs.length===1?"":"s"}, full dialogue</p></div>
+<div class="conversation-body">${cs.length?cs.map(c=>{
+    const ts=allTurns({episode:e,conversation:c},"full");
+    return `<div class="conv-sep"><span class="conv-sep-title">${esc(c.title||"Untitled")}</span>${starsHTML(c.importance)}${convLink(c,"Open conversation","conv-sep-link")}</div>
+${ts.map(t=>turnHTML(t)).join("")||'<p class="muted">No full dialogue is stored.</p>'}`;
+  }).join(""):'<div class="empty">No conversations stored for this episode.</div>'}</div>
+${episodeNav(e,true)}</div>`;
 }
 
 /* ---------- Router ---------- */
@@ -268,7 +297,10 @@ function route(){
   showPage(page,isConv?"episodes":page);
   document.body.classList.remove("nav-open");$("nav-toggle")?.setAttribute("aria-expanded","false");
   document.title=page==="home"?"Handon Quotes":`${page[0].toUpperCase()+page.slice(1)} · Handon Quotes`;
-  if(path.startsWith("conversation/episode/")) episodePage(dec(path.slice("conversation/episode/".length)));
+  if(path.startsWith("conversation/episode/")){
+    const rest=path.slice("conversation/episode/".length);
+    rest.endsWith("/full")?episodeFullPage(dec(rest.slice(0,-5))):episodePage(dec(rest));
+  }
   else if(isConv) conversation(dec(path.slice("conversation/".length)));
   else if(page==="episodes") episodes();
   else if(page==="importance") importance();

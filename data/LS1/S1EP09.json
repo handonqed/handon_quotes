@@ -304,7 +304,7 @@
     },
     {
       "id": "L-S1E09-C03",
-      "title": "Hope and Landon investigate the Night Hag",
+      "title": "Hope and Landon investigate the Night Hag.",
       "description": "Hope treats Landon's injury while they discuss what the Night Hag wants and how they can stop it.",
       "participants": [
         {
@@ -345,7 +345,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Okay. What do you think she meant when she said 'bring it home'?"
+            "text": "Okay. What do you think she meant when she said \"bring it home\"?"
           },
           {
             "id": "L-S1E09-C03-T03",
@@ -476,7 +476,7 @@
     },
     {
       "id": "L-S1E09-C04",
-      "title": "Rafael asks Hope to be honest with Landon",
+      "title": "Rafael asks Hope to be honest with Landon.",
       "description": "Rafael asks Hope not to let Landon feel unwanted and challenges her about hiding things from him.",
       "participants": [
         {
@@ -604,7 +604,7 @@
     },
     {
       "id": "L-S1E09-C05",
-      "title": "Landon discovers the Oneiroi",
+      "title": "Landon discovers the Oneiroi.",
       "description": "Landon researches the monster and helps the group realize that the creature may be an Oneiroi rather than a Night Hag.",
       "participants": [
         {
@@ -646,7 +646,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "'Dr. Saltzman, I have changed my mind. I've decided to take you up on your offer and get the hell out with every other sane person here.'"
+            "text": "\"Dr. Saltzman, I have changed my mind. I've decided to take you up on your offer and get the hell out with every other sane person here.\""
           },
           {
             "id": "L-S1E09-C05-T03",
@@ -731,7 +731,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Because if we knew what it actually was... "
+            "text": "Because if we knew what it actually was..."
           },
           {
             "id": "L-S1E09-C05-T11",
@@ -746,7 +746,7 @@
     },
     {
       "id": "L-S1E09-C06",
-      "title": "Hope and Landon choose to stay and fight",
+      "title": "Hope and Landon choose to stay and fight.",
       "description": "Hope and Landon refuse to leave each other behind as the group prepares to confront the dream demon.",
       "participants": [
         {
@@ -775,7 +775,7 @@
       "tags": [
         "choice",
         "protection",
-        "super-squad"
+        "super squad"
       ],
       "importance": 3,
       "verified": true,
@@ -1026,13 +1026,21 @@
           {
             "id": "L-S1E09-C07-T08",
             "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smile"
+          },
+          {
+            "id": "L-S1E09-C07-T09",
+            "speaker": {
               "character": "Landon",
               "version": "Landon"
             },
             "text": "I'm staying, and I'm gonna help you stop this thing."
           },
           {
-            "id": "L-S1E09-C07-T09",
+            "id": "L-S1E09-C07-T10",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1040,7 +1048,7 @@
             "text": "I don't know what it's gonna take to stop it. But maybe there's one thing that you can do to help me. I need you to hide the urn."
           },
           {
-            "id": "L-S1E09-C07-T10",
+            "id": "L-S1E09-C07-T11",
             "speaker": {
               "character": "Handon",
               "version": "Handon"
@@ -1048,7 +1056,7 @@
             "action": "cheek kiss"
           },
           {
-            "id": "L-S1E09-C07-T11",
+            "id": "L-S1E09-C07-T12",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1070,13 +1078,21 @@
           {
             "id": "L-S1E09-C07-T08",
             "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smile"
+          },
+          {
+            "id": "L-S1E09-C07-T09",
+            "speaker": {
               "character": "Landon",
               "version": "Landon"
             },
             "text": "I'm staying, and I'm gonna help you stop this thing."
           },
           {
-            "id": "L-S1E09-C07-T09",
+            "id": "L-S1E09-C07-T10",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1084,7 +1100,7 @@
             "text": "I don't know what it's gonna take to stop it. But maybe there's one thing that you can do to help me. I need you to hide the urn."
           },
           {
-            "id": "L-S1E09-C07-T10",
+            "id": "L-S1E09-C07-T11",
             "speaker": {
               "character": "Handon",
               "version": "Handon"
@@ -1092,7 +1108,7 @@
             "action": "cheek kiss"
           },
           {
-            "id": "L-S1E09-C07-T11",
+            "id": "L-S1E09-C07-T12",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -1106,8 +1122,8 @@
     
     {
       "id": "L-S1E09-C08",
-      "title": "Landon tells Hope he will always fights for her.",
-      "description": "Landon tells Hope he will always fights for her.",
+      "title": "Landon tells Hope he will always fight for her.",
+      "description": "Landon tells Hope he will always fight for her.",
       "participants": [
         {
           "character": "Hope",

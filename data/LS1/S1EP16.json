@@ -620,13 +620,21 @@
           {
             "id": "L-S1E16-C05-T03",
             "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S1E16-C05-T04",
+            "speaker": {
               "character": "Hope",
               "version": "Hope"
             },
             "text": "Um, okay, um... So I had this entire speech that I practiced with your prismatic hologram."
           },
           {
-            "id": "L-S1E16-C05-T04",
+            "id": "L-S1E16-C05-T05",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -634,7 +642,7 @@
             "text": "My what?"
           },
           {
-            "id": "L-S1E16-C05-T05",
+            "id": "L-S1E16-C05-T06",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -642,7 +650,7 @@
             "text": "But I know that the only thing you want from me is the truth. And the truth is... I love you."
           },
           {
-            "id": "L-S1E16-C05-T06",
+            "id": "L-S1E16-C05-T07",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -650,7 +658,7 @@
             "text": "I'm really sorry about all the secrets that I've kept, but I'm... I'm mostly sorry about keeping that one. 'Cause I love you, Landon Kirby."
           },
           {
-            "id": "L-S1E16-C05-T07",
+            "id": "L-S1E16-C05-T08",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -658,7 +666,7 @@
             "text": "I mean, it wasn't a huge secret, because I love you, too, Hope Mikaelson. And I forgive you for anything that needs it."
           },
           {
-            "id": "L-S1E16-C05-T08",
+            "id": "L-S1E16-C05-T09",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -666,7 +674,7 @@
             "text": "And I know it looked like I was losing when you got here, but that's just how Phoenix combat looks, so..."
           },
           {
-            "id": "L-S1E16-C05-T09",
+            "id": "L-S1E16-C05-T10",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -674,7 +682,7 @@
             "action": "laugh"
           },
           {
-            "id": "L-S1E16-C05-T10",
+            "id": "L-S1E16-C05-T11",
             "speaker": {
               "character": "Handon",
               "version": "Handon"
@@ -685,8 +693,8 @@
       },
       "short": {
         "turns": [
-          {
-            "id": "L-S1E16-C05-T05",
+         {
+            "id": "L-S1E16-C05-T06",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -694,7 +702,7 @@
             "text": "But I know that the only thing you want from me is the truth. And the truth is... I love you."
           },
           {
-            "id": "L-S1E16-C05-T06",
+            "id": "L-S1E16-C05-T07",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -702,7 +710,7 @@
             "text": "I'm really sorry about all the secrets that I've kept, but I'm... I'm mostly sorry about keeping that one. 'Cause I love you, Landon Kirby."
           },
           {
-            "id": "L-S1E16-C05-T07",
+            "id": "L-S1E16-C05-T08",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -710,7 +718,7 @@
             "text": "I mean, it wasn't a huge secret, because I love you, too, Hope Mikaelson. And I forgive you for anything that needs it."
           },
           {
-            "id": "L-S1E16-C05-T08",
+            "id": "L-S1E16-C05-T09",
             "speaker": {
               "character": "Landon",
               "version": "Landon"
@@ -718,7 +726,7 @@
             "text": "And I know it looked like I was losing when you got here, but that's just how Phoenix combat looks, so..."
           },
           {
-            "id": "L-S1E16-C05-T09",
+            "id": "L-S1E16-C05-T10",
             "speaker": {
               "character": "Hope",
               "version": "Hope"
@@ -726,7 +734,7 @@
             "action": "laugh"
           },
           {
-            "id": "L-S1E16-C05-T10",
+            "id": "L-S1E16-C05-T11",
             "speaker": {
               "character": "Handon",
               "version": "Handon"
@@ -738,8 +746,8 @@
     },
     {
       "id": "L-S1E16-C06",
-      "title": "Clarke frees Malivore and Landon kills him",
-      "description": "Clarke interrupts them and frees Malivore. Landon kills him and explains everything to Hope.",
+      "title": "Clarke frees Malivore and Landon kills Clarke.",
+      "description": "Clarke interrupts them and frees Malivore. Landon kills Clarke and explains everything to Hope.",
       "participants": [
         {
           "character": "Hope",

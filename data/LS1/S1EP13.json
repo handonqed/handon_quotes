@@ -8,7 +8,7 @@
   "conversations": [
     {
       "id": "L-S1E13-C01",
-      "title": "Hope searches for Landon",
+      "title": "Hope searches for Landon.",
       "description": "Hope becomes increasingly worried when Landon is missing after the trip during the full moon.",
       "participants": [
         {
@@ -212,8 +212,8 @@
           {
             "id": "L-S1E13-C02-T03",
             "speaker": {
-              "character": "Emma",
-              "version": "Emma"
+              "character": "Hope",
+              "version": "Hope"
             },
             "text": "Wait, he's about to tell us what happened to Landon."
           },
@@ -320,8 +320,8 @@
           {
             "id": "L-S1E13-C02-T03",
             "speaker": {
-              "character": "Emma",
-              "version": "Emma"
+              "character": "Hope",
+              "version": "Hope"
             },
             "text": "Wait, he's about to tell us what happened to Landon."
           },
@@ -354,7 +354,7 @@
     },
     {
       "id": "L-S1E13-C03",
-      "title": "Hope forces the truth about Landon",
+      "title": "Hope forces the truth about Landon.",
       "description": "Hope insists on using Rafael's memories to find out what happened to Landon despite Emma's concerns.",
       "participants": [
         {
@@ -531,7 +531,7 @@
               "character": "Hope",
               "version": "Hope"
             },
-            "text": " Emma, please. Obviously, something terrible happened. Landon and MG are out there somewhere."
+            "text": "Emma, please. Obviously, something terrible happened. Landon and MG are out there somewhere."
           },
           {
             "id": "L-S1E13-C03-T14",
@@ -539,7 +539,7 @@
               "character": "Emma",
               "version": "Emma"
             },
-            "text": "Do you think I'm not concerned about them? Of course I am.."
+            "text": "Do you think I'm not concerned about them? Of course I am."
           },
           {
             "id": "L-S1E13-C03-T15",
@@ -556,7 +556,7 @@
     
     {
       "id": "L-S1E13-C04",
-      "title": "Hope learns Landon may be in danger",
+      "title": "Hope learns Landon may be in danger.",
       "description": "After Rafael remembers the woods, Hope realizes Landon may still be alive and immediately sets out to find him.",
       "participants": [
         {

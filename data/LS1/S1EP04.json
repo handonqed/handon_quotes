@@ -7,7 +7,7 @@
   "conversations": [
     {
       "id": "L-S1E04-C01",
-      "title": "Hope and Alaric discuss Landon",
+      "title": "Hope and Alaric discuss Landon.",
       "description": "Hope asks Alaric about the plan for Landon and whether he should remain at the school, including the danger connected to the knife.",
       "participants": [
         {
@@ -83,7 +83,7 @@
               "character": "Alaric",
               "version": "Alaric"
             },
-            "text": "Cause there's a knife that sat dormant for centuries that started attracting mythical creatures the day he took possession of it. I'd say there's a lot we need to learn about him."
+            "text": "'Cause there's a knife that sat dormant for centuries that started attracting mythical creatures the day he took possession of it. I'd say there's a lot we need to learn about him."
           },
           {
             "id": "L-S1E04-C01-T08",
@@ -143,7 +143,7 @@
               "character": "Alaric",
               "version": "Alaric"
             },
-            "text": "Cause there's a knife that sat dormant for centuries that started attracting mythical creatures the day he took possession of it. I'd say there's a lot we need to learn about him."
+            "text": "'Cause there's a knife that sat dormant for centuries that started attracting mythical creatures the day he took possession of it. I'd say there's a lot we need to learn about him."
           },
           {
             "id": "L-S1E04-C01-T08",
@@ -159,8 +159,8 @@
     
     {
       "id": "L-S1E04-C02",
-      "title": "Hope and Landon talk at as they enter Mystic Falls High",
-      "description": "Hope accompanies Landon at Mystic Falls High as he explains his old school",
+      "title": "Hope and Landon talk as they enter Mystic Falls High.",
+      "description": "Hope accompanies Landon at Mystic Falls High as he explains his old school.",
       "participants": [
         {
           "character": "Hope",
@@ -171,6 +171,7 @@
           "version": "Landon"
         }
       ],
+      "subjects": [],
       "scene_type": "conversation",
       "tags": [
         "mean",
@@ -294,7 +295,7 @@
     },
     {
       "id": "L-S1E04-C03",
-      "title": "Hope and Landon investigate the missing girls",
+      "title": "Hope and Landon investigate the missing girls.",
       "description": "Hope and Landon investigate the disappearances, discuss Connor and Dana, and decide how to approach their investigation.",
       "participants": [
         {
@@ -447,7 +448,7 @@
 
     {
       "id": "L-S1E04-C04",
-      "title": "Hope and Landon argue in the dock after the day",
+      "title": "Hope and Landon argue on the dock after the day.",
       "description": "Hope apologizes after her behaviour with Landon all day. Landon explains that he just wanted to spend some time with Hope.",
       "participants": [
         {
@@ -536,7 +537,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "So as far as I can see, we're supposed to be in this together. And this morning, all I wanted to be was sitting here. Part of all of this. Spending time with you. But all day long you, ridiculed me, and then you hung me out to dry. When it mattered."
+            "text": "So as far as I can see, we're supposed to be in this together. And this morning, all I wanted to be was sitting here. Part of all of this. Spending time with you. But all day long you ridiculed me, and then you hung me out to dry. When it mattered."
           },
           {
             "id": "L-S1E04-C04-T07",

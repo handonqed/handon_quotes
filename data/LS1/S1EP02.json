@@ -8,8 +8,8 @@
   "conversations": [
     {
       "id": "L-S1E02-C01",
-      "title": "Hope and Raf find Landon in the root cellar",
-      "description": "Hope and Raf find Landon in the root cellar",
+      "title": "Hope and Raf find Landon in the root cellar.",
+      "description": "Hope and Raf find Landon in the root cellar.",
       "participants": [
         {
           "character": "Hope",
@@ -176,8 +176,8 @@
 
     {
       "id": "L-S1E02-C02",
-      "title": "Hope and Landon argue about him leaving the school",
-      "description": "Hope and Landon argue about him leaving the school",
+      "title": "Hope and Landon argue about him leaving the school.",
+      "description": "Hope and Landon argue about him leaving the school.",
       "participants": [
         {
           "character": "Hope",
@@ -279,7 +279,7 @@
           "character": "Rafael",
           "version": "Rafael"
         },
-        "text": "Yes"
+        "text": "Yes."
       },
       {
          "id": "L-S1E02-C02-T10",
@@ -453,8 +453,8 @@
 
     {
       "id": "L-S1E02-C03",
-      "title": "Landon gives them the knife",
-      "description": "Landon gives them the knife",
+      "title": "Landon gives them the knife.",
+      "description": "Landon gives them the knife.",
       "participants": [
         {
           "character": "Hope",
@@ -611,7 +611,7 @@
           "character": "Hope",
           "version": "Hope"
         },
-        "text": "If he says I swear one more time, I'm gonna melt him."
+        "text": "If he says \"I swear\" one more time, I'm gonna melt him."
       }
      
         
@@ -634,7 +634,7 @@
           "character": "Hope",
           "version": "Hope"
         },
-        "text": "If he says I swear one more time, I'm gonna melt him."
+        "text": "If he says \"I swear\" one more time, I'm gonna melt him."
       }
     ]
   }
@@ -642,8 +642,8 @@
 
 {
       "id": "L-S1E02-C04",
-      "title": "Landon's letter to Hope",
-      "description": "Landon's letter to Hope",
+      "title": "Landon's letter to Hope.",
+      "description": "Landon's letter to Hope.",
       "participants": [
   
         {

@@ -8,8 +8,8 @@
   "conversations": [
     {
       "id": "L-S1E01-C01",
-      "title": "Hope and Landon reunite after 2 years",
-      "description": "Hope and Landon meet each other after two years",
+      "title": "Hope and Landon reunite after 2 years.",
+      "description": "Hope and Landon meet each other after two years.",
       "participants": [
         {
           "character": "Hope",
@@ -43,7 +43,7 @@
           "character": "Hope",
           "version": "Hope"
           },
-          "text": "Landon"
+          "text": "Landon."
           },
           {
          "id": "L-S1E01-C01-T02",
@@ -80,7 +80,7 @@
           "character": "Hope",
           "version": "Hope"
           },
-          "text": "Landon"
+          "text": "Landon."
           },
           {
          "id": "L-S1E01-C01-T02",
@@ -116,8 +116,8 @@
 
     {
       "id": "L-S1E01-C02",
-      "title": "Hope and Landon talk in the car",
-      "description": "Hope and Landon discuss their past in the car, and where they are going",
+      "title": "Hope and Landon talk in the car.",
+      "description": "Hope and Landon discuss their past in the car, and where they are going.",
       "participants": [
         {
           "character": "Hope",
@@ -228,8 +228,8 @@
 
    {
       "id": "L-S1E01-C03",
-      "title": "Hope and Landon talk about the school at the office",
-      "description": "Hope and Landon talk about the school with Alaric",
+      "title": "Hope and Landon talk about the school at the office.",
+      "description": "Hope and Landon talk about the school with Alaric.",
       "participants": [
         {
           "character": "Hope",
@@ -347,8 +347,8 @@
     },
 {
       "id": "L-S1E01-C04",
-      "title": "Hope and Landon talk about Rafael at the office",
-      "description": "Hope and Landon talk about Rafael with Alaric",
+      "title": "Hope and Landon talk about Rafael at the office.",
+      "description": "Hope and Landon talk about Rafael with Alaric.",
       "participants": [
         {
           "character": "Hope",
@@ -413,7 +413,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": "He's not... a killer"
+        "text": "He's not... a killer."
       },
       {
         "id": "L-S1E01-C04-T06",
@@ -461,7 +461,7 @@
           "character": "Alaric",
           "version": "Alaric"
         },
-        "text": "It's normal. Thank you for that, Landon. Hope"
+        "text": "It's normal. Thank you for that, Landon. Hope."
       },
       {
         "id": "L-S1E01-C04-T12",
@@ -490,8 +490,8 @@
 
 {
       "id": "L-S1E01-C05",
-      "title": "Hope and Landon talk in the cell",
-      "description": "Hope and Landon talk in the cell for the first time",
+      "title": "Hope and Landon talk in the cell.",
+      "description": "Hope and Landon talk in the cell for the first time.",
       "participants": [
         {
           "character": "Hope",
@@ -538,7 +538,7 @@
           "character": "Hope",
           "version": "Hope"
         },
-        "text": "Not yet. But you're not a prisoner here I swear."
+        "text": "Not yet. But you're not a prisoner here, I swear."
       },
       {
         "id": "L-S1E01-C05-T04",
@@ -648,8 +648,8 @@
 
     {
       "id": "L-S1E01-C06",
-      "title": "Hope and Alaric talk about Landon",
-      "description": "Hope and Alaric talk about Landon",
+      "title": "Hope and Alaric talk about Landon.",
+      "description": "Hope and Alaric talk about Landon.",
       "participants": [
         {
           "character": "Hope",
@@ -790,8 +790,8 @@
 
     {
       "id": "L-S1E01-C07",
-      "title": "Hope and Landon talk in the cell",
-      "description": "Hope and Landon talk in the cell for the second time",
+      "title": "Hope and Landon talk in the cell.",
+      "description": "Hope and Landon talk in the cell for the second time.",
       "participants": [
         {
           "character": "Hope",
@@ -821,7 +821,7 @@
           "character": "Hope",
           "version": "Hope"
           },
-          "text": "Hey"
+          "text": "Hey."
           },
           {
          "id": "L-S1E01-C07-T02",
@@ -829,7 +829,7 @@
           "character": "Landon",
           "version": "Landon"
          },
-         "text": "Hope"
+         "text": "Hope."
         },
        {
         "id": "L-S1E01-C07-T03",
@@ -994,8 +994,8 @@
     },
 {
       "id": "L-S1E01-C08",
-      "title": "Hope and Landon talk at the library",
-      "description": "Hope and Landon talk at the library, first part",
+      "title": "Hope and Landon talk at the library.",
+      "description": "Hope and Landon talk at the library, first part.",
       "participants": [
         {
           "character": "Hope",
@@ -1177,8 +1177,8 @@
 
     {
       "id": "L-S1E01-C09",
-      "title": "Hope and Landon talk at the library, unicorn",
-      "description": "Hope and Landon talk at the library, second part",
+      "title": "Hope and Landon talk at the library, unicorn.",
+      "description": "Hope and Landon talk at the library, second part.",
       "participants": [
         {
           "character": "Hope",
@@ -1233,7 +1233,7 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": " Klaus Mikaelson: The Great Evil."
+        "text": "\"Klaus Mikaelson: The Great Evil.\""
       },
       {
         "id": "L-S1E01-C09-T05",
@@ -1314,8 +1314,17 @@
           "version": "Landon"
         },
         "text": "Yeah. See? Unicorn."
+
+      },
+      
+      {
+        "id": "L-S1E01-C09-T15",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "action": "laugh"
       }
-  
     
     
     ]
@@ -1354,6 +1363,14 @@
           "version": "Landon"
         },
         "text": "Yeah. See? Unicorn."
+      },
+       {
+        "id": "L-S1E01-C09-T15",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "action": "laugh"
       }
     ]
   }
@@ -1361,8 +1378,8 @@
 
     {
       "id": "L-S1E01-C10",
-      "title": "Hope and Landon talk at the library, flashback",
-      "description": "Hope and Landon talk at the library, third part",
+      "title": "Hope and Landon talk at the library, flashback.",
+      "description": "Hope and Landon talk at the library, third part.",
       "participants": [
         {
           "character": "Hope",
@@ -1474,8 +1491,8 @@
 
     {
       "id": "L-S1E01-C11",
-      "title": "Hope and Landon first kiss",
-      "description": "Hope and Landon first kiss in the cell",
+      "title": "Hope and Landon first kiss.",
+      "description": "Hope and Landon first kiss in the cell.",
       "participants": [
         {
           "character": "Hope",
@@ -1529,10 +1546,18 @@
           "character": "Landon",
           "version": "Landon"
         },
-        "text": "You are a really nice person, Hope Mikaelson. This is the part where you run."
+        "text": "You are a really nice person, Hope Mikaelson."
+      },
+      {
+        "id": "L-S1E01-C11-T05",
+        "speaker": {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        "action": "smile"
       },
        {
-        "id": "L-S1E01-C11-T05",
+        "id": "L-S1E01-C11-T06",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1540,7 +1565,7 @@
         "text": "This is the part where you run."
       },
       {
-        "id": "L-S1E01-C11-T06",
+        "id": "L-S1E01-C11-T07",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1548,7 +1573,7 @@
         "text": "Yeah, I know."
       },
       {
-        "id": "L-S1E01-C11-T07",
+        "id": "L-S1E01-C11-T08",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1556,7 +1581,7 @@
         "text": "I'm not gonna remember any of this. Am I?"
       },
       {
-        "id": "L-S1E01-C11-T08",
+        "id": "L-S1E01-C11-T09",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1564,7 +1589,7 @@
         "text": "Probably not. No."
       },
       {
-        "id": "L-S1E01-C11-T09",
+        "id": "L-S1E01-C11-T10",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1572,7 +1597,7 @@
         "text": "Well, in that case..."
       },
       {
-        "id": "L-S1E01-C11-T10",
+        "id": "L-S1E01-C11-T11",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1590,7 +1615,7 @@
   "short": {
     "turns": [
       {
-        "id": "L-S1E01-C11-T07",
+        "id": "L-S1E01-C11-T08",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1598,7 +1623,7 @@
         "text": "I'm not gonna remember any of this. Am I?"
       },
       {
-        "id": "L-S1E01-C11-T08",
+        "id": "L-S1E01-C11-T09",
         "speaker": {
           "character": "Hope",
           "version": "Hope"
@@ -1606,7 +1631,7 @@
         "text": "Probably not. No."
       },
       {
-        "id": "L-S1E01-C11-T09",
+        "id": "L-S1E01-C11-T10",
         "speaker": {
           "character": "Landon",
           "version": "Landon"
@@ -1614,7 +1639,7 @@
         "text": "Well, in that case..."
       },
       {
-        "id": "L-S1E01-C11-T10",
+        "id": "L-S1E01-C11-T11",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -1627,8 +1652,8 @@
 
     {
       "id": "L-S1E01-C12",
-      "title": "Hope and Alaric talk about Landon stealing the knife",
-      "description": "Hope and Alaric talk about Landon stealing the knife",
+      "title": "Hope and Alaric talk about Landon stealing the knife.",
+      "description": "Hope and Alaric talk about Landon stealing the knife.",
       "participants": [
         {
           "character": "Hope",

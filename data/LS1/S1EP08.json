@@ -7,7 +7,7 @@
   "conversations": [
     {
       "id": "L-S1E08-C01",
-      "title": "Hope goes after Landon",
+      "title": "Hope goes after Landon.",
       "description": "Hope realizes Landon is in trouble and decides to go after him.",
       "participants": [
         {
@@ -77,7 +77,7 @@
               "character": "Alaric",
               "version": "Alaric"
             },
-            "text": "Well, I hope it's pointing you to your room cause that's where you're going."
+            "text": "Well, I hope it's pointing you to your room 'cause that's where you're going."
           },
           {
             "id": "L-S1E08-C01-T07",
@@ -679,18 +679,42 @@
               "character": "Hope",
               "version": "Hope"
             },
-            "text": "Try me."
+            "action": "laugh"
           },
           {
             "id": "L-S1E08-C05-T16",
             "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Try me."
+          },
+          {
+            "id": "L-S1E08-C05-T17",
+            "speaker": {
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Um... 'Dear Hope... The state of Alabama has, like, a million Waffle Houses, and I cannot stop thinking about what it felt like to kiss you.'"
+            "text": "Um..."
           },
           {
-        "id": "L-S1E08-C05-T17",
+            "id": "L-S1E08-C05-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "smile"
+          },
+          {
+            "id": "L-S1E08-C05-T19",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "\"Dear Hope... The state of Alabama has, like, a million Waffle Houses, and I cannot stop thinking about what it felt like to kiss you.\""
+          },
+          {
+        "id": "L-S1E08-C05-T20",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -780,18 +804,42 @@
               "character": "Hope",
               "version": "Hope"
             },
-            "text": "Try me."
+            "action": "laugh"
           },
           {
             "id": "L-S1E08-C05-T16",
             "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Try me."
+          },
+          {
+            "id": "L-S1E08-C05-T17",
+            "speaker": {
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "Um... 'Dear Hope...''The state of Alabama has, like, a million Waffle Houses, and I cannot stop thinking about what it felt like to kiss you.'"
+            "text": "Um..."
           },
           {
-        "id": "L-S1E08-C05-T17",
+            "id": "L-S1E08-C05-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "smile"
+          },
+          {
+            "id": "L-S1E08-C05-T19",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "\"Dear Hope... The state of Alabama has, like, a million Waffle Houses, and I cannot stop thinking about what it felt like to kiss you.\""
+          },
+          {
+        "id": "L-S1E08-C05-T20",
         "speaker": {
           "character": "Handon",
           "version": "Handon"
@@ -804,7 +852,7 @@
     
     {
       "id": "L-S1E08-C06",
-      "title": "Hope and Landon promise not to hurt each other",
+      "title": "Hope and Landon promise not to hurt each other.",
       "description": "Hope and Landon compare their painful romantic histories and Landon promises not to hurt Hope again.",
       "participants": [
         {
@@ -1865,7 +1913,7 @@
     {
       "id": "L-S1E08-C12",
       "title": "Hope asks Landon to be her boyfriend.",
-      "description": "Hope asks Landon to be her boyfriend",
+      "description": "Hope asks Landon to be her boyfriend.",
       "participants": [
         {
           "character": "Hope",
@@ -1882,7 +1930,8 @@
         "happy",
         "kiss",
         "boyfriend",
-        "relationship"
+        "relationship",
+        "teasing"
       ],
       "importance": 5,
       "verified": true,
@@ -1926,7 +1975,7 @@
               "character": "Hope",
               "version": "Hope"
             },
-            "text": "I think that she's an international assassin that specializes in k*lling monsters. And that she loves you very much, in her own way."
+            "text": "I think that she's an international assassin that specializes in killing monsters. And that she loves you very much, in her own way."
           },
            {
             "id": "L-S1E08-C12-T06",

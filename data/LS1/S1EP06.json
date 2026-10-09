@@ -8,7 +8,7 @@
     {
       "id": "L-S1E06-C01",
       "title": "Hope talks about her crush on Landon.",
-      "description": "Hope explains her crush on Landon to Emma",
+      "description": "Hope explains her crush on Landon to Emma.",
       "participants": [
         {
           "character": "Hope",
@@ -106,8 +106,8 @@
     
     {
       "id": "L-S1E06-C02",
-      "title": "Hope apologizes for sending Landon away to Rafael",
-      "description": "Hope apologizes for sending Landon away to Rafael",
+      "title": "Hope apologizes for sending Landon away to Rafael.",
+      "description": "Hope apologizes for sending Landon away to Rafael.",
       "participants": [
         {
           "character": "Hope",
@@ -118,6 +118,7 @@
           "version": "Rafael"
         }
       ],
+      "subjects": [],
       "scene_type": "conversation",
       "tags": [
         "care",
@@ -260,8 +261,8 @@
           {
             "id": "L-S1E06-C03-T07",
             "speaker": {
-              "character": "Hope",
-              "version": "Hope"
+              "character": "Rafael",
+              "version": "Rafael"
             },
             "text": "Yeah, you're right. He's not my blood, but he is my brother. If anything, maybe you should try doubling down on friends to make up for the family you don't have."
           }

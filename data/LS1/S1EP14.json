@@ -1198,7 +1198,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "I came back from the dead... in a, in a burst of flames. And you'd think that would earn a guy a couple days of feeling special, but the irony about this place is that... special is just normal. "
+            "text": "I came back from the dead... in a, in a burst of flames. And you'd think that would earn a guy a couple days of feeling special, but the irony about this place is that... special is just normal."
           },
           {
             "id": "L-S1E14-C09-T07",
@@ -1242,7 +1242,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "I came back from the dead...in a, in a burst of flames. And you'd think that would earn a guy a couple days of feeling special, but the irony about this place is that... special is just normal. "
+            "text": "I came back from the dead... in a, in a burst of flames. And you'd think that would earn a guy a couple days of feeling special, but the irony about this place is that... special is just normal."
           },
           {
             "id": "L-S1E14-C09-T07",
@@ -1356,7 +1356,7 @@
               "character": "Landon",
               "version": "Landon"
             },
-            "text": "You know, I wasn't always the most honest person, but...you were the one that taught me the value in being truthful. And the truth... I can't be here right now."
+            "text": "You know, I wasn't always the most honest person, but... you were the one that taught me the value in being truthful. And the truth... I can't be here right now."
           },
           {
             "id": "L-S1E14-C10-T06",
@@ -1485,7 +1485,7 @@
     {
       "id": "L-S1E14-C12",
       "title": "Landon confronts Alaric about Hope's secret.",
-      "description": "Landon confronts Alaric about Hope's secret",
+      "description": "Landon confronts Alaric about Hope's secret.",
       "participants": [
         {
           "character": "Landon",
@@ -1561,6 +1561,14 @@
               "version": "Landon"
             },
             "text": "Protect me? I can't deal with this right now."
+          },
+          {
+            "id": "L-S1E14-C12-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "cries"
           }
           
         ]
@@ -1582,6 +1590,14 @@
               "version": "Landon"
             },
             "text": "Protect me? I can't deal with this right now."
+          },
+          {
+            "id": "L-S1E14-C12-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "cries"
           }
         ]
       }

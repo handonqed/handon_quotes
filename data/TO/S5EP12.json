@@ -8,7 +8,7 @@
   "conversations": [
     {
       "id": "TO-S5E12-C01",
-      "title": "Landon brings Hope her milkshake",
+      "title": "Landon brings Hope her milkshake.",
       "description": "Landon brings Hope her usual milkshake at the Mystic Grill. They talk about Hope not being around much, New Orleans, music, and the possibility of attending the festival.",
       "participants": [
         {
@@ -27,11 +27,11 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "first-appearance",
-        "mystic-grill",
+        "first appearance",
+        "mystic grill",
         "milkshake",
         "flirting",
-        "new-orleans"
+        "new orleans"
       ],
       "importance": 5,
       "verified": true,
@@ -182,7 +182,7 @@
 
     {
       "id": "TO-S5E12-C02",
-      "title": "Hope and Landon dance",
+      "title": "Hope and Landon dance.",
       "description": "Hope spends part of her final hours dancing with Landon at the festival.",
       "participants": [
         {

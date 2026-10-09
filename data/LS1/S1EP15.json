@@ -156,110 +156,115 @@
           {
             "id": "L-S1E15-C03-T02",
             "speaker": { "character": "Hope", "version": "Hope" },
-            "text": "Hey."
+            "action": "smiles"
           },
           {
             "id": "L-S1E15-C03-T03",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S1E15-C03-T04",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "Are you okay?"
           },
           {
-            "id": "L-S1E15-C03-T04",
+            "id": "L-S1E15-C03-T05",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Yeah. Yeah. Sorry. Um... this is my first time talking to a magical hologram."
           },
           {
-            "id": "L-S1E15-C03-T05",
+            "id": "L-S1E15-C03-T06",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "Hologram? What do you mean, a hologram? What does that mean? That I'm not real? What are you talking about?"
           },
           {
-            "id": "L-S1E15-C03-T06",
+            "id": "L-S1E15-C03-T07",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Oh, my God, don't do that."
           },
           {
-            "id": "L-S1E15-C03-T07",
+            "id": "L-S1E15-C03-T08",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "Sorry."
           },
           {
-            "id": "L-S1E15-C03-T08",
+            "id": "L-S1E15-C03-T09",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Yeah."
           },
           {
-            "id": "L-S1E15-C03-T09",
+            "id": "L-S1E15-C03-T10",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "You just seemed tense. I was trying to break the ice."
           },
           {
-            "id": "L-S1E15-C03-T10",
+            "id": "L-S1E15-C03-T11",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Well, at least I know this is a pretty accurate version of you."
           },
           {
-            "id": "L-S1E15-C03-T11",
+            "id": "L-S1E15-C03-T12",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "You can thank yourself for that, I guess. You had something you wanted to say to me?"
           },
           {
-            "id": "L-S1E15-C03-T12",
+            "id": "L-S1E15-C03-T13",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Yeah. Um... I should have told you about your mom and-and the whole thing earlier. I mean, I was just trying to protect you from being hurt. So I just wanted to say that I'm sorry if I hurt you."
           },
           {
-            "id": "L-S1E15-C03-T13",
+            "id": "L-S1E15-C03-T14",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "What, that's it? You're \"sorry if I hurt you\"?"
           },
           {
-            "id": "L-S1E15-C03-T14",
+            "id": "L-S1E15-C03-T15",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "I am."
           },
           {
-            "id": "L-S1E15-C03-T15",
+            "id": "L-S1E15-C03-T16",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "Okay, then I accept your apology if you're actually sorry."
           },
           {
-            "id": "L-S1E15-C03-T16",
+            "id": "L-S1E15-C03-T17",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "What's your problem?"
           },
           {
-            "id": "L-S1E15-C03-T17",
+            "id": "L-S1E15-C03-T18",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "I mean, do you seriously think that speech would have worked on me? I mean, come on, that's not what you actually wanted to say."
           },
           {
-            "id": "L-S1E15-C03-T18",
+            "id": "L-S1E15-C03-T19",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "How would you know?"
           },
           {
-            "id": "L-S1E15-C03-T19",
+            "id": "L-S1E15-C03-T20",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "Because I am you, remember?"
           },
           {
-            "id": "L-S1E15-C03-T20",
+            "id": "L-S1E15-C03-T21",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Fine. Then you tell me what it is that I want to say, and I'll say it."
           },
           {
-            "id": "L-S1E15-C03-T21",
+            "id": "L-S1E15-C03-T22",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "That's not how this works, Hope. You have to listen."
           },
           {
-            "id": "L-S1E15-C03-T22",
+            "id": "L-S1E15-C03-T23",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Listen to what?"
           },
           {
-            "id": "L-S1E15-C03-T23",
+            "id": "L-S1E15-C03-T24",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Even fake you is infuriating. God!"
           }
@@ -269,32 +274,32 @@
       "short": {
         "turns": [
           {
-            "id": "L-S1E15-C03-T10",
+            "id": "L-S1E15-C03-T11",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Well, at least I know this is a pretty accurate version of you."
           },
           {
-            "id": "L-S1E15-C03-T11",
+            "id": "L-S1E15-C03-T12",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "You can thank yourself for that, I guess. You had something you wanted to say to me?"
           },
           {
-            "id": "L-S1E15-C03-T12",
+            "id": "L-S1E15-C03-T13",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Yeah. Um... I should have told you about your mom and-and the whole thing earlier. I mean, I was just trying to protect you from being hurt. So I just wanted to say that I'm sorry if I hurt you."
           },
           {
-            "id": "L-S1E15-C03-T13",
+            "id": "L-S1E15-C03-T14",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "What, that's it? You're \"sorry if I hurt you\"?"
           },
           {
-            "id": "L-S1E15-C03-T14",
+            "id": "L-S1E15-C03-T15",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "I am."
           },
           {
-            "id": "L-S1E15-C03-T15",
+            "id": "L-S1E15-C03-T16",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "Okay, then I accept your apology if you're actually sorry."
           }
@@ -356,7 +361,7 @@
           {
             "id": "L-S1E15-C04-T08",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
-            "text": "No. You were doing it because you didn't want me to leave. Because you fear being abandoned, like how your mom left and your dad left... It's why you run."
+            "text": "No. You were doing it because you didn't want me to leave. Because you fear being abandoned, like how your mom left and your dad left... it's why you run."
           },
           {
             "id": "L-S1E15-C04-T09",
@@ -396,7 +401,7 @@
           {
             "id": "L-S1E15-C04-T08",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
-            "text": "No. You were doing it because you didn't want me to leave. Because you fear being abandoned, like how your mom left and your dad left... It's why you run."
+            "text": "No. You were doing it because you didn't want me to leave. Because you fear being abandoned, like how your mom left and your dad left... it's why you run."
           }
         ]
       }
@@ -431,12 +436,12 @@
           {
             "id": "L-S1E15-C05-T03",
             "speaker": { "character": "Hope", "version": "Hope" },
-            "text": "Every time I lose someone, this, uh, voice in my head, it tells me, \"It's your fault.\" That I shouldn't even technically exist. That I'm a cosmic mistake."
+            "text": "Every time I lose someone, this, uh, voice in my head, it tells me, \"it's your fault.\" That I shouldn't even technically exist. That I'm a cosmic mistake."
           },
           {
             "id": "L-S1E15-C05-T04",
             "speaker": { "character": "Hope", "version": "Hope" },
-            "text": "Oh, I don't know. I guess I just wanted someone to think that I'm worth staying for."
+            "text": "Oh I don't know. I guess I just wanted someone to think that I'm worth staying for."
           },
           {
             "id": "L-S1E15-C05-T05",
@@ -446,52 +451,67 @@
           {
             "id": "L-S1E15-C05-T06",
             "speaker": { "character": "Hope", "version": "Hope" },
-            "text": "Oh. Wow."
+            "action": "shocked"
           },
           {
             "id": "L-S1E15-C05-T07",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "text": "Oh. Wow."
+          },
+          {
+            "id": "L-S1E15-C05-T08",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "You didn't mean to say that last part, did you?"
           },
           {
-            "id": "L-S1E15-C05-T08",
+            "id": "L-S1E15-C05-T09",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "No."
           },
           {
-            "id": "L-S1E15-C05-T09",
+            "id": "L-S1E15-C05-T10",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "Whoa! The first time you tell me you love me, and it's not even the real me?"
           },
           {
-            "id": "L-S1E15-C05-T10",
+            "id": "L-S1E15-C05-T11",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "You're kind of winging it here."
           },
           {
-            "id": "L-S1E15-C05-T11",
+            "id": "L-S1E15-C05-T12",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "What? Come on, man."
           },
           {
-            "id": "L-S1E15-C05-T12",
+            "id": "L-S1E15-C05-T13",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "action": "laughs"
+          },
+          {
+            "id": "L-S1E15-C05-T14",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "H-How would he react to all that, really?"
           },
           {
-            "id": "L-S1E15-C05-T13",
+            "id": "L-S1E15-C05-T15",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "I mean, that was how he'd react. You know, he'd say something roguishly charming to deflect from how vulnerable you made him feel, and then... well, he'd kiss you."
           },
           {
-            "id": "L-S1E15-C05-T14",
+            "id": "L-S1E15-C05-T16",
             "speaker": { "character": "Landon", "version": "Hologram Landon" },
             "text": "Probably."
           },
           {
-            "id": "L-S1E15-C05-T15",
+            "id": "L-S1E15-C05-T17",
             "speaker": { "character": "Hope", "version": "Hope" },
             "text": "Probably."
+          },
+          {
+            "id": "L-S1E15-C05-T18",
+            "speaker": { "character": "Hope", "version": "Hope" },
+            "action": "smiles"
           }
         ]
       },
@@ -501,12 +521,12 @@
           {
             "id": "L-S1E15-C05-T03",
             "speaker": { "character": "Hope", "version": "Hope" },
-            "text": "Every time I lose someone, this, uh, voice in my head, it tells me, \"It's your fault.\" That I shouldn't even technically exist. That I'm a cosmic mistake."
+            "text": "Every time I lose someone, this, uh, voice in my head, it tells me, \"it's your fault.\" That I shouldn't even technically exist. That I'm a cosmic mistake."
           },
           {
             "id": "L-S1E15-C05-T04",
             "speaker": { "character": "Hope", "version": "Hope" },
-            "text": "Oh, I don't know. I guess I just wanted someone to think that I'm worth staying for."
+            "text": "Oh I don't know. I guess I just wanted someone to think that I'm worth staying for."
           },
           {
             "id": "L-S1E15-C05-T05",
