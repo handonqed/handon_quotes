@@ -1,0 +1,994 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 4,
+  "episode_id": "L-S2E04",
+  "episode_title": "Since when do you speak Japanese?",
+  "conversations": [
+    {
+      "id": "L-S2E04-C01",
+      "title": "Hope tells Alaric that she and Landon were in love.",
+      "description": "Hope admits what she had kept from Alaric: she and Landon were in love, and she is afraid of what telling him would do.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "love",
+        "confession",
+        "angst",
+        "protect",
+        "secret"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E04-C01-T01",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope Marshall to the principal's office."
+          },
+          {
+            "id": "L-S2E04-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "P.A. system? It's a little dramatic, don't you think?"
+          },
+          {
+            "id": "L-S2E04-C01-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Not as dramatic as the message Landon left me, saying he had something urgent to discuss. Anything you want to share?"
+          },
+          {
+            "id": "L-S2E04-C01-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Only that I'm pretty sure the monsters are after him this time."
+          },
+          {
+            "id": "L-S2E04-C01-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "And you didn't think that that's something I should know?"
+          },
+          {
+            "id": "L-S2E04-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "More like I was afraid of what you were gonna say after that."
+          },
+          {
+            "id": "L-S2E04-C01-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope. You need to go back to the Salvatore School."
+          },
+          {
+            "id": "L-S2E04-C01-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That was it."
+          },
+          {
+            "id": "L-S2E04-C01-T09",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Not for your sake. For theirs. Maybe Landon isn't that important to you. But if Malivore wants him, we need to want him more."
+          },
+          {
+            "id": "L-S2E04-C01-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I will take care of it, but from a distance."
+          },
+          {
+            "id": "L-S2E04-C01-T11",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Okay, what am I missing here, Hope? Hmm? You told me the truth, and everything worked out fine."
+          },
+          {
+            "id": "L-S2E04-C01-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Not the whole truth."
+          },
+          {
+            "id": "L-S2E04-C01-T13",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hmm."
+          },
+          {
+            "id": "L-S2E04-C01-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon and I... we were in love. Like, real love. Epic love, if that even exists."
+          },
+          {
+            "id": "L-S2E04-C01-T15",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I can assure you it does."
+          },
+          {
+            "id": "L-S2E04-C01-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Now he's with Josie, and they don't know what we were to each other. And I'm just afraid that if I tell them, she's gonna hate me forever or he's gonna hate me or I'm gonna hate myself because I made us all miserable."
+          },
+          {
+            "id": "L-S2E04-C01-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So I can't tell them. Not yet."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E04-C01-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon and I... we were in love. Like, real love. Epic love, if that even exists."
+          },
+          {
+            "id": "L-S2E04-C01-T15",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I can assure you it does."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E04-C02",
+      "title": "Hope saves Landon from Rafael.",
+      "description": "A possessed Rafael attacks Landon in the school hallway and Hope stops him with a spell just in time.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "rescue",
+        "protect",
+        "forgotten"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E04-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Hey. I shouldn't have asked you to come with me. We can go."
+          },
+          {
+            "id": "L-S2E04-C02-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Raf? Raf."
+          },
+          {
+            "id": "L-S2E04-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Scalare."
+          },
+          {
+            "id": "L-S2E04-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Hope. How are you always in the right place at the right time?"
+          },
+          {
+            "id": "L-S2E04-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That's funny. I was just thinking the exact opposite thing."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E04-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Hope. How are you always in the right place at the right time?"
+          },
+          {
+            "id": "L-S2E04-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That's funny. I was just thinking the exact opposite thing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E04-C03",
+      "title": "Landon tells Hope he came looking for her.",
+      "description": "After putting Rafael to sleep, Hope asks Landon what they were doing at her school.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "search",
+        "forgotten"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E04-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What were you two even doing here?"
+          },
+          {
+            "id": "L-S2E04-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Looking for answers. And, I guess... you."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E04-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What were you two even doing here?"
+          },
+          {
+            "id": "L-S2E04-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Looking for answers. And, I guess... you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E04-C04",
+      "title": "Hope goes to convince Landon not to sacrifice himself.",
+      "description": "Hope goes to convince Landon not to sacrifice himself.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "angst",
+        "protect"
+      ],
+      "importance": 3,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E04-C04-T01",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Did you find Raf?"
+          },
+          {
+            "id": "L-S2E04-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah. We sent him back to campus. The Oni wasn't in him, so it could be anywhere."
+          },
+          {
+            "id": "L-S2E04-C04-T03",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "I'll find it. As long as you convince Landon not to sacrifice himself to stop this thing."
+          },
+          {
+            "id": "L-S2E04-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No!"
+          },
+          {
+            "id": "L-S2E04-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, no, he-he can't do that. I mean, we can't give the monster what it wants."
+          },
+          {
+            "id": "L-S2E04-C04-T06",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Especially when what it wants is my boyfriend. Who's only doing this because he thinks that it's all his fault."
+          },
+          {
+            "id": "L-S2E04-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why don't I try to talk some sense into him. Okay?"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E04-C04-T03",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "I'll find it. As long as you convince Landon not to sacrifice himself to stop this thing."
+          },
+          {
+            "id": "L-S2E04-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No!"
+          },
+          {
+            "id": "L-S2E04-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, no, he-he can't do that. I mean, we can't give the monster what it wants."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E04-C05",
+      "title": "Hope tells Landon they were in love.",
+      "description": "Hope tries to talk Landon out of sacrificing himself and ends up telling him that the monsters are her fault, that she went into the pit to save him, and that they were in love. Only then does she realize the Oni already has him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Possessed by Oni"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "love",
+        "confession",
+        "sacrifice",
+        "angst",
+        "trust"
+      ],
+      "importance": 4,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E04-C05-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey. Josie dropped the barrier spell so I could get in. There's a demon loose inside the school somewhere. We have to get you to somewhere safe."
+          },
+          {
+            "id": "L-S2E04-C05-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "There is nowhere safe."
+          },
+          {
+            "id": "L-S2E04-C05-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay, well, somewhere safer than here."
+          },
+          {
+            "id": "L-S2E04-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "If this is the one thing that can kill an Oni, what if it's the one thing that can kill a phoenix, too?"
+          },
+          {
+            "id": "L-S2E04-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Josie told me that you think the monsters being back is your fault. But it isn't."
+          },
+          {
+            "id": "L-S2E04-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "What do you know about it?"
+          },
+          {
+            "id": "L-S2E04-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Too much. Trust me, Landon, even though you might have the best intentions, not every sacrifice is worth it. No matter how much you think it is."
+          },
+          {
+            "id": "L-S2E04-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "You said this isn't my fault?"
+          },
+          {
+            "id": "L-S2E04-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It isn't."
+          },
+          {
+            "id": "L-S2E04-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "Then whose is it?"
+          },
+          {
+            "id": "L-S2E04-C05-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That doesn't matter. We need to..."
+          },
+          {
+            "id": "L-S2E04-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "It matters to me."
+          },
+          {
+            "id": "L-S2E04-C05-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's my fault. I'm the one that went into the pit. It was the only way to save you."
+          },
+          {
+            "id": "L-S2E04-C05-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "Why would you want to save me?"
+          },
+          {
+            "id": "L-S2E04-C05-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because we were... we were friends."
+          },
+          {
+            "id": "L-S2E04-C05-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "Come on, there had to be more to it than that. Tell me."
+          },
+          {
+            "id": "L-S2E04-C05-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're gonna hate me if I do."
+          },
+          {
+            "id": "L-S2E04-C05-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "Let me make that decision for myself."
+          },
+          {
+            "id": "L-S2E04-C05-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We were in love."
+          },
+          {
+            "id": "L-S2E04-C05-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, I know that you don't remember. I know that it doesn't make any sense. But I can't let you risk your life because I tried to give up mine to save it."
+          },
+          {
+            "id": "L-S2E04-C05-T21",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So, uh, we have to find another solution. One that doesn't involve you being possessed."
+          },
+          {
+            "id": "L-S2E04-C05-T22",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "It's too late."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E04-C05-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's my fault. I'm the one that went into the pit. It was the only way to save you."
+          },
+          {
+            "id": "L-S2E04-C05-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "Why would you want to save me?"
+          },
+          {
+            "id": "L-S2E04-C05-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because we were... we were friends."
+          },
+          {
+            "id": "L-S2E04-C05-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "Come on, there had to be more to it than that. Tell me."
+          },
+          {
+            "id": "L-S2E04-C05-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're gonna hate me if I do."
+          },
+          {
+            "id": "L-S2E04-C05-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Possessed by Oni"
+            },
+            "text": "Let me make that decision for myself."
+          },
+          {
+            "id": "L-S2E04-C05-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We were in love."
+          },
+          {
+            "id": "L-S2E04-C05-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, I know that you don't remember. I know that it doesn't make any sense. But I can't let you risk your life because I tried to give up mine to save it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E04-C06",
+      "title": "Landon asks Hope why he sees her every time he dies.",
+      "description": "Landon comes back to life with Hope beside him. He tells her he sees her every time he dies.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "memories",
+        "resurrection",
+        "phoenix",
+        "angst"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E04-C06-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "action": "flashback of Hope \"kiss me\" "
+          },
+          {
+            "id": "L-S2E04-C06-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S2E04-C06-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smile"
+          },
+          {
+            "id": "L-S2E04-C06-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "It was you."
+          },
+          {
+            "id": "L-S2E04-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, yeah, that moved you here? Yeah. Didn't really want you bursting into flames in the middle of town square."
+          },
+          {
+            "id": "L-S2E04-C06-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "That's not what I'm talking about."
+          },
+          {
+            "id": "L-S2E04-C06-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why do I see you every time I die?"
+          },
+          {
+            "id": "L-S2E04-C06-T08",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "stare"
+          },
+          {
+            "id": "L-S2E04-C06-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You should get back to Josie."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E04-C06-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "It was you."
+          },
+          {
+            "id": "L-S2E04-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, yeah, that moved you here? Yeah. Didn't really want you bursting into flames in the middle of town square."
+          },
+          {
+            "id": "L-S2E04-C06-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "That's not what I'm talking about."
+          },
+          {
+            "id": "L-S2E04-C06-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why do I see you every time I die?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E04-C07",
+      "title": "Alaric asks Hope what is really holding her back from Landon.",
+      "description": "Alaric thanks Hope for helping his daughters and pushes her about Landon. She admits she is afraid he would still choose Josie, and says she is going to finish what she started with Malivore instead.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "love",
+        "advice",
+        "angst",
+        "malivore",
+        "sacrifice"
+      ],
+      "importance": 4,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E04-C07-T01",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I should have been there tonight. With you and the girls. I got distracted from what matters most. Thank you. I don't know what would have happened to Lizzie or Josie if you hadn't have been there."
+          },
+          {
+            "id": "L-S2E04-C07-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "They're stronger than you think. They didn't need my help."
+          },
+          {
+            "id": "L-S2E04-C07-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Maybe. And what about Landon?"
+          },
+          {
+            "id": "L-S2E04-C07-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "For the last time, I'm not going back."
+          },
+          {
+            "id": "L-S2E04-C07-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope, you told me that you and Landon shared an epic love. So what's really holding you back?"
+          },
+          {
+            "id": "L-S2E04-C07-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I mean, what if I tell him everything, and he still wants to be with Josie?"
+          },
+          {
+            "id": "L-S2E04-C07-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I don't know. But are you really gonna live the rest of your life without finding out?"
+          },
+          {
+            "id": "L-S2E04-C07-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What I found was the portal to Malivore. And what I'm gonna do is finish what I started at the pit. But this time, I'm gonna get it right."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E04-C07-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Hope, you told me that you and Landon shared an epic love. So what's really holding you back?"
+          },
+          {
+            "id": "L-S2E04-C07-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I mean, what if I tell him everything, and he still wants to be with Josie?"
+          },
+          {
+            "id": "L-S2E04-C07-T07",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "I don't know. But are you really gonna live the rest of your life without finding out?"
+          }
+        ]
+      }
+    }
+  ]
+}

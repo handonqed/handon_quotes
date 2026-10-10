@@ -1,0 +1,155 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 5,
+  "episode_id": "L-S2E05",
+  "episode_title": "Screw endgame",
+  "conversations": [
+    {
+      "id": "L-S2E05-C01",
+      "title": "Lizzie tells Hope that she and Landon are made for each other.",
+      "description": "Trapped in the labyrinth, Hope admits she didn't tell anyone she was back because Landon and Josie looked happy. Lizzie tells her nobody has been better off without her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "sacrifice",
+        "fate",
+        "advice",
+        "angst"
+      ],
+      "importance": 3,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E05-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "The school's up this way."
+          },
+          {
+            "id": "L-S2E05-C01-T02",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "If only there were something to talk about on the way. Some burning question. Some mysterious choice that demanded an explanation."
+          },
+          {
+            "id": "L-S2E05-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay, fine. I was gonna tell everyone that I was back. But then I saw Landon and Josie. And how happy they were. It just seemed like you all were better off without me."
+          },
+          {
+            "id": "L-S2E05-C01-T04",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "What is wrong with you? Do you really have that much of a martyr complex that you couldn't just... oh, I don't know... ask one of us how we were doing?"
+          },
+          {
+            "id": "L-S2E05-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I know that it seems kind of..."
+          },
+          {
+            "id": "L-S2E05-C01-T06",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Dumb? Selfish? Controlling?"
+          },
+          {
+            "id": "L-S2E05-C01-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Painful."
+          },
+          {
+            "id": "L-S2E05-C01-T08",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "No one's been better off without you. Landon and Josie are just filling a void left by you and Penelope. My dad is lonely. Raf's a mess again, and apparently I'm hallucinating boyfriends."
+          },
+          {
+            "id": "L-S2E05-C01-T09",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "If my broken mind can remember you, then maybe that spell Josie did could bring everyone's memories back."
+          },
+          {
+            "id": "L-S2E05-C01-T10",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "You and Landon are made for each other, which is why you need to tell him and Josie before they do the deed."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E05-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay, fine. I was gonna tell everyone that I was back. But then I saw Landon and Josie. And how happy they were. It just seemed like you all were better off without me."
+          },
+          {
+            "id": "L-S2E05-C01-T08",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "No one's been better off without you. Landon and Josie are just filling a void left by you and Penelope. My dad is lonely. Raf's a mess again, and apparently I'm hallucinating boyfriends."
+          },
+          {
+            "id": "L-S2E05-C01-T09",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "If my broken mind can remember you, then maybe that spell Josie did could bring everyone's memories back."
+          },
+          {
+            "id": "L-S2E05-C01-T10",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "You and Landon are made for each other, which is why you need to tell him and Josie before they do the deed."
+          }
+        ]
+      }
+    }
+  ]
+}

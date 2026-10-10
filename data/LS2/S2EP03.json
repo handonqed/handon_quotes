@@ -1,0 +1,1415 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 3,
+  "episode_id": "L-S2E03",
+  "episode_title": "You remind me of someone I used to know",
+  "conversations": [
+    {
+      "id": "L-S2E03-C01",
+      "title": "Hope reflects on the love of her life forgetting her.",
+      "description": "In voice-over, Hope says that having the love of your life forget your whole existence makes you want to be alone.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "speech",
+      "tags": [
+        "forgotten",
+        "love",
+        "angst"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "They say that it's better to have loved and lost than never to have loved at all."
+          },
+          {
+            "id": "L-S2E03-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Whoever wrote that clearly never experienced the love of their life forgetting their whole existence."
+          },
+          {
+            "id": "L-S2E03-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It makes you want to be alone, because you can't lose what you never had."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "They say that it's better to have loved and lost than never to have loved at all."
+          },
+          {
+            "id": "L-S2E03-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Whoever wrote that clearly never experienced the love of their life forgetting their whole existence."
+          },
+          {
+            "id": "L-S2E03-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It makes you want to be alone, because you can't lose what you never had."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C02",
+      "title": "Josie asks Landon if he knows Hope.",
+      "description": "At the football game, Josie notices Landon looking at Hope and asks whether he knows her.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "milkshake",
+        "jealous",
+        "football"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C02-T01",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Do you know that girl?"
+          },
+          {
+            "id": "L-S2E03-C02-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Not really. We just, uh... shared a milkshake once."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C02-T01",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Do you know that girl?"
+          },
+          {
+            "id": "L-S2E03-C02-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Not really. We just, uh... shared a milkshake once."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C03",
+      "title": "Josie catches Landon and Hope staring at each other during the handshake.",
+      "description": "As the two teams shake hands before the game, Josie teases Landon for getting distracted by Hope again.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "milkshake",
+        "jealous",
+        "stare",
+        "football"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C03-T01",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "stare"
+          },
+          {
+            "id": "L-S2E03-C03-T02",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Having another milkshake moment?"
+          },
+          {
+            "id": "L-S2E03-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sorry."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C03-T01",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "stare"
+          },
+          {
+            "id": "L-S2E03-C03-T02",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Having another milkshake moment?"
+          },
+          {
+            "id": "L-S2E03-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sorry."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C04",
+      "title": "Josie tells Landon to blitz Hope.",
+      "description": "With Hope playing quarterback for Mystic Falls High, a jealous Josie orders Landon to tackle her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "jealous",
+        "football"
+      ],
+      "importance": 2,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C04-T01",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "You're blitzing on first down."
+          },
+          {
+            "id": "L-S2E03-C04-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Cool. Uh, what does that mean, exactly?"
+          },
+          {
+            "id": "L-S2E03-C04-T03",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "It means the second she snaps the ball, you yell \"blitz\" and you bury Little Miss Milkshake."
+          },
+          {
+            "id": "L-S2E03-C04-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "That's aggressive."
+          },
+          {
+            "id": "L-S2E03-C04-T05",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "You have a problem hitting her or something? She has no problem hitting on you."
+          },
+          {
+            "id": "L-S2E03-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Consider her blitzed."
+          },
+          {
+            "id": "L-S2E03-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That's aggressive."
+          },
+          {
+            "id": "L-S2E03-C04-T08",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Landon!"
+          },
+          {
+            "id": "L-S2E03-C04-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Oh, uh, blitz!"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C04-T03",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "It means the second she snaps the ball, you yell \"blitz\" and you bury Little Miss Milkshake."
+          },
+          {
+            "id": "L-S2E03-C04-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "That's aggressive."
+          },
+          {
+            "id": "L-S2E03-C04-T05",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "You have a problem hitting her or something? She has no problem hitting on you."
+          },
+          {
+            "id": "L-S2E03-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Consider her blitzed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C05",
+      "title": "Landon apologizes to Hope after tackling her.",
+      "description": "Landon tackles Hope and she pretends to be hurt so she can leave the game. He apologizes and points her to the nurse's office.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "football",
+        "sorry",
+        "care"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C05-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Hell of a throw, Johnny Utah."
+          },
+          {
+            "id": "L-S2E03-C05-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S2E03-C05-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Ow."
+          },
+          {
+            "id": "L-S2E03-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Are you okay?"
+          },
+          {
+            "id": "L-S2E03-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh-huh."
+          },
+          {
+            "id": "L-S2E03-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I'm so sorry."
+          },
+          {
+            "id": "L-S2E03-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, it's okay. Um, yeah, I think it's just twisted. Yeah."
+          },
+          {
+            "id": "L-S2E03-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Um, well, there's a nurse's office in the school. First floor, right inside."
+          },
+          {
+            "id": "L-S2E03-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay."
+          },
+          {
+            "id": "L-S2E03-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "You'll see it."
+          },
+          {
+            "id": "L-S2E03-C05-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay. Uh, I think I'll find it, thank you."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C05-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Ow."
+          },
+          {
+            "id": "L-S2E03-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Are you okay?"
+          },
+          {
+            "id": "L-S2E03-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh-huh."
+          },
+          {
+            "id": "L-S2E03-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I'm so sorry."
+          },
+          {
+            "id": "L-S2E03-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, it's okay. Um, yeah, I think it's just twisted. Yeah."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C06",
+      "title": "Landon and Josie argue about Hope.",
+      "description": "Landon feels bad about hurting Hope, while Josie insists she was faking and that there is something off about her.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "jealous",
+        "argument",
+        "football"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C06-T01",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "What was that all about?"
+          },
+          {
+            "id": "L-S2E03-C06-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Josie. I hurt her."
+          },
+          {
+            "id": "L-S2E03-C06-T03",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "No, you didn't, she's fine. She was clearly faking."
+          },
+          {
+            "id": "L-S2E03-C06-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why would she fake something like that?"
+          },
+          {
+            "id": "L-S2E03-C06-T05",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Why are you taking her side?"
+          },
+          {
+            "id": "L-S2E03-C06-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "It's not about sides. I'm just being a decent human being."
+          },
+          {
+            "id": "L-S2E03-C06-T07",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Well, you're not a human, you're a phoenix. This is a game where there are sides. Plus, I mean, there's something off about her. I just... I don't know what, but there's something."
+          },
+          {
+            "id": "L-S2E03-C06-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Yeah, she's not the only one."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C06-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Josie. I hurt her."
+          },
+          {
+            "id": "L-S2E03-C06-T03",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "No, you didn't, she's fine. She was clearly faking."
+          },
+          {
+            "id": "L-S2E03-C06-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why would she fake something like that?"
+          },
+          {
+            "id": "L-S2E03-C06-T05",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Why are you taking her side?"
+          },
+          {
+            "id": "L-S2E03-C06-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "It's not about sides. I'm just being a decent human being."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C07",
+      "title": "Landon catches Hope doing magic in his room.",
+      "description": "Landon finds Hope in his room casting a locator spell for Rafael. She tells him she is a witch working with Alaric, and he insists on going with her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "search",
+        "banter"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C07-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "holds Landon's hoodie"
+          },
+          {
+            "id": "L-S2E03-C07-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "touches Landon's guitar"
+          },
+          {
+            "id": "L-S2E03-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Stop, stop, stop. You're here for a reason."
+          },
+          {
+            "id": "L-S2E03-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "What are you doing in my room?"
+          },
+          {
+            "id": "L-S2E03-C07-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh... look, I know that this looks bad..."
+          },
+          {
+            "id": "L-S2E03-C07-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "No. It looks like magic."
+          },
+          {
+            "id": "L-S2E03-C07-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Corporis impetus!"
+          },
+          {
+            "id": "L-S2E03-C07-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I'm starting to think you're not some ordinary girl."
+          },
+          {
+            "id": "L-S2E03-C07-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, my name is Hope, okay? I-I'm a witch. I'm working with Dr. Saltzman. He asked me to do a locater spell to find Rafael."
+          },
+          {
+            "id": "L-S2E03-C07-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why wouldn't he ask one of his own daughters?"
+          },
+          {
+            "id": "L-S2E03-C07-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because they don't know about the Crescent Wolf Clan. Not like I do."
+          },
+          {
+            "id": "L-S2E03-C07-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Wol... I-I've read about that. Does that mean you can turn Raf back?"
+          },
+          {
+            "id": "L-S2E03-C07-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "There is a monster in the woods, and it feeds on werewolves."
+          },
+          {
+            "id": "L-S2E03-C07-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Ooh. Then I'm coming with you."
+          },
+          {
+            "id": "L-S2E03-C07-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sorry, but I fly solo."
+          },
+          {
+            "id": "L-S2E03-C07-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Uh... He's my best friend."
+          },
+          {
+            "id": "L-S2E03-C07-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You do realize I could freeze you again, right?"
+          },
+          {
+            "id": "L-S2E03-C07-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Would that spell last forever?"
+          },
+          {
+            "id": "L-S2E03-C07-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Just try to keep up."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C07-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "holds Landon's hoodie"
+          },
+          {
+            "id": "L-S2E03-C07-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "touches Landon's guitar"
+          },
+          {
+            "id": "L-S2E03-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Stop, stop, stop. You're here for a reason."
+          },
+          {
+            "id": "L-S2E03-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "What are you doing in my room?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C08",
+      "title": "Hope tells Landon he doesn't have to worry about anyone forgetting him.",
+      "description": "Walking through the woods to find Rafael, Landon admits he is afraid Raf has moved on. Hope, who knows exactly how it feels, tells him it is painful to lose someone you love.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "comfort",
+        "love",
+        "angst",
+        "trust"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C08-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, Raf should be up ahead."
+          },
+          {
+            "id": "L-S2E03-C08-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Cool."
+          },
+          {
+            "id": "L-S2E03-C08-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Meaning not cool?"
+          },
+          {
+            "id": "L-S2E03-C08-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Sorry. It's just... nothing."
+          },
+          {
+            "id": "L-S2E03-C08-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Meaning something."
+          },
+          {
+            "id": "L-S2E03-C08-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "It's stupid, but when Raf was first stuck as a wolf, he used to always hang out with me, but then he, like, he stopped. Like, he forgot or he moved on."
+          },
+          {
+            "id": "L-S2E03-C08-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And you're worried that it's gonna be the same when he's human again?"
+          },
+          {
+            "id": "L-S2E03-C08-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Told you it was stupid."
+          },
+          {
+            "id": "L-S2E03-C08-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't think it's stupid. It's painful to lose someone that you love."
+          },
+          {
+            "id": "L-S2E03-C08-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Yeah. Oh, I know all about that. I grew up in the foster system. Getting bounced around from family to family made me want to shut everybody out until I realized life's a lot harder without someone watching your back."
+          },
+          {
+            "id": "L-S2E03-C08-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Trust me, Landon, you don't have to worry about anyone forgetting you."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C08-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't think it's stupid. It's painful to lose someone that you love."
+          },
+          {
+            "id": "L-S2E03-C08-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Yeah. Oh, I know all about that. I grew up in the foster system. Getting bounced around from family to family made me want to shut everybody out until I realized life's a lot harder without someone watching your back."
+          },
+          {
+            "id": "L-S2E03-C08-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Trust me, Landon, you don't have to worry about anyone forgetting you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C09",
+      "title": "Hope turns into a wolf to draw the monster away from Landon.",
+      "description": "When the Shunka attacks and magic doesn't stop it, Hope undresses to turn into a wolf and lure it away, and Landon realizes she is more than a witch.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "protect",
+        "monster",
+        "banter",
+        "identity"
+      ],
+      "importance": 3,
+      "verified": false,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C09-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, wait, stay back. You don't know what's out there!"
+          },
+          {
+            "id": "L-S2E03-C09-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I have an educated guess."
+          },
+          {
+            "id": "L-S2E03-C09-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I said stay back. Incendia."
+          },
+          {
+            "id": "L-S2E03-C09-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Is there a plan \"B\"? Please tell me there's a plan \"B\"."
+          },
+          {
+            "id": "L-S2E03-C09-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Turn around."
+          },
+          {
+            "id": "L-S2E03-C09-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why?"
+          },
+          {
+            "id": "L-S2E03-C09-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because plan \"B\" involves me getting naked."
+          },
+          {
+            "id": "L-S2E03-C09-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "What?"
+          },
+          {
+            "id": "L-S2E03-C09-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I have to draw it away from you."
+          },
+          {
+            "id": "L-S2E03-C09-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why does that require nudity?"
+          },
+          {
+            "id": "L-S2E03-C09-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because this monster feeds on werewolves."
+          },
+          {
+            "id": "L-S2E03-C09-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "But you're a witch. A lying witch. A lying, very naked witch."
+          },
+          {
+            "id": "L-S2E03-C09-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I'm more than that, and I wish I could stay and tell you all about it, but I can't. So when I draw this thing away from you, I need you to go find Dr. Saltzman and Raf."
+          },
+          {
+            "id": "L-S2E03-C09-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why would it chase after you... Because you're a were-witch. Holy smokes."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C09-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I have to draw it away from you."
+          },
+          {
+            "id": "L-S2E03-C09-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why does that require nudity?"
+          },
+          {
+            "id": "L-S2E03-C09-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Because this monster feeds on werewolves."
+          },
+          {
+            "id": "L-S2E03-C09-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "But you're a witch. A lying witch. A lying, very naked witch."
+          },
+          {
+            "id": "L-S2E03-C09-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I'm more than that, and I wish I could stay and tell you all about it, but I can't. So when I draw this thing away from you, I need you to go find Dr. Saltzman and Raf."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C10",
+      "title": "Hope looks for Landon and asks Rafael for help.",
+      "description": "Hope realizes the monster was after Landon and can't find him. She finds Rafael in wolf form and begs him to stay because Landon needs him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "search",
+        "protect",
+        "worry",
+        "sorry"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C10-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon! Landon? Landon!"
+          },
+          {
+            "id": "L-S2E03-C10-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I'm sorry, I would have never left you. I didn't know that it wanted you."
+          },
+          {
+            "id": "L-S2E03-C10-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Raf. Hey, look, I-I know you don't remember me, but this is all my fault. Okay? I would have never let anything like this happen to you or Landon."
+          },
+          {
+            "id": "L-S2E03-C10-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Wait, Raf, wait. Please. Don't-don't go. Okay, I... I can help you. I need you."
+          },
+          {
+            "id": "L-S2E03-C10-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon needs you."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C10-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I'm sorry, I would have never left you. I didn't know that it wanted you."
+          },
+          {
+            "id": "L-S2E03-C10-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Raf. Hey, look, I-I know you don't remember me, but this is all my fault. Okay? I would have never let anything like this happen to you or Landon."
+          },
+          {
+            "id": "L-S2E03-C10-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Wait, Raf, wait. Please. Don't-don't go. Okay, I... I can help you. I need you."
+          },
+          {
+            "id": "L-S2E03-C10-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon needs you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E03-C11",
+      "title": "Landon tells Rafael that Hope saved them both.",
+      "description": "Rafael is human again after the fight with the monster. Landon tells him it was thanks to Hope, and Rafael asks who she was.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Werewolf"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        },
+        {
+          "character": "Rafael",
+          "version": "Rafael"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "rescue",
+        "worry"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E03-C11-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Werewolf"
+            },
+            "action": "fights monster"
+          },
+          {
+            "id": "L-S2E03-C11-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Hope? No!"
+          },
+          {
+            "id": "L-S2E03-C11-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I thought you were gone."
+          },
+          {
+            "id": "L-S2E03-C11-T04",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "You can stop thinking it, bro, 'cause I'm back. Thanks to you, man."
+          },
+          {
+            "id": "L-S2E03-C11-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "No, it was, it was her, she... She saved us both."
+          },
+          {
+            "id": "L-S2E03-C11-T06",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "What... Who was that girl?"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E03-C11-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "No, it was, it was her, she... She saved us both."
+          },
+          {
+            "id": "L-S2E03-C11-T06",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "What... Who was that girl?"
+          }
+        ]
+      }
+    }
+  ]
+}
