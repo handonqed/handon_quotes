@@ -1,0 +1,614 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 6,
+  "episode_id": "L-S2E06",
+  "episode_title": "That's nothing I had to remember",
+  "conversations": [
+    {
+      "id": "L-S2E06-C01",
+      "title": "Landon guesses that Lizzie's secret is about Hope.",
+      "description": "With a monster that feeds on secrets after Lizzie, Landon asks her to tell him what she is hiding and guesses it has to do with Hope.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "secret",
+        "monster"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E06-C01-T01",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "This monster is hunting secrets, not you, so at least it has some taste, unlike my sister."
+          },
+          {
+            "id": "L-S2E06-C01-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "But that's the thing, no matter what Malivore tells the monsters, they always follow their prime directive first. So tell me whatever secret you're keeping, and maybe it'll stop."
+          },
+          {
+            "id": "L-S2E06-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Is it about Hope? It's about Hope, isn't it?"
+          },
+          {
+            "id": "L-S2E06-C01-T04",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "I don't know what you're talking about."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E06-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Is it about Hope? It's about Hope, isn't it?"
+          },
+          {
+            "id": "L-S2E06-C01-T04",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "I don't know what you're talking about."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E06-C02",
+      "title": "Hope silences Lizzie before she tells Landon the secret.",
+      "description": "Lizzie is about to give in and tell Landon the truth when Hope arrives and silences her with a spell. Landon realizes the secret is about Hope.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "secret",
+        "monster",
+        "honesty"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E06-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Nice work, but that's not gonna hold it long, so just tell me the secret."
+          },
+          {
+            "id": "L-S2E06-C02-T02",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "I can't."
+          },
+          {
+            "id": "L-S2E06-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Why?"
+          },
+          {
+            "id": "L-S2E06-C02-T04",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "It would break Josie's heart."
+          },
+          {
+            "id": "L-S2E06-C02-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "So this is about Josie?"
+          },
+          {
+            "id": "L-S2E06-C02-T06",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "No, it's about all of us."
+          },
+          {
+            "id": "L-S2E06-C02-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Lizzie, since when have you kept your mouth shut about anything? Just tell me."
+          },
+          {
+            "id": "L-S2E06-C02-T08",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Fine! It's..."
+          },
+          {
+            "id": "L-S2E06-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Silencio."
+          },
+          {
+            "id": "L-S2E06-C02-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "So this is about you."
+          },
+          {
+            "id": "L-S2E06-C02-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We have to get out of here."
+          },
+          {
+            "id": "L-S2E06-C02-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "What are you hiding from everyone?"
+          },
+          {
+            "id": "L-S2E06-C02-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "There's no time. These bars aren't gonna hold. We have to find some way to stop it."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E06-C02-T08",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Fine! It's..."
+          },
+          {
+            "id": "L-S2E06-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Silencio."
+          },
+          {
+            "id": "L-S2E06-C02-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "So this is about you."
+          },
+          {
+            "id": "L-S2E06-C02-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We have to get out of here."
+          },
+          {
+            "id": "L-S2E06-C02-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "What are you hiding from everyone?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E06-C03",
+      "title": "Landon remembers Hope.",
+      "description": "Josie's spell brings back everyone's memories of Hope. Landon hears her telling him she loves him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "memories",
+        "love",
+        "confession"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E06-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Hope \"But I know that the only thing you want from me is the truth.\""
+          },
+          {
+            "id": "L-S2E06-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Hope \"kiss me\""
+          },
+          {
+            "id": "L-S2E06-C03-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Hope \"Landon I love you\""
+          },
+          {
+            "id": "L-S2E06-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, my God. Oh, my God. Oh, my God!"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E06-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Hope \"But I know that the only thing you want from me is the truth.\""
+          },
+          {
+            "id": "L-S2E06-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Hope \"kiss me\""
+          },
+          {
+            "id": "L-S2E06-C03-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Hope \"Landon I love you\""
+          },
+          {
+            "id": "L-S2E06-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, my God. Oh, my God. Oh, my God!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E06-C04",
+      "title": "Landon confronts Hope after remembering her.",
+      "description": "Hope rescues Landon from the monster. With his memories back, he confronts her for not telling him, and she answers that she thought he was happier without her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "MG",
+          "version": "MG"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "memories",
+        "argument",
+        "angst",
+        "jealous",
+        "rescue",
+        "protect",
+        "monster"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E06-C04-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Can you talk?"
+          },
+          {
+            "id": "L-S2E06-C04-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You know Malivore wants me in one piece, right? So maybe we could find a more comfortable way for me to get to the portal."
+          },
+          {
+            "id": "L-S2E06-C04-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Crescere arbor."
+          },
+          {
+            "id": "L-S2E06-C04-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope! Hope Mikaelson."
+          },
+          {
+            "id": "L-S2E06-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Here, come here. Get behind me."
+          },
+          {
+            "id": "L-S2E06-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "\"Get behind\"... Is that really all you have to say right now?"
+          },
+          {
+            "id": "L-S2E06-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Can we not do this right now?"
+          },
+          {
+            "id": "L-S2E06-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We wouldn't even be having this conversation if you could have your way."
+          },
+          {
+            "id": "L-S2E06-C04-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Ventus."
+          },
+          {
+            "id": "L-S2E06-C04-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I didn't tell you because I thought that you were happy. Happier."
+          },
+          {
+            "id": "L-S2E06-C04-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Without you?"
+          },
+          {
+            "id": "L-S2E06-C04-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Happy enough to have sex. That was definitely gonna be without me."
+          },
+          {
+            "id": "L-S2E06-C04-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Who told you that?"
+          },
+          {
+            "id": "L-S2E06-C04-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Does it matter?"
+          },
+          {
+            "id": "L-S2E06-C04-T15",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "Good thing you guys were arguing. I could hear you from across town. This belonged to that witch that created that thing, so maybe you..."
+          },
+          {
+            "id": "L-S2E06-C04-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Finis habentis maleficia."
+          },
+          {
+            "id": "L-S2E06-C04-T17",
+            "speaker": {
+              "character": "MG",
+              "version": "MG"
+            },
+            "text": "You know, something like that."
+          },
+          {
+            "id": "L-S2E06-C04-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay. Now we can talk."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E06-C04-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope! Hope Mikaelson."
+          },
+          {
+            "id": "L-S2E06-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Here, come here. Get behind me."
+          },
+          {
+            "id": "L-S2E06-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "\"Get behind\"... Is that really all you have to say right now?"
+          },
+          {
+            "id": "L-S2E06-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Can we not do this right now?"
+          },
+          {
+            "id": "L-S2E06-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We wouldn't even be having this conversation if you could have your way."
+          },
+          {
+            "id": "L-S2E06-C04-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I didn't tell you because I thought that you were happy. Happier."
+          },
+          {
+            "id": "L-S2E06-C04-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Without you?"
+          },
+          {
+            "id": "L-S2E06-C04-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Happy enough to have sex. That was definitely gonna be without me."
+          }
+        ]
+      }
+    }
+  ]
+}
