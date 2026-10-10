@@ -1,0 +1,496 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 2,
+  "episode_id": "L-S2E02",
+  "episode_title": "This year will be different",
+  "conversations": [
+    {
+      "id": "L-S2E02-C01",
+      "title": "Hope and Landon talk at the Mystic Grill without him knowing who she is.",
+      "description": "Hope runs into Landon, who doesn't remember her. He gives her the milkshake he ordered without knowing why.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "milkshake",
+        "advice",
+        "angst",
+        "memories",
+        "mystic grill",
+        "crying"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E02-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S2E02-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S2E02-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "We saw each other earlier, right?"
+          },
+          {
+            "id": "L-S2E02-C01-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah. Uh... I was just out on a walk to clear my head."
+          },
+          {
+            "id": "L-S2E02-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Rough night?"
+          },
+          {
+            "id": "L-S2E02-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, yeah, actually, uh... Relationship trouble."
+          },
+          {
+            "id": "L-S2E02-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Must be contagious."
+          },
+          {
+            "id": "L-S2E02-C01-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why? You, too?"
+          },
+          {
+            "id": "L-S2E02-C01-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Yeah. I'm with this really amazing girl, but all of a sudden, everything's super complicated."
+          },
+          {
+            "id": "L-S2E02-C01-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Huh."
+          },
+          {
+            "id": "L-S2E02-C01-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "You?"
+          },
+          {
+            "id": "L-S2E02-C01-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, uh... Uh, old story, I guess, uh... Fell for a guy who doesn't even know that I exist."
+          },
+          {
+            "id": "L-S2E02-C01-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Huh. Classic."
+          },
+          {
+            "id": "L-S2E02-C01-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S2E02-C01-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "She is really great, but I just feel like I want it to be perfect, and..."
+          },
+          {
+            "id": "L-S2E02-C01-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S2E02-C01-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "And I want to be the perfect boyfriend, and she's trying to be the perfect girlfriend, and it was really effortless, but now it feels so off. I don't know. Sorry."
+          },
+          {
+            "id": "L-S2E02-C01-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No, uh... You know, um, a very smart boy once taught me that sometimes you have to be brave enough to be imperfect with people even if it's scary."
+          },
+          {
+            "id": "L-S2E02-C01-T19",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Yeah. Of course, you're gonna have to take your own advice and tell that boy of yours that you exist."
+          },
+          {
+            "id": "L-S2E02-C01-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "tear falls"
+          },
+          {
+            "id": "L-S2E02-C01-T21",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh. I don't know about that."
+          },
+          {
+            "id": "L-S2E02-C01-T22",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I hope your night gets better."
+          },
+          {
+            "id": "L-S2E02-C01-T23",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Thanks."
+          },
+          {
+            "id": "L-S2E02-C01-T24",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "This'll help. Peanut butter blast, whipped cream on the bottom. It's probably all melted by now, but, um..."
+          },
+          {
+            "id": "L-S2E02-C01-T25",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh."
+          },
+          {
+            "id": "L-S2E02-C01-T26",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I don't even know why I ordered it. I didn't have any of it. I didn't want a milkshake. It just seemed..."
+          },
+          {
+            "id": "L-S2E02-C01-T27",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Thanks for listening."
+          },
+          {
+            "id": "L-S2E02-C01-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "sobbing"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E02-C01-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, uh... Uh, old story, I guess, uh... Fell for a guy who doesn't even know that I exist."
+          },
+          {
+            "id": "L-S2E02-C01-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Huh. Classic."
+          },
+          {
+            "id": "L-S2E02-C01-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S2E02-C01-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "She is really great, but I just feel like I want it to be perfect, and..."
+          },
+          {
+            "id": "L-S2E02-C01-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S2E02-C01-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "And I want to be the perfect boyfriend, and she's trying to be the perfect girlfriend, and it was really effortless, but now it feels so off. I don't know. Sorry."
+          },
+          {
+            "id": "L-S2E02-C01-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No, uh... You know, um, a very smart boy once taught me that sometimes you have to be brave enough to be imperfect with people even if it's scary."
+          },
+          {
+            "id": "L-S2E02-C01-T19",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Yeah. Of course, you're gonna have to take your own advice and tell that boy of yours that you exist."
+          },
+          {
+            "id": "L-S2E02-C01-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "tear falls"
+          },
+          {
+            "id": "L-S2E02-C01-T21",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh. I don't know about that."
+          },
+          {
+            "id": "L-S2E02-C01-T22",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I hope your night gets better."
+          },
+          {
+            "id": "L-S2E02-C01-T23",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Thanks."
+          },
+          {
+            "id": "L-S2E02-C01-T24",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "This'll help. Peanut butter blast, whipped cream on the bottom. It's probably all melted by now, but, um..."
+          },
+          {
+            "id": "L-S2E02-C01-T25",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh."
+          },
+          {
+            "id": "L-S2E02-C01-T26",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I don't even know why I ordered it. I didn't have any of it. I didn't want a milkshake. It just seemed..."
+          },
+          {
+            "id": "L-S2E02-C01-T27",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Thanks for listening."
+          },
+          {
+            "id": "L-S2E02-C01-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "sobbing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E02-C02",
+      "title": "Hope tells Alaric that the boy she loves has moved on.",
+      "description": "Hope goes back to Alaric and tells him who she really is: everyone has forgotten her, Landon has moved on, and she doesn't know what to do next.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "love",
+        "confession",
+        "angst",
+        "comfort",
+        "crying"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E02-C02-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Um... My name's not Hope Marshall. It's Hope Mikaelson. I'm Klaus and Hayley's daughter."
+          },
+          {
+            "id": "L-S2E02-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And I know you don't remember this, but, um... you're the closest thing I have to a father now."
+          },
+          {
+            "id": "L-S2E02-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And the entire world has forgotten that I exist, and the boy I love has moved on, so I have absolutely no idea what to do next."
+          },
+          {
+            "id": "L-S2E02-C02-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "cries"
+          },
+          {
+            "id": "L-S2E02-C02-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "It's okay. We'll figure it out together."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E02-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And the entire world has forgotten that I exist, and the boy I love has moved on, so I have absolutely no idea what to do next."
+          },
+          {
+            "id": "L-S2E02-C02-T05",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "It's okay. We'll figure it out together."
+          }
+        ]
+      }
+    }
+  ]
+}

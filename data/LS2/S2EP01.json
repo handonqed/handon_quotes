@@ -1,0 +1,796 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 1,
+  "episode_id": "L-S2E01",
+  "episode_title": "I'll never give up hope",
+  "conversations": [
+    {
+      "id": "L-S2E01-C01",
+      "title": "Landon feels that the most important piece of his life is missing.",
+      "description": "Alone at the school during the summer, Landon reflects that he finally has everything he wanted, yet something essential is missing and he can't tell what.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "speech",
+      "tags": [
+        "forgotten",
+        "missing",
+        "angst"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E01-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "Except for those who have nowhere to go, the ones like me."
+          },
+          {
+            "id": "L-S2E01-C01-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "My name is Landon Kirby. All I've ever wanted to know is where I come from, to have a home, a family, to be special. Recently, I got all of it."
+          },
+          {
+            "id": "L-S2E01-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "So why do I feel like nothing's changed? Somehow it feels like the most important piece of my life is missing."
+          },
+          {
+            "id": "L-S2E01-C01-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I know I need to keep searching for answers because as far as I can tell, being immortal means being alone. And being alone is Hopeless."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E01-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "So why do I feel like nothing's changed? Somehow it feels like the most important piece of my life is missing."
+          },
+          {
+            "id": "L-S2E01-C01-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I know I need to keep searching for answers because as far as I can tell, being immortal means being alone. And being alone is Hopeless."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E01-C02",
+      "title": "Landon promises Rafael he will never give up hope.",
+      "description": "Landon brings food to Rafael, who is stuck in wolf form, and promises to find a way to turn him back.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Hopeless Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "determination"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E01-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I suck at this. My best friend used to say he'd rather starve than eat anything I tried to make, but you already know that."
+          },
+          {
+            "id": "L-S2E01-C02-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "That's good. I know you're in there, Raf. I'm gonna find a way to get you back, and then everything will be good again, okay?"
+          },
+          {
+            "id": "L-S2E01-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I'll never give up Hope."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E01-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hopeless Landon"
+            },
+            "text": "I'll never give up Hope."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E01-C03",
+      "title": "Hope leaves Clarke behind to get back to Landon.",
+      "description": "Inside Malivore, Hope uses a truth spell on Clarke and works out that Malivore is trying to expel her. She refuses to take Clarke with her because she has to get back to Landon.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Clarke",
+          "version": "Clarke"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "malivore",
+        "determination",
+        "protect"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E01-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "This entire time, I've been working on a theory, you know, trying to figure out why the vortex comes. And then I realized, it's always after I do magic. Am I getting warm?"
+          },
+          {
+            "id": "L-S2E01-C03-T02",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Scalding."
+          },
+          {
+            "id": "L-S2E01-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You know, it makes a lot of sense when you think about it. I thought that I was wrong about me being the only one who could destroy him, but I think my actual mistake was that I, I wasn't a fully activated Tribrid when I dove into that pit. I've never died, so my vampire side hasn't been activated yet."
+          },
+          {
+            "id": "L-S2E01-C03-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And what I'm realizing now is that Malivore doesn't want me here. I'm toxic to him. Finish that sentence, please?"
+          },
+          {
+            "id": "L-S2E01-C03-T05",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Malivore's trying to expel you. To send you back from where you came."
+          },
+          {
+            "id": "L-S2E01-C03-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And every time he tries..."
+          },
+          {
+            "id": "L-S2E01-C03-T07",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "I grab hold of you to try to get expelled with you. But as much as my father wants you to leave, he wants to keep torturing me here even more."
+          },
+          {
+            "id": "L-S2E01-C03-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Then it's official. All we have to do is wait."
+          },
+          {
+            "id": "L-S2E01-C03-T09",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "For what?"
+          },
+          {
+            "id": "L-S2E01-C03-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That's my ride."
+          },
+          {
+            "id": "L-S2E01-C03-T11",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Hope, you can't leave me here."
+          },
+          {
+            "id": "L-S2E01-C03-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I can't leave with you. Okay? I have to get back to my friends. I have to get back to Landon."
+          },
+          {
+            "id": "L-S2E01-C03-T13",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "I can't lie, right? So you know I'm telling the truth when I say that if you help me go back, too, you'll never see me again. I promise."
+          },
+          {
+            "id": "L-S2E01-C03-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm sorry. But do you understand why I can't take that risk?"
+          },
+          {
+            "id": "L-S2E01-C03-T15",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Yeah. I would do the same thing if I were you. God."
+          },
+          {
+            "id": "L-S2E01-C03-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Good luck, Clarke."
+          },
+          {
+            "id": "L-S2E01-C03-T17",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Screw you, Hope."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E01-C03-T11",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Hope, you can't leave me here."
+          },
+          {
+            "id": "L-S2E01-C03-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I can't leave with you. Okay? I have to get back to my friends. I have to get back to Landon."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E01-C04",
+      "title": "Hope comes back to the school looking for Landon.",
+      "description": "Back from Malivore, Hope runs into Dorian outside the school. He doesn't remember her, and she tells him she came for a boy.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Dorian",
+          "version": "Dorian"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "forgotten",
+        "search"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E01-C04-T01",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "I didn't see you. Are you okay?"
+          },
+          {
+            "id": "L-S2E01-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, Dorian, I'm okay."
+          },
+          {
+            "id": "L-S2E01-C04-T03",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Glad to hear it, but how did you know my name?"
+          },
+          {
+            "id": "L-S2E01-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Your parking pass."
+          },
+          {
+            "id": "L-S2E01-C04-T05",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Always hated that picture. What brings you out here tonight?"
+          },
+          {
+            "id": "L-S2E01-C04-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "A boy."
+          },
+          {
+            "id": "L-S2E01-C04-T07",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Well, we're all locked up in there. Everyone's gone for the summer."
+          },
+          {
+            "id": "L-S2E01-C04-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay. Thanks. Uh, sorry to bother you."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E01-C04-T05",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Always hated that picture. What brings you out here tonight?"
+          },
+          {
+            "id": "L-S2E01-C04-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "A boy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E01-C05",
+      "title": "Hope talks with hologram Landon and asks if he is happy.",
+      "description": "Hope uses the prism to talk to Landon's hologram about leaving town without telling him she is back. He insists the real Landon would want to know, but when she asks whether he and everyone else are happier now, he has no answer.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Hologram Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "hologram",
+        "forgotten",
+        "love",
+        "sacrifice",
+        "jealous",
+        "angst",
+        "crying",
+        "eyes"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E01-C05-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Hey. Is this seat taken?"
+          },
+          {
+            "id": "L-S2E01-C05-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E01-C05-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon."
+          },
+          {
+            "id": "L-S2E01-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Wait, how do you know my name?"
+          },
+          {
+            "id": "L-S2E01-C05-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Sorry. There's no way I'd even pretend to forget Hope Mikaelson."
+          },
+          {
+            "id": "L-S2E01-C05-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're just saying that because you know I want to hear it."
+          },
+          {
+            "id": "L-S2E01-C05-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Well, actually, that's not how this works. I'm kind of here to tell you the things you don't want to hear, right?"
+          },
+          {
+            "id": "L-S2E01-C05-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah. I really needed to see you."
+          },
+          {
+            "id": "L-S2E01-C05-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Happy to be seen. Well, I mean, as happy as the magical holographic manifestation of your subconscious can be. So what's on your mind?"
+          },
+          {
+            "id": "L-S2E01-C05-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I missed your eyes."
+          },
+          {
+            "id": "L-S2E01-C05-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Oh, admittedly, they're pretty dreamy."
+          },
+          {
+            "id": "L-S2E01-C05-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So much for accuracy. Landon would never say that."
+          },
+          {
+            "id": "L-S2E01-C05-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Well, it's creative license. Besides, let's face it, you already know what he'd say about your current dilemma."
+          },
+          {
+            "id": "L-S2E01-C05-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Then maybe I just want to hear it from fake you."
+          },
+          {
+            "id": "L-S2E01-C05-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Fine. Then, in that case, there is no world in which I would ever want you to leave town without telling me you're back from the dead."
+          },
+          {
+            "id": "L-S2E01-C05-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I never died, technically."
+          },
+          {
+            "id": "L-S2E01-C05-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Then I'd want to hear about that, too. I'd want to hear about everything because I love you, and you love me. You leaving town is a stupid move and you know it. Especially after we agreed not to lie to each other."
+          },
+          {
+            "id": "L-S2E01-C05-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Don't turn this around on me. Okay, besides, what's happening between you and Josie? Ugh."
+          },
+          {
+            "id": "L-S2E01-C05-T19",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "So you're mad at me?"
+          },
+          {
+            "id": "L-S2E01-C05-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. I'm not mad at you. I can't be mad at you, right? It's not your fault. You don't even know I exist."
+          },
+          {
+            "id": "L-S2E01-C05-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "But that still hurts."
+          },
+          {
+            "id": "L-S2E01-C05-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Of course it does."
+          },
+          {
+            "id": "L-S2E01-C05-T23",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Okay. So, then think about how much it would hurt me to find out you're just down the road."
+          },
+          {
+            "id": "L-S2E01-C05-T24",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Fair enough. If you can answer this one question correctly, then I promise I'll go running back to you, and I'll, I'll tell you the whole truth."
+          },
+          {
+            "id": "L-S2E01-C05-T25",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Would you quit playing games? There is no answer either of us could give that should stop you from doing that right now."
+          },
+          {
+            "id": "L-S2E01-C05-T26",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Are you happy? Is everyone happier now?"
+          },
+          {
+            "id": "L-S2E01-C05-T27",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "cries"
+          },
+          {
+            "id": "L-S2E01-C05-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Could you leave me for a minute? I don't really want to cry in front of you, even if you're fake."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E01-C05-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Then I'd want to hear about that, too. I'd want to hear about everything because I love you, and you love me. You leaving town is a stupid move and you know it. Especially after we agreed not to lie to each other."
+          },
+          {
+            "id": "L-S2E01-C05-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Don't turn this around on me. Okay, besides, what's happening between you and Josie? Ugh."
+          },
+          {
+            "id": "L-S2E01-C05-T19",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "So you're mad at me?"
+          },
+          {
+            "id": "L-S2E01-C05-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No. I'm not mad at you. I can't be mad at you, right? It's not your fault. You don't even know I exist."
+          },
+          {
+            "id": "L-S2E01-C05-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "But that still hurts."
+          },
+          {
+            "id": "L-S2E01-C05-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Of course it does."
+          },
+          {
+            "id": "L-S2E01-C05-T23",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Okay. So, then think about how much it would hurt me to find out you're just down the road."
+          },
+          {
+            "id": "L-S2E01-C05-T24",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Fair enough. If you can answer this one question correctly, then I promise I'll go running back to you, and I'll, I'll tell you the whole truth."
+          },
+          {
+            "id": "L-S2E01-C05-T25",
+            "speaker": {
+              "character": "Landon",
+              "version": "Hologram Landon"
+            },
+            "text": "Would you quit playing games? There is no answer either of us could give that should stop you from doing that right now."
+          },
+          {
+            "id": "L-S2E01-C05-T26",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Are you happy? Is everyone happier now?"
+          },
+          {
+            "id": "L-S2E01-C05-T27",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "cries"
+          },
+          {
+            "id": "L-S2E01-C05-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Could you leave me for a minute? I don't really want to cry in front of you, even if you're fake."
+          }
+        ]
+      }
+    }
+  ]
+}
