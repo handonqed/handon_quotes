@@ -28,7 +28,6 @@
       "scene_type": "conversation",
       "tags": [
         "reunion",
-        "beginning",
         "stare"
       ],
       "importance": 4,
@@ -247,7 +246,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "explanation",
         "comfort"
       ],
       "importance": 2,
@@ -366,7 +364,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "explanation",
         "comfort"
       ],
       "importance": 2,
@@ -506,7 +503,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "explanation",
         "comfort",
         "angst"
       ],
@@ -664,8 +660,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "crush",
-        "like"
+        "crush"
       ],
       "importance": 2,
       "verified": true,
@@ -1011,7 +1006,6 @@
       "scene_type": "conversation",
       "tags": [
         "memories",
-        "explanation",
         "comfort"
       ],
       "importance": 3,
@@ -1194,7 +1188,6 @@
       "scene_type": "conversation",
       "tags": [
         "memories",
-        "explanation",
         "comfort"
       ],
       "importance": 5,
@@ -1395,7 +1388,6 @@
       "scene_type": "conversation",
       "tags": [
         "memories",
-        "explanation",
         "comfort"
       ],
       "importance": 4,

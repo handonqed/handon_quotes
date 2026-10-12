@@ -24,10 +24,7 @@
       ],
       "scene_type": "conversation",
       "tags": [
-        "testing",
-        "bias",
-        "trust",
-        "belonging"
+        "trust"
       ],
       "importance": 3,
       "verified": true,
@@ -160,11 +157,7 @@
 
       ],
       "scene_type": "conversation",
-      "tags": [
-        "tests",
-        "identity",
-        "school"
-      ],
+      "tags": [],
       "importance": 1,
       "verified": true,
       "full": {
@@ -351,13 +344,7 @@
 
       ],
       "scene_type": "conversation",
-      "tags": [
-        "tests",
-        "identity",
-        "adoption",
-        "knife",
-        "school"
-      ],
+      "tags": [],
       "importance": 2,
       "verified": true,
       "full": {
@@ -555,7 +542,6 @@
       "tags": [
         "sorry",
         "thank you",
-        "disappoint",
         "comfort"
       ],
       "importance": 4,
@@ -917,11 +903,7 @@
       "subjects": [
       ],
       "scene_type": "conversation",
-      "tags": [
-        "Landon",
-        "council",
-        "personal"
-      ],
+      "tags": [],
       "importance": 1,
       "verified": true,
       "full": {
@@ -1054,8 +1036,6 @@
       "tags": [
         "goodbye",
         "care",
-        "biased",
-        "family",
         "bracelet",
         "kiss",
         "sorry",

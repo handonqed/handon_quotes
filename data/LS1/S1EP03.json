@@ -22,10 +22,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "regret",
-        "knife"
-      ],
+      "tags": [],
       "importance": 2,
       "verified": true,
       "full": {
@@ -169,7 +166,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "sweet",
         "letter"
       ],
       "importance": 2,

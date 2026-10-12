@@ -24,8 +24,7 @@
       "scene_type": "conversation",
       "tags": [
         "crush",
-        "eyes",
-        "voice"
+        "eyes"
       ],
       "importance": 4,
       "verified": true,
@@ -121,8 +120,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "care",
-        "safe"
+        "care"
       ],
       "importance": 1,
       "verified": true,
@@ -202,8 +200,7 @@
       ],
       "scene_type": "conversation",
       "tags": [
-        "care",
-        "family"
+        "care"
       ],
       "importance": 2,
       "verified": true,

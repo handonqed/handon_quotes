@@ -26,9 +26,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "worry",
-        "protect",
-        "determination"
+        "protect"
       ],
       "importance": 2,
       "verified": true,
@@ -193,9 +191,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "rescue"
-      ],
+      "tags": [],
       "importance": 1,
       "verified": true,
       "full": {
@@ -327,10 +323,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "rescue",
-        "clues"
-      ],
+      "tags": [],
       "importance": 3,
       "verified": true,
       "full": {
@@ -423,12 +416,10 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "fight",
-        "teamwork",
         "banter"
       ],
       "importance": 2,
-      "verified": false,
+      "verified": true,
       "full": {
         "turns": [
           {
@@ -594,11 +585,10 @@
         "confession",
         "love",
         "sorry",
-        "forgiveness",
         "kiss"
       ],
       "importance": 5,
-      "verified": false,
+      "verified": true,
       "full": {
         "turns": [
           {
@@ -768,7 +758,7 @@
         "phoenix"
       ],
       "importance": 3,
-      "verified": false,
+      "verified": true,
       "full": {
         "turns": [
           {

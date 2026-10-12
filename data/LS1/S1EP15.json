@@ -17,7 +17,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": ["worry","safe","protect"],
+      "tags": ["protect"],
       "importance": 2,
       "verified": true,
 
@@ -87,9 +87,9 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": ["worry", "advice"],
+      "tags": [],
       "importance": 2,
-      "verified": false,
+      "verified": true,
 
       "full": {
         "turns": [
@@ -142,9 +142,9 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": ["hologram", "apology", "angst","sorry"],
+      "tags": ["hologram", "angst", "sorry"],
       "importance": 3,
-      "verified": false,
+      "verified": true,
 
       "full": {
         "turns": [
@@ -417,7 +417,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": ["hologram", "confession", "love", "vulnerability", "kiss","sorry","fate"],
+      "tags": ["hologram", "confession", "love", "kiss", "sorry", "fate"],
       "importance": 5,
       "verified": true,
 
@@ -547,7 +547,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": ["hologram", "clues", "rescue", "determination"],
+      "tags": ["hologram"],
       "importance": 3,
       "verified": true,
 
@@ -643,7 +643,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [ "rescue", "protect"],
+      "tags": ["protect"],
       "importance": 3,
       "verified": true,
 

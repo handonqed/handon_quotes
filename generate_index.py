@@ -1,6 +1,8 @@
 from datetime import datetime, timezone
 from pathlib import Path
+import hashlib
 import json
+import re
 import sys
 
 ROOT = Path(__file__).resolve().parent
@@ -60,9 +62,9 @@ for rel in files:
                 if t and not (t.get("text") or t.get("action")):
                     warnings.append(f"{rel}: {cid} has a turn without text or action")
 
-# Gaps in episode numbering (e.g. S1 has 1-9 and 11, so 10 is missing)
+# Gaps in episode numbering, between the first and last episode present (e.g. 1-9 and 11: 10 is missing)
 for (show, season), nums in sorted(episodes_by_show.items(), key=lambda x: (str(x[0][0]), x[0][1])):
-    missing = [n for n in range(1, max(nums) + 1) if n not in nums]
+    missing = [n for n in range(min(nums), max(nums) + 1) if n not in nums]
     if missing:
         warnings.append(f"{show} S{season}: no file for episode(s) {', '.join(map(str, missing))}")
 
@@ -87,3 +89,18 @@ with (DATA / "index.json").open("w", encoding="utf-8") as f:
     )
 
 print(f"Indexed {len(files)} JSON files (version {version}).")
+
+# Cache-busting for the stylesheet and scripts: index.html links them as "file?v=<hash>",
+# where the hash comes from the file's content. It only changes when the file does, so
+# visitors never get new HTML with a stale cached script (GitHub Pages caches for 10 minutes).
+def asset_version(match):
+    attr, path = match.group(1), match.group(2)
+    data = (ROOT / path).read_bytes().replace(b"\r\n", b"\n")  # same hash on Windows and Linux
+    return f'{attr}="{path}?v={hashlib.sha1(data).hexdigest()[:8]}"'
+
+index_html = ROOT / "index.html"
+html = index_html.read_bytes().decode("utf-8")  # bytes: keeps the file's line endings as they are
+new_html = re.sub(r'(href|src)="((?:css|js)/[\w.-]+\.(?:css|js))(?:\?v=[^"]*)?"', asset_version, html)
+if new_html != html:
+    index_html.write_bytes(new_html.encode("utf-8"))
+    print("Updated asset versions in index.html.")

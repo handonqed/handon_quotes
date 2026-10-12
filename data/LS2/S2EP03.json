@@ -18,7 +18,6 @@
       "subjects": [],
       "scene_type": "speech",
       "tags": [
-        "forgotten",
         "love",
         "angst"
       ],
@@ -98,10 +97,8 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "milkshake",
-        "jealous",
-        "football"
+        "jealous"
       ],
       "importance": 2,
       "verified": true,
@@ -163,11 +160,9 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "milkshake",
         "jealous",
-        "stare",
-        "football"
+        "stare"
       ],
       "importance": 2,
       "verified": true,
@@ -249,11 +244,10 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "jealous",
-        "football"
+        "jealous"
       ],
       "importance": 2,
-      "verified": false,
+      "verified": true,
       "full": {
         "turns": [
           {
@@ -384,7 +378,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "football",
         "sorry",
         "care"
       ],
@@ -545,8 +538,7 @@
       "scene_type": "conversation",
       "tags": [
         "jealous",
-        "argument",
-        "football"
+        "argument"
       ],
       "importance": 2,
       "verified": true,
@@ -680,7 +672,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "search",
         "banter"
       ],
@@ -896,7 +887,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "comfort",
         "love",
         "angst",
@@ -1043,12 +1033,10 @@
       "scene_type": "conversation",
       "tags": [
         "protect",
-        "monster",
-        "banter",
-        "identity"
+        "banter"
       ],
       "importance": 3,
-      "verified": false,
+      "verified": true,
       "full": {
         "turns": [
           {
@@ -1225,7 +1213,6 @@
       "tags": [
         "search",
         "protect",
-        "worry",
         "sorry"
       ],
       "importance": 2,
@@ -1331,11 +1318,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "forgotten",
-        "rescue",
-        "worry"
-      ],
+      "tags": [],
       "importance": 2,
       "verified": true,
       "full": {

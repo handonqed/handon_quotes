@@ -22,9 +22,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "relationship",
-        "worry",
-        "distance"
+        "relationship"
       ],
       "importance": 2,
       "verified": true,
@@ -174,10 +172,8 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "amnesia",
-        "nightmares",
-        "protection",
-        "evacuation"
+        "nightmare",
+        "protect"
       ],
       "importance": 3,
       "verified": true,
@@ -324,8 +320,8 @@
       "scene_type": "conversation",
       "tags": [
         "care",
-        "healing",
-        "protection"
+        "heal",
+        "protect"
       ],
       "importance": 2,
       "verified": true,
@@ -491,9 +487,8 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "honesty",
         "relationship",
-        "protection"
+        "protect"
       ],
       "importance": 2,
       "verified": true,
@@ -623,11 +618,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "research",
-        "oneiroi",
-        "monster"
-      ],
+      "tags": [],
       "importance": 2,
       "verified": true,
       "full": {
@@ -773,9 +764,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "choice",
-        "protection",
-        "super squad"
+        "protect"
       ],
       "importance": 3,
       "verified": true,
@@ -958,10 +947,9 @@
       "scene_type": "conversation",
       "tags": [
         "sexy",
-        "courage",
         "relationship",
-        "protection",
-        "cheek kiss"
+        "protect",
+        "kiss"
       ],
       "importance": 4,
       "verified": true,
@@ -1140,7 +1128,6 @@
         "confession",
         "relationship",
         "trust",
-        "commitment",
         "speech",
         "kiss"
       ],

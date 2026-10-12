@@ -30,16 +30,13 @@ document.addEventListener("DOMContentLoaded",async()=>{
     ev.preventDefault();focusSearch();
   });
 
-  // The header videos are decoration: keep them still for visitors who ask for reduced motion.
-  const calm=window.matchMedia?matchMedia("(prefers-reduced-motion: reduce)"):null;
-  const applyMotion=()=>document.querySelectorAll("video").forEach(v=>{
-    if(calm.matches){v.autoplay=false;v.pause()}else{v.autoplay=true;v.play().catch(()=>{})}
-  });
-  if(calm){if(calm.matches) applyMotion();calm.addEventListener?.("change",applyMotion)}
+  // Videos pause for visitors who ask for reduced motion, also when the setting changes (see syncVideos).
+  window.matchMedia?.("(prefers-reduced-motion: reduce)").addEventListener?.("change",syncVideos);
 
   // One delegated handler for every "Copy" button.
   document.addEventListener("click",async ev=>{
     if(ev.target.closest("#search-more")){searchMore();return}
+    if(ev.target.closest("[data-top]")) scrollTopNext=true; // "All tags": the router then scrolls to the top
     const b=ev.target.closest("[data-copy]"); if(!b) return;
     const text=b.dataset.copy,label=b.dataset.label||b.textContent;
     b.dataset.label=label;

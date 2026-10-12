@@ -21,10 +21,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "concern",
-        "knife"
-      ],
+      "tags": [],
       "importance": 2,
       "verified": true,
       "full": {
@@ -174,8 +171,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "mean",
-        "Mystic Falls High",
         "angst"
       ],
       "importance": 2,
@@ -310,8 +305,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "banter",
-        "Mystic Falls High"
+        "banter"
       ],
       "importance": 2,
       "verified": true,
@@ -464,8 +458,7 @@
       "scene_type": "conversation",
       "tags": [
         "angst",
-        "trust",
-        "feelings"
+        "trust"
       ],
       "importance": 4,
       "verified": true,

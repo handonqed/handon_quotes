@@ -23,8 +23,7 @@
       "scene_type": "conversation",
       "tags": [
         "bed scene",
-        "nightmare",
-        "magic wave"
+        "nightmare"
       ],
       "importance": 4,
       "verified": true,
@@ -166,9 +165,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "worry"
-      ],
+      "tags": [],
       "importance": 2,
       "verified": true,
       "full": {
@@ -297,9 +294,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "trauma",
-        "grief",
-        "boyfriend"
+        "boyfriend/girlfriend"
       ],
       "importance": 3,
       "verified": true,
@@ -449,8 +444,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "relationship",
-        "indestructible"
+        "relationship"
   
       ],
       "importance": 3,
@@ -608,7 +602,7 @@
       "tags": [
         "relationship",
         "jealous",
-        "boyfriend"
+        "boyfriend/girlfriend"
   
       ],
       "importance": 3,
@@ -728,11 +722,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "knife",
-        "mother"
-  
-      ],
+      "tags": [],
       "importance": 2,
       "verified": true,
       "full": {
@@ -1145,8 +1135,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "jealous",
-        "honesty"
+        "jealous"
       ],
       "importance": 2,
       "verified": true,
@@ -1281,9 +1270,7 @@
       "scene_type": "conversation",
       "tags": [
         "secret",
-        "honesty",
-        "angst",
-        "mother"
+        "angst"
       ],
       "importance": 2,
       "verified": true,
@@ -1387,7 +1374,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "reconciliation",
         "relationship"
       ],
       "importance": 3,

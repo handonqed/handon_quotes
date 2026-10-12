@@ -42,6 +42,19 @@ function showPage(id,navId=id){
     const on=a.getAttribute("href")==="#"+navId;
     a.classList.toggle("active",on); on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current");
   });
+  syncVideos();
+}
+
+// Header videos are only downloaded for the page being shown (the autoplay attribute would
+// otherwise fetch all of them on the first visit). They stay still under reduced motion.
+function syncVideos(){
+  const calm=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+  document.querySelectorAll("video[data-src]").forEach(v=>{
+    const shown=!!v.closest(".page.active");
+    if(shown&&!v.getAttribute("src")) v.src=v.dataset.src;
+    if(shown&&!calm){v.autoplay=true;v.play().catch(()=>{})}
+    else{v.autoplay=false;v.pause()}
+  });
 }
 
 // Season and episode filters (Search and Random). A season option is "Show|season" so that
@@ -86,7 +99,7 @@ function home(){
   const s=charStats();
   $("home-stats").innerHTML=[
     ["Episodes",DB.episodes.length],["Conversations",DB.conversations.length],
-    ["Full turns",s.all.turns.toLocaleString()],["Words",s.all.words.toLocaleString()]
+    ["Full turns",s.all.turns],["Words",s.all.words]
   ].map(x=>statHTML(x[0],x[1])).join("");
 }
 
@@ -125,7 +138,7 @@ function importance(){
 const SEARCH_LIMIT=100;
 function syncSearchUrl(p){
   const u=new URLSearchParams();Object.entries(p).forEach(([k,v])=>{if(v)u.set(k,v)});
-  history.replaceState(null,"","#search"+(u.toString()?"?"+u:""));
+  history.replaceState(history.state,"","#search"+(u.toString()?"?"+u:"")); // keep the entry id (see Router)
 }
 function applySearchParams(p){
   $("search-input").value=p.get("q")||"";
@@ -148,7 +161,7 @@ ${x.prev?turnHTML(x.prev,"","context"):""}${turnHTML(x.t,searchQuery)}${x.next?t
 <p>${convLink(x.i.conversation,"View in conversation","button secondary",x.k)} ${copyBtn(quoteText(x.t,x.i))}</p></article>`).join(""):'<div class="empty">No matching lines. Try fewer words or clear a filter.</div>')
     +(a.length>shown.length?`<p><button type="button" class="button secondary" id="search-more">Show ${Math.min(SEARCH_LIMIT,a.length-shown.length)} more</button></p>`:"");
 }
-function searchMore(){searchShown+=SEARCH_LIMIT;renderSearch()}
+function searchMore(){searchShown+=SEARCH_LIMIT;renderSearch();if(entryMemory.has(entryId))entryMemory.get(entryId).shown=searchShown}
 function search(){
   clearTimeout(searchTimer);
   // A debounced call can fire after the user has already left the page; it must not rewrite the URL then.
@@ -207,14 +220,14 @@ function tagsPage(active=""){
 }
 function showTag(tag){
   const r=DB.conversations.filter(i=>(i.conversation.tags||[]).some(t=>String(t).trim().toLowerCase()===tag.trim().toLowerCase()));
-  $("tag-results").innerHTML=`<div class="heading"><h3>${esc(tag)}</h3><p>${r.length} conversation${r.length===1?"":"s"}</p></div>`
+  $("tag-results").innerHTML=`<div class="heading"><a class="back" href="#tags" data-top>↑ All tags</a><h3>${esc(tag)}</h3><p>${r.length} conversation${r.length===1?"":"s"}</p></div>`
     +(r.length?r.map(i=>card(i)).join(""):'<div class="empty">No conversations found for this tag.</div>');
 }
 
 /* ---------- Statistics ---------- */
 function bars(title,rows){
   const max=Math.max(1,...rows.map(r=>r[1]));
-  return `<section class="stat-panel"><h3>${esc(title)}</h3>${rows.map(([l,v])=>`<div class="bar-row"><span class="bar-label">${esc(l)}</span><span class="bar-track"><span class="bar-fill" style="width:${(v/max*100).toFixed(1)}%"></span></span><span class="bar-val">${v.toLocaleString()}</span></div>`).join("")}</section>`;
+  return `<section class="stat-panel"><h3>${esc(title)}</h3>${rows.map(([l,v])=>`<div class="bar-row"><span class="bar-label">${esc(l)}</span><span class="bar-track"><span class="bar-fill" style="width:${(v/max*100).toFixed(1)}%"></span></span><span class="bar-val">${v}</span></div>`).join("")}</section>`;
 }
 function statistics(){
   const s=charStats(),seasons={},imp=[0,0,0,0,0,0],tagCount={};
@@ -225,8 +238,8 @@ function statistics(){
   });
   $("statistics-content").innerHTML=[
     ["Episodes",DB.episodes.length],["Conversations",DB.conversations.length],
-    ["Hope turns",s.hope.turns],["Hope words",s.hope.words.toLocaleString()],
-    ["Landon turns",s.landon.turns],["Landon words",s.landon.words.toLocaleString()]
+    ["Hope turns",s.hope.turns],["Hope words",s.hope.words],
+    ["Landon turns",s.landon.turns],["Landon words",s.landon.words]
   ].map(x=>statHTML(x[0],x[1])).join("")
   +bars("Words by character",[["Hope",s.hope.words],["Landon",s.landon.words]])
   +bars("Conversations per season",Object.entries(seasons).sort((a,b)=>a[0].localeCompare(b[0],undefined,{numeric:true})))
@@ -240,13 +253,18 @@ function conversation(id){
   if(!i){document.title="Conversation not found · Handon Quotes";$("conversation-content").innerHTML='<div class="empty">Conversation not found. <a href="#episodes">Browse episodes</a></div>';return}
   const e=i.episode,c=i.conversation,list=e.conversations||[],k=list.indexOf(c),p=list[k-1],n=list[k+1],
     ts=allTurns(i,"full"),link=location.href.split("#")[0]+"#conversation/"+encodeURIComponent(c.id);
+  // At either end of an episode the buttons continue into the neighbouring episode (skipping empty ones).
+  const eps=sortedEpisodes().filter(x=>x===e||(x.conversations||[]).length),ek=eps.indexOf(e),
+    pe=!p&&eps[ek-1],ne=!n&&eps[ek+1],
+    navLink=(x,ep,label)=>x?convLink(x,`${label}: ${esc(x.title||"Untitled")}`)
+      :ep?convLink(label==="Next"?ep.conversations[0]:ep.conversations.at(-1),`${label} episode: ${esc(episodeLabel(ep))}`):"<span></span>";
   document.title=`${c.title||"Conversation"} · Handon Quotes`;
   $("conversation-content").innerHTML=`<div class="full"><a class="back" href="#conversation/episode/${encodeURIComponent(e.episode_id)}">← Back to episode</a>
 <div class="conversation-header"><div class="eyebrow">${esc(episodeLabel(e))}</div><h2>${esc(c.title||"Untitled")}</h2><p>${esc(e.episode_title||"")}</p>
 ${starsHTML(c.importance)}<p>${esc(c.description||"")}</p><div class="tags">${tagHTML(c.tags||[])}</div>
 ${copyBtn(link,"Copy link")} ${ts.length?copyBtn(conversationText(ts,e,c),"Copy conversation"):""}</div>
 <div class="conversation-body">${ts.map((t,k)=>turnHTML(t,"","","line-"+k)).join("")||'<div class="empty">No full dialogue is stored.</div>'}</div>
-<div class="conv-nav">${p?convLink(p,"Previous: "+esc(p.title||"Untitled")):"<span></span>"}${n?convLink(n,"Next: "+esc(n.title||"Untitled")):"<span></span>"}</div></div>`;
+<div class="conv-nav">${navLink(p,pe,"Previous")}${navLink(n,ne,"Next")}</div></div>`;
 }
 // Previous / next episode buttons. On the full-episode page they stay in the full view.
 function episodeNav(e,full=false){
@@ -286,8 +304,24 @@ ${episodeNav(e,true)}</div>`;
 }
 
 /* ---------- Router ---------- */
+// Every history entry gets an id (kept in history.state) and remembers its scroll position,
+// so Back and Forward return to the same place in a long list instead of the top.
+const entryMemory=new Map();
+let entryId=null,scrollTopNext=false;
+try{history.scrollRestoration="manual"}catch{}
+
 let lastRouteKey=null;
 function route(){
+  // The page being left is still on screen here, so this is its final scroll position.
+  if(entryMemory.has(entryId)) entryMemory.get(entryId).y=window.scrollY;
+  // A visited entry already has an id and a remembered position; a new one starts fresh.
+  let saved=null;
+  if(history.state?.id!=null&&entryMemory.has(history.state.id)){entryId=history.state.id;saved=entryMemory.get(entryId)}
+  else{
+    entryId=history.state?.id??`${Date.now()}-${Math.random()}`;
+    if(history.state?.id==null) history.replaceState({id:entryId},"");
+    entryMemory.set(entryId,{y:0,shown:SEARCH_LIMIT});
+  }
   const raw=location.hash.slice(1),qi=raw.indexOf("?"),
     path=qi<0?raw:raw.slice(0,qi),params=new URLSearchParams(qi<0?"":raw.slice(qi+1)),
     dec=s=>{try{return decodeURIComponent(s)}catch{return s}},
@@ -305,20 +339,27 @@ function route(){
   else if(page==="episodes") episodes();
   else if(page==="importance") importance();
   else if(page==="tags") tagsPage(path.startsWith("tags/")?dec(path.slice(5)):"");
-  else if(page==="search"){applySearchParams(params);search()}
+  else if(page==="search"){
+    applySearchParams(params);search();
+    if(saved&&saved.shown>searchShown){searchShown=saved.shown;renderSearch()} // "Show more" clicks before leaving
+  }
   else if(page==="random"){if(!$("random-result").innerHTML) $("random-result").innerHTML='<div class="empty">Press “Give me one” to get a random quote.</div>'}
   else if(page==="statistics") statistics();
   else home();
-  // Scroll to top and move focus only when the page changes, not when a tag is picked.
-  const key=isConv?path:page;
-  if(lastRouteKey!==null&&key!==lastRouteKey){
-    window.scrollTo(0,0);
-    const h=$(page)?.querySelector("h1,h2");if(h){h.setAttribute("tabindex","-1");h.focus({preventScroll:true})}
-  }
+  // Move focus to the heading only when the page changes, not when a tag is picked.
+  const key=isConv?path:page,changed=lastRouteKey!==null&&key!==lastRouteKey;
+  if(changed){const h=$(page)?.querySelector("h1,h2");if(h){h.setAttribute("tabindex","-1");h.focus({preventScroll:true})}}
   lastRouteKey=key;
-  // #conversation/ID?line=N (from a search result): scroll to that line and highlight it.
+  // #conversation/ID?line=N (from a search result): highlight that line.
   const line=isConv&&params.has("line")?$("line-"+params.get("line")):null;
-  if(line){line.classList.add("target");line.scrollIntoView({block:"center"})}
+  if(line) line.classList.add("target");
+  // Where to scroll: back/forward returns to the remembered place; otherwise a linked line,
+  // the results of a chosen tag (they sit below the long tag list), or the top of a new page.
+  if(saved) window.scrollTo(0,saved.y);
+  else if(line) line.scrollIntoView({block:"center"});
+  else if(page==="tags"&&path.startsWith("tags/")) $("tag-results").scrollIntoView();
+  else if(changed||scrollTopNext) window.scrollTo(0,0);
+  scrollTopNext=false;
   if(page==="search"&&pendingSearchFocus) $("search-input").focus();
   pendingSearchFocus=false;
 }

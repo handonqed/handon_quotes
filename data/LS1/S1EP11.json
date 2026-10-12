@@ -27,7 +27,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "talent show",
         "romantic",
         "comedy",
         "relationship"
@@ -128,12 +127,10 @@
       "subjects": [],
       "scene_type": "kiss",
       "tags": [
-        "talent show",
         "romantic",
         "relationship",
         "kiss",
-        "make out",
-        "team other"
+        "make out"
       ],
       "importance": 4,
       "verified": true,
@@ -248,8 +245,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "boyfriend",
-        "friend",
+        "boyfriend/girlfriend",
         "make out"
       ],
       "importance": 2,
@@ -318,7 +314,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "talent show",
         "romantic",
         "relationship",
         "teasing"
@@ -526,10 +521,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "unicorn",
-        "monster"
-      ],
+      "tags": [],
       "importance": 1,
       "verified": true,
 
@@ -613,10 +605,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "unicorn",
-        "monster"
-      ],
+      "tags": [],
       "importance": 1,
       "verified": true,
 
@@ -805,10 +794,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "talent show",
-        "monster"
-      ],
+      "tags": [],
       "importance": 1,
       "verified": true,
 
@@ -905,9 +891,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "monster"
-      ],
+      "tags": [],
       "importance": 1,
       "verified": true,
 

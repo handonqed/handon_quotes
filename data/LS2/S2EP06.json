@@ -22,9 +22,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
-        "secret",
-        "monster"
+        "secret"
       ],
       "importance": 2,
       "verified": true,
@@ -106,10 +104,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
-        "secret",
-        "monster",
-        "honesty"
+        "secret"
       ],
       "importance": 2,
       "verified": true,
@@ -387,9 +382,7 @@
         "argument",
         "angst",
         "jealous",
-        "rescue",
-        "protect",
-        "monster"
+        "protect"
       ],
       "importance": 4,
       "verified": true,

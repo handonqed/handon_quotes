@@ -22,7 +22,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "love",
         "confession",
         "angst",
@@ -209,9 +208,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "rescue",
-        "protect",
-        "forgotten"
+        "protect"
       ],
       "importance": 2,
       "verified": true,
@@ -297,8 +294,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "search",
-        "forgotten"
+        "search"
       ],
       "importance": 2,
       "verified": true,
@@ -364,7 +360,7 @@
         "protect"
       ],
       "importance": 3,
-      "verified": false,
+      "verified": true,
       "full": {
         "turns": [
           {
@@ -471,7 +467,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "love",
         "confession",
         "sacrifice",
@@ -479,7 +474,7 @@
         "trust"
       ],
       "importance": 4,
-      "verified": false,
+      "verified": true,
       "full": {
         "turns": [
           {
@@ -746,9 +741,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "memories",
-        "resurrection",
         "phoenix",
         "angst"
       ],
@@ -884,15 +877,12 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "love",
-        "advice",
         "angst",
-        "malivore",
         "sacrifice"
       ],
       "importance": 4,
-      "verified": false,
+      "verified": true,
       "full": {
         "turns": [
           {

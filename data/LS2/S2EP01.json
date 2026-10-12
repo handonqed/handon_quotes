@@ -18,8 +18,6 @@
       "subjects": [],
       "scene_type": "speech",
       "tags": [
-        "forgotten",
-        "missing",
         "angst"
       ],
       "importance": 3,
@@ -93,10 +91,7 @@
       ],
       "subjects": [],
       "scene_type": "conversation",
-      "tags": [
-        "forgotten",
-        "determination"
-      ],
+      "tags": [],
       "importance": 2,
       "verified": true,
       "full": {
@@ -157,8 +152,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "malivore",
-        "determination",
         "protect"
       ],
       "importance": 3,
@@ -341,7 +334,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "forgotten",
         "search"
       ],
       "importance": 3,
@@ -453,7 +445,6 @@
       "scene_type": "conversation",
       "tags": [
         "hologram",
-        "forgotten",
         "love",
         "sacrifice",
         "jealous",

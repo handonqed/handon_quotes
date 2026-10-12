@@ -8,6 +8,7 @@
 
 /* ---------- 1. Theme variables (dark is the default) ---------- */
 :root {
+    color-scheme: dark; /* scrollbars and native controls follow the theme */
     --bg: #17131a;
     --surface: #221e26;
     --text: #f1eef3;
@@ -23,6 +24,7 @@
 }
 
 [data-theme="light"] {
+    color-scheme: light;
     --bg: #f7f5f8;
     --surface: #fff;
     --text: #29252d;
@@ -319,6 +321,16 @@ a.tag {
 a.tag:hover {
     background: var(--accent);
     color: var(--on-accent);
+}
+
+/* A chosen tag scrolls to its results; leave room for the sticky header. */
+#tag-results {
+    scroll-margin-top: 90px;
+}
+
+#tag-results .back {
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 /* Tags page: the tag list is made of buttons. */

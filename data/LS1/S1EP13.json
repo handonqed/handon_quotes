@@ -27,8 +27,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "missing",
-        "worry",
         "search"
       ],
       "importance": 2,
@@ -185,8 +183,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "monster",
-        "worry",
         "protect"
       ],
       "importance": 2,
@@ -378,7 +374,6 @@
       "scene_type": "conversation",
       "tags": [
         "protect",
-        "worry",
         "care"
       ],
       "importance": 2,
@@ -571,10 +566,8 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "worry",
         "search",
-        "protect",
-        "rescue"
+        "protect"
       ],
       "importance": 3,
       "verified": true,
@@ -746,8 +739,6 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "resurrection",
-        "grief",
         "crying",
         "phoenix"
       ],

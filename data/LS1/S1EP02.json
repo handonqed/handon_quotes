@@ -27,8 +27,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "angst",
-        "knife"
+        "angst"
       ],
       "importance": 1,
       "verified": true,
@@ -200,7 +199,6 @@
       "scene_type": "conversation",
       "tags": [
         "angst",
-        "knife",
         "argument"
       ],
       "importance": 3,
@@ -476,8 +474,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "angst",
-        "knife"
+        "angst"
       ],
       "importance": 1,
       "verified": true,

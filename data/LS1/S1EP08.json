@@ -24,8 +24,7 @@
       "tags": [
         "bracelet",
         "care",
-        "protect",
-        "rescue"
+        "protect"
       ],
       "importance": 3,
       "verified": true,
@@ -129,8 +128,7 @@
       "scene_type": "conversation",
       "tags": [
         "care",
-        "protect",
-        "rescue"
+        "protect"
       ],
       "importance": 1,
       "verified": true,
@@ -194,7 +192,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "girlfriend",
+        "boyfriend/girlfriend",
         "care",
         "relationship"
       ],
@@ -437,8 +435,7 @@
       "tags": [
         "care",
         "protect",
-        "girlfriend",
-        "Seylah"
+        "boyfriend/girlfriend"
       ],
       "importance": 4,
       "verified": true,
@@ -551,11 +548,10 @@
       "tags": [
         "kiss",
         "make out",
-        "letters",
+        "letter",
         "comfort",
-        "family",
         "sorry",
-        "romance"
+        "romantic"
       ],
       "importance": 5,
       "verified": true,
@@ -870,7 +866,7 @@
       "tags": [
         "kiss",
         "make out",
-        "romance",
+        "romantic",
         "trust",
         "thank you"
       ],
@@ -1192,8 +1188,7 @@
       "scene_type": "conversation",
       "tags": [
         "care",
-        "protect",
-        "like"
+        "protect"
       ],
       "importance": 2,
       "verified": true,
@@ -1341,8 +1336,6 @@
       "subjects": [],
       "scene_type":  "conversation",
       "tags": [
-        "believe",
-        "knife",
         "trust"
       ],
       "importance": 4,
@@ -1775,8 +1768,7 @@
       "subjects": [],
       "scene_type": "conversation",
       "tags": [
-        "happy",
-        "home"
+        "happy"
       ],
       "importance": 3,
       "verified": true,
@@ -1929,7 +1921,7 @@
       "tags": [
         "happy",
         "kiss",
-        "boyfriend",
+        "boyfriend/girlfriend",
         "relationship",
         "teasing"
       ],

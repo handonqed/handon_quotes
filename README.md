@@ -35,3 +35,6 @@ The script validates every episode file (valid JSON, required fields, unique
 conversation ids, `importance` 1-5), warns about missing episode numbers and empty
 `full`/`short` sections, and stops without touching `index.json` if it finds an
 error. It also writes a `version` that the site uses to avoid stale cached data.
+
+Run it after changing the CSS or JavaScript too: it stamps `index.html` with a
+`?v=` hash of each stylesheet and script, so visitors never load a stale cached copy.
