@@ -1,0 +1,1321 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 7,
+  "episode_id": "L-S2E07",
+  "episode_title": "It will all be painfully clear soon enough",
+  "conversations": [
+    {
+      "id": "L-S2E07-C01",
+      "title": "Landon reflects on remembering Hope.",
+      "description": "In voice-over, Landon describes what it is like to realize that a memory he took for a dream was real, and to start the day burdened with a choice.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "speech",
+      "tags": [
+        "memories",
+        "angst"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E07-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Handon at the Mystic Grill"
+          },
+          {
+            "id": "L-S2E07-C01-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Handon dancing"
+          },
+          {
+            "id": "L-S2E07-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Handon first kiss"
+          },
+          {
+            "id": "L-S2E07-C01-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Landon singing to Hope"
+          },
+          {
+            "id": "L-S2E07-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Have you ever had a memory where you can't tell if it actually happened or if it was just a dream? Your head can't make sense of it, so you let it go. You convince yourself it was your imagination."
+          },
+          {
+            "id": "L-S2E07-C01-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What if you realize it wasn't a dream at all? It was real. It was all real."
+          },
+          {
+            "id": "L-S2E07-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And so you start a new day, armed with everything you never thought you needed to know... burdened with a choice no one should have to make... knowing all eyes are on you to do the right thing."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E07-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Handon at the Mystic Grill"
+          },
+          {
+            "id": "L-S2E07-C01-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Handon dancing"
+          },
+          {
+            "id": "L-S2E07-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Handon first kiss"
+          },
+          {
+            "id": "L-S2E07-C01-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "flashback of Landon singing to Hope"
+          },
+          {
+            "id": "L-S2E07-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Have you ever had a memory where you can't tell if it actually happened or if it was just a dream? Your head can't make sense of it, so you let it go. You convince yourself it was your imagination."
+          },
+          {
+            "id": "L-S2E07-C01-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What if you realize it wasn't a dream at all? It was real. It was all real."
+          },
+          {
+            "id": "L-S2E07-C01-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And so you start a new day, armed with everything you never thought you needed to know... burdened with a choice no one should have to make... knowing all eyes are on you to do the right thing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E07-C02",
+      "title": "SimuLandon tells Hope he loves her.",
+      "description": "As Hope is about to leave for New Orleans, a Landon runs up and begs her not to go. She tells him she loves him too, not knowing he is a copy made from Landon's subconscious.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "SimuLandon"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "love",
+        "confession",
+        "goodbye"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E07-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Hope! Don't go. I need you."
+          },
+          {
+            "id": "L-S2E07-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, I-I have to figure out a... a way to close the portal."
+          },
+          {
+            "id": "L-S2E07-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Then I'll come with you. I just couldn't stand losing you again. I love you, Hope Mikaelson."
+          },
+          {
+            "id": "L-S2E07-C02-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, I love you, too. Of course I love you."
+          },
+          {
+            "id": "L-S2E07-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E07-C02-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Aw, hell. You had to find Hope?"
+          },
+          {
+            "id": "L-S2E07-C02-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What the hell is happening?"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E07-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Hope! Don't go. I need you."
+          },
+          {
+            "id": "L-S2E07-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, I-I have to figure out a... a way to close the portal."
+          },
+          {
+            "id": "L-S2E07-C02-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Then I'll come with you. I just couldn't stand losing you again. I love you, Hope Mikaelson."
+          },
+          {
+            "id": "L-S2E07-C02-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, I love you, too. Of course I love you."
+          },
+          {
+            "id": "L-S2E07-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E07-C03",
+      "title": "Landon explains SimuLandon to Hope.",
+      "description": "Landon explains that SimuLandon is a golem made from his subconscious, meant to carry Hope's blood into the portal, while he keeps telling Hope he loves her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Landon",
+          "version": "SimuLandon"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "love",
+        "comedy"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E07-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We are calling the other one SimuLandon. I used the prism to manifest my subconscious, and then Josie turned him into a golem. Show her."
+          },
+          {
+            "id": "L-S2E07-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Oh."
+          },
+          {
+            "id": "L-S2E07-C03-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We're gonna use him as a decoy. We'll let the sphinx take him into the portal."
+          },
+          {
+            "id": "L-S2E07-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I don't want to go in the portal. I want to stay here with Hope."
+          },
+          {
+            "id": "L-S2E07-C03-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, I think we need to talk to your subconscious about personal space."
+          },
+          {
+            "id": "L-S2E07-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I didn't realize he'd be so vocal. And fast. He ran away after we created him. I guess to find you."
+          },
+          {
+            "id": "L-S2E07-C03-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E07-C03-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E07-C03-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Simu-me will disintegrate."
+          },
+          {
+            "id": "L-S2E07-C03-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "What? Uh, no one told me that part!"
+          },
+          {
+            "id": "L-S2E07-C03-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "How does that close the portal?"
+          },
+          {
+            "id": "L-S2E07-C03-T12",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "That's where you come in."
+          },
+          {
+            "id": "L-S2E07-C03-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "My blood's not enough to keep the portal closed. I have to activate my vampire side. Malivore is just gonna spit him out and create a new portal."
+          },
+          {
+            "id": "L-S2E07-C03-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Not if he disintegrates before there's anything to spit out. Portal closed, no new portal opens. Both problems solved. Life goes back to normal... ish."
+          },
+          {
+            "id": "L-S2E07-C03-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I love you, Hope."
+          },
+          {
+            "id": "L-S2E07-C03-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Please stop saying that."
+          },
+          {
+            "id": "L-S2E07-C03-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I can't help it. I want to shout it from the rooftops. I love Hope..."
+          },
+          {
+            "id": "L-S2E07-C03-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Ad somnum."
+          },
+          {
+            "id": "L-S2E07-C03-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "hiding smile"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E07-C03-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I love you, Hope."
+          },
+          {
+            "id": "L-S2E07-C03-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Please stop saying that."
+          },
+          {
+            "id": "L-S2E07-C03-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I can't help it. I want to shout it from the rooftops. I love Hope..."
+          },
+          {
+            "id": "L-S2E07-C03-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Ad somnum."
+          },
+          {
+            "id": "L-S2E07-C03-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "hiding smile"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E07-C04",
+      "title": "Hope asks Landon to tell her how he feels.",
+      "description": "While preparing SimuLandon, Hope confronts Landon for avoiding her. He says it is about doing the right thing, not about what he feels, and it is SimuLandon who answers for him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Landon",
+          "version": "SimuLandon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "love",
+        "angst"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E07-C04-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Ready?"
+          },
+          {
+            "id": "L-S2E07-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So we're not gonna talk about how you walked away from me after we took down the Croatoan?"
+          },
+          {
+            "id": "L-S2E07-C04-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I didn't have much to say. Welcome back?"
+          },
+          {
+            "id": "L-S2E07-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hm. He has plenty to say."
+          },
+          {
+            "id": "L-S2E07-C04-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "He is my subconscious. He has no filter. I am a complex, evolved being last time I checked."
+          },
+          {
+            "id": "L-S2E07-C04-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Evolved people talk to one other. They don't just stalk off when things get complicated. So why don't you stop avoiding me?"
+          },
+          {
+            "id": "L-S2E07-C04-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm not avoiding you. We're literally in the same room."
+          },
+          {
+            "id": "L-S2E07-C04-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, you know what I mean. Tell me how you feel."
+          },
+          {
+            "id": "L-S2E07-C04-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's not about what I feel. It's about doing the right thing."
+          },
+          {
+            "id": "L-S2E07-C04-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "There's a shelf life on doing the right thing. If you wait too long, it's just wrong."
+          },
+          {
+            "id": "L-S2E07-C04-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So you don't have anything else you want to say to me?"
+          },
+          {
+            "id": "L-S2E07-C04-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I love you. So much."
+          },
+          {
+            "id": "L-S2E07-C04-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E07-C04-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, you know what I mean. Tell me how you feel."
+          },
+          {
+            "id": "L-S2E07-C04-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's not about what I feel. It's about doing the right thing."
+          },
+          {
+            "id": "L-S2E07-C04-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "There's a shelf life on doing the right thing. If you wait too long, it's just wrong."
+          },
+          {
+            "id": "L-S2E07-C04-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So you don't have anything else you want to say to me?"
+          },
+          {
+            "id": "L-S2E07-C04-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I love you. So much."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E07-C05",
+      "title": "SimuLandon tells Hope what Landon is afraid to say.",
+      "description": "While Hope draws her blood for him, SimuLandon asks why she is leaving town. He tells her she belongs at the school and that Landon is too much of a coward to say he wants her to stay.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "SimuLandon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "love",
+        "sacrifice",
+        "protect",
+        "comfort"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E07-C05-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I didn't know I was so afraid of needles. I guess I'll have to add that to the list. Small spaces, um, bugs with wings, doors on hinges... Sorry. Am I talking too mu... I just get... I get chatty when I'm nervous."
+          },
+          {
+            "id": "L-S2E07-C05-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why don't we just sit and wait? Okay? In silence?"
+          },
+          {
+            "id": "L-S2E07-C05-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Okay."
+          },
+          {
+            "id": "L-S2E07-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "So, why you leaving town?"
+          },
+          {
+            "id": "L-S2E07-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You afraid of the quiet, too?"
+          },
+          {
+            "id": "L-S2E07-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I'm dead soon. What's the harm in talking?"
+          },
+          {
+            "id": "L-S2E07-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't want to stay because I... I don't want to be where I'm not welcome."
+          },
+          {
+            "id": "L-S2E07-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "But you belong here. It's a school for vampires, witches and werewolves. You're all three."
+          },
+          {
+            "id": "L-S2E07-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, I know. On paper it makes sense, but in reality, it... it's complicated."
+          },
+          {
+            "id": "L-S2E07-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "What's so complicated? Your friends don't want you to have to go into the portal, so they created me to die."
+          },
+          {
+            "id": "L-S2E07-C05-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Don't say that."
+          },
+          {
+            "id": "L-S2E07-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "It's okay. It's true. It's scary as hell, but I'm gonna do whatever it takes to keep you safe."
+          },
+          {
+            "id": "L-S2E07-C05-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You really do say whatever's on your mind."
+          },
+          {
+            "id": "L-S2E07-C05-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "It must be the subconscious prism thing. I'm sorry Landon doesn't. I'm not afraid to admit that I'm a coward, but he is. That's why he can't say he wants you to stay. That's why he's not here right now sharing how he feels about you."
+          },
+          {
+            "id": "L-S2E07-C05-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Can we hold hands before Lizzie comes to take me away?"
+          },
+          {
+            "id": "L-S2E07-C05-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "kind smile"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E07-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "What's so complicated? Your friends don't want you to have to go into the portal, so they created me to die."
+          },
+          {
+            "id": "L-S2E07-C05-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Don't say that."
+          },
+          {
+            "id": "L-S2E07-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "It's okay. It's true. It's scary as hell, but I'm gonna do whatever it takes to keep you safe."
+          },
+          {
+            "id": "L-S2E07-C05-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You really do say whatever's on your mind."
+          },
+          {
+            "id": "L-S2E07-C05-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "It must be the subconscious prism thing. I'm sorry Landon doesn't. I'm not afraid to admit that I'm a coward, but he is. That's why he can't say he wants you to stay. That's why he's not here right now sharing how he feels about you."
+          },
+          {
+            "id": "L-S2E07-C05-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Can we hold hands before Lizzie comes to take me away?"
+          },
+          {
+            "id": "L-S2E07-C05-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "kind smile"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E07-C06",
+      "title": "SimuLandon sacrifices himself to save Hope from Clarke.",
+      "description": "Clarke corners a weakened Hope to take over her body with the trident. SimuLandon comes to her rescue, fights him and offers himself in her place.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "SimuLandon"
+        },
+        {
+          "character": "Clarke",
+          "version": "Clarke"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "sacrifice",
+        "protect",
+        "love"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E07-C06-T01",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Nowhere to go, no one to help you."
+          },
+          {
+            "id": "L-S2E07-C06-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Hello, brother."
+          },
+          {
+            "id": "L-S2E07-C06-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "action": "punches Clarke"
+          },
+          {
+            "id": "L-S2E07-C06-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I heard you scream. Are you hurt?"
+          },
+          {
+            "id": "L-S2E07-C06-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Better now that you're here."
+          },
+          {
+            "id": "L-S2E07-C06-T06",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "You should have jumped into the pit instead of your little girlfriend. Are you guys back together? The relationship drama... it's so hard to keep up with sometimes."
+          },
+          {
+            "id": "L-S2E07-C06-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So tired of hearing your voice."
+          },
+          {
+            "id": "L-S2E07-C06-T08",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Don't worry. You won't have to hear it much longer. I just don't get it."
+          },
+          {
+            "id": "L-S2E07-C06-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Oh. Get what?"
+          },
+          {
+            "id": "L-S2E07-C06-T10",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "What our father sees in you. Sure, you can regenerate, but you have no magic. Someone always has to swoop in and save you. You're pathetic."
+          },
+          {
+            "id": "L-S2E07-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I don't care what you or our father think of me. I only care about her."
+          },
+          {
+            "id": "L-S2E07-C06-T12",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Sorry, Hope. This is family business."
+          },
+          {
+            "id": "L-S2E07-C06-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay, I'm impressed."
+          },
+          {
+            "id": "L-S2E07-C06-T14",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Don't be. He'll always be the inferior son."
+          },
+          {
+            "id": "L-S2E07-C06-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Well, it doesn't look like it from this angle."
+          },
+          {
+            "id": "L-S2E07-C06-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Just do it. You don't need her. You need me. Do it."
+          },
+          {
+            "id": "L-S2E07-C06-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, no!"
+          },
+          {
+            "id": "L-S2E07-C06-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "This is for you, Hope."
+          },
+          {
+            "id": "L-S2E07-C06-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No!"
+          },
+          {
+            "id": "L-S2E07-C06-T20",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Not what I planned, but at least phoenixes are immortal."
+          },
+          {
+            "id": "L-S2E07-C06-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Now you die tomorrow. Boom. I rule."
+          },
+          {
+            "id": "L-S2E07-C06-T22",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Oh, come on. Well this just took a turn."
+          },
+          {
+            "id": "L-S2E07-C06-T23",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "breaks the chains"
+          },
+          {
+            "id": "L-S2E07-C06-T24",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "You're gonna whammy me, aren't you?"
+          },
+          {
+            "id": "L-S2E07-C06-T25",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I am."
+          },
+          {
+            "id": "L-S2E07-C06-T26",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Remember that I'm already dealing with the trauma of knowing I'm dying."
+          },
+          {
+            "id": "L-S2E07-C06-T27",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I will."
+          },
+          {
+            "id": "L-S2E07-C06-T28",
+            "speaker": {
+              "character": "Clarke",
+              "version": "Clarke"
+            },
+            "text": "Kind of makes the whole sacrifice a little less romantic, though, no? I mean, where is the real deal? He must be off with his other girlfr..."
+          },
+          {
+            "id": "L-S2E07-C06-T29",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "knocks off Clarke"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E07-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "I don't care what you or our father think of me. I only care about her."
+          },
+          {
+            "id": "L-S2E07-C06-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "Just do it. You don't need her. You need me. Do it."
+          },
+          {
+            "id": "L-S2E07-C06-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, no!"
+          },
+          {
+            "id": "L-S2E07-C06-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "SimuLandon"
+            },
+            "text": "This is for you, Hope."
+          },
+          {
+            "id": "L-S2E07-C06-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E07-C07",
+      "title": "Landon's goodbye letter.",
+      "description": "Landon leaves Mystic Falls with Rafael and explains why in a letter to Hope and Josie: the monsters will follow him, and he is at the center of all the heartache.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Hope",
+          "version": "Hope"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "letter",
+      "tags": [
+        "letter",
+        "goodbye",
+        "sacrifice",
+        "angst",
+        "protect"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E07-C07-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I learned today that, no matter how hard we try, we can't solve the monster problem. I'm sorry to do this. I really wanted to avoid this pain, but it's been long enough."
+          },
+          {
+            "id": "L-S2E07-C07-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And sometimes pain is unavoidable."
+          },
+          {
+            "id": "L-S2E07-C07-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I've come to the realization that monsters aren't the only problem. I'm the problem, too. I am at the center of all this heartache."
+          },
+          {
+            "id": "L-S2E07-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So I have to leave Mystic Falls, knowing that they'll follow me. I have to let you live your lives without monsters and without me."
+          },
+          {
+            "id": "L-S2E07-C07-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I hope you can forgive me for this someday, but I understand if you don't. With love and regret, Landon."
+          },
+          {
+            "id": "L-S2E07-C07-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "cries"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E07-C07-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I've come to the realization that monsters aren't the only problem. I'm the problem, too. I am at the center of all this heartache."
+          },
+          {
+            "id": "L-S2E07-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "So I have to leave Mystic Falls, knowing that they'll follow me. I have to let you live your lives without monsters and without me."
+          },
+          {
+            "id": "L-S2E07-C07-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I hope you can forgive me for this someday, but I understand if you don't. With love and regret, Landon."
+          }
+        ]
+      }
+    }
+  ]
+}

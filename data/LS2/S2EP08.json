@@ -1,0 +1,741 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 8,
+  "episode_id": "L-S2E08",
+  "episode_title": "This Christmas was surprisingly violent",
+  "conversations": [
+    {
+      "id": "L-S2E08-C01",
+      "title": "Hope sends Lizzie to find Landon.",
+      "description": "With a new monster in town, Hope asks Lizzie to track Landon down and keep him safe.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "protect",
+        "search",
+        "worry"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E08-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Something to travel in? I'm gonna need you to hit the road."
+          },
+          {
+            "id": "L-S2E08-C01-T02",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "You want me to quest for Frodo Baggins, don't you?"
+          },
+          {
+            "id": "L-S2E08-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We don't know what they want, or even who they're working for anymore. I just need Landon to be safe."
+          },
+          {
+            "id": "L-S2E08-C01-T04",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Fine. A little locator spell and then off to Mordor I go."
+          },
+          {
+            "id": "L-S2E08-C01-T05",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Ho, ho, ho! I come bearing gifts. More like a peace offering, really."
+          },
+          {
+            "id": "L-S2E08-C01-T06",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "I thought that the three of us had already made peace."
+          },
+          {
+            "id": "L-S2E08-C01-T07",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Well, this whole school year, I have been really naughty. I've not been the supportive sister that I want to be."
+          },
+          {
+            "id": "L-S2E08-C01-T08",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "And then there's Landon. It was wrong of me to be jealous when his subconscious just chose you. But thankfully, Christmas is all about forgiveness, right? Cookie?"
+          },
+          {
+            "id": "L-S2E08-C01-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Run. What kind of cookie?"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E08-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Something to travel in? I'm gonna need you to hit the road."
+          },
+          {
+            "id": "L-S2E08-C01-T02",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "You want me to quest for Frodo Baggins, don't you?  I thought that the monsters weren't after him now."
+          },
+          {
+            "id": "L-S2E08-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We don't know what they want, or even who they're working for anymore. I just need Landon to be safe."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E08-C02",
+      "title": "Lizzie asks Landon to come back and face Hope and Josie.",
+      "description": "Lizzie catches up with Landon and calls him out for leaving Hope and Josie without explaining why. She asks him to come back to the school.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        },
+        {
+          "character": "Sebastian",
+          "version": "Sebastian"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "goodbye",
+        "protect",
+        "advice"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E08-C02-T01",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Leaving Hope and Josie without having the balls to say why was one thing, but now you're ditching Raf?"
+          },
+          {
+            "id": "L-S2E08-C02-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "As long as monsters are after me, he's in danger, too. I needed to find someplace where I knew he'd be safe."
+          },
+          {
+            "id": "L-S2E08-C02-T03",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "So what is your plan, Huck Finn... Ride the rails?"
+          },
+          {
+            "id": "L-S2E08-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "My only plan is to make sure that nobody else gets hurt because of me, because that really sucks."
+          },
+          {
+            "id": "L-S2E08-C02-T05",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Come back to the school with me, face Hope and Josie, and then they will help you face whatever comes next. We all will. What do you say?"
+          },
+          {
+            "id": "L-S2E08-C02-T06",
+            "speaker": {
+              "character": "Sebastian",
+              "version": "Sebastian"
+            },
+            "text": "I say you people talk entirely too much when action is required."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E08-C02-T01",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Leaving Hope and Josie without having the balls to say why was one thing, but now you're ditching Raf?"
+          },
+          {
+            "id": "L-S2E08-C02-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "As long as monsters are after me, he's in danger, too. I needed to find someplace where I knew he'd be safe."
+          },
+          {
+            "id": "L-S2E08-C02-T03",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "So what is your plan, Huck Finn... Ride the rails?"
+          },
+          {
+            "id": "L-S2E08-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "My only plan is to make sure that nobody else gets hurt because of me, because that really sucks."
+          },
+          {
+            "id": "L-S2E08-C02-T05",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Come back to the school with me, face Hope and Josie, and then they will help you face whatever comes next. We all will. What do you say?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E08-C03",
+      "title": "Hope receives her Christmas gift... Landon coming back.",
+      "description": "Santa gives Hope her gift... Landon returns to the school. He asks her to wait for him because he has something to tell her, but first he needs to talk to Josie.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Santa Claus",
+          "version": "Santa Claus"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "reunion",
+        "banter"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E08-C03-T01",
+            "speaker": {
+              "character": "Santa Claus",
+              "version": "Santa Claus"
+            },
+            "text": "Ho, ho, ho! Merry Christmas, Hope!"
+          },
+          {
+            "id": "L-S2E08-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "appears"
+          },
+          {
+            "id": "L-S2E08-C03-T03",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "stare"
+          },
+          {
+            "id": "L-S2E08-C03-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "This is the part where you say something."
+          },
+          {
+            "id": "L-S2E08-C03-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Or run."
+          },
+          {
+            "id": "L-S2E08-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's both. Can you please just wait right here? I have something that I really need to tell you. I... I just can't until I've had another conversation first."
+          },
+          {
+            "id": "L-S2E08-C03-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "nods shyly"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E08-C03-T01",
+            "speaker": {
+              "character": "Santa Claus",
+              "version": "Santa Claus"
+            },
+            "text": "Ho, ho, ho! Merry Christmas, Hope!"
+          },
+          {
+            "id": "L-S2E08-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "appears"
+          },
+          {
+            "id": "L-S2E08-C03-T03",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "stare"
+          },
+          {
+            "id": "L-S2E08-C03-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "This is the part where you say something."
+          },
+          {
+            "id": "L-S2E08-C03-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Or run."
+          },
+          {
+            "id": "L-S2E08-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's both. Can you please just wait right here? I have something that I really need to tell you. I... I just can't until I've had another conversation first."
+          },
+          {
+            "id": "L-S2E08-C03-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "nods shyly"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E08-C04",
+      "title": "Landon and Josie obviously finally officially break up.",
+      "description": "Landon officially breaks up with Josie, and Josie says it for him: he is in love with Hope.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "choice"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E08-C04-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey, Jo. Merry Christmas, I guess?"
+          },
+          {
+            "id": "L-S2E08-C04-T02",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "You know what's weird about Christmas? It's, um... the happiest and the saddest."
+          },
+          {
+            "id": "L-S2E08-C04-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Can we start with the happy?"
+          },
+          {
+            "id": "L-S2E08-C04-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "A person could not ask for a better partner, a better conscience. You are literally the best person that's ever had the poor judgement to hang out with me."
+          },
+          {
+            "id": "L-S2E08-C04-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I love the way you laugh. And your upside down mouth. The way your face looks when you watch movies and..."
+          },
+          {
+            "id": "L-S2E08-C04-T06",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "You're in love with Hope."
+          },
+          {
+            "id": "L-S2E08-C04-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "But that doesn't mean I regret a single second. Because you are beautiful. And special. And perfect. And doing the right thing should never be this hard."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E08-C04-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I love the way you laugh. And your upside down mouth. The way your face looks when you watch movies and..."
+          },
+          {
+            "id": "L-S2E08-C04-T06",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "You're in love with Hope."
+          },
+          {
+            "id": "L-S2E08-C04-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "But that doesn't mean I regret a single second. Because you are beautiful. And special. And perfect. And doing the right thing should never be this hard."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E08-C05",
+      "title": "Handon says they love each other and kiss.",
+      "description": "Landon tells Hope that leaving was a mistake and that he loved her when he couldn't remember her and even when he was dead. Hope says it back.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "confession",
+        "love",
+        "reunion",
+        "memories",
+        "happy",
+        "kiss"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E08-C05-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I thought leaving was the right thing to do. But I was wrong."
+          },
+          {
+            "id": "L-S2E08-C05-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "gently strokes her hair"
+          },
+          {
+            "id": "L-S2E08-C05-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That's what I came back to say."
+          },
+          {
+            "id": "L-S2E08-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I love you, Hope Mikaelson. I-I loved you when I couldn't remember you. I love you as I'm standing here right now."
+          },
+          {
+            "id": "L-S2E08-C05-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope, I loved you when I was dead. I think I always will."
+          },
+          {
+            "id": "L-S2E08-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "This is the part where you say..."
+          },
+          {
+            "id": "L-S2E08-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That I love you, too, Landon Kirby. God, I loved you when you didn't even know it."
+          },
+          {
+            "id": "L-S2E08-C05-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Despite the way you've looked in a football uniform."
+          },
+          {
+            "id": "L-S2E08-C05-T09",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S2E08-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Then there's only one thing left to say."
+          },
+          {
+            "id": "L-S2E08-C05-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Look up."
+          },
+          {
+            "id": "L-S2E08-C05-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles at seeing the mistletoe"
+          },
+          {
+            "id": "L-S2E08-C05-T13",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E08-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I love you, Hope Mikaelson. I-I loved you when I couldn't remember you. I love you as I'm standing here right now."
+          },
+          {
+            "id": "L-S2E08-C05-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope, I loved you when I was dead. I think I always will."
+          },
+          {
+            "id": "L-S2E08-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "This is the part where you say..."
+          },
+          {
+            "id": "L-S2E08-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That I love you, too, Landon Kirby. God, I loved you when you didn't even know it."
+          },
+          {
+            "id": "L-S2E08-C05-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Despite the way you've looked in a football uniform."
+          },
+          {
+            "id": "L-S2E08-C05-T09",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S2E08-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Then there's only one thing left to say."
+          },
+          {
+            "id": "L-S2E08-C05-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Look up."
+          },
+          {
+            "id": "L-S2E08-C05-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles at seeing the mistletoe"
+          },
+          {
+            "id": "L-S2E08-C05-T13",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
+      }
+    }
+  ]
+}
