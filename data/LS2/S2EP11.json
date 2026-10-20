@@ -1,0 +1,2126 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 11,
+  "episode_id": "L-S2E11",
+  "episode_title": "What Cupid problem?",
+  "conversations": [
+    {
+      "id": "L-S2E11-C01",
+      "title": "Landon fights Pothos.",
+      "description": "Landon tries to take down Pothos on his own until Hope arrives.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Pothos",
+          "version": "Pothos"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E11-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Phoenix powers, activate!"
+          },
+          {
+            "id": "L-S2E11-C01-T02",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Damn, kid, get off of me!"
+          },
+          {
+            "id": "L-S2E11-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Not so fast!"
+          },
+          {
+            "id": "L-S2E11-C01-T04",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Ow, my wing! You idiot!"
+          },
+          {
+            "id": "L-S2E11-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No, no, don't-don't shoot!"
+          },
+          {
+            "id": "L-S2E11-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "Hope catches the arrow"
+          },
+          {
+            "id": "L-S2E11-C01-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Who the hell are you?"
+          },
+          {
+            "id": "L-S2E11-C01-T08",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Really?"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E11-C01-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Phoenix powers, activate!"
+          },
+          {
+            "id": "L-S2E11-C01-T02",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Damn, kid, get off of me!"
+          },
+          {
+            "id": "L-S2E11-C01-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Not so fast!"
+          },
+          {
+            "id": "L-S2E11-C01-T04",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Ow, my wing! You idiot!"
+          },
+          {
+            "id": "L-S2E11-C01-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No, no, don't-don't shoot!"
+          },
+          {
+            "id": "L-S2E11-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "Hope catches the arrow"
+          },
+          {
+            "id": "L-S2E11-C01-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Who the hell are you?"
+          },
+          {
+            "id": "L-S2E11-C01-T08",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Really?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E11-C02",
+      "title": "Hope tells Landon she doesn't want to choose between saving him and stopping something terrible.",
+      "description": "Hope traps Pothos in a barrier spell, and tells Landon that if he keeps trying to be the hero, one day she will have to choose between saving him and stopping something terrible. She then leaves him in charge of watching Pothos.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Pothos",
+          "version": "Pothos"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "protect",
+        "worry",
+        "boyfriend/girlfriend"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E11-C02-T01",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "You monsters. You have no idea how long it took me to grow those."
+          },
+          {
+            "id": "L-S2E11-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Well, next time it'll be something that won't grow back, unless you tell us why you're here. Do you serve Malivore? Or someone else?"
+          },
+          {
+            "id": "L-S2E11-C02-T03",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "I serve the highest power of all... love."
+          },
+          {
+            "id": "L-S2E11-C02-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Where were you trying to take my boyfriend?"
+          },
+          {
+            "id": "L-S2E11-C02-T05",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "That guy's your boyfriend?"
+          },
+          {
+            "id": "L-S2E11-C02-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "death stare to Pothos"
+          },
+          {
+            "id": "L-S2E11-C02-T07",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Uh, I wasn't trying to take him anywhere. He started it."
+          },
+          {
+            "id": "L-S2E11-C02-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey, no, he... he was flying around, shooting people..."
+          },
+          {
+            "id": "L-S2E11-C02-T09",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Yeah, with love arrows, they're harmless! Check the quiver... every arrow in there only helps people express the love they already feel inside. Most people say thank you."
+          },
+          {
+            "id": "L-S2E11-C02-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why didn't you come get me?"
+          },
+          {
+            "id": "L-S2E11-C02-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, I-I-I knew you were busy with Alyssa. I was just trying to help."
+          },
+          {
+            "id": "L-S2E11-C02-T12",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "A hero the likes of which I haven't seen since Hercules."
+          },
+          {
+            "id": "L-S2E11-C02-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Would you just stay out of it, please?"
+          },
+          {
+            "id": "L-S2E11-C02-T14",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Love to, thanks."
+          },
+          {
+            "id": "L-S2E11-C02-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're not going anywhere. That's a barrier spell. Think of it like a force field."
+          },
+          {
+            "id": "L-S2E11-C02-T16",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Your girlfriend's kind of impressive."
+          },
+          {
+            "id": "L-S2E11-C02-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're lucky that I found you when I did. Wade said that you were outside, trying to fly?"
+          },
+          {
+            "id": "L-S2E11-C02-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah. It seemed more reasonable than it sounds coming out of your mouth."
+          },
+          {
+            "id": "L-S2E11-C02-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I know that you wanted to help. But if you keep trying to be the hero, one day I'm gonna have to choose between saving you and stopping something terrible from happening. And I don't want to think about what that day looks like."
+          },
+          {
+            "id": "L-S2E11-C02-T20",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What does this say?"
+          },
+          {
+            "id": "L-S2E11-C02-T21",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Uh, \"puppy love.\" Well, that's the modern translation. In Greek it's more like..."
+          },
+          {
+            "id": "L-S2E11-C02-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Don't care. What about this one?"
+          },
+          {
+            "id": "L-S2E11-C02-T23",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "\"Self love.\" I call it the Narcissus."
+          },
+          {
+            "id": "L-S2E11-C02-T24",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Still want to help?"
+          },
+          {
+            "id": "L-S2E11-C02-T25",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Absolutely."
+          },
+          {
+            "id": "L-S2E11-C02-T26",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay, think you can handle the Cupid problem?"
+          },
+          {
+            "id": "L-S2E11-C02-T27",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Hey, hey. What Cupid problem?"
+          },
+          {
+            "id": "L-S2E11-C02-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Exactly. Just watch him till I get back, okay?"
+          },
+          {
+            "id": "L-S2E11-C02-T29",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "nods"
+          },
+          {
+            "id": "L-S2E11-C02-T30",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "And if you want to prove that you mean us no harm... what's the strongest one of those you've got, to melt the coldest, bitchiest heart?"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E11-C02-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Where were you trying to take my boyfriend?"
+          },
+          {
+            "id": "L-S2E11-C02-T05",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "That guy's your boyfriend?"
+          },
+          {
+            "id": "L-S2E11-C02-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "death stare to Pothos"
+          },
+          {
+            "id": "L-S2E11-C02-T07",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Uh, I wasn't trying to take him anywhere. He started it."
+          },
+          {
+            "id": "L-S2E11-C02-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey, no, he... he was flying around, shooting people..."
+          },
+          {
+            "id": "L-S2E11-C02-T09",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Yeah, with love arrows, they're harmless! Check the quiver... every arrow in there only helps people express the love they already feel inside. Most people say thank you."
+          },
+          {
+            "id": "L-S2E11-C02-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why didn't you come get me?"
+          },
+          {
+            "id": "L-S2E11-C02-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, I-I-I knew you were busy with Alyssa. I was just trying to help."
+          },
+          {
+            "id": "L-S2E11-C02-T12",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "A hero the likes of which I haven't seen since Hercules."
+          },
+          {
+            "id": "L-S2E11-C02-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Would you just stay out of it, please?"
+          },
+          {
+            "id": "L-S2E11-C02-T14",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Love to, thanks."
+          },
+          {
+            "id": "L-S2E11-C02-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're not going anywhere. That's a barrier spell. Think of it like a force field."
+          },
+          {
+            "id": "L-S2E11-C02-T16",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Your girlfriend's kind of impressive."
+          },
+          {
+            "id": "L-S2E11-C02-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're lucky that I found you when I did. Wade said that you were outside, trying to fly?"
+          },
+          {
+            "id": "L-S2E11-C02-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah. It seemed more reasonable than it sounds coming out of your mouth."
+          },
+          {
+            "id": "L-S2E11-C02-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I know that you wanted to help. But if you keep trying to be the hero, one day I'm gonna have to choose between saving you and stopping something terrible from happening. And I don't want to think about what that day looks like."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E11-C03",
+      "title": "Landon tells Pothos he wants to earn Hope's love.",
+      "description": "Stuck guarding Pothos, Landon admits that Hope wears the pants in their relationship. He wishes she wouldn't treat him like something fragile and wants to earn the way she looks at him, not get it from an arrow.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Pothos",
+          "version": "Pothos"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "compliment"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E11-C03-T01",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Looking for something to fix your relationship woes?"
+          },
+          {
+            "id": "L-S2E11-C03-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't have relationship woes."
+          },
+          {
+            "id": "L-S2E11-C03-T03",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "You're talking to the god of love, bro. Come on. We're both stuck here; the least you could do is entertain me."
+          },
+          {
+            "id": "L-S2E11-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay. You're a god. Were you ever in love with a mortal? Like-like someone way weaker than you?"
+          },
+          {
+            "id": "L-S2E11-C03-T05",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Nah, I try not to mix business with pleasure."
+          },
+          {
+            "id": "L-S2E11-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, that's me and Hope. She kind of wears the pants in our relationship."
+          },
+          {
+            "id": "L-S2E11-C03-T07",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Oh. Have you tried both not wearing pants? It's very freeing."
+          },
+          {
+            "id": "L-S2E11-C03-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay, okay, all right, look."
+          },
+          {
+            "id": "L-S2E11-C03-T09",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "I'm listening."
+          },
+          {
+            "id": "L-S2E11-C03-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "She's just so incredible, and I'm so me."
+          },
+          {
+            "id": "L-S2E11-C03-T11",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Yeah. I get that."
+          },
+          {
+            "id": "L-S2E11-C03-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And I know I may never be as-as powerful as she is, but I just, I just wish she wouldn't treat me like some fragile object, always on the verge of breaking. I want her to look at me the same way I look at her."
+          },
+          {
+            "id": "L-S2E11-C03-T13",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Yeah, the red feathers. That's the one you're looking for. Hero worship."
+          },
+          {
+            "id": "L-S2E11-C03-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No. I want what she feels for me to be real."
+          },
+          {
+            "id": "L-S2E11-C03-T15",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Hey, hey, my-my arrows are the real deal, kid."
+          },
+          {
+            "id": "L-S2E11-C03-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay, I just mean I want to earn it."
+          },
+          {
+            "id": "L-S2E11-C03-T17",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Uh, s-sorry, bud, I got to fly. Does this force field have ceilings? No?"
+          },
+          {
+            "id": "L-S2E11-C03-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Two can play at that game."
+          },
+          {
+            "id": "L-S2E11-C03-T19",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "tries to fly"
+          },
+          {
+            "id": "L-S2E11-C03-T20",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Damn it."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E11-C03-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, that's me and Hope. She kind of wears the pants in our relationship."
+          },
+          {
+            "id": "L-S2E11-C03-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "She's just so incredible, and I'm so me."
+          },
+          {
+            "id": "L-S2E11-C03-T11",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Yeah. I get that."
+          },
+          {
+            "id": "L-S2E11-C03-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And I know I may never be as-as powerful as she is, but I just, I just wish she wouldn't treat me like some fragile object, always on the verge of breaking. I want her to look at me the same way I look at her."
+          },
+          {
+            "id": "L-S2E11-C03-T13",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Yeah, the red feathers. That's the one you're looking for. Hero worship."
+          },
+          {
+            "id": "L-S2E11-C03-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No. I want what she feels for me to be real."
+          },
+          {
+            "id": "L-S2E11-C03-T15",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Hey, hey, my-my arrows are the real deal, kid."
+          },
+          {
+            "id": "L-S2E11-C03-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay, I just mean I want to earn it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E11-C04",
+      "title": "Hope finds Landon's Super Squad fighting Pothos.",
+      "description": "Landon, Kaleb and Wade try to shoot Pothos with his own arrows at the bar when Hope shows up, finishes the job herself and tells Landon they will talk about it later.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Pothos",
+          "version": "Pothos"
+        },
+        {
+          "character": "Wade",
+          "version": "Wade"
+        },
+        {
+          "character": "Kaleb",
+          "version": "Kaleb"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "hero",
+        "monster",
+        "argument"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E11-C04-T01",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Come on, Landon. The book says we only have to shoot him with one of his arrows to take him out."
+          },
+          {
+            "id": "L-S2E11-C04-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm trying, okay?"
+          },
+          {
+            "id": "L-S2E11-C04-T03",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Okay. Come on, just one."
+          },
+          {
+            "id": "L-S2E11-C04-T04",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Blind love. One of my best. Makes lovers' hearts nice and plump for the picking. Delicious."
+          },
+          {
+            "id": "L-S2E11-C04-T05",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "Guys."
+          },
+          {
+            "id": "L-S2E11-C04-T06",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "What, Wade?"
+          },
+          {
+            "id": "L-S2E11-C04-T07",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "I can't see."
+          },
+          {
+            "id": "L-S2E11-C04-T08",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Nice try. Come on! Do another."
+          },
+          {
+            "id": "L-S2E11-C04-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope."
+          },
+          {
+            "id": "L-S2E11-C04-T10",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Uh-oh. Fun's over."
+          },
+          {
+            "id": "L-S2E11-C04-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, we were... I was just, um..."
+          },
+          {
+            "id": "L-S2E11-C04-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Just trying to help?"
+          },
+          {
+            "id": "L-S2E11-C04-T13",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Look, Cupid's arrows are his weakness, so we were just trying to..."
+          },
+          {
+            "id": "L-S2E11-C04-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Exsurgo."
+          },
+          {
+            "id": "L-S2E11-C04-T15",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "No fair."
+          },
+          {
+            "id": "L-S2E11-C04-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "throws the arrow to Pothos"
+          },
+          {
+            "id": "L-S2E11-C04-T17",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Okay."
+          },
+          {
+            "id": "L-S2E11-C04-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope. Hope, wait."
+          },
+          {
+            "id": "L-S2E11-C04-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We will talk about this later."
+          },
+          {
+            "id": "L-S2E11-C04-T20",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "hits his head against the wall"
+          },
+          {
+            "id": "L-S2E11-C04-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Wade, you still can't see anything?"
+          },
+          {
+            "id": "L-S2E11-C04-T22",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "Yeah, it's-it's that arrow."
+          },
+          {
+            "id": "L-S2E11-C04-T23",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I thought the research said that the magic would wear off after we killed him."
+          },
+          {
+            "id": "L-S2E11-C04-T24",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Uh, about that. Looks like Cupid flew the coop."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E11-C04-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope."
+          },
+          {
+            "id": "L-S2E11-C04-T10",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Uh-oh. Fun's over."
+          },
+          {
+            "id": "L-S2E11-C04-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, we were... I was just, um..."
+          },
+          {
+            "id": "L-S2E11-C04-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Just trying to help?"
+          },
+          {
+            "id": "L-S2E11-C04-T13",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Look, Cupid's arrows are his weakness, so we were just trying to..."
+          },
+          {
+            "id": "L-S2E11-C04-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Exsurgo."
+          },
+          {
+            "id": "L-S2E11-C04-T15",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "No fair."
+          },
+          {
+            "id": "L-S2E11-C04-T17",
+            "speaker": {
+              "character": "Kaleb",
+              "version": "Kaleb"
+            },
+            "text": "Okay."
+          },
+          {
+            "id": "L-S2E11-C04-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope. Hope, wait."
+          },
+          {
+            "id": "L-S2E11-C04-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We will talk about this later."
+          },
+          {
+            "id": "L-S2E11-C04-T20",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "hits his head against the wall"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E11-C05",
+      "title": "Landon offers Pothos his heart instead of Hope's to save her.",
+      "description": "Pothos hits Hope with a Burning Love arrow to eat her heart. Landon shoots himself with the Epic Love arrow and tells him that he already loves Hope with all his heart and doesn't want to live without her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Pothos",
+          "version": "Pothos"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "speech",
+      "tags": [
+        "sacrifice",
+        "love",
+        "confession",
+        "protect",
+        "speech"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E11-C05-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I thought I killed you."
+          },
+          {
+            "id": "L-S2E11-C05-T02",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "No, you thought you killed Cupid. But I am his taller, hotter, cooler, older brother... Pothos."
+          },
+          {
+            "id": "L-S2E11-C05-T03",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Can't imagine that Burning Love arrow feels too good, does it? It burns you from the inside out until your whole body is reduced to ash. Save for your juicy, delicious heart."
+          },
+          {
+            "id": "L-S2E11-C05-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey! Eat me instead."
+          },
+          {
+            "id": "L-S2E11-C05-T05",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "A weak loser heart or badass witch heart tenderized by one of my arrows? I'm good, thanks."
+          },
+          {
+            "id": "L-S2E11-C05-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "How about now?"
+          },
+          {
+            "id": "L-S2E11-C05-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "stabs himself with the epic love arrow"
+          },
+          {
+            "id": "L-S2E11-C05-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "No!"
+          },
+          {
+            "id": "L-S2E11-C05-T09",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Epic love arrow. You brought out the big guns."
+          },
+          {
+            "id": "L-S2E11-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That's right. Well, you've never eaten a heart as full of love as mine is for her."
+          },
+          {
+            "id": "L-S2E11-C05-T11",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Is that why you were unloading all your relationship problems on me?"
+          },
+          {
+            "id": "L-S2E11-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That stuff I said doesn't matter. The love that Hope and I have for each other is more than I ever dreamed of finding in my lifetime."
+          },
+          {
+            "id": "L-S2E11-C05-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "More than I even thought was possible. The only problem with our relationship is that I have no idea why she picked a guy like me in the first place."
+          },
+          {
+            "id": "L-S2E11-C05-T14",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "That's just my arrow talking."
+          },
+          {
+            "id": "L-S2E11-C05-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Is it? I don't really feel the difference. I already love Hope Mikaelson with all my heart. I don't want to live without her. So if you're going to kill her, you need to kill me, too."
+          },
+          {
+            "id": "L-S2E11-C05-T16",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "If you insist."
+          },
+          {
+            "id": "L-S2E11-C05-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon, no!"
+          },
+          {
+            "id": "L-S2E11-C05-T18",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "action": "rips out Landon's heart"
+          },
+          {
+            "id": "L-S2E11-C05-T19",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Don't worry. You're next."
+          },
+          {
+            "id": "L-S2E11-C05-T20",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "action": "eats Landon's heart and starts dying"
+          },
+          {
+            "id": "L-S2E11-C05-T21",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Your boyfriend's smarter than he looks."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E11-C05-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That's right. Well, you've never eaten a heart as full of love as mine is for her."
+          },
+          {
+            "id": "L-S2E11-C05-T11",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "Is that why you were unloading all your relationship problems on me?"
+          },
+          {
+            "id": "L-S2E11-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "That stuff I said doesn't matter. The love that Hope and I have for each other is more than I ever dreamed of finding in my lifetime."
+          },
+          {
+            "id": "L-S2E11-C05-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "More than I even thought was possible. The only problem with our relationship is that I have no idea why she picked a guy like me in the first place."
+          },
+          {
+            "id": "L-S2E11-C05-T14",
+            "speaker": {
+              "character": "Pothos",
+              "version": "Pothos"
+            },
+            "text": "That's just my arrow talking."
+          },
+          {
+            "id": "L-S2E11-C05-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Is it? I don't really feel the difference. I already love Hope Mikaelson with all my heart. I don't want to live without her. So if you're going to kill her, you need to kill me, too."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E11-C06",
+      "title": "Landon comes back to life after saving Hope and they make out in the shower.",
+      "description": "Landon regenerates and explains to Hope that he ate one of every weakness of the gods of love, pothos included, to save her. They end up making out in the shower.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "sacrifice",
+        "love",
+        "rescue",
+        "banter",
+        "happy",
+        "kiss",
+        "make out",
+        "hug"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E11-C06-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "waiting impatiently for Landon to resurrect"
+          },
+          {
+            "id": "L-S2E11-C06-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey. Hi. Hi."
+          },
+          {
+            "id": "L-S2E11-C06-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hope."
+          },
+          {
+            "id": "L-S2E11-C06-T04",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "hug"
+          },
+          {
+            "id": "L-S2E11-C06-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You're okay."
+          },
+          {
+            "id": "L-S2E11-C06-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It worked."
+          },
+          {
+            "id": "L-S2E11-C06-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, your plan to get your heart eaten in front of me? Yeah, it worked. What did you do?"
+          },
+          {
+            "id": "L-S2E11-C06-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "After you left the bar, we figured out that wasn't actually Cupid. It was one of the other gods of love."
+          },
+          {
+            "id": "L-S2E11-C06-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah, you know, I learned that the hard way when Pothos introduced himself to me."
+          },
+          {
+            "id": "L-S2E11-C06-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh. You were one step ahead of us, then."
+          },
+          {
+            "id": "L-S2E11-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "We just knew that they each had a different weakness, so I ate sheep's brain, um, hemlock, molten silver, yew bark, red wine and devil's ivy, a toxic plant otherwise known as pothos."
+          },
+          {
+            "id": "L-S2E11-C06-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E11-C06-T13",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Guess that was the one."
+          },
+          {
+            "id": "L-S2E11-C06-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You did all that to save me?"
+          },
+          {
+            "id": "L-S2E11-C06-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'd do it again and again and again..."
+          },
+          {
+            "id": "L-S2E11-C06-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay, show-off."
+          },
+          {
+            "id": "L-S2E11-C06-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laughs"
+          },
+          {
+            "id": "L-S2E11-C06-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You, uh, should clean up."
+          },
+          {
+            "id": "L-S2E11-C06-T19",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S2E11-C06-T20",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Not so fast."
+          },
+          {
+            "id": "L-S2E11-C06-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "pulls Hope to him"
+          },
+          {
+            "id": "L-S2E11-C06-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laughs"
+          },
+          {
+            "id": "L-S2E11-C06-T23",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E11-C06-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You did all that to save me?"
+          },
+          {
+            "id": "L-S2E11-C06-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'd do it again and again and again..."
+          },
+          {
+            "id": "L-S2E11-C06-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Okay, show-off."
+          },
+          {
+            "id": "L-S2E11-C06-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laughs"
+          },
+          {
+            "id": "L-S2E11-C06-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You, uh, should clean up."
+          },
+          {
+            "id": "L-S2E11-C06-T19",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S2E11-C06-T20",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Not so fast."
+          },
+          {
+            "id": "L-S2E11-C06-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "pulls Hope to him"
+          },
+          {
+            "id": "L-S2E11-C06-T22",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laughs"
+          },
+          {
+            "id": "L-S2E11-C06-T23",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E11-C07",
+      "title": "Hope shows Landon why she picked him, they kiss and start floating.",
+      "description": "Landon admits he sometimes doesn't know why Hope picked him. She gives him what she wrote about him when she came back from Malivore. They kiss and start floating while kissing.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "love",
+        "phoenix",
+        "happy",
+        "memories",
+        "romantic",
+        "compliment",
+        "make out"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E11-C07-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S2E11-C07-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S2E11-C07-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Am I interrupting something?"
+          },
+          {
+            "id": "L-S2E11-C07-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Just me, um, trying and failing to find a way to bring the Saltzmans back."
+          },
+          {
+            "id": "L-S2E11-C07-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, I know I've been reluctant to let you step up. But obviously you can handle yourself."
+          },
+          {
+            "id": "L-S2E11-C07-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E11-C07-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Besides, I don't have all the answers either."
+          },
+          {
+            "id": "L-S2E11-C07-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey. Don't worry. We won't give up until we find a way to get 'em back."
+          },
+          {
+            "id": "L-S2E11-C07-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Did you mean what you said about not knowing why I picked you?"
+          },
+          {
+            "id": "L-S2E11-C07-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, uh... I-I mean... Maybe. Sometimes."
+          },
+          {
+            "id": "L-S2E11-C07-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "gets her journal"
+          },
+          {
+            "id": "L-S2E11-C07-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What is this?"
+          },
+          {
+            "id": "L-S2E11-C07-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, just read it. I wrote it when I got back."
+          },
+          {
+            "id": "L-S2E11-C07-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "bites her lip"
+          },
+          {
+            "id": "L-S2E11-C07-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "\"He's so patient and trusting and kind, and a thousand other things I never was.\""
+          },
+          {
+            "id": "L-S2E11-C07-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E11-C07-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "\"So, if all I ever have is the memory of the way he loved me, then I will survive this.\""
+          },
+          {
+            "id": "L-S2E11-C07-T18",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S2E11-C07-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon."
+          },
+          {
+            "id": "L-S2E11-C07-T20",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "realize they are flying"
+          },
+          {
+            "id": "L-S2E11-C07-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Holy smokes!"
+          },
+          {
+            "id": "L-S2E11-C07-T22",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S2E11-C07-T23",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "forehead touching"
+          },
+          {
+            "id": "L-S2E11-C07-T24",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Don't let me go."
+          },
+          {
+            "id": "L-S2E11-C07-T25",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Never."
+          },
+          {
+            "id": "L-S2E11-C07-T26",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S2E11-C07-T27",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "fall to the floor"
+          },
+          {
+            "id": "L-S2E11-C07-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laughs"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E11-C07-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Did you mean what you said about not knowing why I picked you?"
+          },
+          {
+            "id": "L-S2E11-C07-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, uh... I-I mean... Maybe. Sometimes."
+          },
+          {
+            "id": "L-S2E11-C07-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "gets her journal"
+          },
+          {
+            "id": "L-S2E11-C07-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What is this?"
+          },
+          {
+            "id": "L-S2E11-C07-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, just read it. I wrote it when I got back."
+          },
+          {
+            "id": "L-S2E11-C07-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "bites her lip"
+          },
+          {
+            "id": "L-S2E11-C07-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "\"He's so patient and trusting and kind, and a thousand other things I never was.\""
+          },
+          {
+            "id": "L-S2E11-C07-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E11-C07-T17",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "\"So, if all I ever have is the memory of the way he loved me, then I will survive this.\""
+          },
+          {
+            "id": "L-S2E11-C07-T18",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S2E11-C07-T19",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon."
+          },
+          {
+            "id": "L-S2E11-C07-T20",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "realize they are flying"
+          },
+          {
+            "id": "L-S2E11-C07-T21",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Holy smokes!"
+          },
+          {
+            "id": "L-S2E11-C07-T22",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S2E11-C07-T23",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "forehead touching"
+          },
+          {
+            "id": "L-S2E11-C07-T24",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Don't let me go."
+          },
+          {
+            "id": "L-S2E11-C07-T25",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Never."
+          },
+          {
+            "id": "L-S2E11-C07-T26",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          },
+          {
+            "id": "L-S2E11-C07-T27",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "fall to the floor"
+          },
+          {
+            "id": "L-S2E11-C07-T28",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "laughs"
+          }
+        ]
+      }
+    }
+  ]
+}

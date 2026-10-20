@@ -1,0 +1,1395 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 10,
+  "episode_id": "L-S2E10",
+  "episode_title": "This is why we don't entrust plans to Muppet Babies",
+  "conversations": [
+    {
+      "id": "L-S2E10-C01",
+      "title": "Hope tells Alyssa she is crashing at Landon's.",
+      "description": "Hope finds her new roommate Alyssa Chang lying on her bed and decides to spend the night at Landon's.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alyssa",
+          "version": "Alyssa"
+        },
+        {
+          "character": "Jed",
+          "version": "Jed"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What the hell?"
+          },
+          {
+            "id": "L-S2E10-C01-T02",
+            "speaker": {
+              "character": "Alyssa",
+              "version": "Alyssa"
+            },
+            "text": "Are you blind? I spelled the knob to \"do not disturb.\""
+          },
+          {
+            "id": "L-S2E10-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I need my chemistry of magic textbook. And more importantly, why are you on my bed?"
+          },
+          {
+            "id": "L-S2E10-C01-T04",
+            "speaker": {
+              "character": "Alyssa",
+              "version": "Alyssa"
+            },
+            "text": "I thought it'd be nice if it saw some action."
+          },
+          {
+            "id": "L-S2E10-C01-T05",
+            "speaker": {
+              "character": "Jed",
+              "version": "Jed"
+            },
+            "text": "I'm sorry, Hope."
+          },
+          {
+            "id": "L-S2E10-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm crashing at Landon's."
+          },
+          {
+            "id": "L-S2E10-C01-T07",
+            "speaker": {
+              "character": "Alyssa",
+              "version": "Alyssa"
+            },
+            "text": "Have fun holding hands."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C01-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm crashing at Landon's."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E10-C02",
+      "title": "Hope trains Landon.",
+      "description": "While sparring, Hope vents about Alyssa Chang. Landon, an expert on bullies, advises her to talk to her, and Hope decides to teach him a basic jab.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "banter",
+        "advice",
+        "protect"
+      ],
+      "importance": 4,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay, that was a little hard."
+          },
+          {
+            "id": "L-S2E10-C02-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Ow."
+          },
+          {
+            "id": "L-S2E10-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "throws Landon to the floor while training"
+          },
+          {
+            "id": "L-S2E10-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay, um, to be clear, when I asked for training, I sort of meant for beginners."
+          },
+          {
+            "id": "L-S2E10-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S2E10-C02-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Sorry. It's just, Alyssa Chang has me all worked up. That girl has no boundaries. She takes all of my stuff and every day she has a new scented candle. One of which that smelled like bacon. I think she's trying to gaslight me."
+          },
+          {
+            "id": "L-S2E10-C02-T07",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, bullies'll do that. Trust me, I pretty much have a PhD on the subject."
+          },
+          {
+            "id": "L-S2E10-C02-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "She makes me long for the days when I could toss a monster into the Malivore pit."
+          },
+          {
+            "id": "L-S2E10-C02-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, I know this might not sound like the most action-packed advice, but, um... maybe just try talking to her. Bullies hate being confronted."
+          },
+          {
+            "id": "L-S2E10-C02-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I guess I could try that, Dr. Kirby."
+          },
+          {
+            "id": "L-S2E10-C02-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E10-C02-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Great. Uh, how about some more sparring first? Maybe some judo or kenpo? Aikido?"
+          },
+          {
+            "id": "L-S2E10-C02-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why don't we start with a basic jab? Have you walking instead of running head first into danger."
+          },
+          {
+            "id": "L-S2E10-C02-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "smiles"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C02-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, I know this might not sound like the most action-packed advice, but, um... maybe just try talking to her. Bullies hate being confronted."
+          },
+          {
+            "id": "L-S2E10-C02-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I guess I could try that, Dr. Kirby."
+          },
+          {
+            "id": "L-S2E10-C02-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S2E10-C02-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Great. Uh, how about some more sparring first? Maybe some judo or kenpo? Aikido?"
+          },
+          {
+            "id": "L-S2E10-C02-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Why don't we start with a basic jab? Have you walking instead of running head first into danger."
+          },
+          {
+            "id": "L-S2E10-C02-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "smiles"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E10-C03",
+      "title": "Hope tells Landon his advice was useless.",
+      "description": "Landon asks how it went with Alyssa. Under the influence of the Qareen, Hope snaps at him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope influenced by Qareen"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Qareen",
+          "version": "Qareen"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey. How'd it go with Alyssa Chang? You guys BFFs?"
+          },
+          {
+            "id": "L-S2E10-C03-T02",
+            "speaker": {
+              "character": "Qareen",
+              "version": "Qareen"
+            },
+            "text": "You cannot protect him. Get rid of him before you lose him."
+          },
+          {
+            "id": "L-S2E10-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Your advice was useless, Landon, just like you."
+          },
+          {
+            "id": "L-S2E10-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "Landon realizes something is wrong with Hope"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey. How'd it go with Alyssa Chang? You guys BFFs?"
+          },
+          {
+            "id": "L-S2E10-C03-T02",
+            "speaker": {
+              "character": "Qareen",
+              "version": "Qareen"
+            },
+            "text": "You cannot protect him. Get rid of him before you lose him."
+          },
+          {
+            "id": "L-S2E10-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Your advice was useless, Landon, just like you."
+          },
+          {
+            "id": "L-S2E10-C03-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "Landon realizes something is wrong with Hope"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E10-C04",
+      "title": "Hope mocks Landon's fashion sense.",
+      "description": "While Landon and Wade hunt the Qareen, an infected Hope makes fun of Landon's look and Wade's fairy theory.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope influenced by Qareen"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        },
+        {
+          "character": "Wade",
+          "version": "Wade"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "banter",
+        "comedy"
+      ],
+      "importance": 1,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C04-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Which way?"
+          },
+          {
+            "id": "L-S2E10-C04-T02",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "I can't see it. I lost it."
+          },
+          {
+            "id": "L-S2E10-C04-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Lost what? Landon's fashion sense? Sorry, I didn't mean that."
+          },
+          {
+            "id": "L-S2E10-C04-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You said my look was classic."
+          },
+          {
+            "id": "L-S2E10-C04-T05",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "And you believed that? Sorry... I think."
+          },
+          {
+            "id": "L-S2E10-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, I'm living a lie."
+          },
+          {
+            "id": "L-S2E10-C04-T07",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "We're looking for the Qareen. It's a monster that makes everyone act like..."
+          },
+          {
+            "id": "L-S2E10-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You."
+          },
+          {
+            "id": "L-S2E10-C04-T09",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "It's invisible; only fairies can see it."
+          },
+          {
+            "id": "L-S2E10-C04-T10",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Do you want to take this, or should I?"
+          },
+          {
+            "id": "L-S2E10-C04-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "It's too easy. Can't even get any pleasure out of it. Sorry."
+          },
+          {
+            "id": "L-S2E10-C04-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey, focus. It's gaining strength by the minute. Once it's strong enough to manifest itself on a, um, non-fairy plane... Anyway, we have to figure out a way to stop it."
+          },
+          {
+            "id": "L-S2E10-C04-T13",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "It is so much less impressive when you give the hero speeches. That was all me."
+          },
+          {
+            "id": "L-S2E10-C04-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Okay, what's the plan?"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C04-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Lost what? Landon's fashion sense? Sorry, I didn't mean that."
+          },
+          {
+            "id": "L-S2E10-C04-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You said my look was classic."
+          },
+          {
+            "id": "L-S2E10-C04-T05",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "And you believed that? Sorry... I think."
+          },
+          {
+            "id": "L-S2E10-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, I'm living a lie."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E10-C05",
+      "title": "Hope wants to keep Landon safe from the monster.",
+      "description": "Hope tells Wade he is delusional about being a fairy. When they find out the Qareen is real Hope wants to keep Landon safe from the monster.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope influenced by Qareen"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Wade",
+          "version": "Wade"
+        },
+        {
+          "character": "Alyssa",
+          "version": "Alyssa"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "argument",
+        "protect",
+        "worry"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C05-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Don't even think about it."
+          },
+          {
+            "id": "L-S2E10-C05-T02",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "Why don't you believe me?"
+          },
+          {
+            "id": "L-S2E10-C05-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Can you fly or shoot fairy dust or make others gleeful? No. Because you're doing the exact same thing that Landon is with his training: you're trying to fit in. It's delusional."
+          },
+          {
+            "id": "L-S2E10-C05-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "I sh-shouldn't have said that."
+          },
+          {
+            "id": "L-S2E10-C05-T05",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You do know the reason I'm training is to help you with this stuff?"
+          },
+          {
+            "id": "L-S2E10-C05-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "If I need someone to die a lot, or be picked on, I know who to call."
+          },
+          {
+            "id": "L-S2E10-C05-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Wade, I'm sorry. I'm sorry. I didn't mean that... I didn't mean that."
+          },
+          {
+            "id": "L-S2E10-C05-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Actually, you did. The Qareen magnifies insecurities. It doesn't make them."
+          },
+          {
+            "id": "L-S2E10-C05-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "action": "sighs"
+          },
+          {
+            "id": "L-S2E10-C05-T10",
+            "speaker": {
+              "character": "Alyssa",
+              "version": "Alyssa"
+            },
+            "text": "Hey, book nerds. There's a monster on campus. It kind of looks like that pimple Hope had last week."
+          },
+          {
+            "id": "L-S2E10-C05-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Are you sure it wasn't your own reflection?"
+          },
+          {
+            "id": "L-S2E10-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Great. It's strong enough to be on our plane."
+          },
+          {
+            "id": "L-S2E10-C05-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Okay, well, we need to get you somewhere safe just in case. So you don't go get yourself kidnapped again."
+          },
+          {
+            "id": "L-S2E10-C05-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "I'm really not blaming the victim here."
+          },
+          {
+            "id": "L-S2E10-C05-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I actually don't think it's after me. Like, it actively avoided Wade and me."
+          },
+          {
+            "id": "L-S2E10-C05-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Then what does it want?"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C05-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Great. It's strong enough to be on our plane."
+          },
+          {
+            "id": "L-S2E10-C05-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Okay, well, we need to get you somewhere safe just in case. So you don't go get yourself kidnapped again."
+          },
+          {
+            "id": "L-S2E10-C05-T14",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "I'm really not blaming the victim here."
+          },
+          {
+            "id": "L-S2E10-C05-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I actually don't think it's after me. Like, it actively avoided Wade and me."
+          },
+          {
+            "id": "L-S2E10-C05-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Then what does it want?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E10-C06",
+      "title": "Hope insults Landon's research and he snaps back.",
+      "description": "Trapped with the Qareen and the stolen Sandclock, Hope mocks Landon's research and fighting skills, and Landon snaps back as he gets infected too.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope influenced by Qareen"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon influenced by Qareen"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "love",
+        "banter"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C06-T01",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Josie, wake up. Jo! Are you okay?"
+          },
+          {
+            "id": "L-S2E10-C06-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "What happened?"
+          },
+          {
+            "id": "L-S2E10-C06-T03",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Monster."
+          },
+          {
+            "id": "L-S2E10-C06-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon influenced by Qareen"
+            },
+            "text": "Uh, Emma put up a barrier spell, so the Qareen's stuck in here with us."
+          },
+          {
+            "id": "L-S2E10-C06-T05",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "It took the Sandclock."
+          },
+          {
+            "id": "L-S2E10-C06-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "The Sandclock? Why?"
+          },
+          {
+            "id": "L-S2E10-C06-T07",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "It doesn't matter. We just need to get it back. We can take this thing out, okay? We are three badass witches and one moderately competent bird."
+          },
+          {
+            "id": "L-S2E10-C06-T08",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Except if the Sandclock gets damaged, something really bad is gonna happen."
+          },
+          {
+            "id": "L-S2E10-C06-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "We need to exploit a weakness to take it down fast. Except Landon's research into that was about as useful as his fighting skills."
+          },
+          {
+            "id": "L-S2E10-C06-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Oh, my God, sorry. Love you."
+          },
+          {
+            "id": "L-S2E10-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon influenced by Qareen"
+            },
+            "text": "Or maybe my research was fine, but God forbid you use your brain instead of punching every problem."
+          },
+          {
+            "id": "L-S2E10-C06-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon influenced by Qareen"
+            },
+            "text": "Oh, crap. I'm infected."
+          },
+          {
+            "id": "L-S2E10-C06-T13",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Join the club. Maybe the only one that'll have you. Sorry. Monster."
+          },
+          {
+            "id": "L-S2E10-C06-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon influenced by Qareen"
+            },
+            "text": "Why am I being affected now? I wasn't before."
+          },
+          {
+            "id": "L-S2E10-C06-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon influenced by Qareen"
+            },
+            "text": "Oh. Okay. I might have a plan."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C06-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "We need to exploit a weakness to take it down fast. Except Landon's research into that was about as useful as his fighting skills."
+          },
+          {
+            "id": "L-S2E10-C06-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope influenced by Qareen"
+            },
+            "text": "Oh, my God, sorry. Love you."
+          },
+          {
+            "id": "L-S2E10-C06-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon influenced by Qareen"
+            },
+            "text": "Or maybe my research was fine, but God forbid you use your brain instead of punching every problem."
+          },
+          {
+            "id": "L-S2E10-C06-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon influenced by Qareen"
+            },
+            "text": "Oh, crap. I'm infected."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E10-C07",
+      "title": "Landon breaks the Sandclock to trust Wade.",
+      "description": "Landon believes in Wade and frees the Qareen from the Sandclock. The monster breaks his bones while telling him he is weak, and Hope screams for him.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        },
+        {
+          "character": "Wade",
+          "version": "Wade"
+        },
+        {
+          "character": "Qareen",
+          "version": "Qareen"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "protect",
+        "worry"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C07-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I believe. And I'll prove it."
+          },
+          {
+            "id": "L-S2E10-C07-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "Landon fights the Qareen."
+          },
+          {
+            "id": "L-S2E10-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What the hell are you doing?"
+          },
+          {
+            "id": "L-S2E10-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Trusting in Wade."
+          },
+          {
+            "id": "L-S2E10-C07-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "Hope prepares to do magic"
+          },
+          {
+            "id": "L-S2E10-C07-T06",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Wait, we can't break the Sandclock."
+          },
+          {
+            "id": "L-S2E10-C07-T07",
+            "speaker": {
+              "character": "Qareen",
+              "version": "Qareen"
+            },
+            "text": "You're weak. You can't protect yourself, let alone anyone else."
+          },
+          {
+            "id": "L-S2E10-C07-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Shut up. You're weak."
+          },
+          {
+            "id": "L-S2E10-C07-T09",
+            "speaker": {
+              "character": "Qareen",
+              "version": "Qareen"
+            },
+            "action": "breaks Landon's neck"
+          },
+          {
+            "id": "L-S2E10-C07-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon!"
+          },
+          {
+            "id": "L-S2E10-C07-T11",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Hope, stay calm."
+          },
+          {
+            "id": "L-S2E10-C07-T12",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "I got this, Hope. Landon made sure of it."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C07-T07",
+            "speaker": {
+              "character": "Qareen",
+              "version": "Qareen"
+            },
+            "text": "You're weak. You can't protect yourself, let alone anyone else."
+          },
+          {
+            "id": "L-S2E10-C07-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Shut up. You're weak."
+          },
+          {
+            "id": "L-S2E10-C07-T09",
+            "speaker": {
+              "character": "Qareen",
+              "version": "Qareen"
+            },
+            "action": "breaks Landon's neck"
+          },
+          {
+            "id": "L-S2E10-C07-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Landon!"
+          },
+          {
+            "id": "L-S2E10-C07-T11",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Hope, stay calm."
+          },
+          {
+            "id": "L-S2E10-C07-T12",
+            "speaker": {
+              "character": "Wade",
+              "version": "Wade"
+            },
+            "text": "I got this, Hope. Landon made sure of it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E10-C08",
+      "title": "Hope tells Landon she doesn't want him to be the hero since the hero is never the one left standing.",
+      "description": "After the fight, Hope tells Landon that what she said under the Qareen's influence was true, that she loves him, and that she won't train him anymore because the hero is never the one left standing. Landon refuses to stop.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "argument",
+      "tags": [
+        "love",
+        "confession",
+        "protect",
+        "angst",
+        "argument",
+        "compliment"
+      ],
+      "importance": 5,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C08-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "That jab is really coming along."
+          },
+          {
+            "id": "L-S2E10-C08-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I have a good teacher."
+          },
+          {
+            "id": "L-S2E10-C08-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Earlier, I-I said some things..."
+          },
+          {
+            "id": "L-S2E10-C08-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh-huh. We both had monster brain. We can forget all about that."
+          },
+          {
+            "id": "L-S2E10-C08-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I can't. Um, as much as it hurts. Um, what I said was true."
+          },
+          {
+            "id": "L-S2E10-C08-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, um... I love you, Landon. I love that you can't take a punch. I love that you won today using brain, not brawn, and I love that you're always trying to be better."
+          },
+          {
+            "id": "L-S2E10-C08-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "But, um, I don't want you to be the hero. Th-The hero's never the one that's left standing."
+          },
+          {
+            "id": "L-S2E10-C08-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not gonna train you to fight with me anymore. Not if the monsters are back."
+          },
+          {
+            "id": "L-S2E10-C08-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, I'm not stopping. If you won't train me, I'll find someone who will, so that we're both standing at the end of this."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C08-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I can't. Um, as much as it hurts. Um, what I said was true."
+          },
+          {
+            "id": "L-S2E10-C08-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Look, um... I love you, Landon. I love that you can't take a punch. I love that you won today using brain, not brawn, and I love that you're always trying to be better."
+          },
+          {
+            "id": "L-S2E10-C08-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "But, um, I don't want you to be the hero. Th-The hero's never the one that's left standing."
+          },
+          {
+            "id": "L-S2E10-C08-T08",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm not gonna train you to fight with me anymore. Not if the monsters are back."
+          },
+          {
+            "id": "L-S2E10-C08-T09",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Well, I'm not stopping. If you won't train me, I'll find someone who will, so that we're both standing at the end of this."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E10-C09",
+      "title": "Hope goes to the twins after her argument with Landon.",
+      "description": "Hope joins Josie and Lizzie, who is missing Sebastian, and tells them she thinks Landon might hate her.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        },
+        {
+          "character": "Lizzie",
+          "version": "Lizzie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "angst"
+      ],
+      "importance": 2,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E10-C09-T01",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "It's okay to miss him."
+          },
+          {
+            "id": "L-S2E10-C09-T02",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "I know I shouldn't care. Sebastian wasn't a great guy, but still..."
+          },
+          {
+            "id": "L-S2E10-C09-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Um, got room for one more in the cry pile?"
+          },
+          {
+            "id": "L-S2E10-C09-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I think Landon might hate me."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E10-C09-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Um, got room for one more in the cry pile?"
+          },
+          {
+            "id": "L-S2E10-C09-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I think Landon might hate me."
+          }
+        ]
+      }
+    }
+  ]
+}

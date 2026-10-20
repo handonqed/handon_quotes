@@ -1,0 +1,607 @@
+{
+  "show": "Legacies",
+  "season": 2,
+  "episode": 9,
+  "episode_id": "L-S2E09",
+  "episode_title": "I couldn't have done this without you",
+  "conversations": [
+    {
+      "id": "L-S2E09-C01",
+      "title": "Hope and Alaric discuss the changes at school and that Josie needs time.",
+      "description": "Back at school, Hope tells Alaric that things with Josie are bad again, and he explains that knowing she and Landon are together is different from seeing it.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Alaric",
+          "version": "Alaric"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [],
+      "importance": 1,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E09-C01-T01",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "You're late for class. Or are you lost?"
+          },
+          {
+            "id": "L-S2E09-C01-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Uh, both. Apparently, everything changed when I was gone. Where's spell lab?"
+          },
+          {
+            "id": "L-S2E09-C01-T03",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "No idea. I'm a little out of the loop myself. I just like to stride confidently and, uh, nod in hopes that people don't figure that out."
+          },
+          {
+            "id": "L-S2E09-C01-T04",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "But speaking of being out of the loop, Lizzie and Josie are avoiding me. Why? What's up?"
+          },
+          {
+            "id": "L-S2E09-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I wouldn't know. Things are still awkward between me and Josie. I mean, I thought they were okay. It's just bad again."
+          },
+          {
+            "id": "L-S2E09-C01-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, well, knowing you and Landon are together and seeing it are two very different things."
+          },
+          {
+            "id": "L-S2E09-C01-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I just wish there was something I could do."
+          },
+          {
+            "id": "L-S2E09-C01-T08",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "You just have to give her some time, you know? Things will go back to normal soon enough. I hope."
+          },
+          {
+            "id": "L-S2E09-C01-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah."
+          },
+          {
+            "id": "L-S2E09-C01-T10",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Spell lab."
+          },
+          {
+            "id": "L-S2E09-C01-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh!"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E09-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Things are still awkward between me and Josie. I mean, I thought they were okay. It's just bad again."
+          },
+          {
+            "id": "L-S2E09-C01-T06",
+            "speaker": {
+              "character": "Alaric",
+              "version": "Alaric"
+            },
+            "text": "Yeah, well, knowing you and Landon are together and seeing it are two very different things."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E09-C02",
+      "title": "Hope and Landon run into each other while he tests Sebastian.",
+      "description": "Right after Josie walks away from Landon, Hope arrives. They chat about her new room, and she offers to back him up while he tests Sebastian.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Sebastian",
+          "version": "Sebastian"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "hug",
+        "jealous",
+        "protect"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E09-C02-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S2E09-C02-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hey."
+          },
+          {
+            "id": "L-S2E09-C02-T03",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "hug"
+          },
+          {
+            "id": "L-S2E09-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, hi."
+          },
+          {
+            "id": "L-S2E09-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Josie didn't leave because of me, right?"
+          },
+          {
+            "id": "L-S2E09-C02-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I hope not. Um, you're all moved in?"
+          },
+          {
+            "id": "L-S2E09-C02-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah. Um, Alyssa Chang generously gave me back 20% of my room. Plenty of space for the nine things I still own. What's going on?"
+          },
+          {
+            "id": "L-S2E09-C02-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, Dr. Saltzman is having me test Sebastian here to see if he can stay at the school."
+          },
+          {
+            "id": "L-S2E09-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Call if you need backup?"
+          },
+          {
+            "id": "L-S2E09-C02-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "nods to Hope"
+          },
+          {
+            "id": "L-S2E09-C02-T11",
+            "speaker": {
+              "character": "Sebastian",
+              "version": "Sebastian"
+            },
+            "text": "I can assure you, I will be on my best behavior. Even a sidekick can handle me."
+          },
+          {
+            "id": "L-S2E09-C02-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "threatening stare to Sebastian"
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E09-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Josie didn't leave because of me, right?"
+          },
+          {
+            "id": "L-S2E09-C02-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I hope not. Um, you're all moved in?"
+          },
+          {
+            "id": "L-S2E09-C02-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Yeah. Um, Alyssa Chang generously gave me back 20% of my room. Plenty of space for the nine things I still own. What's going on?"
+          },
+          {
+            "id": "L-S2E09-C02-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Uh, Dr. Saltzman is having me test Sebastian here to see if he can stay at the school."
+          },
+          {
+            "id": "L-S2E09-C02-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Call if you need backup?"
+          },
+          {
+            "id": "L-S2E09-C02-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "nods to Hope"
+          },
+          {
+            "id": "L-S2E09-C02-T11",
+            "speaker": {
+              "character": "Sebastian",
+              "version": "Sebastian"
+            },
+            "text": "I can assure you, I will be on my best behavior. Even a sidekick can handle me."
+          },
+          {
+            "id": "L-S2E09-C02-T12",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "threatening stare to Sebastian"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E09-C03",
+      "title": "Sebastian tells Landon he should protect Hope.",
+      "description": "During the werewolf test, Sebastian brings up that Clarke almost killed a powerless Hope.",
+      "participants": [
+        {
+          "character": "Landon",
+          "version": "Landon"
+        },
+        {
+          "character": "Sebastian",
+          "version": "Sebastian"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [],
+      "importance": 1,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E09-C03-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "It's okay. Lots of vampires can't be around one werewolf, let alone this many. Most vampires can't control their emotions. Downside of all the power, I guess."
+          },
+          {
+            "id": "L-S2E09-C03-T02",
+            "speaker": {
+              "character": "Sebastian",
+              "version": "Sebastian"
+            },
+            "text": "I think having no power would be far more concerning. You know, a little blonde birdie told me that Clarke almost killed Hope. She was powerless and running for her life, and you were... you were... you were searching for yourself?"
+          },
+          {
+            "id": "L-S2E09-C03-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I was trying to keep everyone safe."
+          },
+          {
+            "id": "L-S2E09-C03-T04",
+            "speaker": {
+              "character": "Sebastian",
+              "version": "Sebastian"
+            },
+            "text": "And did it work? Mm. Not that you could have done anything anyway, of course, but if the girl that I had loved was in danger, I would want to be able to protect her."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E09-C03-T02",
+            "speaker": {
+              "character": "Sebastian",
+              "version": "Sebastian"
+            },
+            "text": "I think having no power would be far more concerning. You know, a little blonde birdie told me that Clarke almost killed Hope. She was powerless and running for her life, and you were... you were... you were searching for yourself?"
+          },
+          {
+            "id": "L-S2E09-C03-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I was trying to keep everyone safe."
+          },
+          {
+            "id": "L-S2E09-C03-T04",
+            "speaker": {
+              "character": "Sebastian",
+              "version": "Sebastian"
+            },
+            "text": "And did it work? Mm. Not that you could have done anything anyway, of course, but if the girl that I had loved was in danger, I would want to be able to protect her."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E09-C04",
+      "title": "Hope tells Josie she was so jealous of her and Landon.",
+      "description": "Hope confesses that when she came back from Malivore, she saw Josie and Landon happy together and was jealous to the point of being dangerous.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Josie",
+          "version": "Josie"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [
+        "jealous"
+      ],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E09-C04-T01",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Why did Clarke choose me?"
+          },
+          {
+            "id": "L-S2E09-C04-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You're a trusting person. And you're more powerful than you know."
+          },
+          {
+            "id": "L-S2E09-C04-T03",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "I don't want to be either of those things. The second that he had me doing black magic, my head... it's like it's not mine anymore. I get upset more easily, I'm on edge. Jealous."
+          },
+          {
+            "id": "L-S2E09-C04-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "It's not all the magic."
+          },
+          {
+            "id": "L-S2E09-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "When I got out of Malivore, um, I came here. It was the first place I wanted to be. You guys were the first people I wanted to see. I snuck onto campus. Um... You and Landon were having movie night, or something, at the mill. I saw you..."
+          },
+          {
+            "id": "L-S2E09-C04-T06",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Hope."
+          },
+          {
+            "id": "L-S2E09-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You both looked so happy. And I was so jealous. If the wrong person crossed my path in that moment, I can't imagine the damage I would have done."
+          },
+          {
+            "id": "L-S2E09-C04-T08",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "How did you move past it?"
+          },
+          {
+            "id": "L-S2E09-C04-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I tried to move on. And I got a lot of that wrong, too. Obviously. But that doesn't mean we can't try again."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E09-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "When I got out of Malivore, um, I came here. It was the first place I wanted to be. You guys were the first people I wanted to see. I snuck onto campus. Um... You and Landon were having movie night, or something, at the mill. I saw you..."
+          },
+          {
+            "id": "L-S2E09-C04-T06",
+            "speaker": {
+              "character": "Josie",
+              "version": "Josie"
+            },
+            "text": "Hope."
+          },
+          {
+            "id": "L-S2E09-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You both looked so happy. And I was so jealous. If the wrong person crossed my path in that moment, I can't imagine the damage I would have done."
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-S2E09-C05",
+      "title": "Landon and Josie redecorate Hope's room.",
+      "description": "Hope finds that Landon and Josie have fixed up her room to make her feel at home again.",
+      "participants": [
+        {
+          "character": "Hope",
+          "version": "Hope"
+        },
+        {
+          "character": "Landon",
+          "version": "Landon"
+        }
+      ],
+      "subjects": [],
+      "scene_type": "conversation",
+      "tags": [],
+      "importance": 3,
+      "verified": true,
+      "full": {
+        "turns": [
+          {
+            "id": "L-S2E09-C05-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What's all this?"
+          },
+          {
+            "id": "L-S2E09-C05-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Just a little something to make you feel more at home."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S2E09-C05-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "What's all this?"
+          },
+          {
+            "id": "L-S2E09-C05-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Just a little something to make you feel more at home."
+          }
+        ]
+      }
+    }
+  ]
+}

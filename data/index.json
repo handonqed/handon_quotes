@@ -1,5 +1,5 @@
 {
-  "version": "20261015114525",
+  "version": "20261020102015",
   "episodes": [
     "TO/S5EP12.json",
     "LS1/S1EP01.json",
@@ -23,6 +23,9 @@
     "LS2/S2EP05.json",
     "LS2/S2EP06.json",
     "LS2/S2EP07.json",
-    "LS2/S2EP08.json"
+    "LS2/S2EP08.json",
+    "LS2/S2EP09.json",
+    "LS2/S2EP10.json",
+    "LS2/S2EP11.json"
   ]
 }
