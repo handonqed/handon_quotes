@@ -198,7 +198,7 @@ main {
 }
 
 .eyebrow {
-    font: 700 12px Arial, sans-serif;
+    font: 700 14px Arial, sans-serif;
     letter-spacing: 2px;
     color: var(--accent);
     margin: 0 0 10px;
@@ -211,7 +211,7 @@ main {
 
 .muted {
     color: var(--muted);
-    font: 13px Arial, sans-serif;
+    font: 15px Arial, sans-serif;
 }
 
 .list {
@@ -275,7 +275,7 @@ main {
 }
 
 .filters label {
-    font: 700 12px Arial, sans-serif;
+    font: 700 14px Arial, sans-serif;
     color: var(--muted);
     display: flex;
     flex-direction: column;
@@ -306,7 +306,7 @@ input {
 }
 
 .tag {
-    font: 11px Arial, sans-serif;
+    font: 13px Arial, sans-serif;
     background: var(--tag-bg);
     color: var(--tag-text);
     border-radius: 99px;
@@ -476,7 +476,7 @@ a.tag:hover {
 }
 
 .label {
-    font: 11px Arial, sans-serif;
+    font: 13px Arial, sans-serif;
     color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -559,7 +559,7 @@ a.tag:hover {
 
 .code,
 .meta {
-    font: 12px Arial, sans-serif;
+    font: 14px Arial, sans-serif;
     color: var(--muted);
 }
 
@@ -597,7 +597,7 @@ a.tag:hover {
 }
 
 .speaker {
-    font: 700 12px Arial, sans-serif;
+    font: 700 14px Arial, sans-serif;
     color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -638,7 +638,7 @@ a.tag:hover {
 }
 
 .back {
-    font: 700 13px Arial, sans-serif;
+    font: 700 15px Arial, sans-serif;
     color: var(--accent);
     text-decoration: none;
 }
@@ -675,7 +675,7 @@ a.tag:hover {
     margin: 34px 0 6px;
     padding-top: 14px;
     border-top: 1px solid var(--border);
-    font: 12px Arial, sans-serif;
+    font: 14px Arial, sans-serif;
     color: var(--muted);
 }
 
@@ -690,7 +690,7 @@ a.tag:hover {
 }
 
 .conv-sep .stars {
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 1px;
 }
 
@@ -719,7 +719,7 @@ a.tag:hover {
     gap: 12px;
     align-items: center;
     margin: 8px 0;
-    font: 13px Arial, sans-serif;
+    font: 15px Arial, sans-serif;
 }
 
 .bar-label {
@@ -765,7 +765,7 @@ a.tag:hover {
 
 .quiz-fieldset legend,
 .quiz-label {
-    font: 700 12px Arial, sans-serif;
+    font: 700 14px Arial, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--muted);
@@ -831,7 +831,7 @@ a.tag:hover {
 
 .quiz-option-meta {
     margin-top: auto;
-    font: 11px Arial, sans-serif;
+    font: 13px Arial, sans-serif;
     color: var(--muted);
 }
 
@@ -856,7 +856,7 @@ a.tag:hover {
     justify-content: space-between;
     gap: 12px;
     flex-wrap: wrap;
-    font: 13px Arial, sans-serif;
+    font: 15px Arial, sans-serif;
     color: var(--muted);
 }
 
@@ -884,7 +884,7 @@ a.tag:hover {
 }
 
 .quiz-mark {
-    font: 700 13px Arial, sans-serif;
+    font: 700 15px Arial, sans-serif;
     margin-top: 6px;
 }
 
@@ -964,6 +964,11 @@ a.tag:hover {
     margin-top: 2px;
 }
 
+/* A passed question: neither right nor wrong. */
+.quiz-mark:not(.ok):not(.bad) {
+    color: var(--muted);
+}
+
 .quiz-guess {
     font-weight: 400;
     color: var(--muted);
@@ -977,7 +982,7 @@ a.tag:hover {
 .quiz-conv summary {
     cursor: pointer;
     width: fit-content;
-    font: 700 13px Arial, sans-serif;
+    font: 700 15px Arial, sans-serif;
     color: var(--accent);
 }
 
@@ -1006,7 +1011,7 @@ footer {
     text-align: center;
     padding: 30px;
     color: var(--muted);
-    font: 12px Arial, sans-serif;
+    font: 14px Arial, sans-serif;
     border-top: 1px solid var(--border);
 }
 

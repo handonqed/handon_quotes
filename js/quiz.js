@@ -2,7 +2,8 @@
    A line is shown; the player guesses who says it (Hope or Landon), which version of them
    (e.g. Hologram Landon) and the episode, depending on the level. Each question is worth 1 point,
    split between the parts the level asks for: episode 1/2, character 1/4, version 1/4, rescaled
-   when a level asks fewer parts. */
+   when a level asks fewer parts. A wrong part takes away half of what it is worth, and a question
+   can be passed for 0 points, so the total can go below zero. */
 const QUIZ_LEVELS=[
   {id:"very-easy",name:"Very easy",min:5,parts:{char:1},
     desc:"Lines from the most important conversations (★★★★★). Guess who says it: Hope or Landon."},
@@ -29,7 +30,7 @@ const QUIZ_RESULTS=[
 const QUIZ_PART_NAMES={char:"Hope or Landon",version:"Version",episode:"Episode"};
 
 let quizSettings={level:"very-easy",count:10};
-let quiz=null; // {level, questions:[{i,t,k,guess,result}], n, phase:"question"|"done"}
+let quiz=null; // {level, questions:[{i,t,k,guess,result,passed}], n, phase:"question"|"done"}
 // Answers are only marked at the end: no right/wrong or running score while playing.
 
 const quizLevel=id=>QUIZ_LEVELS.find(l=>l.id===id)||QUIZ_LEVELS[0];
@@ -91,7 +92,7 @@ function quizSetupHTML(){
   const cnt=QUIZ_COUNTS.map(n=>`<label class="quiz-chip${quizSettings.count===n?" selected":""}"><input type="radio" name="quiz-count" value="${n}"${quizSettings.count===n?" checked":""}>${n}</label>`).join("");
   return `<fieldset class="quiz-fieldset"><legend>Level</legend><div class="quiz-levels">${lvl}</div></fieldset>
 <fieldset class="quiz-fieldset"><legend>Questions</legend><div class="quiz-chips">${cnt}</div></fieldset>
-<p class="muted">Each question is worth 1 point: the episode counts for half, Hope or Landon for a quarter and the version for a quarter. Levels that ask fewer things share the point between them.</p>
+<p class="muted">Each question is worth 1 point: the episode counts for half, Hope or Landon for a quarter and the version for a quarter. Levels that ask fewer things share the point between them. A wrong answer takes away half of what it would have earned, so if you are not sure, you can pass the question for 0 points.</p>
 <button type="button" class="button" data-quiz="start">Start the quiz</button>`;
 }
 
@@ -128,10 +129,13 @@ ${[...seasons].map(([k,l])=>`<option value="${esc(k)}"${g.season===k?" selected"
 <div class="quote-card quiz-card"><h3 class="visually-hidden">Question ${quiz.n+1}</h3><div class="quote">“${esc(turnContent(q.t))}”</div>
 <div class="quiz-form">${form}</div>
 <p class="quiz-actions"><button type="button" class="button" data-quiz="answer"${ready?"":" disabled"}>${last?"See my score":"Next question"}</button>
+<button type="button" class="button secondary" data-quiz="pass">Pass</button>
 <button type="button" class="button secondary" data-quiz="quit">Quit</button></p></div>`;
 }
 
-function quizPoints(q){return q.result?Object.entries(quiz.level.parts).reduce((s,[k,w])=>s+(q.result[k]?w:0),0):0}
+// Right part: its full value. Wrong part: minus half its value. Passed question: 0.
+function quizPoints(q){return q.result?Object.entries(quiz.level.parts).reduce((s,[k,w])=>s+(q.result[k]?w:-w/2),0):0}
+const fmtPoints=x=>x.toFixed(3).replace(/\.?0+$/,"").replace(/^-0$/,"0");
 function quizScoreSoFar(){return quiz.questions.reduce((s,q)=>s+quizPoints(q),0)}
 
 // What the player picked, for the wrong parts in the results (the episode without its title).
@@ -147,19 +151,22 @@ function quizResultsHTML(){
   const qs=quiz.questions,n=qs.length;
   if(!n) return `<div class="empty">There are no lines for this level yet.</div><p><button type="button" class="button" data-quiz="setup">Choose another level</button></p>`;
   const pts=quizScoreSoFar(),pct=Math.round(pts/n*100);
-  const parts=Object.keys(quiz.level.parts).map(k=>statHTML(QUIZ_PART_NAMES[k],`${qs.filter(q=>q.result[k]).length}/${n}`)).join("");
+  const passed=qs.filter(q=>q.passed).length;
+  const parts=Object.keys(quiz.level.parts).map(k=>statHTML(QUIZ_PART_NAMES[k],`${qs.filter(q=>q.result?.[k]).length}/${n}`)).join("")
+    +(passed?statHTML("Passed",`${passed}/${n}`):"");
   // Rounded to one decimal first, so the message always matches the number shown (7.95 shows 8 and counts as 8).
+  // Below zero falls in the first range, with the 0-2 message and video.
   const out10=Math.round(pts/n*100)/10,result=QUIZ_RESULTS.find(r=>out10<r.below)||QUIZ_RESULTS.at(-1);
   // "Show the conversation" opens it right here; its lines are only built when first opened.
   const rows=qs.map((q,k)=>`<li class="quiz-review"><div class="quote">“${esc(turnContent(q.t))}”</div>
-<div class="meta">${esc(speakerName(q.t))} · ${esc(episodeLabel(q.i.episode))} · ${esc(q.i.episode.episode_title||"")} · ${quizPoints(q).toFixed(2).replace(/\.?0+$/,"")} / 1</div>
-<div class="quiz-review-marks">${Object.keys(quiz.level.parts).map(p=>`<span class="quiz-mark ${q.result[p]?"ok":"bad"}">${q.result[p]?"✓":"✗"} ${QUIZ_PART_NAMES[p]}${q.result[p]?"":`<span class="quiz-guess"> · you said ${esc(quizGuessText(q,p))}</span>`}</span>`).join("")}</div>
+<div class="meta">${esc(speakerName(q.t))} · ${esc(episodeLabel(q.i.episode))} · ${esc(q.i.episode.episode_title||"")} · ${fmtPoints(quizPoints(q))} / 1</div>
+<div class="quiz-review-marks">${q.passed?`<span class="quiz-mark">– Passed</span>`:Object.keys(quiz.level.parts).map(p=>`<span class="quiz-mark ${q.result[p]?"ok":"bad"}">${q.result[p]?"✓":"✗"} ${QUIZ_PART_NAMES[p]}${q.result[p]?"":`<span class="quiz-guess"> · you said ${esc(quizGuessText(q,p))}</span>`}</span>`).join("")}</div>
 <details class="quiz-conv" data-q="${k}"><summary>Show the conversation</summary><div class="quiz-conv-body"></div></details></li>`).join("");
   return `<div class="quote-card quiz-card quiz-score"><h3>Your score</h3>
 <video class="quiz-result-video" data-src="assets/media/${result.video}" autoplay loop muted playsinline disablepictureinpicture aria-hidden="true"></video>
-<div class="quiz-score-number">${out10.toFixed(1).replace(/\.0$/,"")}<span>/10</span></div>
+<div class="quiz-score-number">${(out10||0).toFixed(1).replace(/\.0$/,"")}<span>/10</span></div>
 <p class="quiz-verdict">${esc(result.text)}</p>
-<p class="muted">${pct}% · ${pts.toFixed(2).replace(/\.?0+$/,"")} of ${n} points · ${esc(quiz.level.name)}</p></div>
+<p class="muted">${pct}% · ${fmtPoints(pts)} of ${n} points · ${esc(quiz.level.name)}</p></div>
 <div class="stats quiz-parts">${parts}</div>
 <p class="quiz-actions"><button type="button" class="button" data-quiz="again">Play again</button>
 <button type="button" class="button secondary" data-quiz="setup">Change level</button></p>
@@ -207,9 +214,10 @@ function setupQuiz(){
     const a=b.dataset.quiz;
     if(a==="start"||a==="again") quizStart();
     else if(a==="setup"||a==="quit"){quiz=null;quizRender(true)}
-    else if(a==="answer"){
+    else if(a==="answer"||a==="pass"){
       const q=quiz.questions[quiz.n],g=q.guess;
-      q.result={char:g.char===quizChar(q.t),version:g.version===quizVersion(q.t),episode:g.episode===q.i.episode.episode_id};
+      if(a==="pass"){q.passed=true;q.result=null}
+      else{q.passed=false;q.result={char:g.char===quizChar(q.t),version:g.version===quizVersion(q.t),episode:g.episode===q.i.episode.episode_id}}
       if(quiz.n<quiz.questions.length-1) quiz.n++; else quiz.phase="done";
       quizRender(true);
     }
