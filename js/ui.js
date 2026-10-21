@@ -325,7 +325,7 @@ function route(){
   const raw=location.hash.slice(1),qi=raw.indexOf("?"),
     path=qi<0?raw:raw.slice(0,qi),params=new URLSearchParams(qi<0?"":raw.slice(qi+1)),
     dec=s=>{try{return decodeURIComponent(s)}catch{return s}},
-    pages=["home","episodes","importance","tags","search","random","statistics"],
+    pages=["home","episodes","importance","tags","search","random","statistics","quiz"],
     isConv=path.startsWith("conversation/"),root=path.split("/")[0],
     page=isConv?"conversation":pages.includes(root)?root:"home";
   showPage(page,isConv?"episodes":page);
@@ -345,6 +345,7 @@ function route(){
   }
   else if(page==="random"){if(!$("random-result").innerHTML) $("random-result").innerHTML='<div class="empty">Press “Give me one” to get a random quote.</div>'}
   else if(page==="statistics") statistics();
+  else if(page==="quiz") quizPage();
   else home();
   // Move focus to the heading only when the page changes, not when a tag is picked.
   const key=isConv?path:page,changed=lastRouteKey!==null&&key!==lastRouteKey;

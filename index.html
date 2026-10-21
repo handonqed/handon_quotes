@@ -10,14 +10,14 @@
 })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A searchable database of Hope and Landon conversations, quotes and moments.">
+<meta name="description" content="A searchable database of Handon conversations, quotes and moments.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Handon Quotes">
-<meta property="og:description" content="A searchable database of Hope and Landon conversations, quotes and moments.">
+<meta property="og:description" content="A searchable database of Handon conversations, quotes and moments.">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%AC%3C/text%3E%3C/svg%3E">
 <title>Handon Quotes</title>
-<link rel="stylesheet" href="css/style.css?v=b1cb5c3d">
+<link rel="stylesheet" href="css/style.css?v=67ac41d4">
 </head>
 <body>
 <a class="skip-link" id="skip-link" href="#app">Skip to content</a>
@@ -30,6 +30,7 @@
       <a href="#tags">Tags</a>
       <a href="#search">Search</a>
       <a href="#random">Random</a>
+      <a href="#quiz">Quiz</a>
       <a href="#statistics">Statistics</a>
     </nav>
     <button id="theme-toggle" class="theme-toggle" aria-label="Toggle bright/dark mode" title="Toggle bright mode">☀️</button>
@@ -47,7 +48,7 @@
       <h1>Handon Quotes</h1>
 
       <p class="lead">
-        A searchable database of Hope and Landon conversations.
+        A searchable database of Handon conversations.
       </p>
 
       <div class="home-buttons">
@@ -55,6 +56,7 @@
         <a class="button secondary" href="#importance">Importance</a>
         <a class="button secondary" href="#search">Search</a>
         <a class="button secondary" href="#random">Random</a>
+        <a class="button secondary" href="#quiz">Quiz</a>
         <a class="button secondary" href="#statistics">Statistics</a>
       </div>
     </div>
@@ -193,11 +195,28 @@
   <div id="statistics-content" class="stats"></div>
 </section>
 
+<section id="quiz" class="page">
+  <div class="heading page-heading">
+  <div class="heading-text">
+    <p class="eyebrow">TEST YOURSELF</p>
+    <h2>Quiz</h2>
+    <p>Who said it, which version of them, and in which episode? Pick a level and find out how well you know Handon.</p>
+  </div>
+  <div class="heading-gifs">
+    <video data-src="assets/media/quiz_1.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video data-src="assets/media/quiz_2.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+    <video data-src="assets/media/quiz_3.mp4" autoplay loop muted playsinline preload="metadata" disablepictureinpicture aria-hidden="true"></video>
+  </div>
+</div>
+  <div id="quiz-content" aria-live="polite"></div>
+</section>
+
 <section id="conversation" class="page"><div id="conversation-content"></div></section>
 </main>
 <footer>Handon Quotes. Made by <a href="https://twitter.com/handonqed" target="_blank" rel="noopener">@handonqed</a> on Twitter</footer>
 <script src="js/data.js?v=770e0473"></script>
-<script src="js/ui.js?v=4028ea18"></script>
-<script src="js/app.js?v=9a4988f2"></script>
+<script src="js/ui.js?v=b2d4d471"></script>
+<script src="js/quiz.js?v=6c8e94a2"></script>
+<script src="js/app.js?v=a3252a72"></script>
 </body>
 </html>

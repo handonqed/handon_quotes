@@ -405,6 +405,12 @@ a.tag:hover {
     height: 205px;
 }
 
+/* The quiz videos are 1500x1080, so their slot keeps that shape. */
+#quiz .heading-gifs video {
+    width: 250px;
+    height: 180px;
+}
+
 /* ---------- 7. Home ---------- */
 .hero {
     padding: 70px 0 45px;
@@ -420,7 +426,7 @@ a.tag:hover {
 }
 
 .hero-text {
-    flex: 1 0 580px; /* wide enough for the five home buttons on one line */
+    flex: 1 0 620px; /* wide enough for the six home buttons on one line */
     min-width: 0;
 }
 
@@ -444,6 +450,10 @@ a.tag:hover {
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 25px;
+}
+
+.home-buttons .button {
+    margin: 0; /* the gap already spaces them */
 }
 
 .stats {
@@ -737,6 +747,255 @@ a.tag:hover {
     text-align: right;
 }
 
+/* ---------- Quiz ---------- */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.quiz-fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0 0 24px;
+}
+
+.quiz-fieldset legend,
+.quiz-label {
+    font: 700 12px Arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+
+.quiz-levels {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+/* Level cards and the small choice chips are radio buttons styled as tiles. */
+.quiz-option,
+.quiz-chip {
+    position: relative;
+    cursor: pointer;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.quiz-option {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 16px;
+}
+
+.quiz-option input,
+.quiz-chip input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.quiz-option:hover,
+.quiz-chip:hover {
+    border-color: var(--accent);
+}
+
+.quiz-option.selected,
+.quiz-chip.selected {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent);
+}
+
+.quiz-option:focus-within,
+.quiz-chip:focus-within {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.quiz-option-name {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.quiz-option-desc {
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.quiz-option-meta {
+    margin-top: auto;
+    font: 11px Arial, sans-serif;
+    color: var(--muted);
+}
+
+.quiz-chips {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.quiz-chip {
+    padding: 10px 22px;
+    font: 700 15px Arial, sans-serif;
+}
+
+.quiz-chip.selected {
+    background: var(--accent);
+    color: var(--on-accent);
+}
+
+.quiz-progress {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    font: 13px Arial, sans-serif;
+    color: var(--muted);
+}
+
+.quiz-card {
+    margin-top: 12px;
+}
+
+.quiz-form {
+    display: grid;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.quiz-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    min-width: 0; /* lets long episode names shrink instead of widening the page on phones */
+}
+
+.quiz-field select {
+    width: 100%;
+    max-width: 480px;
+}
+
+.quiz-mark {
+    font: 700 13px Arial, sans-serif;
+    margin-top: 6px;
+}
+
+.quiz-mark.ok {
+    color: #3fa66b;
+}
+
+.quiz-mark.bad {
+    color: #d0574f;
+}
+
+.quiz-review a {
+    color: var(--accent);
+}
+
+.quiz-actions .button:disabled {
+    opacity: .45;
+    cursor: not-allowed;
+}
+
+.quiz-score {
+    text-align: center;
+}
+
+.quiz-score-number {
+    font-size: clamp(56px, 10vw, 96px);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--accent);
+    margin: 10px 0;
+}
+
+.quiz-score-number span {
+    font-size: .4em;
+    color: var(--muted);
+}
+
+/* The result videos have different shapes; they share a height and keep their own width. */
+.quiz-result-video {
+    display: block;
+    height: min(380px, 60vw); /* smaller on phones, so the widest video still fits */
+    max-width: 100%;
+    object-fit: contain;
+    margin: 14px auto 6px;
+    border-radius: 12px;
+}
+
+.quiz-verdict {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 6px 0;
+}
+
+.quiz-parts {
+    margin: 20px 0;
+}
+
+.quiz-review-list {
+    padding-left: 22px;
+}
+
+.quiz-review {
+    margin: 0 0 18px;
+}
+
+.quiz-review .quote {
+    font-size: 16px;
+}
+
+.quiz-review-marks {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.quiz-review-marks .quiz-mark {
+    margin-top: 2px;
+}
+
+/* Results: each answer's conversation opens in place. */
+.quiz-conv {
+    margin-top: 8px;
+}
+
+.quiz-conv summary {
+    cursor: pointer;
+    width: fit-content;
+    font: 700 13px Arial, sans-serif;
+    color: var(--accent);
+}
+
+.quiz-conv summary:hover {
+    text-decoration: underline;
+}
+
+.quiz-conv-body {
+    position: relative; /* offsetTop of the lines is measured from here */
+    max-height: 420px;
+    overflow-y: auto;
+    margin-top: 8px;
+    padding: 8px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.quiz-conv-body .turn.target {
+    margin-left: -12px;
+    scroll-margin-top: 0;
+}
+
 /* ---------- 11. Footer ---------- */
 footer {
     text-align: center;
@@ -782,6 +1041,11 @@ footer a:hover {
     #tags .heading-gifs video {
         width: 120px;
         height: 80px;
+    }
+
+    #quiz .heading-gifs video {
+        width: 150px;
+        height: 108px;
     }
 
     #importance .heading-gifs video,

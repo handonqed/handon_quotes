@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded",async()=>{
     if(DB.errors.length) $("app").insertAdjacentHTML("afterbegin",`<div class="empty warn" role="alert">${DB.errors.length} episode file${DB.errors.length===1?"":"s"} could not be loaded and ${DB.errors.length===1?"is":"are"} missing from the results: ${esc(DB.errors.join(", "))}</div>`);
 
     fillSeasons("search");fillSeasons("random");
+    setupQuiz();
 
     $("search-input").addEventListener("input",()=>{searchSoon()});
     ["search-episode","search-character","search-importance"].forEach(id=>$(id).addEventListener("change",search));
