@@ -1,10 +1,9 @@
 {
-   "show": "Legacies",
+  "show": "Legacies",
   "season": 1,
   "episode": 11,
   "episode_id": "L-S1E11",
   "episode_title": "We're gonna need a spotlight",
-
   "conversations": [
     {
       "id": "L-S1E11-C01",
@@ -13,7 +12,7 @@
       "participants": [
         {
           "character": "Hope",
-          "version": "Hope"
+          "version": "Slug-drunk Hope"
         },
         {
           "character": "Landon",
@@ -33,83 +32,79 @@
       ],
       "importance": 3,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C01-T01",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "Morning, handsome."
+          {
+            "id": "L-S1E11-C01-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Morning, handsome."
           },
           {
-         "id": "L-S1E11-C01-T02",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "Hey."
-        },
-       {
-        "id": "L-S1E11-C01-T03",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Handsomes. Mmm. Sweet, sweet carbs."
-      },
-      {
-        "id": "L-S1E11-C01-T04",
-        "speaker": {
-          "character": "Rafael",
-          "version": "Rafael"
-        },
-        "text": "Somebody's in a really good mood."
-      },
-      {
-          "id": "L-S1E11-C01-T05",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "Hmm. Just woke up on the right side of the bed, I guess."
+            "id": "L-S1E11-C01-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Hey."
           },
           {
-         "id": "L-S1E11-C01-T06",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "For the first time ever?"
-        },
-       {
-        "id": "L-S1E11-C01-T07",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "You're so funny. I love that about you."
+            "id": "L-S1E11-C01-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Handsomes. Mmm. Sweet, sweet carbs."
+          },
+          {
+            "id": "L-S1E11-C01-T04",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Somebody's in a really good mood."
+          },
+          {
+            "id": "L-S1E11-C01-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Hmm. Just woke up on the right side of the bed, I guess."
+          },
+          {
+            "id": "L-S1E11-C01-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "For the first time ever?"
+          },
+          {
+            "id": "L-S1E11-C01-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "You're so funny. I love that about you."
+          }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C01-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "You're so funny. I love that about you."
+          }
+        ]
       }
-    ]
-  },
-
-  "short": {
-    "turns": [
-      {
-        "id": "L-S1E11-C01-T07",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "You're so funny. I love that about you."
-      }
-    ]
-  }
     },
-
     {
       "id": "L-S1E11-C02",
       "title": "Hope wants to do a talent with Landon. Team other.",
@@ -117,7 +112,7 @@
       "participants": [
         {
           "character": "Hope",
-          "version": "Hope"
+          "version": "Slug-drunk Hope"
         },
         {
           "character": "Landon",
@@ -134,100 +129,95 @@
       ],
       "importance": 4,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C02-T01",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "Babe. We should do a talent."
+          {
+            "id": "L-S1E11-C02-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Babe. We should do a talent."
           },
           {
-         "id": "L-S1E11-C02-T02",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "What? Uh, you and me?"
-        },
-       {
-        "id": "L-S1E11-C02-T03",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "I never wanted to before 'cause I would have had to do it alone. But now I have you. And we make up our own faction. The tribrid and you."
+            "id": "L-S1E11-C02-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What? Uh, you and me?"
+          },
+          {
+            "id": "L-S1E11-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "I never wanted to before 'cause I would have had to do it alone. But now I have you. And we make up our own faction. The tribrid and you."
+          },
+          {
+            "id": "L-S1E11-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, all right, yeah. Team Other."
+          },
+          {
+            "id": "L-S1E11-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S1E11-C02-T06",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
       },
-      {
-        "id": "L-S1E11-C02-T04",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Yeah, all right, yeah. Team Other."
-      },
-      {
-        "id": "L-S1E11-C02-T05",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "action": "laugh"
-      },
-      {
-        "id": "L-S1E11-C02-T06",
-        "speaker": {
-          "character": "Handon",
-          "version": "Handon"
-        },
-        "action": "kiss"
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C02-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "I never wanted to before 'cause I would have had to do it alone. But now I have you. And we make up our own faction. The tribrid and you."
+          },
+          {
+            "id": "L-S1E11-C02-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, all right, yeah. Team Other."
+          },
+          {
+            "id": "L-S1E11-C02-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "action": "laugh"
+          },
+          {
+            "id": "L-S1E11-C02-T06",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
       }
-    
-    ]
-  },
-
-  "short": {
-    "turns": [
-      {
-        "id": "L-S1E11-C02-T03",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "I never wanted to before 'cause I would have had to do it alone. But now I have you. And we make up our own faction. The tribrid and you."
-      },
-      {
-        "id": "L-S1E11-C02-T04",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Yeah, all right, yeah. Team Other."
-      },
-      {
-        "id": "L-S1E11-C02-T05",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "action": "laugh"
-      },
-      {
-        "id": "L-S1E11-C02-T06",
-        "speaker": {
-          "character": "Handon",
-          "version": "Handon"
-        },
-        "action": "kiss"
-      }
-    ]
-    }
-  },
-
+    },
     {
       "id": "L-S1E11-C03",
       "title": "Hope in magic class with Raf.",
@@ -235,7 +225,7 @@
       "participants": [
         {
           "character": "Hope",
-          "version": "Hope"
+          "version": "Slug-drunk Hope"
         },
         {
           "character": "Rafael",
@@ -250,61 +240,55 @@
       ],
       "importance": 2,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C03-T01",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "Sorry to bolt, but I gotta go figure out what Landon and I are good at together. Besides making out."
+          {
+            "id": "L-S1E11-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Sorry to bolt, but I gotta go figure out what Landon and I are good at together. Besides making out."
           },
           {
-         "id": "L-S1E11-C03-T02",
-         "speaker": {
-          "character": "Rafael",
-          "version": "Rafael"
-         },
-         "text": "Yeah, no problem."
-        },
-       {
-        "id": "L-S1E11-C03-T03",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "I can't believe I went from having practically no one at this school to having a boyfriend and a true friend I know I can count on. I'm so lucky to have you both."
-      }
-    
-      
-    ]
-  },
-
-  "short": {
-    "turns": [
-      {
-          "id": "L-S1E11-C03-T01",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
+            "id": "L-S1E11-C03-T02",
+            "speaker": {
+              "character": "Rafael",
+              "version": "Rafael"
+            },
+            "text": "Yeah, no problem."
           },
-          "text": "Sorry to bolt, but I gotta go figure out what Landon and I are good at together. Besides making out."
+          {
+            "id": "L-S1E11-C03-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "I can't believe I went from having practically no one at this school to having a boyfriend and a true friend I know I can count on. I'm so lucky to have you both."
           }
-    ]
-  }
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C03-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Sorry to bolt, but I gotta go figure out what Landon and I are good at together. Besides making out."
+          }
+        ]
+      }
     },
-
-{
+    {
       "id": "L-S1E11-C04",
       "title": "Hope and Landon cake decorate.",
       "description": "Hope and Landon cake decorate in the kitchen.",
       "participants": [
         {
           "character": "Hope",
-          "version": "Hope"
+          "version": "Slug-drunk Hope"
         },
         {
           "character": "Landon",
@@ -320,188 +304,184 @@
       ],
       "importance": 3,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C04-T01",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "If it's gooey, then it's not done."
+          {
+            "id": "L-S1E11-C04-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "If it's gooey, then it's not done."
           },
           {
-         "id": "L-S1E11-C04-T02",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "Are you sure cake decorating counts as a talent?"
-        },
-       {
-        "id": "L-S1E11-C04-T03",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Well, um, you told me that you don't know karate, then you stepped on my feet during salsa, and then you straight up refused to try synchronized ribbon dancing."
+            "id": "L-S1E11-C04-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Are you sure cake decorating counts as a talent?"
+          },
+          {
+            "id": "L-S1E11-C04-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Well, um, you told me that you don't know karate, then you stepped on my feet during salsa, and then you straight up refused to try synchronized ribbon dancing."
+          },
+          {
+            "id": "L-S1E11-C04-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Sorry. My dignity wouldn't fit in the unitard."
+          },
+          {
+            "id": "L-S1E11-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "You know, it's not too late to pull out that notebook of lyrics that you have and sing something."
+          },
+          {
+            "id": "L-S1E11-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't really sing in front of people, those songs are private."
+          },
+          {
+            "id": "L-S1E11-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Okay, well... cake decorating it is. And you know what? You're gonna like it."
+          },
+          {
+            "id": "L-S1E11-C04-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I like whatever's gotten into you lately."
+          },
+          {
+            "id": "L-S1E11-C04-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Yeah? The only thing... that would make this day better..."
+          },
+          {
+            "id": "L-S1E11-C04-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Huh?"
+          },
+          {
+            "id": "L-S1E11-C04-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Is if we went and got rid of that urn."
+          },
+          {
+            "id": "L-S1E11-C04-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "As the person that stole the knife that started this whole thing, trust me, that sounds like a bad idea."
+          },
+          {
+            "id": "L-S1E11-C04-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "It'll be fun. It'll be like a road trip. We'll just grab the damn thing and take it wherever it leads us."
+          },
+          {
+            "id": "L-S1E11-C04-T14",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "From what that Necromancer told you, Malivore is where that leads us, and we have no idea where that is. Are you feeling okay?"
+          },
+          {
+            "id": "L-S1E11-C04-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "We can talk about it on the road."
+          },
+          {
+            "id": "L-S1E11-C04-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I... The cake. Oh... Hope, can you get the vent."
+          },
+          {
+            "id": "L-S1E11-C04-T17",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Oh, my God! Landon. What is that?"
+          },
+          {
+            "id": "L-S1E11-C04-T18",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You ever see Wrath of Khan?"
+          }
+        ]
       },
-      {
-        "id": "L-S1E11-C04-T04",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Sorry. My dignity wouldn't fit in the unitard."
-      },
-      {
-        "id": "L-S1E11-C04-T05",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "You know, it's not too late to pull out that notebook of lyrics that you have and sing something."
-      },
-      {
-        "id": "L-S1E11-C04-T06",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "I don't really sing in front of people, those songs are private."
-      },
-      {
-        "id": "L-S1E11-C04-T07",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Okay, well... cake decorating it is. And you know what? You're gonna like it."
-      },
-      {
-        "id": "L-S1E11-C04-T08",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "I like whatever's gotten into you lately."
-      },
-      {
-        "id": "L-S1E11-C04-T09",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Yeah? The only thing... that would make this day better..."
-      },
-      {
-        "id": "L-S1E11-C04-T10",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Huh?"
-      },
-      {
-        "id": "L-S1E11-C04-T11",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Is if we went and got rid of that urn."
-      },
-      {
-        "id": "L-S1E11-C04-T12",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "As the person that stole the knife that started this whole thing, trust me, that sounds like a bad idea."
-      },
-      {
-        "id": "L-S1E11-C04-T13",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "It'll be fun. It'll be like a road trip. We'll just grab the damn thing and take it wherever it leads us."
-      },
-      {
-        "id": "L-S1E11-C04-T14",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "From what that Necromancer told you, Malivore is where that leads us, and we have no idea where that is. Are you feeling okay?"
-      },
-      {
-        "id": "L-S1E11-C04-T15",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "We can talk about it on the road."
-      },
-      {
-        "id": "L-S1E11-C04-T16",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "I... The cake. Oh... Hope, can you get the vent."
-      },
-      {
-        "id": "L-S1E11-C04-T17",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Oh, my God! Landon. What is that?"
-      },
-      {
-        "id": "L-S1E11-C04-T18",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "You ever see Wrath of Khan?"
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C04-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "You know, it's not too late to pull out that notebook of lyrics that you have and sing something."
+          },
+          {
+            "id": "L-S1E11-C04-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't really sing in front of people, those songs are private."
+          },
+          {
+            "id": "L-S1E11-C04-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Slug-drunk Hope"
+            },
+            "text": "Okay, well... cake decorating it is. And you know what? You're gonna like it."
+          }
+        ]
       }
-    
-    ]
-  },
-  "short": {
-    "turns": [
-      {
-        "id": "L-S1E11-C04-T05",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "You know, it's not too late to pull out that notebook of lyrics that you have and sing something."
-      },
-      {
-        "id": "L-S1E11-C04-T06",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "I don't really sing in front of people, those songs are private."
-      },
-      {
-        "id": "L-S1E11-C04-T07",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Okay, well... cake decorating it is. And you know what? You're gonna like it."
-      }
-    ]
-  }
-},
-    
-  {
+    },
+    {
       "id": "L-S1E11-C05",
       "title": "Hope and Landon talk to Dorian with Unicorn.",
       "description": "Hope and Landon talk to Dorian with Unicorn.",
@@ -524,67 +504,63 @@
       "tags": [],
       "importance": 1,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C05-T01",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "Mr. Williams, we need your help. Dr. Saltzman's been MIA, and this creepy slug came out of my ear."
+          {
+            "id": "L-S1E11-C05-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Mr. Williams, we need your help. Dr. Saltzman's been MIA, and this creepy slug came out of my ear."
           },
           {
-         "id": "L-S1E11-C05-T02",
-         "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-         },
-         "text": "Did it look like this?"
-        },
-       {
-        "id": "L-S1E11-C05-T03",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Yep, exactly like that."
-      },
-      {
-        "id": "L-S1E11-C05-T04",
-        "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-        },
-        "text": "This one tried getting into me. I was hoping it was the only one. I think our harmless friend the unicorn brought it onto school grounds to infect all of us."
-      },
-      {
-          "id": "L-S1E11-C05-T05",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
+            "id": "L-S1E11-C05-T02",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Did it look like this?"
           },
-          "text": "See? Harmless."
-          }
-    ]
-  },
-
-  "short": {
-    "turns": [
-      {
-          "id": "L-S1E11-C05-T05",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
+          {
+            "id": "L-S1E11-C05-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yep, exactly like that."
           },
-          "text": "See? Harmless."
+          {
+            "id": "L-S1E11-C05-T04",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "This one tried getting into me. I was hoping it was the only one. I think our harmless friend the unicorn brought it onto school grounds to infect all of us."
+          },
+          {
+            "id": "L-S1E11-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "See? Harmless."
           }
-    ]
-  }
-    },  
-
+        ]
+      },
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C05-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "See? Harmless."
+          }
+        ]
+      }
+    },
     {
       "id": "L-S1E11-C06",
       "title": "Hope and Landon solve the monster with Dorian.",
@@ -608,177 +584,168 @@
       "tags": [],
       "importance": 1,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C06-T01",
-          "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-          },
-          "text": "Okay, we have no idea how long the unicorn was infected before it keeled over, so we should figure this out right now."
+          {
+            "id": "L-S1E11-C06-T01",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Okay, we have no idea how long the unicorn was infected before it keeled over, so we should figure this out right now."
           },
           {
-         "id": "L-S1E11-C06-T02",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "I thought only one monster comes for the urn at a time."
-        },
-       {
-        "id": "L-S1E11-C06-T03",
-        "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-        },
-        "text": "Except the unicorn wasn't the monster. It was just the host to this thing. A parasite. It hitched a ride here in that Trojan horse, and then it moved on to us. From what Hope describes, it sounds like it latches onto the prefrontal cortex, the part of the brain associated with inhibitions."
-      },
-      {
-        "id": "L-S1E11-C06-T04",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "So, I was slug-drunk?"
-      },
-      {
-          "id": "L-S1E11-C06-T05",
-          "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-          },
-          "text": "Since we have multiple slugs, it must replicate inside the host, and then lie in wait for the opportunity to infect someone else."
-          },
-
-          {
-        "id": "L-S1E11-C06-T06",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "I'm good on the gory details, thank you. How do we stop it?"
-      },
-      {
-          "id": "L-S1E11-C06-T07",
-          "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-          },
-          "text": "I can't find any ancient legends about a creature like this."
-          },
-
-      {
-        "id": "L-S1E11-C06-T08",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Invasion of the Body Snatchers? The Faculty. I say again, Wrath of Khan. Sci-fi is our modern-day myths. Meaning they could have been inspired by something, right? In those movies, it's all about mind control. Before the slug popped out, Hope wanted to take the urn someplace. I'm guessing Malivore."
-      },
-      {
-          "id": "L-S1E11-C06-T09",
-          "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-          },
-          "text": "So, it's like an infection. It gets worse as it spreads. Stage one, it-it lowers your inhibitions. It makes you act out of character. Stage two, once you're susceptible to suggestion, you'll do whatever the slug wants."
-          },
-        {
-        "id": "L-S1E11-C06-T10",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Till stage three. You go the way of the unicorn."
-      },
-      {
-          "id": "L-S1E11-C06-T11",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "Did you see this? Parts of this thing look bioluminescent."
+            "id": "L-S1E11-C06-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I thought only one monster comes for the urn at a time."
           },
           {
-        "id": "L-S1E11-C06-T12",
-        "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-        },
-        "text": "Let me check that out."
-      },
-      {
-          "id": "L-S1E11-C06-T13",
-          "speaker": {
-          "character": "Handon",
-          "version": "Handon"
+            "id": "L-S1E11-C06-T03",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Except the unicorn wasn't the monster. It was just the host to this thing. A parasite. It hitched a ride here in that Trojan horse, and then it moved on to us. From what Hope describes, it sounds like it latches onto the prefrontal cortex, the part of the brain associated with inhibitions."
           },
-          "text": "Whoa."
-          },
-          
-        {
-        "id": "L-S1E11-C06-T14",
-        "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-        },
-        "text": "See that?"
-      },
-       {
-          "id": "L-S1E11-C06-T15",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "I don't want to know, do I?"
-          },
-
           {
-        "id": "L-S1E11-C06-T16",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Probably not."
+            "id": "L-S1E11-C06-T04",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So, I was slug-drunk?"
+          },
+          {
+            "id": "L-S1E11-C06-T05",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Since we have multiple slugs, it must replicate inside the host, and then lie in wait for the opportunity to infect someone else."
+          },
+          {
+            "id": "L-S1E11-C06-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I'm good on the gory details, thank you. How do we stop it?"
+          },
+          {
+            "id": "L-S1E11-C06-T07",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "I can't find any ancient legends about a creature like this."
+          },
+          {
+            "id": "L-S1E11-C06-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Invasion of the Body Snatchers? The Faculty. I say again, Wrath of Khan. Sci-fi is our modern-day myths. Meaning they could have been inspired by something, right? In those movies, it's all about mind control. Before the slug popped out, Hope wanted to take the urn someplace. I'm guessing Malivore."
+          },
+          {
+            "id": "L-S1E11-C06-T09",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "So, it's like an infection. It gets worse as it spreads. Stage one, it-it lowers your inhibitions. It makes you act out of character. Stage two, once you're susceptible to suggestion, you'll do whatever the slug wants."
+          },
+          {
+            "id": "L-S1E11-C06-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Till stage three. You go the way of the unicorn."
+          },
+          {
+            "id": "L-S1E11-C06-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Did you see this? Parts of this thing look bioluminescent."
+          },
+          {
+            "id": "L-S1E11-C06-T12",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Let me check that out."
+          },
+          {
+            "id": "L-S1E11-C06-T13",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "text": "Whoa."
+          },
+          {
+            "id": "L-S1E11-C06-T14",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "See that?"
+          },
+          {
+            "id": "L-S1E11-C06-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't want to know, do I?"
+          },
+          {
+            "id": "L-S1E11-C06-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Probably not."
+          },
+          {
+            "id": "L-S1E11-C06-T17",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "Nope. Nope. You know what? We can use these lights to find anyone who's been infected."
+          }
+        ]
       },
-      {
-        "id": "L-S1E11-C06-T17",
-        "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-        },
-        "text": "Nope. Nope. You know what? We can use these lights to find anyone who's been infected."
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C06-T15",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't want to know, do I?"
+          },
+          {
+            "id": "L-S1E11-C06-T16",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Probably not."
+          }
+        ]
       }
-    ]
-  },
-
-  "short": {
-    "turns": [
-      {
-          "id": "L-S1E11-C06-T15",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "I don't want to know, do I?"
-          },
-
-          {
-        "id": "L-S1E11-C06-T16",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Probably not."
-      }
-    ]
-  }
     },
-
-{
+    {
       "id": "L-S1E11-C07",
       "title": "Hope and Landon find out everyone is infected.",
       "description": "Hope and Landon find out everyone is infected at the talent show.",
@@ -797,77 +764,72 @@
       "tags": [],
       "importance": 1,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C07-T01",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "When I touched the switch to the kitchen vent, it shocked me, and that's when the slug popped out."
+          {
+            "id": "L-S1E11-C07-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "When I touched the switch to the kitchen vent, it shocked me, and that's when the slug popped out."
           },
           {
-         "id": "L-S1E11-C07-T02",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "Great. So we just have to find a way to electrocute every student in the school without killing them."
-        },
-       {
-        "id": "L-S1E11-C07-T03",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "So they're all infected?"
+            "id": "L-S1E11-C07-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Great. So we just have to find a way to electrocute every student in the school without killing them."
+          },
+          {
+            "id": "L-S1E11-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So they're all infected?"
+          },
+          {
+            "id": "L-S1E11-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay. Yeah, I'm not gonna wait around to find out."
+          }
+        ]
       },
-      {
-        "id": "L-S1E11-C07-T04",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Okay. Yeah, I'm not gonna wait around to find out."
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C07-T02",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Great. So we just have to find a way to electrocute every student in the school without killing them."
+          },
+          {
+            "id": "L-S1E11-C07-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "So they're all infected?"
+          },
+          {
+            "id": "L-S1E11-C07-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Okay. Yeah, I'm not gonna wait around to find out."
+          }
+        ]
       }
-    
-    ]
-  },
-
-  "short": {
-    "turns": [
-       {
-         "id": "L-S1E11-C07-T02",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "Great. So we just have to find a way to electrocute every student in the school without killing them."
-        },
-       {
-        "id": "L-S1E11-C07-T03",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "So they're all infected?"
-      },
-      {
-        "id": "L-S1E11-C07-T04",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Okay. Yeah, I'm not gonna wait around to find out."
-      }
-    ]
-    }
-  },
-
-  {
+    },
+    {
       "id": "L-S1E11-C08",
       "title": "Hope and Landon find Lizzie.",
       "description": "Hope and Landon find Lizzie.",
@@ -894,200 +856,191 @@
       "tags": [],
       "importance": 1,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C08-T01",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "I sealed the doors with a spell, but it won't hold forever."
+          {
+            "id": "L-S1E11-C08-T01",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I sealed the doors with a spell, but it won't hold forever."
           },
           {
-         "id": "L-S1E11-C08-T02",
-         "speaker": {
-          "character": "Dorian",
-          "version": "Dorian"
-         },
-         "text": "All right. These chains should help until we come up with a better solution. I'll get the doors downstairs."
-        },
-       {
-        "id": "L-S1E11-C08-T03",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "At least we have all the infected people in one place."
-      },
-      {
-          "id": "L-S1E11-C08-T04",
-          "speaker": {
-          "character": "Lizzie",
-          "version": "Lizzie"
-          },
-          "text": "What are you two doing out here?"
-          },
-
-          {
-        "id": "L-S1E11-C08-T05",
-        "speaker": {
-          "character": "Lizzie",
-          "version": "Lizzie"
-        },
-        "text": "Have you two gone crazy?"
-      },
-      {
-          "id": "L-S1E11-C08-T06",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "You've been infected with a mind-controlling parasite. That's why you've been so nice all day."
-          },
-
-      {
-        "id": "L-S1E11-C08-T07",
-        "speaker": {
-          "character": "Lizzie",
-          "version": "Lizzie"
-        },
-        "text": "That is not why I have been... hey!"
-      },
-      {
-          "id": "L-S1E11-C08-T08",
-          "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-          },
-          "text": "I don't see any slug trails."
-          },
-        {
-        "id": "L-S1E11-C08-T09",
-        "speaker": {
-          "character": "Lizzie",
-          "version": "Lizzie"
-        },
-        "text": "What are you freaks talking a... ow."
-      },
-      {
-          "id": "L-S1E11-C08-T10",
-          "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-          },
-          "text": "What was that?"
+            "id": "L-S1E11-C08-T02",
+            "speaker": {
+              "character": "Dorian",
+              "version": "Dorian"
+            },
+            "text": "All right. These chains should help until we come up with a better solution. I'll get the doors downstairs."
           },
           {
-        "id": "L-S1E11-C08-T11",
-        "speaker": {
-          "character": "Lizzie",
-          "version": "Lizzie"
-        },
-        "text": "Unchain me, and maybe I will tell you, you thrift store hobbit."
-      },
-      {
-          "id": "L-S1E11-C08-T12",
-          "speaker": {
-          "character": "Landon",
-          "version": "Landon"
+            "id": "L-S1E11-C08-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "At least we have all the infected people in one place."
           },
-          "text": "I don't think she's infected."
-          },
-          
-        {
-        "id": "L-S1E11-C08-T13",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Then why are you acting so weird?"
-      },
-       {
-          "id": "L-S1E11-C08-T14",
-          "speaker": {
-          "character": "Lizzie",
-          "version": "Lizzie"
-          },
-          "text": "I'm not acting weird, I am turning over a new leaf. With this... I spelled it to zap me whenever I said anything mean. And in increasing voltage. Worst idea ever."
-          },
-
           {
-        "id": "L-S1E11-C08-T15",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "No. That's genius. That's why there's no slug in her. She's been zapping herself."
+            "id": "L-S1E11-C08-T04",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "What are you two doing out here?"
+          },
+          {
+            "id": "L-S1E11-C08-T05",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Have you two gone crazy?"
+          },
+          {
+            "id": "L-S1E11-C08-T06",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "You've been infected with a mind-controlling parasite. That's why you've been so nice all day."
+          },
+          {
+            "id": "L-S1E11-C08-T07",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "That is not why I have been... hey!"
+          },
+          {
+            "id": "L-S1E11-C08-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't see any slug trails."
+          },
+          {
+            "id": "L-S1E11-C08-T09",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "What are you freaks talking a... ow."
+          },
+          {
+            "id": "L-S1E11-C08-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "What was that?"
+          },
+          {
+            "id": "L-S1E11-C08-T11",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "Unchain me, and maybe I will tell you, you thrift store hobbit."
+          },
+          {
+            "id": "L-S1E11-C08-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't think she's infected."
+          },
+          {
+            "id": "L-S1E11-C08-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Then why are you acting so weird?"
+          },
+          {
+            "id": "L-S1E11-C08-T14",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "I'm not acting weird, I am turning over a new leaf. With this... I spelled it to zap me whenever I said anything mean. And in increasing voltage. Worst idea ever."
+          },
+          {
+            "id": "L-S1E11-C08-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No. That's genius. That's why there's no slug in her. She's been zapping herself."
+          },
+          {
+            "id": "L-S1E11-C08-T16",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Then why are you wandering around here, instead of at the talent show like everyone else?"
+          },
+          {
+            "id": "L-S1E11-C08-T17",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "I was looking for Josie. She's been acting weird all day and then she just bailed on the performance. Probably because she's infected."
+          },
+          {
+            "id": "L-S1E11-C08-T18",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "We need to find her, now."
+          }
+        ]
       },
-      {
-        "id": "L-S1E11-C08-T16",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Then why are you wandering around here, instead of at the talent show like everyone else?"
-      },
-
-       {
-        "id": "L-S1E11-C08-T17",
-        "speaker": {
-          "character": "Lizzie",
-          "version": "Lizzie"
-        },
-        "text": "I was looking for Josie. She's been acting weird all day and then she just bailed on the performance. Probably because she's infected."
-      },
-      {
-        "id": "L-S1E11-C08-T18",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "We need to find her, now."
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C08-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I don't think she's infected."
+          },
+          {
+            "id": "L-S1E11-C08-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Then why are you acting so weird?"
+          },
+          {
+            "id": "L-S1E11-C08-T14",
+            "speaker": {
+              "character": "Lizzie",
+              "version": "Lizzie"
+            },
+            "text": "I'm not acting weird, I am turning over a new leaf. With this... I spelled it to zap me whenever I said anything mean. And in increasing voltage. Worst idea ever."
+          },
+          {
+            "id": "L-S1E11-C08-T15",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "No. That's genius. That's why there's no slug in her. She's been zapping herself."
+          }
+        ]
       }
-    ]
-  },
-
-  "short": {
-    "turns": [
-      {
-        "id": "L-S1E11-C08-T12",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "I don't think she's infected."
-      },
-      {
-        "id": "L-S1E11-C08-T13",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Then why are you acting so weird?"
-      },
-      {
-        "id": "L-S1E11-C08-T14",
-        "speaker": {
-          "character": "Lizzie",
-          "version": "Lizzie"
-        },
-        "text": "I'm not acting weird, I am turning over a new leaf. With this... I spelled it to zap me whenever I said anything mean. And in increasing voltage. Worst idea ever."
-      },
-      {
-        "id": "L-S1E11-C08-T15",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "No. That's genius. That's why there's no slug in her. She's been zapping herself."
-      }
-    ]
-  }
     },
-
     {
       "id": "L-S1E11-C09",
       "title": "Hope and Landon talk before he sings to her.",
@@ -1108,147 +1061,139 @@
         "comfort",
         "teasing",
         "kiss"
-
       ],
       "importance": 4,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
           {
-         "id": "L-S1E11-C09-T01",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "action": "knocks"
-        },
-        {
-          "id": "L-S1E11-C09-T02",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "action": "smiles"
-          },
-         {
-          "id": "L-S1E11-C09-T03",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "text": "Hi. So it took three showers, but I think I'm finally clean."
+            "id": "L-S1E11-C09-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "action": "knocks"
           },
           {
-         "id": "L-S1E11-C09-T04",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "Three of 'em? Wow."
-        },
-       {
-        "id": "L-S1E11-C09-T05",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "Three. Mm-hmm."
-      },
-      {
-        "id": "L-S1E11-C09-T06",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Yeah, I don't have slug envy or anything, but why do you think I wasn't infected? I mean, it got pretty much everybody, except Lizzie, and she had the bracelet. Unless something's just wrong with me."
-      },
-      {
-        "id": "L-S1E11-C09-T07",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "I don't, I don't know."
-      },
-      {
-        "id": "L-S1E11-C09-T08",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Oh, come on. Professional monster hunter Hope Mikaelson doesn't even have a theory?"
-      },
-      {
-        "id": "L-S1E11-C09-T09",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "I guess I'll add it to the list of unexplainable things about Landon Kirby."
-      },
-      {
-        "id": "L-S1E11-C09-T10",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "I was being ridiculous all day. But I was happy. The things I said, how I acted... Maybe it could be that way all the time. Maybe the only thing that's keeping me from being happy is me."
-      },
-      {
-        "id": "L-S1E11-C09-T11",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "You know, if life was about being happy all the time, neither of us would've survived this long."
-      },
-      {
-        "id": "L-S1E11-C09-T12",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Which would be a real shame... because then you would never hear how bad I am at singing. Oh, boy. Uh..."
-      },
-      {
-          "id": "L-S1E11-C09-T13",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
+            "id": "L-S1E11-C09-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
           },
-          "action": "smiles"
+          {
+            "id": "L-S1E11-C09-T03",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Hi. So it took three showers, but I think I'm finally clean."
+          },
+          {
+            "id": "L-S1E11-C09-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Three of 'em? Wow."
+          },
+          {
+            "id": "L-S1E11-C09-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "Three. Mm-hmm."
+          },
+          {
+            "id": "L-S1E11-C09-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Yeah, I don't have slug envy or anything, but why do you think I wasn't infected? I mean, it got pretty much everybody, except Lizzie, and she had the bracelet. Unless something's just wrong with me."
+          },
+          {
+            "id": "L-S1E11-C09-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I don't, I don't know."
+          },
+          {
+            "id": "L-S1E11-C09-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, come on. Professional monster hunter Hope Mikaelson doesn't even have a theory?"
+          },
+          {
+            "id": "L-S1E11-C09-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I guess I'll add it to the list of unexplainable things about Landon Kirby."
+          },
+          {
+            "id": "L-S1E11-C09-T10",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I was being ridiculous all day. But I was happy. The things I said, how I acted... Maybe it could be that way all the time. Maybe the only thing that's keeping me from being happy is me."
+          },
+          {
+            "id": "L-S1E11-C09-T11",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "You know, if life was about being happy all the time, neither of us would've survived this long."
+          },
+          {
+            "id": "L-S1E11-C09-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Which would be a real shame... because then you would never hear how bad I am at singing. Oh, boy. Uh..."
+          },
+          {
+            "id": "L-S1E11-C09-T13",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
           }
-    
-    ]
-  },
-
-  "short": {
-    "turns": [
-      {
-        
-        "id": "L-S1E11-C09-T08",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "Oh, come on. Professional monster hunter Hope Mikaelson doesn't even have a theory?"
+        ]
       },
-      {
-        "id": "L-S1E11-C09-T09",
-        "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-        },
-        "text": "I guess I'll add it to the list of unexplainable things about Landon Kirby."
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C09-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "Oh, come on. Professional monster hunter Hope Mikaelson doesn't even have a theory?"
+          },
+          {
+            "id": "L-S1E11-C09-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "text": "I guess I'll add it to the list of unexplainable things about Landon Kirby."
+          }
+        ]
       }
-    
-    ]
-    }
-  },
-
-{
+    },
+    {
       "id": "L-S1E11-C10",
       "title": "Landon sings to Hope.",
       "description": "Landon sings to Hope.",
@@ -1269,177 +1214,169 @@
         "love",
         "kiss",
         "compliment"
-
       ],
       "importance": 5,
       "verified": true,
-
-
-       "full": {
+      "full": {
         "turns": [
-         {
-          "id": "L-S1E11-C10-T01",
-          "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-          },
-          "text": "About those eyes. The way they spark when she's about to pick a fight. When we disagree and she knows that she's right."
+          {
+            "id": "L-S1E11-C10-T01",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "About those eyes. The way they spark when she's about to pick a fight. When we disagree and she knows that she's right."
           },
           {
-          "id": "L-S1E11-C10-T02",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "action": "smiles"
+            "id": "L-S1E11-C10-T02",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
           },
           {
-         "id": "L-S1E11-C10-T03",
-         "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-         },
-         "text": "About that smile she tries to hide 'cause that's what they expect her to. When no one's watching, it lights up the room."
-        },
-       {
-        "id": "L-S1E11-C10-T04",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "About the time you think you've locked your heart up safely someone breaks right through."
+            "id": "L-S1E11-C10-T03",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "About that smile she tries to hide 'cause that's what they expect her to. When no one's watching, it lights up the room."
+          },
+          {
+            "id": "L-S1E11-C10-T04",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "About the time you think you've locked your heart up safely someone breaks right through."
+          },
+          {
+            "id": "L-S1E11-C10-T05",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "near crying"
+          },
+          {
+            "id": "L-S1E11-C10-T06",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And all of her fascinating contradictions are beautiful to you."
+          },
+          {
+            "id": "L-S1E11-C10-T07",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "smiles"
+          },
+          {
+            "id": "L-S1E11-C10-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm falling for a girl. And I can't wait to tell you all about her."
+          },
+          {
+            "id": "L-S1E11-C10-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "tear falls"
+          },
+          {
+            "id": "L-S1E11-C10-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "About last night. I saw a vision of the future in my dream."
+          },
+          {
+            "id": "L-S1E11-C10-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "tear falls"
+          },
+          {
+            "id": "L-S1E11-C10-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And I can't wait to meet who you will be. So I can know everything about her."
+          },
+          {
+            "id": "L-S1E11-C10-T13",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
       },
-      {
-          "id": "L-S1E11-C10-T05",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
+      "short": {
+        "turns": [
+          {
+            "id": "L-S1E11-C10-T08",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "I'm falling for a girl. And I can't wait to tell you all about her."
           },
-          "action": "near crying"
+          {
+            "id": "L-S1E11-C10-T09",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "tear falls"
           },
-      {
-        "id": "L-S1E11-C10-T06",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "And all of her fascinating contradictions are beautiful to you."
-      },
-      {
-          "id": "L-S1E11-C10-T07",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
+          {
+            "id": "L-S1E11-C10-T10",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "About last night. I saw a vision of the future in my dream."
           },
-          "action": "smiles"
+          {
+            "id": "L-S1E11-C10-T11",
+            "speaker": {
+              "character": "Hope",
+              "version": "Hope"
+            },
+            "action": "tear falls"
           },
-      {
-        "id": "L-S1E11-C10-T08",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "I'm falling for a girl. And I can't wait to tell you all about her."
-      },
-      {
-          "id": "L-S1E11-C10-T09",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
+          {
+            "id": "L-S1E11-C10-T12",
+            "speaker": {
+              "character": "Landon",
+              "version": "Landon"
+            },
+            "text": "And I can't wait to meet who you will be. So I can know everything about her."
           },
-          "action": "tear falls"
-          },
-      {
-        "id": "L-S1E11-C10-T10",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "About last night. I saw a vision of the future in my dream."
-      },
-      {
-          "id": "L-S1E11-C10-T11",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "action": "tear falls"
-          },
-      {
-        "id": "L-S1E11-C10-T12",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "And I can't wait to meet who you will be. So I can know everything about her."
-      },
-      {
-        "id": "L-S1E11-C10-T13",
-        "speaker": {
-          "character": "Handon",
-          "version": "Handon"
-        },
-        "action": "kiss"
+          {
+            "id": "L-S1E11-C10-T13",
+            "speaker": {
+              "character": "Handon",
+              "version": "Handon"
+            },
+            "action": "kiss"
+          }
+        ]
       }
-      
-    
-    ]
-  },
-
-  "short": {
-    "turns": [
-      
-        {
-        "id": "L-S1E11-C10-T08",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "I'm falling for a girl. And I can't wait to tell you all about her."
-      },
-      {
-          "id": "L-S1E11-C10-T09",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "action": "tear falls"
-          },
-      {
-        "id": "L-S1E11-C10-T10",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "About last night. I saw a vision of the future in my dream."
-      },
-      {
-          "id": "L-S1E11-C10-T11",
-          "speaker": {
-          "character": "Hope",
-          "version": "Hope"
-          },
-          "action": "tear falls"
-          },
-      {
-        "id": "L-S1E11-C10-T12",
-        "speaker": {
-          "character": "Landon",
-          "version": "Landon"
-        },
-        "text": "And I can't wait to meet who you will be. So I can know everything about her."
-      },
-      {
-        "id": "L-S1E11-C10-T13",
-        "speaker": {
-          "character": "Handon",
-          "version": "Handon"
-        },
-        "action": "kiss"
-      }
-
- ]
     }
-  }
   ]
 }
