@@ -964,6 +964,11 @@ a.tag:hover {
     margin-top: 2px;
 }
 
+.quiz-guess {
+    font-weight: 400;
+    color: var(--muted);
+}
+
 /* Results: each answer's conversation opens in place. */
 .quiz-conv {
     margin-top: 8px;
